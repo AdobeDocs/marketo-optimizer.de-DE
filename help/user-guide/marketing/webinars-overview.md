@@ -31,7 +31,7 @@ Sie können ein Webinar auf zwei Arten erstellen:
 
 ## Webinar als Medienelement
 
-Ein Webinar ist ein Asset, das einem [Programm](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/prime/marketing-management/programs/programs) gehört, genau wie eine E-Mail oder Landingpage. Wenn Sie ein Webinar zu einem Programm hinzufügen, wird es dort registriert und macht seine Token, Attribute und Aktivitäten für alle Journey und Assets in diesem Programm verfügbar.
+Ein Webinar ist ein Asset, das einem [Programm](https://experienceleague.adobe.com/de/docs/journey-optimizer-b2b/prime/marketing-management/programs/programs) gehört, genau wie eine E-Mail oder Landingpage. Wenn Sie ein Webinar zu einem Programm hinzufügen, wird es dort registriert und macht seine Token, Attribute und Aktivitäten für alle Journey und Assets in diesem Programm verfügbar.
 
 >[!IMPORTANT]
 >
@@ -43,7 +43,7 @@ Für jede Person, die Mitglied eines Programms ist, das ein Webinar enthält, be
 
 | Bundesland | Eigentümerin oder Eigentümer | Werte |
 |---|---|---|
-| Status des Programmmitglieds | Programm | Konfigurierbar pro [Programmtyp](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/prime/admin/program-types) |
+| Status des Programmmitglieds | Programm | Konfigurierbar pro [Programmtyp](https://experienceleague.adobe.com/de/docs/journey-optimizer-b2b/prime/admin/program-types) |
 | Webinar-Status | Webinar-Asset | Eingeladen, registriert, anwesend, No-Show, Teilgenommen auf Anfrage |
 | Journey-Status | Journey | Aktueller Knoten, angehaltene, abgeschlossene und andere Journey-Laufzeitstatus |
 

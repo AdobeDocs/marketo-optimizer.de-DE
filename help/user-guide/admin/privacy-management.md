@@ -28,7 +28,7 @@ Sie können einzelne Anfragen zum Zugreifen auf und Löschen von Verbraucherdate
 
 [!DNL Marketo Optimizer] Datenschutztools helfen Ihnen bei der Einhaltung der Vorschriften durch [!DNL Privacy Service]. Jede Verordnung gilt, wenn Sie Daten für Personen speichern, die in der zugehörigen Region wohnen.
 
-Eine aktuelle Liste der unterstützten Richtlinien finden Sie unter [_Übersicht über Datenschutzbestimmungen_](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/regulations/overview){target="_blank"} in der Dokumentation zu Privacy Service.
+Eine aktuelle Liste der unterstützten Richtlinien finden Sie unter [_Übersicht über Datenschutzbestimmungen_](https://experienceleague.adobe.com/de/docs/experience-platform/privacy/regulations/overview){target="_blank"} in der Dokumentation zu Privacy Service.
 
 ## Anfragetypen {#access-and-delete-requests}
 
@@ -46,7 +46,7 @@ Eine aktuelle Liste der unterstützten Richtlinien finden Sie unter [_Übersicht
 * **[!UICONTROL Privacy Service-Berechtigungen]** - `Privacy Read Permission` und `Privacy Write Permission`
 * **[!UICONTROL Data Governance]** - `View Privacy Console`
 
-Weitere [_finden Sie unter „Verwalten von Berechtigungen_](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/permissions){target="_blank"} Privacy Service&quot; im [!DNL Privacy Service].
+Weitere [_finden Sie unter „Verwalten von Berechtigungen_](https://experienceleague.adobe.com/de/docs/experience-platform/privacy/permissions){target="_blank"} Privacy Service&quot; im [!DNL Privacy Service].
 
 >[!ENDSHADEBOX]
 
@@ -109,7 +109,7 @@ Verwenden Sie die folgenden Feldwerte in Ihrer Anfrage:
 | `users.action` | `access` oder `delete` |
 | `users.userIDs.namespace` | `Email` |
 | `include` | `marketo`, um sowohl [!DNL Marketo Optimizer]- als auch [!DNL Marketo Engage] einzuschließen |
-| `regulation` | Beispiel: `ccpa` <br/>Einige Regulierungswerte ändern sich, sodass sie eine Bundesstaatsabkürzung enthalten (z. B. `ucpa_ut_usa`). Ältere Werte bleiben für einen Übergangszeitraum gültig. Die aktuelle Liste [&#x200B; Sie unter „Übersicht über &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/regulations/overview){target="_blank"}&quot;, bevor Sie Integrationen mit diesen Werten erstellen. |
+| `regulation` | Beispiel: `ccpa` <br/>Einige Regulierungswerte ändern sich, sodass sie eine Bundesstaatsabkürzung enthalten (z. B. `ucpa_ut_usa`). Ältere Werte bleiben für einen Übergangszeitraum gültig. Die aktuelle Liste [&#x200B; Sie unter „Übersicht über &#x200B;](https://experienceleague.adobe.com/de/docs/experience-platform/privacy/regulations/overview){target="_blank"}&quot;, bevor Sie Integrationen mit diesen Werten erstellen. |
 
 Im folgenden Beispiel wird eine DSGVO-Löschanfrage mit [!DNL Marketo Optimizer] Daten gesendet.
 

@@ -17,7 +17,7 @@ Der Knoten _[!UICONTROL Person]_ Zielgruppe ist automatisch der erste Knoten auf
 :::: landing-cards-container
 
 :::
-<!-- ![Person audience node](https://cdn.experienceleague.adobe.com/icons/users.svg) -->
+<!-- ![Person audience node](https://cdn.experienceleague.adobe.com/icons/users.svg?lang=de) -->
 
 Zielgruppenknoten Person
 
@@ -27,7 +27,7 @@ Die Journey beginnt immer mit dem Zielgruppenknoten Person . Legen Sie die Einga
 :::
 
 :::
-<!-- ![Action nodes](https://cdn.experienceleague.adobe.com/icons/circle-play.svg) -->
+<!-- ![Action nodes](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de) -->
 
 Aktionsknoten
 
@@ -37,7 +37,7 @@ Wenden Sie Änderungen auf alle Personen in einem Pfad an, z. B. beim Senden ein
 :::
 
 :::
-<!-- ![Event nodes](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg) -->
+<!-- ![Event nodes](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de) -->
 
 Ereignisknoten
 
@@ -47,7 +47,7 @@ Fahren Sie mit dem nächsten Journey-Schritt fort, wenn eine bestimmte Aktivitä
 :::
 
 :::
-<!-- ![Wait nodes](https://cdn.experienceleague.adobe.com/icons/clock.svg) -->
+<!-- ![Wait nodes](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=de) -->
 
 Warteknoten
 
@@ -57,7 +57,7 @@ Den Journey-Fortschritt für eine bestimmte Dauer oder bis zu einem bestimmten D
 :::
 
 :::
-<!-- ![Split and merge paths nodes](https://cdn.experienceleague.adobe.com/icons/code-branch.svg) -->
+<!-- ![Split and merge paths nodes](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de) -->
 
 Aufspalten und Zusammenführen von Pfadknoten
 
@@ -67,7 +67,7 @@ Personen basierend auf Bedingungen in separate Pfade unterteilen, unterschiedlic
 :::
 
 :::
-<!-- ![Next best path node](https://cdn.experienceleague.adobe.com/icons/lightbulb.svg) -->
+<!-- ![Next best path node](https://cdn.experienceleague.adobe.com/icons/lightbulb.svg?lang=de) -->
 
 Nächster bester Pfadknoten
 

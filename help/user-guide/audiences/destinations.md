@@ -79,7 +79,7 @@ Jede unterstützte Zielkarte zeigt **[!UICONTROL Neues Ziel konfigurieren]**. Di
 
 1. Überprüfen Sie die Einstellungen für Data Governance und Marketing-Aktionen und klicken Sie dann auf **[!UICONTROL Speichern]**.
 
-Die vollständigen Einrichtungsschritte finden Sie unter [Erstellen einer neuen Zielverbindung](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/connect-destination){target="_blank"} in der [!DNL Experience Platform].
+Die vollständigen Einrichtungsschritte finden Sie unter [Erstellen einer neuen Zielverbindung](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/ui/connect-destination){target="_blank"} in der [!DNL Experience Platform].
 
 Nach der Konfiguration kann das Ziel überall dort aktiviert werden, wo Sie ein Ziel in [!DNL Marketo Optimizer] auswählen können.
 
