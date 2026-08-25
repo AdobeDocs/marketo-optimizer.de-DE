@@ -60,8 +60,8 @@ Um die [!DNL Adobe Connect] Design-Oberfläche zu öffnen, die direkt in [!DNL M
 
 1. Wählen Sie einen **Versandmodus**:
 
-   - **Live** - Moderatoren hosten die Sitzung in Echtzeit.
-   - **Simulierte Live** - Aufgezeichnete Inhalte werden zum geplanten Zeitpunkt neben Live-Chat, Umfragen und Fragen und Antworten wiedergegeben.
+   &#x200B;- **Live** - Moderatoren hosten die Sitzung in Echtzeit.
+   &#x200B;- **Simulierte Live** - Aufgezeichnete Inhalte werden zum geplanten Zeitpunkt neben Live-Chat, Umfragen und Fragen und Antworten wiedergegeben.
 
 1. Wählen Sie einen **Webinar-Raum**.
 
@@ -91,7 +91,7 @@ Die Raumanpassung wie Logo, Farben und virtuelle Hintergründe wird direkt in [!
 
 1. Klicken Sie **Co-Host hinzufügen** oder **Moderator hinzufügen**.
 
-1. Geben Sie im Dialogfeld den Vornamen **[!UICONTROL Person,]****[!UICONTROL Nachname]** und **[!UICONTROL E-Mail]** ein und klicken Sie dann auf **[!UICONTROL Hinzufügen]**.
+1. Geben Sie im Dialogfeld den Vornamen **[!UICONTROL Person,]**&#x200B;**[!UICONTROL Nachname]** und **[!UICONTROL E-Mail]** ein und klicken Sie dann auf **[!UICONTROL Hinzufügen]**.
 
    >[!NOTE]
    >
@@ -111,5 +111,5 @@ Führen Sie vor der Weiterleitung des Webinars eine Testsitzung durch, um zu bes
 
 Nach der Registrierung können Sie ein Webinar bearbeiten. Gehen Sie dabei jedoch mit Vorsicht vor:
 
-- Durch Bearbeiten des Zeitplans können Trigger Benachrichtigungen an bereits registrierte Personen aktualisieren. Die Möglichkeit, geplante Webinare zu bearbeiten, ist konfigurierbar.
-- Felder, auf die von Token in Live-E-Mails verwiesen wird, müssen explizit zum Entfernen bestätigt werden, da dadurch bereits für den Versand geplante Inhalte beschädigt werden.
+&#x200B;- Durch Bearbeiten des Zeitplans können Trigger Benachrichtigungen an bereits registrierte Personen aktualisieren. Die Möglichkeit, geplante Webinare zu bearbeiten, ist konfigurierbar.
+&#x200B;- Felder, auf die von Token in Live-E-Mails verwiesen wird, müssen explizit zum Entfernen bestätigt werden, da dadurch bereits für den Versand geplante Inhalte beschädigt werden.

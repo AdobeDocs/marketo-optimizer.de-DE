@@ -63,7 +63,7 @@ Eine typische Promotion-Journey lädt Personen ein, verfolgt ihre Registrierung 
 
 ## E-Mails personalisieren
 
-Webinar-Token werden im E-Mail-Inhalt gerendert: Betreff, Textkörper, Preheader und Absender. Die vollständige Liste finden [ unter ](webinars-overview.md#webinar-tokens)Webinar-Token“.
+Webinar-Token werden im E-Mail-Inhalt gerendert: Betreff, Textkörper, Preheader und Absender. Die vollständige Liste finden [&#x200B; unter &#x200B;](webinars-overview.md#webinar-tokens)Webinar-Token“.
 
 >[!NOTE]
 >

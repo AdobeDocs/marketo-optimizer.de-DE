@@ -13,7 +13,7 @@ ht-degree: 0%
 
 Der KI-Entscheidungsstatus prüft die Daten, die die Personalisierung in [!DNL Adobe Marketo Optimizer] ermöglichen. Es berichtet über die Lead-Abdeckung, Personenklassifizierung und die Reichhaltigkeit von Geschichten in demografischen, firmografischen, technografischen und psychografischen Kategorien. Anschließend werden fehlende Daten gekennzeichnet, um zu ermitteln, wo begonnen werden soll.
 
-Verwenden Sie den KI-Entscheidungsstatus, um zu sehen, welche Daten aus [!DNL Marketo Engage] eingehen und wo Lücken bestehen. Das Schließen dieser Lücken verbessert die Bewertung und Weiterleitung [ einzelnen Personen durch ](./ai-decisioning.md) KI-Entscheidungsfindung.
+Verwenden Sie den KI-Entscheidungsstatus, um zu sehen, welche Daten aus [!DNL Marketo Engage] eingehen und wo Lücken bestehen. Das Schließen dieser Lücken verbessert die Bewertung und Weiterleitung [&#x200B; einzelnen Personen durch &#x200B;](./ai-decisioning.md) KI-Entscheidungsfindung.
 
 ## KI-Entscheidungsstatus öffnen {#open}
 

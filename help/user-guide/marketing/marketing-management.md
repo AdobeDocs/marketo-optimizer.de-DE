@@ -45,6 +45,6 @@ Im rechten Bedienfeld wird der Navigationsbaum für Ihre Marketing-bezogenen Ass
 
 - Ein **Programm erstellen**-Button oben (siehe [Programme](./programs.md)).
 - Ein **Suchen**-Feld zum Suchen von Assets nach Namen.
-- Eine hierarchische Ordnerstruktur, die auf _Marketing-Aktivitäten/Standard_ basiert und Ordner, [Programme](./programs.md) und [Journey ](./person-journeys.md). Erweitern Sie Ordner, um einen Drill-in durchzuführen. Das Menü **…** in jeder Zeile zeigt Asset-spezifische Aktionen.
+- Eine hierarchische Ordnerstruktur, die auf _Marketing-Aktivitäten/Standard_ basiert und Ordner, [Programme](./programs.md) und [Journey &#x200B;](./person-journeys.md). Erweitern Sie Ordner, um einen Drill-in durchzuführen. Das Menü **…** in jeder Zeile zeigt Asset-spezifische Aktionen.
 
 Wählen Sie ein Element im Programmbaum aus, um die Details im mittleren Arbeitsbereich zu öffnen.

@@ -26,7 +26,7 @@ Wählen Sie bei mindestens einer Inhaltskomponente auf der Arbeitsfläche die Ko
 
 ![Zugriff auf Textkörperstile](assets/landing-page-body-styles-css.png){width="800" zoomable="yes"}
 
-Anweisungen[ Syntaxregeln und Fehlerbehebung finden Sie unter „Hinzufügen von benutzerdefiniertem ](./design-custom-css.md) für Ihre Inhalte“.
+Anweisungen[&#x200B; Syntaxregeln und Fehlerbehebung finden Sie unter „Hinzufügen von benutzerdefiniertem &#x200B;](./design-custom-css.md) für Ihre Inhalte“.
 
 ### Hinzufügen von Assets {#add-assets}
 

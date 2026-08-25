@@ -10,7 +10,7 @@ ht-degree: 9%
 
 # Inhaltserstellung - Navigation
 
-Beim Arbeiten mit Inhalten im visuellen Design-Bereich können Sie über die Navigationsstruktur auf die Komponenten, Spalten und Inhaltselemente zugreifen. Klicken Sie _[!UICONTROL links auf das Symbol]_ Navigationsbaum![ ((Symbol ](../user-guide/assets/do-not-localize/icon-navigation-tree.svg) Navigationsbaum) ), um die Baumstruktur anzuzeigen.
+Beim Arbeiten mit Inhalten im visuellen Design-Bereich können Sie über die Navigationsstruktur auf die Komponenten, Spalten und Inhaltselemente zugreifen. Klicken Sie _[!UICONTROL links auf das Symbol]_ Navigationsbaum![&#x200B; ((Symbol &#x200B;](../user-guide/assets/do-not-localize/icon-navigation-tree.svg) Navigationsbaum) ), um die Baumstruktur anzuzeigen.
 
 ![Zugriff auf die Inhaltsebenen](../user-guide/content/assets/content-design-layers.png){width="800" zoomable="yes"}
 

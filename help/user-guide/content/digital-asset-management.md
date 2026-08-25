@@ -38,7 +38,7 @@ Erweitern Sie in der linken Navigationsleiste **[!UICONTROL Content-Management]*
 
 >[!BEGINSHADEBOX]
 
-Wenn Sie das erste Mal auf die Bibliothek _[!UICONTROL Assets]_ zugreifen, lesen Sie die [_[!UICONTROL Nutzungsbedingungen für Generative AI ]_](https://www.adobe.com/de/legal/licenses-terms/adobe-gen-ai-user-guidelines.html) und bestätigen Sie Ihr Einverständnis.
+Wenn Sie das erste Mal auf die Bibliothek _[!UICONTROL Assets]_ zugreifen, lesen Sie die [_[!UICONTROL Nutzungsbedingungen für Generative AI &#x200B;]_](https://www.adobe.com/de/legal/licenses-terms/adobe-gen-ai-user-guidelines.html) und bestätigen Sie Ihr Einverständnis.
 
 ![Dialogfeld der Nutzungsbedingungen für Generative KI in der Assets-Bibliothek](./assets/dam-asset-library-gen-ai-agree.png){width="500"}
 

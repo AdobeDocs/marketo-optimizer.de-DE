@@ -122,7 +122,7 @@ Programme sind bei **Erstellung** einem vom Mandanten definierten Programmtyp ge
 | Fall | Verhalten |
 |---|---|
 | **Mehrere Typen verfügbar** | Passt kurze Formulierungen an einen Typ an (z. B. Messe/Stand/Ausstellung = *Messe*/*Event*; Webinar = *Webinar*/*Event*; Nurture/Drip = *Nurture*; kein klares Signal = *Default*). Wenn keine Übereinstimmung gefunden wird, listet Coworker verfügbare Typen und Aufgaben auf. |
-| **Nur-Standard-Mandant** | Verwendet *Standard* und merkt an, dass ein Administrator benutzerdefinierte [Programmtypen“ hinzufügen ](../admin/program-types.md). |
+| **Nur-Standard-Mandant** | Verwendet *Standard* und merkt an, dass ein Administrator benutzerdefinierte [Programmtypen“ hinzufügen &#x200B;](../admin/program-types.md). |
 | **Keine Typen konfiguriert** | Stoppt — die Erstellung würde fehlschlagen. fordert einen Administrator auf, Programmtypen bereitzustellen, bevor es erneut versucht wird. |
 
 ## Standardwerte

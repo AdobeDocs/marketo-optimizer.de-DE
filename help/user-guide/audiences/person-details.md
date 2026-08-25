@@ -11,7 +11,7 @@ ht-degree: 8%
 
 # Personendetails
 
-Wenn Sie [!DNL Adobe Marketo Optimizer] auf der Registerkarte _[!UICONTROL Mitglieder]_ einer (Personenliste](./people-lists.md) auf den Namen einer Person klicken, [ die Seite mit den Personendetails mit einer konsolidierten Ansicht dieser Person geöffnet. Diese Seite bietet:
+Wenn Sie [!DNL Adobe Marketo Optimizer] auf der Registerkarte _[!UICONTROL Mitglieder]_ einer (Personenliste[&#128279;](./people-lists.md) auf den Namen einer Person klicken,  die Seite mit den Personendetails mit einer konsolidierten Ansicht dieser Person geöffnet. Diese Seite bietet:
 
 * Eine von KI generierte Rolle, Interaktion und Absichtserklärung
 * Vollständiger Aktivitätsverlauf
@@ -55,7 +55,7 @@ Drei Karten geben eine KI-generierte Bewertung der Person ab:
 
 | Karte | Inhalt |
 |---|---|
-| **[!UICONTROL Persona]** | Die [abgeleitete ](./personas.md) für die Person sowie eine kurze Erzählung, die ihre Rolle, ihr Unternehmen und ihre Branche beschreibt. Klicken Sie auf das Infosymbol, um weitere Details anzuzeigen. |
+| **[!UICONTROL Persona]** | Die [abgeleitete &#x200B;](./personas.md) für die Person sowie eine kurze Erzählung, die ihre Rolle, ihr Unternehmen und ihre Branche beschreibt. Klicken Sie auf das Infosymbol, um weitere Details anzuzeigen. |
 | **[!UICONTROL Interaktion]** | Der [Interaktionswert für Personen](./engagement-scores.md) der Trend (z. B _„steigend_) und die Ebene (_niedrig_, _Medium_, _hoch_). |
 | **[!UICONTROL Intent]** | Erkannte Kaufabsicht oder _Keine erkannt_ mit kontextueller Anleitung und einem Link, der Ihnen hilft, die Produktabsicht zu erhöhen. |
 

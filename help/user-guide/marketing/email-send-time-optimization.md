@@ -28,7 +28,7 @@ Es sind viele **_zukünftige Verbesserungen_** für STO geplant:
 
 ## Konfiguration {#configuration}
 
-Sie können die Sendezeitoptimierung konfigurieren, wenn Sie [ Journey eine _[!UICONTROL Aktion durchführen]_-Knoten ](./action-nodes.md) Person hinzufügen und die Aktion **[!UICONTROL E-Mail senden]** auswählen.
+Sie können die Sendezeitoptimierung konfigurieren, wenn Sie [&#x200B; Journey eine _[!UICONTROL Aktion durchführen]_-Knoten &#x200B;](./action-nodes.md) Person hinzufügen und die Aktion **[!UICONTROL E-Mail senden]** auswählen.
 
 1. Wählen Sie den Aktionsknoten _E-Mail senden_ Journey aus.
 

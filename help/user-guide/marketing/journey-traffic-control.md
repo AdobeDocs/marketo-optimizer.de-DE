@@ -30,11 +30,11 @@ Das Modell bewertet jede Journey-Kombination einer Person über sieben Bewertung
 |---|---|
 | Absichtsausrichtung | Verhaltensbezogene Absichtssignale: Keyword-Suche, Besuche auf Produktseiten, Download von Inhalten, E-Mail-Öffnungen/Clickthrough und Preisfindungs-Seitenaktivität. |
 | Zielgruppenanpassung | Wie gut die Person mit der [Zielgruppe](./person-audience-node.md) für die Journey übereinstimmt. |
-| Persona Fit | Ausrichtung zwischen der Rolle/[ der Person ](../audiences/personas.md) der Journey. |
+| Persona Fit | Ausrichtung zwischen der Rolle/[&#x200B; der Person &#x200B;](../audiences/personas.md) der Journey. |
 | Firmographischer Anfall | Attribute auf Unternehmensebene (wie Branche, Größe und Umsatz). |
 | Demografische Übereinstimmung | Demografische Attribute auf Personenebene. |
 | Psychographische Ausrichtung | Ausrichtung auf Einstellung/Präferenz. |
-| Eingriffssitz | Neuigkeit und Tiefe der [ (Interaktion](../audiences/engagement-scores.md). |
+| Eingriffssitz | Neuigkeit und Tiefe der [&#x200B; (Interaktion](../audiences/engagement-scores.md). |
 
 Dimensionen, für die eine Person keine Daten hat, werden automatisch übersprungen, sodass die Bewertung nie für fehlende Attribute bestraft wird.
 
@@ -66,7 +66,7 @@ Die _[!UICONTROL Konfiguration]_ hat zwei Abschnitte: **[!UICONTROL Anpassen der
 
 ### Anpassen der Dimensionsbewertung {#adjust-dimension-scoring}
 
-In diesem Abschnitt legen Sie fest, wie viel jeder der sieben Dimensionen zum endgültigen Übereinstimmungsergebnis beiträgt. Jede Dimension kann auf &quot;**[!UICONTROL &quot;,]****[!UICONTROL Niedrig]**, **[!UICONTROL Medium]** oder **[!UICONTROL Hoch]** Wichtigkeit eingestellt werden. Der auf jeder Karte angezeigte Prozentsatz entspricht dem normalisierten Beitrag dieser Dimension, nachdem alle Ihre Auswahlen kombiniert wurden - die sieben Gewichtungen ergeben immer 100 %. Durch das Anheben einer Dimension werden die anderen automatisch neu normalisiert, sodass die Gesamtsumme bei 100 % bleibt.
+In diesem Abschnitt legen Sie fest, wie viel jeder der sieben Dimensionen zum endgültigen Übereinstimmungsergebnis beiträgt. Jede Dimension kann auf &quot;**[!UICONTROL &quot;,]**&#x200B;**[!UICONTROL Niedrig]**, **[!UICONTROL Medium]** oder **[!UICONTROL Hoch]** Wichtigkeit eingestellt werden. Der auf jeder Karte angezeigte Prozentsatz entspricht dem normalisierten Beitrag dieser Dimension, nachdem alle Ihre Auswahlen kombiniert wurden - die sieben Gewichtungen ergeben immer 100 %. Durch das Anheben einer Dimension werden die anderen automatisch neu normalisiert, sodass die Gesamtsumme bei 100 % bleibt.
 
 Klicken Sie **[!UICONTROL Auf Gleich zurücksetzen]**, um für alle Dimensionen eine gleichmäßige Gewichtung wiederherzustellen.
 

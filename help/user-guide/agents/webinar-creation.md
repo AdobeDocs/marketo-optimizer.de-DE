@@ -51,7 +51,7 @@ Beschreiben Sie das gewünschte Webinar in einer einzigen Nachricht, z. B.:
 
 ### Co-Hosts und Moderatoren hinzufügen {#co-hosts-presenters}
 
-Wählen Sie **[!UICONTROL Co-Host hinzufügen]** oder **[!UICONTROL Moderator hinzufügen]** aus den nächstbesten Aktionen aus oder fragen Sie direkt, z. B. *„Co-Host hinzufügen [Vorname][Nachname][ E-Mail].“* Die Chat-Oberfläche öffnet denselben Dialog zum Hinzufügen, der im Designer verwendet wird - geben Sie einen Namen und eine E-Mail ein, da derzeit alle auf die gleiche Weise hinzugefügt werden, anstatt aus einer Listenauswahl ausgewählt zu werden. Nach dem Hinzufügen der Person wird eine Bestätigung angezeigt.
+Wählen Sie **[!UICONTROL Co-Host hinzufügen]** oder **[!UICONTROL Moderator hinzufügen]** aus den nächstbesten Aktionen aus oder fragen Sie direkt, z. B. *„Co-Host hinzufügen [Vorname]&#x200B;[Nachname]&#x200B;[ E-Mail].“* Die Chat-Oberfläche öffnet denselben Dialog zum Hinzufügen, der im Designer verwendet wird - geben Sie einen Namen und eine E-Mail ein, da derzeit alle auf die gleiche Weise hinzugefügt werden, anstatt aus einer Listenauswahl ausgewählt zu werden. Nach dem Hinzufügen der Person wird eine Bestätigung angezeigt.
 
 ![Fügen Sie in der Chat-Oberfläche einen Webinar-Co-Moderator hinzu](./assets/webinar-create-add-co-host.png){width="500" zoomable="yes"}
 

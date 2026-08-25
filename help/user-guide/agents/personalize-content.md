@@ -21,7 +21,7 @@ Die _Content Personalization_-Kompetenz wandelt eine E-Mail in personalbasierte,
 
 | Begriff | Definition |
 |---|---|
-| **Persona-Kohorte** | Eine Gruppe von Personen, die eine [abgeleitete Rolle“ ](../audiences/personas.md), z. B. _CXO/EVP_ oder _Einzelne Mitwirkende_. |
+| **Persona-Kohorte** | Eine Gruppe von Personen, die eine [abgeleitete Rolle“ &#x200B;](../audiences/personas.md), z. B. _CXO/EVP_ oder _Einzelne Mitwirkende_. |
 | **Segment** | Eine Gruppe von Personen, die durch beliebige Kriterien definiert werden, z. B. Persona, Branche oder Interaktionsstufe. Eine Persona-Kohorte ist ein Segment, das speziell durch eine abgeleitete Persona definiert wird, die mit anderen geteilt wird. |
 | **Zielgruppe** | Die Zielgruppe, die Sie in natürlicher Sprache beschreiben. Die Qualifikation löst sie in übereinstimmende Persona-Kohorten auf. |
 | **Insight** | Ein dateninformiertes Ergebnis über die Botschaften, die Positionierung oder den Ton, der für eine persönliche Kohorte am besten funktioniert, basierend auf Ihren eigenen Daten. |
@@ -34,7 +34,7 @@ Die _Content Personalization_-Kompetenz wandelt eine E-Mail in personalbasierte,
 * Zugriff auf [!DNL Marketo Optimizer] mit aktiviertem Coworker.
 * [Abgeleitete Personas](../audiences/personas.md) in Ihren Daten aufgelöst. Die Qualifikation beruht auf diesen Klassifizierungen, um Personalkohorten zu erstellen. Die Unterstützung benutzerdefinierter Personas ist für eine zukünftige Version geplant.
 * Genug historische Daten für Einblicke. Wenn für eine Persona-Kohorte keine Einblicke verfügbar sind, sagt Ihnen die Fähigkeit, dass die Daten unzureichend sind, und greift auf allgemeine Best Practices für diese Persona zurück.
-* Eine [E-Mail](../content/templates.md)Vorlage oder eine vorhandene E-Mail, auf die durch einen [_E-Mail senden_-Aktionsknoten verwiesen ](../marketing/action-nodes.md).
+* Eine [E-Mail](../content/templates.md)Vorlage oder eine vorhandene E-Mail, auf die durch einen [_E-Mail senden_-Aktionsknoten verwiesen &#x200B;](../marketing/action-nodes.md).
 * Eine [Personen-Journey](../marketing/person-journeys.md) mit dem Aktionsknoten _E-Mail senden_, der zum Versand der personalisierten E-Mail verwendet wird.
 
 ## Erstellen und Personalisieren einer E-Mail aus einer Vorlage {#create-personalize-from-template}
@@ -129,7 +129,7 @@ Wählen Sie **[!UICONTROL Diese E]** Mail personalisieren auf einem Aktionsknote
 
 ## Ausgabe gespeichert und in einem Journey verwendet {#saved-output}
 
-Unabhängig davon, von welchem Fluss aus Sie beginnen, erstellt die Personalisierung eine einzelne **personalisierte KI-E-Mail** die in der KI-Bibliothek gespeichert ist. Die E[Mail enthält ](../content/conditional-content.md)bedingte Inhalte). Um Abschnitte zu bearbeiten, öffnen Sie sie im [visuellen Design-Bereich](../content/email-authoring.md) und verwenden Sie „Inhalt **[!UICONTROL &quot;, um eine Vorschau der Auflösung der einzelnen Blöcke mit]** anzuzeigen.
+Unabhängig davon, von welchem Fluss aus Sie beginnen, erstellt die Personalisierung eine einzelne **personalisierte KI-E-Mail** die in der KI-Bibliothek gespeichert ist. Die E[Mail enthält &#x200B;](../content/conditional-content.md)bedingte Inhalte). Um Abschnitte zu bearbeiten, öffnen Sie sie im [visuellen Design-Bereich](../content/email-authoring.md) und verwenden Sie „Inhalt **[!UICONTROL &quot;, um eine Vorschau der Auflösung der einzelnen Blöcke mit]** anzuzeigen.
 
 Um die E-Mail auf einer Journey zu verwenden, fügen Sie einen [E-Mail senden](../marketing/action-nodes.md)-Knoten hinzu und wählen Sie **[!UICONTROL KI - Personalisierte]** E-Mails“ anstelle von **[!UICONTROL E-Mail erstellen]** aus und wählen Sie dann die gespeicherte E-Mail aus. Wenden Sie Ihre Konfigurations- und Geschäftsregeln wie gewohnt auf den Knoten an.
 
@@ -143,7 +143,7 @@ Sie wählen die einzelne personalisierte KI-E-Mail in der Journey aus, nicht ein
 
 | Einschränkung | Detail |
 |---|---|
-| **Benutzerdefinierte Personas** | Noch nicht unterstützt. Die Qualifikation klassifiziert nur Persona-Kohorten aus nativen ([) ](../audiences/personas.md). |
+| **Benutzerdefinierte Personas** | Noch nicht unterstützt. Die Qualifikation klassifiziert nur Persona-Kohorten aus nativen ([) &#x200B;](../audiences/personas.md). |
 | **Nicht genügend Daten für Einblicke** | Wenn Ihre Daten keine insight für eine Persona-Kohorte unterstützen, gibt die Kenntnis dies an und greift auf allgemeine Best Practices für diese Persona zurück. |
 | **Inline-Bearbeitung beim Authoring** | Inline sind nur grundlegende Textbearbeitungen verfügbar, wenn Sie [E-Mail aus einer Vorlage erstellen und personalisieren](#create-personalize-from-template). Für erweiterte Bearbeitungen ist der [visuelle Design-Bereich](../content/email-authoring.md) erforderlich. |
 | **Ausgangspunkt erforderlich** | Zum Personalisieren einer E-Mail ist entweder eine Vorlage oder eine vorhandene E-Mail erforderlich, auf die von einem Knoten E-Mail senden verwiesen wird. |

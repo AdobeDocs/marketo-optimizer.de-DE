@@ -60,7 +60,7 @@ Klicken Sie auf _Filter_-Symbol ( ![Filtersymbol ein- oder ausblenden](../assets
 
 ### Spaltenanzeige anpassen {#column-display}
 
-Passen Sie die Spalten an, die Sie in der Tabelle anzeigen möchten, indem Sie oben rechts auf _Tabelle anpassen_ (![Symbol „Tabelle ](../assets/do-not-localize/icon-column-settings.svg)„) klicken.
+Passen Sie die Spalten an, die Sie in der Tabelle anzeigen möchten, indem Sie oben rechts auf _Tabelle anpassen_ (![Symbol „Tabelle &#x200B;](../assets/do-not-localize/icon-column-settings.svg)„) klicken.
 
 Wählen Sie im Dialogfeld die anzuzeigenden Spalten aus und klicken Sie auf **[!UICONTROL Anwenden]**.
 
@@ -308,7 +308,7 @@ Fragmente sind zur Wiederverwendung konzipiert und können für die Erstellung v
 
 >[!TAB Hinzufügen von Fragmenten zu einer E-Mail]
 
-1. Navigieren Sie zu einer Personen-Journey und öffnen Sie einen vorhandenen Aktionsknoten _[!UICONTROL E-Mail]_ senden[ oder fügen Sie einen neuen hinzu](../marketing/action-nodes.md#add-an-action-node).
+1. Navigieren Sie zu einer Personen-Journey und öffnen Sie einen vorhandenen Aktionsknoten _[!UICONTROL E-Mail]_ senden[&#x200B; oder fügen Sie einen neuen hinzu](../marketing/action-nodes.md#add-an-action-node).
 
 1. Klicken Sie auf **[!UICONTROL E-Mail-Text bearbeiten]**, um den E-Mail[Inhalt zu öffnen oder fortzusetzen](./email-authoring.md).
 

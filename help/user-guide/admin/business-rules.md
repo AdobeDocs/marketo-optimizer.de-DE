@@ -250,7 +250,7 @@ Mithilfe von Kanalregelsätzen können Sie die Frequenzbegrenzung nach Kommunika
 
 ### Anwenden des Regelsatzes für die Kanalbegrenzung {#apply-capping-rule}
 
-1. Fügen Sie beim Erstellen einer Journey einen der [Aktionsknoten) für ](../marketing/action-nodes.md) Kanal hinzu, den Sie für Ihre Regel ausgewählt haben, und bearbeiten Sie den Inhalt Ihrer Nachricht.
+1. Fügen Sie beim Erstellen einer Journey einen der [Aktionsknoten) für &#x200B;](../marketing/action-nodes.md) Kanal hinzu, den Sie für Ihre Regel ausgewählt haben, und bearbeiten Sie den Inhalt Ihrer Nachricht.
 
 1. Legen Sie auf _[!UICONTROL Registerkarte]_ die Option **[!UICONTROL Geschäftsregeln]** auf die Regel fest, die mit der Frequenzlimitierungsregel festgelegt wurde.
 
@@ -370,7 +370,7 @@ Sie können in Journey für eine präzise Steuerung ruhige Stunden über Regels�
 
 Nachdem die Regel gespeichert und der Regelsatz aktiviert wurde, können Sie ihn auf Kanalaktionen in Journey anwenden.
 
-1. Fügen Sie beim Erstellen einer Journey einen der [Aktionsknoten) für ](../marketing/action-nodes.md) Kanal hinzu, den Sie für Ihre Regel ausgewählt haben, und bearbeiten Sie den Inhalt Ihrer Nachricht.
+1. Fügen Sie beim Erstellen einer Journey einen der [Aktionsknoten) für &#x200B;](../marketing/action-nodes.md) Kanal hinzu, den Sie für Ihre Regel ausgewählt haben, und bearbeiten Sie den Inhalt Ihrer Nachricht.
 
 1. Legen Sie auf _[!UICONTROL Registerkarte]_ die Option **[!UICONTROL Geschäftsregeln]** auf die Regel fest, die mit der Regel für ruhige Stunden festgelegt wurde.
 

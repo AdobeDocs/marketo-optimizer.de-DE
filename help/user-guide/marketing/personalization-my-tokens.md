@@ -1,7 +1,8 @@
 ---
 title: Benutzerdefinierte Token für Personalization
 description: Erstellen und verwalten Sie benutzerdefinierte „Meine Token“ für die dynamische Personalisierung Ihrer Marketing-Artefakte - definieren Sie Text- und Zahlenvariablen für Programme in Marketo Optimizer.
-topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: c7d3546d075f5a58923134231217b2fd10fe4aca
 workflow-type: tm+mt
 source-wordcount: 629

@@ -72,7 +72,7 @@ Im Programmtyp werden Status mit _[!UICONTROL Als Erfolg]_ markieren) als erfolg
 
 ### Programmstatus ändern {#change-program-status}
 
-Um eine Person zu einem Programm hinzuzufügen oder ihren Status zu ändern, muss sie eine Aktion **_[!UICONTROL Programmstatus ändern]_** [ auf einer Journey ](./action-nodes.md). Dadurch werden sie zu Mitgliedern des Programms und weisen ihnen einen Status in diesem Programm zu.
+Um eine Person zu einem Programm hinzuzufügen oder ihren Status zu ändern, muss sie eine Aktion **_[!UICONTROL Programmstatus ändern]_** [&#x200B; auf einer Journey &#x200B;](./action-nodes.md). Dadurch werden sie zu Mitgliedern des Programms und weisen ihnen einen Status in diesem Programm zu.
 
 ### Programmstatus korrigieren {#correct-program-status}
 

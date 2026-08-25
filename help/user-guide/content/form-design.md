@@ -14,7 +14,7 @@ Nach dem [Erstellen eines Formulars](./forms.md#create-forms) wird im visuellen 
 
 ![Formularentwurfsbereich](assets/form-new-design-space.png){width="700" zoomable="yes"}
 
-Die _**Senden**_-Schaltfläche (Fußzeilenfeld) ist standardmäßig Teil des Formulars und kann nicht entfernt werden. Sie können die Schaltflächen-/Fußzeilenkomponente im Formular auswählen, um [den Text und die Formatierung für die Schaltfläche zu ändern](#submit-button).
+Die _&#x200B;**Senden**&#x200B;_-Schaltfläche (Fußzeilenfeld) ist standardmäßig Teil des Formulars und kann nicht entfernt werden. Sie können die Schaltflächen-/Fußzeilenkomponente im Formular auswählen, um [den Text und die Formatierung für die Schaltfläche zu ändern](#submit-button).
 
 ## Felder {#fields}
 
@@ -133,7 +133,7 @@ Wählen Sie die **[!UICONTROL Stile]** im rechten Bedienfeld aus, um den Stil f�
 
 Sie können Formularfelder direkt im visuellen Arbeitsbereich verschieben. Klicken Sie auf _Verschieben_-Tool am rechten Rand des ausgewählten Felds und ziehen Sie es an eine neue Position.
 
-Fügen Sie [ Formular „Strukturkomponenten](./structure-components.md) hinzu und verschieben Sie Felder in Spalten, um sie zu gruppieren und das Layout zu ändern. Klicken Sie auf _Verschieben_ am linken Rand der ausgewählten Spaltenkomponente und ziehen Sie sie an eine neue Position im Formular.
+Fügen Sie [&#x200B; Formular „Strukturkomponenten](./structure-components.md) hinzu und verschieben Sie Felder in Spalten, um sie zu gruppieren und das Layout zu ändern. Klicken Sie auf _Verschieben_ am linken Rand der ausgewählten Spaltenkomponente und ziehen Sie sie an eine neue Position im Formular.
 
 ![Verschieben Sie Felder im Formular und verwenden Sie Strukturkomponenten für Gruppierung und Layout](assets/form-field-move-tool.png){width="500"}
 

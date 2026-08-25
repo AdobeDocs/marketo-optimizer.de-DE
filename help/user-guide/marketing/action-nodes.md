@@ -176,7 +176,7 @@ Verwenden Sie diese Aktion, um eine E-Mail an angemeldete Personen zu senden. Pe
 
 ![Aktion durchführen - E-Mail senden](./assets/person-action-node-send-email.png){width="450"}
 
-Sie können eine E-Mail erstellen, eine vorhandene E-Mail bearbeiten oder eine mit KI personalisierte E-Mail verwenden. Informationen zum Erstellen und Bearbeiten von E-Mails finden Sie unter [E-Mail-Kanal](./email-channel.md). Informationen zum Generieren personalbasierter Varianten für eine vorhandene E-Mail finden Sie unter [Personalisieren von E-Mail-Inhalten nach ](../agents/personalize-content.md)).
+Sie können eine E-Mail erstellen, eine vorhandene E-Mail bearbeiten oder eine mit KI personalisierte E-Mail verwenden. Informationen zum Erstellen und Bearbeiten von E-Mails finden Sie unter [E-Mail-Kanal](./email-channel.md). Informationen zum Generieren personalbasierter Varianten für eine vorhandene E-Mail finden Sie unter [Personalisieren von E-Mail-Inhalten nach &#x200B;](../agents/personalize-content.md)).
 
 Sie können die [Optimierung des Versandzeitpunkts](./email-send-time-optimization.md) verwenden, um den Zeitpunkt des E-Mail-Versands zu personalisieren, indem Sie vorhersagen, wann jedes Profil mit der größten Wahrscheinlichkeit interagieren wird.
 

@@ -43,7 +43,7 @@ Sie können Trigger um [!DNL Marketo Engage] Aktivitäten herum erstellen, z. B.
 
 1. Fügen Sie im _[!UICONTROL Ereignis bearbeiten]_ die Ereignisse zum Trigger hinzu.
 
-   ![Ereignis bearbeiten - Ereignis-Trigger ](./assets/edit-event-triggers.png){width="600" zoomable="yes"}
+   ![Ereignis bearbeiten - Ereignis-Trigger &#x200B;](./assets/edit-event-triggers.png){width="600" zoomable="yes"}
 
 1. (Optional) Wählen Sie **[!UICONTROL Dialogfeld die Registerkarte]** Filter“ aus und fügen Sie Filterkriterien für die Trigger hinzu.
 
