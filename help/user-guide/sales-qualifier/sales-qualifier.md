@@ -14,7 +14,7 @@ Sales Qualifier ist ein KI-gesteuertes Programm, das Sie mit [!DNL Adobe Marketo
 
 BDRs können den Browser und die E-Mail-Plug-ins verwenden, um Business Intelligence direkt in CRMs oder Outlook aufzurufen. Im folgenden Video werden Sales Qualifier und Account Qualification Agent kurz vorgestellt.
 
->[!VIDEO](https://video.tv.adobe.com/v/3476550)
+>[!VIDEO](https://video.tv.adobe.com/v/3476570?captions=ger)
 
 ## Programm-Startseite {#application-home}
 
