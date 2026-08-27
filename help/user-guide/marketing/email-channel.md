@@ -51,7 +51,7 @@ Bevor Sie E-Mails für Personen-Journey erstellen und E-Mail-Inhalte verfassen, 
 
 ## Hinzufügen einer E-Mail von einer Journey
 
-Um E-Mails von einer Journey zu senden[ fügen Sie &quot;_Aktion durchführen“_ Knoten ](action-nodes.md#add-an-action-node) und konfigurieren Sie ihn so, dass E-Mails gesendet werden.
+Um E-Mails von einer Journey zu senden[&#x200B; fügen Sie &quot;_Aktion durchführen“_ Knoten &#x200B;](action-nodes.md#add-an-action-node) und konfigurieren Sie ihn so, dass E-Mails gesendet werden.
 
 1. Klicken Sie auf der Journey-Arbeitsfläche auf das Symbol **+** und wählen Sie **[!UICONTROL Aktion ausführen]**.
 
