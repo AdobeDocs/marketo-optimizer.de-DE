@@ -18,7 +18,7 @@ Wenn Daten auf dem Streaming-Endpunkt landen, werden sie mit den Datensatzinform
 
 ## Voraussetzungen
 
-Um Web-Formulare verwenden zu können, müssen mindestens eine _&#x200B;**HTTP-API-Streaming-Verbindung**&#x200B;_ in Adobe Experience Platform definiert sein. Stellen Sie sicher, dass jede Verbindung, die Sie verwenden möchten, die folgenden Anforderungen erfüllt:
+Um Web-Formulare verwenden zu können, müssen mindestens eine _**HTTP-API-Streaming-Verbindung**_ in Adobe Experience Platform definiert sein. Stellen Sie sicher, dass jede Verbindung, die Sie verwenden möchten, die folgenden Anforderungen erfüllt:
 
 * Datentyp muss auf XDM festgelegt sein (nicht auf Rohdaten)
 * Authentifizierung muss deaktiviert sein (nicht authentifizierte Verbindung)

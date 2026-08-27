@@ -51,7 +51,7 @@ Bevor Sie E-Mails für Personen-Journey erstellen und E-Mail-Inhalte verfassen, 
 
 ## Hinzufügen einer E-Mail von einer Journey
 
-Um E-Mails von einer Journey zu senden[&#x200B; fügen Sie &quot;_Aktion durchführen“_ Knoten &#x200B;](action-nodes.md#add-an-action-node) und konfigurieren Sie ihn so, dass E-Mails gesendet werden.
+Um E-Mails von einer Journey zu senden[ fügen Sie &quot;_Aktion durchführen“_ Knoten ](action-nodes.md#add-an-action-node) und konfigurieren Sie ihn so, dass E-Mails gesendet werden.
 
 1. Klicken Sie auf der Journey-Arbeitsfläche auf das Symbol **+** und wählen Sie **[!UICONTROL Aktion ausführen]**.
 
@@ -133,7 +133,7 @@ Die E-Mail-Seite wird geöffnet, wenn Sie eine E-Mail für einen _[!UICONTROL E-
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_email_minification"
 >title="HTML-Größe reduzieren"
->abstract="Aktivieren Sie diese Option, um den HTML-Code Ihrer E-Mail während der Veröffentlichung zu komprimieren, indem Sie unnötige Leerzeichen, Einzüge und nicht erforderliche Kommentare entfernen. Dadurch wird verhindert, dass E-Mails in Clients wie Gmail abgeschnitten werden, wodurch Nachrichten mit einer Größe von mehr als 100 KB gekürzt werden."
+>abstract="Diese Option aktivieren, um die E-Mail-HTML während der Veröffentlichung zu komprimieren, indem unnötige Leerzeichen und Einzüge entfernt werden. Dadurch wird verhindert, dass E-Mails in Clients wie Gmail abgeschnitten werden, wodurch Nachrichten mit einer Größe von mehr als 100 KB gekürzt werden."
 
 [!DNL Marketo Optimizer] ermöglicht das Komprimieren der HTML-Version Ihrer E-Mail während des Veröffentlichungsprozesses durch Entfernen unnötiger Leerzeichen, Einrückungen und nicht erforderlicher Kommentare. Eine geringe HTML-Größe bietet folgende Vorteile:
 

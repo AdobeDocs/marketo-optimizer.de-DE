@@ -134,9 +134,9 @@ Wenn Sie die Segmentierung für eine Personen-Journey in einem [_Aufspaltungs-Pf
 
 ## Konfigurieren der Gewichtung der Interaktionswerte {#configure-weighting}
 
-In [!DNL Marketo Optimizer] können Sie die Gewichtung der Interaktionswerte direkt über die [Coworker chat-Oberfläche“ &#x200B;](../agents/chat-interface.md).
+In [!DNL Marketo Optimizer] können Sie die Gewichtung der Interaktionswerte direkt über die [Coworker chat-Oberfläche“ ](../agents/chat-interface.md).
 
-Hintergrundinformationen zu Interaktionsbewertungsmodellen, Gewichtungsbändern und Aktivitätsgewichten finden Sie unter [Konfigurieren der benutzerdefinierten Interaktionsbewertungsgewichtung](https://experienceleague.adobe.com/de/docs/journey-optimizer-b2b/user/admin/configurations/engagement-score-weighting).
+Hintergrundinformationen zu Interaktionsbewertungsmodellen, Gewichtungsbändern und Aktivitätsgewichten finden Sie unter [Konfigurieren der benutzerdefinierten Interaktionsbewertungsgewichtung](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/configurations/engagement-score-weighting).
 
 1. Öffnen Sie **[!UICONTROL Coworker]**-Chat-Panel auf der linken Bildschirmseite (Chat-Symbol).
 
