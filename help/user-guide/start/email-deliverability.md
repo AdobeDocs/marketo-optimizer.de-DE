@@ -1,7 +1,7 @@
 ---
 title: Konfiguration der E-Mail-Zustellbarkeit
 description: Konfigurieren Sie die Zuweisung von Subdomains, DMARC, SPF, DKIM und IP-Pools für Marketo Optimizer.
-source-git-commit: c7d3546d075f5a58923134231217b2fd10fe4aca
+source-git-commit: 81d9880cb37bb60301252b48bd89637b6656a993
 workflow-type: tm+mt
 source-wordcount: '2502'
 ht-degree: 1%
@@ -21,7 +21,7 @@ Sie verwendet die folgenden Bausteine, die von einem Administrator konfiguriert 
 1. [Bestätigen Sie den IP-Pool](#ip-pools) der zum Senden von E-Mails für Ihre Subdomain verwendet wird.
 1. [Erstellen Sie eine oder mehrere E-Mail](../admin/email-channel-configuration.md#create-email-channel-configuration)Kanalkonfigurationen, die eine Subdomain, einen IP-Pool und eine Absenderidentität verbinden.
 
-![Einrichtung der E-Mail-Zustellbarkeit für Marketo Optimizer](./assets/email-deliverability-diagram.svg){width="550" zoomable="yes"}
+![Einrichtung der E-Mail-Zustellbarkeit für Marketo Optimizer](./assets/email-deliverability-diagram.svg){width="600"}
 
 >[!TIP]
 >
