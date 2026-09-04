@@ -1,9 +1,9 @@
 ---
 title: Mitarbeiterqualifikationen
 description: Überprüfen Sie die CX Enterprise Coworker-Fähigkeiten in Marketo Optimizer - gepackte Workflows für Programme, Journey, Zielgruppen, Bewertung, Inhalte und Sendezeitoptimierung.
-source-git-commit: ef30aa7a901c18c7b9b0919d537ad59db9a6c481
+source-git-commit: 9db94582512d95f6c07d4e978a0a27291b471900
 workflow-type: tm+mt
-source-wordcount: '575'
+source-wordcount: '581'
 ht-degree: 7%
 
 ---
@@ -37,7 +37,7 @@ Eine _Qualifikation_ ist ein gepackter Workflow, den ein Kollege ausführen kann
 | `journey-stop` | Abbrechen, schließen, stoppen, stoppen oder Journey töten. | Schreiben | [!DNL Marketo Optimizer] | Lese- und Schreibvorgänge [!DNL Marketo Optimizer] |
 | `journey-reentry` | Erneuten Eintrag konfigurieren: Zulassen/Verweigern, Abklingzeit, Max. Einträge. | Schreiben | [!DNL Marketo Optimizer] | Lese- und Schreibvorgänge [!DNL Marketo Optimizer] |
 | `journey-trafficcontrol` | Führen Sie eine Traffic-Steuerungssimulation aus, die das Profil-Routing anzeigt. | Lesen | [!DNL Marketo Optimizer] | Liest [!DNL Marketo Optimizer] (Simulation) |
-| `journey-observability` | Debug/Überwachung des Fortschritts - Pfade, Timing, Aufspaltungen, Verzögerungen, Verweildauer. | Lesen | [!DNL Marketo Optimizer] | Liest [!DNL Marketo Optimizer] + [!DNL Marketo Engage] (statische Listenüberprüfung) |
+| `journey-observability` | Debug/Überwachung des Fortschritts - Pfade, Timing, Aufspaltungen, Verzögerungen, Verweildauer. <p>Siehe _[Debuggen und Überwachen des Journey-Fortschritts](./journey-observability.md)_. | Lesen | [!DNL Marketo Optimizer] | Liest [!DNL Marketo Optimizer] + [!DNL Marketo Engage] (statische Listenüberprüfung) |
 
 ## Zielgruppen und Personen {#audiences-people}
 
