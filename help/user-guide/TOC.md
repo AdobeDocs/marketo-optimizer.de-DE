@@ -3,10 +3,10 @@ user-guide-title: Dokumentation zu Marketo Optimizer
 user-guide-description: Erfahren Sie mehr über Adobe Marketo Optimizer und wie Sie damit koordinierte Marketing- und Vertriebsaktivitäten mit personalisierten, KI-gestützten Inhalten für B2B-Leads und -Accounts durchführen können.
 hide: true
 nudge: red
-source-git-commit: 9db94582512d95f6c07d4e978a0a27291b471900
+source-git-commit: 8b3ea5f52fc50ea6c995ace44dece90247deff8b
 workflow-type: tm+mt
-source-wordcount: '224'
-ht-degree: 44%
+source-wordcount: '231'
+ht-degree: 43%
 
 ---
 
@@ -29,13 +29,14 @@ ht-degree: 44%
   + [Erstellen benutzerdefinierter Scoring-Modelle](./agents/lead-scoring-model.md)
   + [Erstellen und Bewerben von Webinaren](./agents/webinar-creation.md)
   + [Überwachen und Debuggen des Journey-Fortschritts](./agents/journey-observability.md)
+  + [Konfigurieren und Analysieren der Absichten](./agents/intent.md)
 + KI-Entscheidung {#ai-decisioning}
-  + [Überblick](./agents/ai-decisioning.md)
+  + [Übersicht](./agents/ai-decisioning.md)
   + [KI-Entscheidungsstatus](./agents/ai-decisioning-health.md)
 + Marketing-Management {#marketing-management}
   + [Überblick](./marketing/marketing-management.md)
   + Programme {#programs}
-    + [Überblick](./marketing/programs.md)
+    + [Übersicht](./marketing/programs.md)
     + [Benutzerdefinierte Token für die Personalisierung](./marketing/personalization-my-tokens.md)
   + [Personen-Journey](./marketing/person-journeys.md)
   + Journey-Arbeitsfläche und -Knoten {#journey-nodes}
@@ -62,11 +63,12 @@ ht-degree: 44%
   + [Personendetails](./audiences/person-details.md)
   + [Ereignisbasierte Zielgruppen](./audiences/event-based-audiences.md)
   + [Personeninteraktionsbewertungen](./audiences/engagement-scores.md)
+  + [Konfiguration des Absichtsmodells](./audiences/intent-configuration.md)
   + [Abgeleitete Personas](./audiences/personas.md)
   + [Ziele](./audiences/destinations.md)
 + Inhalt {#content}
   + Assets {#assets}
-    + [Überblick](./content/digital-asset-management.md)
+    + [Übersicht](./content/digital-asset-management.md)
     + [C2PA-Metadaten](./content/c2pa-metadata.md)
   + Vorlagen {#templates}
     + [Überblick](./content/templates.md)
@@ -76,7 +78,7 @@ ht-degree: 44%
     + [Überblick](./content/fragments.md)
     + [Erstellen von Fragmenten](./content/fragment-authoring.md)
   + Landingpages {#landing-pages}
-    + [Überblick](./content/landing-pages.md)
+    + [Übersicht](./content/landing-pages.md)
     + [Erstellen und Veröffentlichen von Landingpages](./content/landing-pages-create-publish.md)
     + [Landingpage-Design](./content/landing-page-design.md)
   + Formulare {#forms}
