@@ -15,7 +15,7 @@ Ein einziger standardisierter Satz von Aktivitätsgewichten funktioniert nicht k
 
 Die **[!UICONTROL Absichtskonfiguration]**-Tools steuern, wie viel jede Lead-Intent-Aktivität zum Absichtswert einer Person zählt. Dies ist die einzige konfigurierbare Eingabe bei der Absichtsbewertung. Andere Faktoren wie Inhaltsrelevanz, Verfall und Schwellenwerte werden vom System verwaltet. Sie ist über die [Intent-Konfigurationsfertigkeit](../agents/intent.md#configure-model) verfügbar.
 
-Öffnen Sie das Bedienfeld mit einer von zwei Methoden aus der [ (Chat-Oberfläche](../agents/chat-interface.md):
+Öffnen Sie das Bedienfeld mit einer von zwei Methoden aus der [&#x200B; (Chat-Oberfläche](../agents/chat-interface.md):
 
 * Geben Sie den `/intent-configuration` Befehl ein.
 * Klicken Sie auf **[!UICONTROL +]**, wählen Sie **[!UICONTROL Agentenkompetenz verwenden]**, wählen Sie die Registerkarte **[!UICONTROL Absicht]** aus und klicken Sie dann auf **[!UICONTROL Intent-Konfiguration]**.
