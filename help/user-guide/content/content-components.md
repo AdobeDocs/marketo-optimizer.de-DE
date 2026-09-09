@@ -4,8 +4,10 @@ description: Entwerfen von E-Mails, Landingpages und Fragmenten mit Inhaltskompo
 feature: Content Design Tools
 role: User
 TQID: 'https://experienceleague.adobe.com/Hn4e9lbl-jUJgsxVOwbTppfcphZqYGxvSrt-UMZDR0I'
-product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
-topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
 source-wordcount: 2828
@@ -216,7 +218,7 @@ Jeder Inhaltskomponententyp zeigt eine Symbolleiste an, wenn Sie ihn auf der Arb
 
    Sie können zu einer einzelnen Strukturkomponente und zu jeder Spalte einer Strukturkomponente mehrere Komponenten hinzufügen.
 
-   ![Ziehen Sie die Inhaltskomponente in die Strukturkomponente ](assets/content-components-drag.png){width="600" zoomable="yes"}
+   ![Ziehen Sie die Inhaltskomponente in die Strukturkomponente &#x200B;](assets/content-components-drag.png){width="600" zoomable="yes"}
 
 1. Passen Sie die Komponentenanzeige mit den Registerkarten **[!UICONTROL Einstellungen]** und **[!UICONTROL Stile]** auf der rechten Seite oder der auf der Arbeitsfläche angezeigten Kontextsymbolleiste an.
 
@@ -241,7 +243,7 @@ Wenn Sie die Komponente von der Desktop- oder Mobilgeräteanzeige ausschließen 
 
 ### Container {#container}
 
-Verwenden Sie einen Container, um bestimmte Stile auf eine Gruppe von Inhaltskomponenten anzuwenden. Fügen Sie [!UICONTROL  Komponente &quot;]&quot; hinzu und fügen Sie dann darin weitere Inhaltskomponenten hinzu. Diese Komponente ähnelt der Verwendung eines `div` in HTML. Sie können einen eigenen Stil auf den Container anwenden, der sich von dem Stil unterscheidet, der auf die darin enthaltenen Inhaltskomponenten angewendet wurde.
+Verwenden Sie einen Container, um bestimmte Stile auf eine Gruppe von Inhaltskomponenten anzuwenden. Fügen Sie [!UICONTROL &#x200B; Komponente &quot;]&quot; hinzu und fügen Sie dann darin weitere Inhaltskomponenten hinzu. Diese Komponente ähnelt der Verwendung eines `div` in HTML. Sie können einen eigenen Stil auf den Container anwenden, der sich von dem Stil unterscheidet, der auf die darin enthaltenen Inhaltskomponenten angewendet wurde.
 
 Fügen Sie beispielsweise die Komponente _[!UICONTROL Container]_ hinzu, und fügen Sie anschließend die Komponente _[!UICONTROL Schaltfläche]_ innerhalb dieses Containers hinzu. Sie können einen bestimmten Bereichsstil für den Container verwenden und die Schaltfläche und ihren Hintergrund nach Bedarf gestalten.
 
@@ -303,7 +305,7 @@ Verwenden Sie auf _[!UICONTROL Registerkarte]_ die Optionen **[!UICONTROL Link]*
 
    * **Landingpage** - Wählen Sie diesen Typ, um eine veröffentlichte Landingpage in der <!-- Journey Optimizer B2B Edition (_Beta_) or --> Marketo Engage-Instanz auszuwählen.
 
-     Wählen Sie für **[!UICONTROL Option]** die veröffentlichte Landingpage aus. Klicken Sie auf das _Seite auswählen_-Symbol ( ![Link-Symbol ](../assets/do-not-localize/icon-landing-page-select.svg) ) und [wählen Sie die veröffentlichte Landingpage aus](./landing-pages.md#link-to-landing-page).
+     Wählen Sie für **[!UICONTROL Option]** die veröffentlichte Landingpage aus. Klicken Sie auf das _Seite auswählen_-Symbol ( ![Link-Symbol &#x200B;](../assets/do-not-localize/icon-landing-page-select.svg) ) und [wählen Sie die veröffentlichte Landingpage aus](./landing-pages.md#link-to-landing-page).
 
      ![Definieren eines Links zu einer Landingpage für eine Schaltflächenkomponente](assets/component-button-link-options-landing-page.png){width="200"}
 
@@ -595,7 +597,7 @@ Verwenden Sie auf _[!UICONTROL Registerkarte]_ die Optionen **[!UICONTROL Link]*
 
    * **Landingpage** - Wählen Sie diesen Typ, um eine veröffentlichte Landingpage in der <!-- Journey Optimizer B2B Edition (_Beta_) or --> Marketo Engage-Instanz auszuwählen.
 
-     Wählen Sie für **[!UICONTROL Option]** die veröffentlichte Landingpage aus. Klicken Sie auf das _Seite auswählen_-Symbol ( ![Link-Symbol ](../assets/do-not-localize/icon-landing-page-select.svg) ) und [wählen Sie die veröffentlichte Landingpage aus](./landing-pages.md#link-to-landing-page).
+     Wählen Sie für **[!UICONTROL Option]** die veröffentlichte Landingpage aus. Klicken Sie auf das _Seite auswählen_-Symbol ( ![Link-Symbol &#x200B;](../assets/do-not-localize/icon-landing-page-select.svg) ) und [wählen Sie die veröffentlichte Landingpage aus](./landing-pages.md#link-to-landing-page).
 
      ![Definieren eines Links zu einer Landingpage für eine Bildkomponente](assets/component-button-link-options-landing-page.png){width="250"}
 
@@ -670,7 +672,7 @@ Verwenden Sie die Komponente _Social_, um Links zu Social-Media-Seiten in Ihre I
 Erweitern Sie die Karte für jeden Social-Media-Typ, um die Optionen festzulegen:
 
 * **[!UICONTROL URL]** - Geben Sie die Social-Media-URL ein, die Sie mit der Social-Media-Grafik oder dem Symbol verknüpfen möchten.
-* **[!UICONTROL Source]** - Wenn Sie Ihr eigenes Bild anstelle des Standardbilds verwenden möchten, wählen Sie ein Bild-Asset aus. Sie können ein Bild aus der Assets-Bibliothek auswählen oder eine Bilddatei aus Ihrem System importieren. Weitere Informationen zum Auswählen und Importieren [ Bild-Assets finden ](#add-the-image-asset) unter „Informationen zur Bild-Komponente“.
+* **[!UICONTROL Source]** - Wenn Sie Ihr eigenes Bild anstelle des Standardbilds verwenden möchten, wählen Sie ein Bild-Asset aus. Sie können ein Bild aus der Assets-Bibliothek auswählen oder eine Bilddatei aus Ihrem System importieren. Weitere Informationen zum Auswählen und Importieren [&#x200B; Bild-Assets finden &#x200B;](#add-the-image-asset) unter „Informationen zur Bild-Komponente“.
 * **[!UICONTROL ALT-]**: Geben Sie den ALT-Text für das angezeigte Bild ein.
 
 ![Einstellungen für den erweiterten Social-Media-Typ](./assets/content-components-social-settings-for-type.png){width="250"}

@@ -2,9 +2,20 @@
 title: Benutzerzugriff und Berechtigungen
 description: 'Verwalten des Benutzerzugriffs in der Adobe Admin Console: Erstellen Sie Benutzergruppen, weisen Sie Produktprofile zu und legen Sie rollenbasierte Berechtigungen für Marketo Optimizer fest.'
 TQID: 'https://experienceleague.adobe.com/IY7Fvbk8GG2Xudh6vC4N9Bwk-sejvh-MMRIHHxvS-nc'
-product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
-feature_v2: id: 3cf5f37e-e87e-5179-812b-53ce05d7eebbid: 46e599c6-e20f-5f67-9824-93415016f66bid: 64b90904-e4f0-5c1b-a871-8c6a40b204a1id: 8881ff95-1653-5fea-82af-ce1549c0d99did: a659ad61-de21-559d-a901-02e2fb329ff5id: d4203578-d294-5145-b397-f26f4488a904
-topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d3cdead0-685a-4489-9250-4bb709942f66id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2:
+  - id: 3cf5f37e-e87e-5179-812b-53ce05d7eebb
+  - id: 46e599c6-e20f-5f67-9824-93415016f66b
+  - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+  - id: 8881ff95-1653-5fea-82af-ce1549c0d99d
+  - id: a659ad61-de21-559d-a901-02e2fb329ff5
+  - id: d4203578-d294-5145-b397-f26f4488a904
+topic_v2:
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
 source-wordcount: 2279
@@ -21,11 +32,11 @@ Nachdem die Bereitstellung abgeschlossen und Sandboxes gebunden sind, führen Si
 1. [Zuweisen des Produktprofils](#assign-profile) zur Benutzergruppe in der Admin Console.
 1. [Benutzer zur neuen Gruppe hinzufügen](#add-users) in der Admin Console.
 1. [Bearbeiten von integrierten Rollen](#edit-role-permissions) oder [Erstellen einer benutzerdefinierten Rolle](#create-a-custom-role) mit [!DNL Journey Optimizer B2B Edition] Berechtigungen in Adobe Experience Platform.
-1. [Hinzufügen von ](#add-users-to-a-role) oder [Gruppen](#add-user-groups-to-a-role) zu Rollen in Adobe Experience Platform.
+1. [Hinzufügen von &#x200B;](#add-users-to-a-role) oder [Gruppen](#add-user-groups-to-a-role) zu Rollen in Adobe Experience Platform.
 
 ## Produktprofil konfigurieren {#config-profile}
 
-Als Administrator können Sie diese Aufgaben im [!DNL Adobe Admin Console] ausführen. Dies ist ein zentraler Ort, um Ihre Adobe-Produktlizenzen und Benutzende zu verwalten. In der Admin Console können Sie Benutzende an einem zentralen Ort anstatt in Ihren individuellen Lösungen erstellen und verwalten. Weitere Informationen zu den Funktionen und Leistungsmerkmalen von finden Sie auf der Seite Übersicht über Admin Console [](https://helpx.adobe.com/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html).
+Als Administrator können Sie diese Aufgaben im [!DNL Adobe Admin Console] ausführen. Dies ist ein zentraler Ort, um Ihre Adobe-Produktlizenzen und Benutzende zu verwalten. In der Admin Console können Sie Benutzende an einem zentralen Ort anstatt in Ihren individuellen Lösungen erstellen und verwalten. Weitere Informationen zu den Funktionen und Leistungsmerkmalen von finden Sie auf der Seite Übersicht über Admin Console [&#128279;](https://helpx.adobe.com/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html).
 
 ### Die Admin Console aufrufen {#admin-console}
 

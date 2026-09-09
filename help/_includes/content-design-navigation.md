@@ -2,7 +2,8 @@
 title: Inhaltserstellung - Navigation
 description: Wiederverwendeter Abschnitt zur Verwendung des Navigationsbaums für die Inhaltserstellung
 TQID: 'https://experienceleague.adobe.com/Loy7s-hTsh4eYrYdrxVPj0bjKy2bpHXjK-TGbilEcDo'
-product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+product_v2:
+  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
 source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
 source-wordcount: 277
@@ -12,7 +13,7 @@ ht-degree: 9%
 
 # Inhaltserstellung - Navigation
 
-Beim Arbeiten mit Inhalten im visuellen Design-Bereich können Sie über die Navigationsstruktur auf die Komponenten, Spalten und Inhaltselemente zugreifen. Klicken Sie _[!UICONTROL links auf das Symbol]_ Navigationsbaum![ ((Symbol ](../user-guide/assets/do-not-localize/icon-navigation-tree.svg) Navigationsbaum) ), um die Baumstruktur anzuzeigen.
+Beim Arbeiten mit Inhalten im visuellen Design-Bereich können Sie über die Navigationsstruktur auf die Komponenten, Spalten und Inhaltselemente zugreifen. Klicken Sie _[!UICONTROL links auf das Symbol]_ Navigationsbaum![&#x200B; ((Symbol &#x200B;](../user-guide/assets/do-not-localize/icon-navigation-tree.svg) Navigationsbaum) ), um die Baumstruktur anzuzeigen.
 
 ![Zugriff auf die Inhaltsebenen](../user-guide/content/assets/content-design-layers.png){width="800" zoomable="yes"}
 

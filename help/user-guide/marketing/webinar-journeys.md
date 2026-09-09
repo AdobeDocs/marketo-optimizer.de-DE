@@ -5,9 +5,12 @@ keywords:
 role: User
 feature: Person Journeys
 TQID: 'https://experienceleague.adobe.com/9NJrT-Y66XXF1-mWDO80WpymCB6ujrkjkR87MhKuiB8'
-product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
-feature_v2: id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
-topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2:
+  - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
 source-wordcount: 823
@@ -67,7 +70,7 @@ Eine typische Promotion-Journey lädt Personen ein, verfolgt ihre Registrierung 
 
 ## E-Mails personalisieren
 
-Webinar-Token werden im E-Mail-Inhalt gerendert: Betreff, Textkörper, Preheader und Absender. Die vollständige Liste finden [ unter ](webinars-overview.md#webinar-tokens)Webinar-Token“.
+Webinar-Token werden im E-Mail-Inhalt gerendert: Betreff, Textkörper, Preheader und Absender. Die vollständige Liste finden [&#x200B; unter &#x200B;](webinars-overview.md#webinar-tokens)Webinar-Token“.
 
 >[!NOTE]
 >

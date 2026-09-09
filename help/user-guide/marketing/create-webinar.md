@@ -5,8 +5,11 @@ keywords:
 role: User
 feature: Channels
 TQID: 'https://experienceleague.adobe.com/fFvlOnp8hDF1RNOyohPWkc1whSG3T3deNrJ3RnEDzlo'
-product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
-feature_v2: id: a29661b8-f7a4-53d1-a9ac-fdec08c092e4id: d4203578-d294-5145-b397-f26f4488a904
+product_v2:
+  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2:
+  - id: a29661b8-f7a4-53d1-a9ac-fdec08c092e4
+  - id: d4203578-d294-5145-b397-f26f4488a904
 source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
 source-wordcount: 680
@@ -63,8 +66,8 @@ Um die [!DNL Adobe Connect] Design-Oberfläche zu öffnen, die direkt in [!DNL M
 
 1. Wählen Sie einen **Versandmodus**:
 
-   - **Live** - Moderatoren hosten die Sitzung in Echtzeit.
-   - **Simulierte Live** - Aufgezeichnete Inhalte werden zum geplanten Zeitpunkt neben Live-Chat, Umfragen und Fragen und Antworten wiedergegeben.
+   &#x200B;- **Live** - Moderatoren hosten die Sitzung in Echtzeit.
+   &#x200B;- **Simulierte Live** - Aufgezeichnete Inhalte werden zum geplanten Zeitpunkt neben Live-Chat, Umfragen und Fragen und Antworten wiedergegeben.
 
 1. Wählen Sie einen **Webinar-Raum**.
 
@@ -94,7 +97,7 @@ Die Raumanpassung wie Logo, Farben und virtuelle Hintergründe wird direkt in [!
 
 1. Klicken Sie **Co-Host hinzufügen** oder **Moderator hinzufügen**.
 
-1. Geben Sie im Dialogfeld den Vornamen **[!UICONTROL Person,]****[!UICONTROL Nachname]** und **[!UICONTROL E-Mail]** ein und klicken Sie dann auf **[!UICONTROL Hinzufügen]**.
+1. Geben Sie im Dialogfeld den Vornamen **[!UICONTROL Person,]**&#x200B;**[!UICONTROL Nachname]** und **[!UICONTROL E-Mail]** ein und klicken Sie dann auf **[!UICONTROL Hinzufügen]**.
 
    >[!NOTE]
    >
@@ -114,5 +117,5 @@ Führen Sie vor der Weiterleitung des Webinars eine Testsitzung durch, um zu bes
 
 Nach der Registrierung können Sie ein Webinar bearbeiten. Gehen Sie dabei jedoch mit Vorsicht vor:
 
-- Durch Bearbeiten des Zeitplans können Trigger Benachrichtigungen an bereits registrierte Personen aktualisieren. Die Möglichkeit, geplante Webinare zu bearbeiten, ist konfigurierbar.
-- Felder, auf die von Token in Live-E-Mails verwiesen wird, müssen explizit zum Entfernen bestätigt werden, da dadurch bereits für den Versand geplante Inhalte beschädigt werden.
+&#x200B;- Durch Bearbeiten des Zeitplans können Trigger Benachrichtigungen an bereits registrierte Personen aktualisieren. Die Möglichkeit, geplante Webinare zu bearbeiten, ist konfigurierbar.
+&#x200B;- Felder, auf die von Token in Live-E-Mails verwiesen wird, müssen explizit zum Entfernen bestätigt werden, da dadurch bereits für den Versand geplante Inhalte beschädigt werden.

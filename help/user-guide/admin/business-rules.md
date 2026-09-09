@@ -2,9 +2,16 @@
 title: Geschäftsregeln
 description: Erstellen und verwalten Sie Regelsätze zur Anwendung von Frequenzlimitierung und Regeln für ruhige Stunden, die steuern, wie oft und wann Kundinnen und Kunden Marketing-Nachrichten erhalten.
 TQID: 'https://experienceleague.adobe.com/uLuI4cGbmaY4O0AEtf5tCT-czPl0AsY-44t2lU2xbrQ'
-product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
-feature_v2: id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1id: a659ad61-de21-559d-a901-02e2fb329ff5id: d4203578-d294-5145-b397-f26f4488a904
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2:
+  - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+  - id: a659ad61-de21-559d-a901-02e2fb329ff5
+  - id: d4203578-d294-5145-b397-f26f4488a904
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
 source-wordcount: 2965
@@ -254,7 +261,7 @@ Mithilfe von Kanalregelsätzen können Sie die Frequenzbegrenzung nach Kommunika
 
 ### Anwenden des Regelsatzes für die Kanalbegrenzung {#apply-capping-rule}
 
-1. Fügen Sie beim Erstellen einer Journey einen der [Aktionsknoten) für ](../marketing/action-nodes.md) Kanal hinzu, den Sie für Ihre Regel ausgewählt haben, und bearbeiten Sie den Inhalt Ihrer Nachricht.
+1. Fügen Sie beim Erstellen einer Journey einen der [Aktionsknoten) für &#x200B;](../marketing/action-nodes.md) Kanal hinzu, den Sie für Ihre Regel ausgewählt haben, und bearbeiten Sie den Inhalt Ihrer Nachricht.
 
 1. Legen Sie auf _[!UICONTROL Registerkarte]_ die Option **[!UICONTROL Geschäftsregeln]** auf die Regel fest, die mit der Frequenzlimitierungsregel festgelegt wurde.
 
@@ -374,7 +381,7 @@ Sie können in Journey für eine präzise Steuerung ruhige Stunden über Regels�
 
 Nachdem die Regel gespeichert und der Regelsatz aktiviert wurde, können Sie ihn auf Kanalaktionen in Journey anwenden.
 
-1. Fügen Sie beim Erstellen einer Journey einen der [Aktionsknoten) für ](../marketing/action-nodes.md) Kanal hinzu, den Sie für Ihre Regel ausgewählt haben, und bearbeiten Sie den Inhalt Ihrer Nachricht.
+1. Fügen Sie beim Erstellen einer Journey einen der [Aktionsknoten) für &#x200B;](../marketing/action-nodes.md) Kanal hinzu, den Sie für Ihre Regel ausgewählt haben, und bearbeiten Sie den Inhalt Ihrer Nachricht.
 
 1. Legen Sie auf _[!UICONTROL Registerkarte]_ die Option **[!UICONTROL Geschäftsregeln]** auf die Regel fest, die mit der Regel für ruhige Stunden festgelegt wurde.
 

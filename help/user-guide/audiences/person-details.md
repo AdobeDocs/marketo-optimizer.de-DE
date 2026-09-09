@@ -2,8 +2,10 @@
 title: Personendetails
 description: Zeigen Sie die von der KI generierte Persona, die Interaktion und die Absichtszusammenfassung einer Person, den Aktivitätsverlauf, die Profilattribute und die Unternehmensdetails einer Person an und stellen Sie Fragen an Kollegen zum Datensatz in Marketo Optimizer.
 TQID: 'https://experienceleague.adobe.com/uEaZcSheX-jfY-IFnVknekph3A-Iya1aEQqygLlxD5s'
-product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
-feature_v2: id: 1650dadf-b034-5ac9-a309-77ad1e2f5035
+product_v2:
+  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2:
+  - id: 1650dadf-b034-5ac9-a309-77ad1e2f5035
 source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
 source-wordcount: 690
@@ -14,7 +16,7 @@ ht-degree: 8%
 
 # Personendetails
 
-Wenn Sie [!DNL Adobe Marketo Optimizer] auf der Registerkarte _[!UICONTROL Mitglieder]_ einer (Personenliste](./people-lists.md) auf den Namen einer Person klicken, [ die Seite mit den Personendetails mit einer konsolidierten Ansicht dieser Person geöffnet. Diese Seite bietet:
+Wenn Sie [!DNL Adobe Marketo Optimizer] auf der Registerkarte _[!UICONTROL Mitglieder]_ einer (Personenliste[&#128279;](./people-lists.md) auf den Namen einer Person klicken,  die Seite mit den Personendetails mit einer konsolidierten Ansicht dieser Person geöffnet. Diese Seite bietet:
 
 * Eine von KI generierte Rolle, Interaktion und Absichtserklärung
 * Vollständiger Aktivitätsverlauf
@@ -58,7 +60,7 @@ Drei Karten geben eine KI-generierte Bewertung der Person ab:
 
 | Karte | Inhalt |
 |---|---|
-| **[!UICONTROL Persona]** | Die [abgeleitete ](./personas.md) für die Person sowie eine kurze Erzählung, die ihre Rolle, ihr Unternehmen und ihre Branche beschreibt. Klicken Sie auf das Infosymbol, um weitere Details anzuzeigen. |
+| **[!UICONTROL Persona]** | Die [abgeleitete &#x200B;](./personas.md) für die Person sowie eine kurze Erzählung, die ihre Rolle, ihr Unternehmen und ihre Branche beschreibt. Klicken Sie auf das Infosymbol, um weitere Details anzuzeigen. |
 | **[!UICONTROL Interaktion]** | Der [Interaktionswert für Personen](./engagement-scores.md) der Trend (z. B _„steigend_) und die Ebene (_niedrig_, _Medium_, _hoch_). |
 | **[!UICONTROL Intent]** | Erkannte Kaufabsicht oder _Keine erkannt_ mit kontextueller Anleitung und einem Link, der Ihnen hilft, die Produktabsicht zu erhöhen. |
 

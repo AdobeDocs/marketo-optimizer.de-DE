@@ -4,9 +4,15 @@ description: Erfahren Sie, wie Sie in Marketo Optimizer die DSGVO, den CCPA und 
 feature: Setup
 role: Admin
 TQID: 'https://experienceleague.adobe.com/VgnMCjm6l4pWG2-gqMuOmZUqU7E2Wrc-eVxn4kL5rKc'
-product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
-feature_v2: id: 18a33a66-85a1-58e4-8e50-418b832ade8bid: 3cf5f37e-e87e-5179-812b-53ce05d7eebb
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2:
+  - id: 18a33a66-85a1-58e4-8e50-418b832ade8b
+  - id: 3cf5f37e-e87e-5179-812b-53ce05d7eebb
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
 source-wordcount: 630
@@ -17,7 +23,7 @@ ht-degree: 3%
 
 # Datenschutzverwaltung {#privacy-management}
 
-[Adobe Experience Platform Privacy Service ](https://experienceleague.adobe.com/de/docs/experience-platform/privacy/home){target="_blank"} stellt eine RESTful-API und eine Benutzeroberfläche bereit, die Sie bei der Verwaltung von Kundendatenanfragen unterstützen. Mit [!DNL Adobe Privacy Service] können Sie Anfragen für den Zugriff auf und die Löschung von personenbezogenen oder vertraulichen Kundendaten aus Adobe CX Enterprise-Anwendungen stellen, was die automatische Einhaltung gesetzlicher und unternehmensinterner Datenschutzbestimmungen erleichtert.
+[Adobe Experience Platform Privacy Service &#x200B;](https://experienceleague.adobe.com/de/docs/experience-platform/privacy/home){target="_blank"} stellt eine RESTful-API und eine Benutzeroberfläche bereit, die Sie bei der Verwaltung von Kundendatenanfragen unterstützen. Mit [!DNL Adobe Privacy Service] können Sie Anfragen für den Zugriff auf und die Löschung von personenbezogenen oder vertraulichen Kundendaten aus Adobe CX Enterprise-Anwendungen stellen, was die automatische Einhaltung gesetzlicher und unternehmensinterner Datenschutzbestimmungen erleichtert.
 
 [!DNL Adobe Marketo Optimizer] bietet diese Datenschutztools, mit denen Sie die globalen Datenschutzanforderungen erfüllen können. Verwenden Sie [!DNL Privacy Service], um Zugriffs- und Löschanfragen für Daten, die [!DNL Marketo Optimizer] erfasst und speichert, zu senden und zu verwalten.
 
@@ -111,7 +117,7 @@ Verwenden Sie die folgenden Feldwerte in Ihrer Anfrage:
 | `users.action` | `access` oder `delete` |
 | `users.userIDs.namespace` | `Email` |
 | `include` | `marketo`, um sowohl [!DNL Marketo Optimizer]- als auch [!DNL Marketo Engage] einzuschließen |
-| `regulation` | Beispiel: `ccpa` <br/>Einige Regulierungswerte ändern sich, sodass sie eine Bundesstaatsabkürzung enthalten (z. B. `ucpa_ut_usa`). Ältere Werte bleiben für einen Übergangszeitraum gültig. Die aktuelle Liste [ Sie unter „Übersicht über ](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/regulations/overview){target="_blank"}&quot;, bevor Sie Integrationen mit diesen Werten erstellen. |
+| `regulation` | Beispiel: `ccpa` <br/>Einige Regulierungswerte ändern sich, sodass sie eine Bundesstaatsabkürzung enthalten (z. B. `ucpa_ut_usa`). Ältere Werte bleiben für einen Übergangszeitraum gültig. Die aktuelle Liste [&#x200B; Sie unter „Übersicht über &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/regulations/overview){target="_blank"}&quot;, bevor Sie Integrationen mit diesen Werten erstellen. |
 
 Im folgenden Beispiel wird eine DSGVO-Löschanfrage mit [!DNL Marketo Optimizer] Daten gesendet.
 

@@ -2,9 +2,15 @@
 title: Programme
 description: Erfahren Sie, wie Sie mit Programmen Ihre Marketing-Maßnahmen organisieren und Marketingmaterial und Journey von einem Ort aus verwalten können.
 TQID: 'https://experienceleague.adobe.com/RljL2N9P22AbWB6jSSaQ-iKlpTSz8d3cGNrIKatMH4o'
-product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
-feature_v2: id: 46e599c6-e20f-5f67-9824-93415016f66bid: 64b90904-e4f0-5c1b-a871-8c6a40b204a1id: a29661b8-f7a4-53d1-a9ac-fdec08c092e4
-topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+product_v2:
+  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2:
+  - id: 46e599c6-e20f-5f67-9824-93415016f66b
+  - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+  - id: a29661b8-f7a4-53d1-a9ac-fdec08c092e4
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
 source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
 source-wordcount: 804
@@ -76,7 +82,7 @@ Im Programmtyp werden Status mit _[!UICONTROL Als Erfolg]_ markieren) als erfolg
 
 ### Programmstatus ändern {#change-program-status}
 
-Um eine Person zu einem Programm hinzuzufügen oder ihren Status zu ändern, muss sie eine Aktion **_[!UICONTROL Programmstatus ändern]_** [ auf einer Journey ](./action-nodes.md). Dadurch werden sie zu Mitgliedern des Programms und weisen ihnen einen Status in diesem Programm zu.
+Um eine Person zu einem Programm hinzuzufügen oder ihren Status zu ändern, muss sie eine Aktion **_[!UICONTROL Programmstatus ändern]_** [&#x200B; auf einer Journey &#x200B;](./action-nodes.md). Dadurch werden sie zu Mitgliedern des Programms und weisen ihnen einen Status in diesem Programm zu.
 
 ### Programmstatus korrigieren {#correct-program-status}
 

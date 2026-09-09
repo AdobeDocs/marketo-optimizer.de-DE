@@ -2,9 +2,15 @@
 title: WhatsApp-Kanalkonfiguration
 description: Verbinden Sie Ihr WhatsApp Business-Konto über die Cloud-API von Meta, um WhatsApp-Nachrichten in Personen-Journey von Marketo Optimizer zu aktivieren.
 TQID: 'https://experienceleague.adobe.com/y7rOywtyZ-OlupwLS-Fsjx72EVlaT7Vy-O1NEMwMO5E'
-product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
-feature_v2: id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1id: a659ad61-de21-559d-a901-02e2fb329ff5id: d4203578-d294-5145-b397-f26f4488a904
-topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2:
+  - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+  - id: a659ad61-de21-559d-a901-02e2fb329ff5
+  - id: d4203578-d294-5145-b397-f26f4488a904
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
 source-wordcount: 1469
@@ -29,7 +35,7 @@ Bevor Sie den WhatsApp-Kanal konfigurieren, stellen Sie sicher, dass Sie Folgend
 
 >[!IMPORTANT]
 >
->Ihre Nutzung der WhatsApp Messaging Services unterliegt den Nutzungsbedingungen von Meta. Durch den Zugriff auf WhatsApp-Nachrichten über Marketo Optimizer bestätigen Sie, dass Sie die [Meta WhatsApp-Geschäftsrichtlinien überprüft haben und damit einverstanden ](https://www.whatsapp.com/legal/business-policy/).
+>Ihre Nutzung der WhatsApp Messaging Services unterliegt den Nutzungsbedingungen von Meta. Durch den Zugriff auf WhatsApp-Nachrichten über Marketo Optimizer bestätigen Sie, dass Sie die [Meta WhatsApp-Geschäftsrichtlinien überprüft haben und damit einverstanden &#x200B;](https://www.whatsapp.com/legal/business-policy/).
 
 ## Einschränkungen {#limitations}
 
@@ -73,7 +79,7 @@ Führen Sie die folgenden Aufgaben aus:
    * **[!UICONTROL API-Token]** - Geben Sie Ihr API-Token ein. Weitere Informationen finden Sie in der [Dokumentation zu Meta](https://developers.facebook.com/blog/post/2022/12/05/auth-tokens/).
    * **[!UICONTROL Geschäftskonto-ID]** - Geben Sie die eindeutige Nummer Ihres Geschäftsportfolios ein. Weitere Informationen finden Sie in der [Dokumentation zu Meta](https://www.facebook.com/business/help/1181250022022158?id=180505742745347).
 
-   ![WhatsApp-Einstellungen API-Anmeldedaten ](assets/config-whatsapp-channels-api-credentials.png){width="500" zoomable="yes"}
+   ![WhatsApp-Einstellungen API-Anmeldedaten &#x200B;](assets/config-whatsapp-channels-api-credentials.png){width="500" zoomable="yes"}
 
 1. Klicken Sie auf **[!UICONTROL Fortfahren]**.
 

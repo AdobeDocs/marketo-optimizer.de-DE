@@ -4,9 +4,17 @@ description: Verwenden Sie die Chat-Oberfläche in Marketo Optimizer, um ein Web
 keywords: 
 role: User
 TQID: 'https://experienceleague.adobe.com/OKsYvVIcNN-GEMiMPW2mWomstM2MabYcK0jTColgxIQ'
-product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
-feature_v2: id: 1650dadf-b034-5ac9-a309-77ad1e2f5035id: 3c1de303-7a7c-59a6-abca-8c534730e19cid: 3cf5f37e-e87e-5179-812b-53ce05d7eebbid: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d095671a-1355-40aa-8b5f-06c33c68080b
+product_v2:
+  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2:
+  - id: 1650dadf-b034-5ac9-a309-77ad1e2f5035
+  - id: 3c1de303-7a7c-59a6-abca-8c534730e19c
+  - id: 3cf5f37e-e87e-5179-812b-53ce05d7eebb
+  - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
 source-wordcount: 958
@@ -55,7 +63,7 @@ Beschreiben Sie das gewünschte Webinar in einer einzigen Nachricht, z. B.:
 
 ### Co-Hosts und Moderatoren hinzufügen {#co-hosts-presenters}
 
-Wählen Sie **[!UICONTROL Co-Host hinzufügen]** oder **[!UICONTROL Moderator hinzufügen]** aus den nächstbesten Aktionen aus oder fragen Sie direkt, z. B. *„Co-Host hinzufügen [Vorname][Nachname][ E-Mail].“* Die Chat-Oberfläche öffnet denselben Dialog zum Hinzufügen, der im Designer verwendet wird - geben Sie einen Namen und eine E-Mail ein, da derzeit alle auf die gleiche Weise hinzugefügt werden, anstatt aus einer Listenauswahl ausgewählt zu werden. Nach dem Hinzufügen der Person wird eine Bestätigung angezeigt.
+Wählen Sie **[!UICONTROL Co-Host hinzufügen]** oder **[!UICONTROL Moderator hinzufügen]** aus den nächstbesten Aktionen aus oder fragen Sie direkt, z. B. *„Co-Host hinzufügen [Vorname]&#x200B;[Nachname]&#x200B;[ E-Mail].“* Die Chat-Oberfläche öffnet denselben Dialog zum Hinzufügen, der im Designer verwendet wird - geben Sie einen Namen und eine E-Mail ein, da derzeit alle auf die gleiche Weise hinzugefügt werden, anstatt aus einer Listenauswahl ausgewählt zu werden. Nach dem Hinzufügen der Person wird eine Bestätigung angezeigt.
 
 ![Fügen Sie in der Chat-Oberfläche einen Webinar-Co-Moderator hinzu](./assets/webinar-create-add-co-host.png){width="500" zoomable="yes"}
 

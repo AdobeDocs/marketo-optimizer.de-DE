@@ -2,9 +2,14 @@
 title: Durchführen eines Aktionsknotens
 description: Konfigurieren Sie einen Aktionsknoten in Marketo Optimizer, um Personen, Listen, Programme und Ziele hinzuzufügen, zu entfernen oder zu aktualisieren oder Nachrichten zu senden, wenn sie den Knoten auf einer Personen-Journey erreichen.
 TQID: 'https://experienceleague.adobe.com/KmYvfJm9d5YZdC7ZWQiybjNsFmnt0GLReJIL8nDQF-k'
-product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
-feature_v2: id: 46e599c6-e20f-5f67-9824-93415016f66bid: 64b90904-e4f0-5c1b-a871-8c6a40b204a1id: a29661b8-f7a4-53d1-a9ac-fdec08c092e4
-topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2:
+  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2:
+  - id: 46e599c6-e20f-5f67-9824-93415016f66b
+  - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+  - id: a29661b8-f7a4-53d1-a9ac-fdec08c092e4
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
 source-wordcount: 1145
@@ -180,7 +185,7 @@ Verwenden Sie diese Aktion, um eine E-Mail an angemeldete Personen zu senden. Pe
 
 ![Aktion durchführen - E-Mail senden](./assets/person-action-node-send-email.png){width="450"}
 
-Sie können eine E-Mail erstellen, eine vorhandene E-Mail bearbeiten oder eine mit KI personalisierte E-Mail verwenden. Informationen zum Erstellen und Bearbeiten von E-Mails finden Sie unter [E-Mail-Kanal](./email-channel.md). Informationen zum Generieren personalbasierter Varianten für eine vorhandene E-Mail finden Sie unter [Personalisieren von E-Mail-Inhalten nach ](../agents/personalize-content.md)).
+Sie können eine E-Mail erstellen, eine vorhandene E-Mail bearbeiten oder eine mit KI personalisierte E-Mail verwenden. Informationen zum Erstellen und Bearbeiten von E-Mails finden Sie unter [E-Mail-Kanal](./email-channel.md). Informationen zum Generieren personalbasierter Varianten für eine vorhandene E-Mail finden Sie unter [Personalisieren von E-Mail-Inhalten nach &#x200B;](../agents/personalize-content.md)).
 
 Sie können die [Optimierung des Versandzeitpunkts](./email-send-time-optimization.md) verwenden, um den Zeitpunkt des E-Mail-Versands zu personalisieren, indem Sie vorhersagen, wann jedes Profil mit der größten Wahrscheinlichkeit interagieren wird.
 

@@ -2,9 +2,12 @@
 title: Absichtskonfiguration
 description: Erfahren Sie, wie Sie Aktivitätsgewichte konfigurieren, die das Modell der beabsichtigten Bewertung von Personen steuern, von KI-vorgeschlagenen Standardwerten bis hin zur Aktivierung eines benutzerdefinierten Gewichtungsmodells.
 TQID: 'https://experienceleague.adobe.com/ZL9RJqD-OZkIgFMpwJ4Cz-FW-463w6OJyEHAe5uJuec'
-product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
-feature_v2: id: 1650dadf-b034-5ac9-a309-77ad1e2f5035
-topic_v2: id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
+product_v2:
+  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2:
+  - id: 1650dadf-b034-5ac9-a309-77ad1e2f5035
+topic_v2:
+  - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
 source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
 source-wordcount: 1322
@@ -19,7 +22,7 @@ Ein einziger standardisierter Satz von Aktivitätsgewichten funktioniert nicht k
 
 Die **[!UICONTROL Absichtskonfiguration]**-Tools steuern, wie viel jede Lead-Intent-Aktivität zum Absichtswert einer Person zählt. Dies ist die einzige konfigurierbare Eingabe bei der Absichtsbewertung. Andere Faktoren wie Inhaltsrelevanz, Verfall und Schwellenwerte werden vom System verwaltet. Sie ist über die [Intent-Konfigurationsfertigkeit](../agents/intent.md#configure-model) verfügbar.
 
-Öffnen Sie das Bedienfeld mit einer von zwei Methoden aus der [ (Chat-Oberfläche](../agents/chat-interface.md):
+Öffnen Sie das Bedienfeld mit einer von zwei Methoden aus der [&#x200B; (Chat-Oberfläche](../agents/chat-interface.md):
 
 * Geben Sie den `/intent-configuration` Befehl ein.
 * Klicken Sie auf **[!UICONTROL +]**, wählen Sie **[!UICONTROL Agentenkompetenz verwenden]**, wählen Sie die Registerkarte **[!UICONTROL Absicht]** aus und klicken Sie dann auf **[!UICONTROL Intent-Konfiguration]**.
