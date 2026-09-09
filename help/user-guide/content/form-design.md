@@ -1,9 +1,12 @@
 ---
 title: Formular-Design
 description: Entwerfen Sie Formulare mit Feldtypen, Validierung, Stilen und XDM-Schemaattributen für die Geschäftsdatenerfassung in Marketo Optimizer.
-source-git-commit: c7d3546d075f5a58923134231217b2fd10fe4aca
+TQID: 'https://experienceleague.adobe.com/NyFwttqh2J9hkgS4tE9B-R2GCsZnsJXwoIX27yV-epA'
+product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
-source-wordcount: '2177'
+source-wordcount: 2177
 ht-degree: 2%
 
 ---
@@ -14,7 +17,7 @@ Nach dem [Erstellen eines Formulars](./forms.md#create-forms) wird im visuellen 
 
 ![Formularentwurfsbereich](assets/form-new-design-space.png){width="700" zoomable="yes"}
 
-Die _&#x200B;**Senden**&#x200B;_-Schaltfläche (Fußzeilenfeld) ist standardmäßig Teil des Formulars und kann nicht entfernt werden. Sie können die Schaltflächen-/Fußzeilenkomponente im Formular auswählen, um [den Text und die Formatierung für die Schaltfläche zu ändern](#submit-button).
+Die _**Senden**_-Schaltfläche (Fußzeilenfeld) ist standardmäßig Teil des Formulars und kann nicht entfernt werden. Sie können die Schaltflächen-/Fußzeilenkomponente im Formular auswählen, um [den Text und die Formatierung für die Schaltfläche zu ändern](#submit-button).
 
 ## Felder {#fields}
 
@@ -133,7 +136,7 @@ Wählen Sie die **[!UICONTROL Stile]** im rechten Bedienfeld aus, um den Stil f�
 
 Sie können Formularfelder direkt im visuellen Arbeitsbereich verschieben. Klicken Sie auf _Verschieben_-Tool am rechten Rand des ausgewählten Felds und ziehen Sie es an eine neue Position.
 
-Fügen Sie [&#x200B; Formular „Strukturkomponenten](./structure-components.md) hinzu und verschieben Sie Felder in Spalten, um sie zu gruppieren und das Layout zu ändern. Klicken Sie auf _Verschieben_ am linken Rand der ausgewählten Spaltenkomponente und ziehen Sie sie an eine neue Position im Formular.
+Fügen Sie [ Formular „Strukturkomponenten](./structure-components.md) hinzu und verschieben Sie Felder in Spalten, um sie zu gruppieren und das Layout zu ändern. Klicken Sie auf _Verschieben_ am linken Rand der ausgewählten Spaltenkomponente und ziehen Sie sie an eine neue Position im Formular.
 
 ![Verschieben Sie Felder im Formular und verwenden Sie Strukturkomponenten für Gruppierung und Layout](assets/form-field-move-tool.png){width="500"}
 

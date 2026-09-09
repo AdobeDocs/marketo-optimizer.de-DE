@@ -1,9 +1,12 @@
 ---
 title: Personen-Journeys
 description: Erstellen, Veröffentlichen und Verwalten von Personen-Journey in Marketo Optimizer - Durchsuchen Sie die Journey-Liste, entwerfen Sie mehrstufige Flüsse und duplizieren oder löschen Sie Journey.
-source-git-commit: c7d3546d075f5a58923134231217b2fd10fe4aca
+TQID: 'https://experienceleague.adobe.com/RYzV8B9QTuGm1gGb2ZX6i3rc4TlACsM3LRwcnULgwV8'
+product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2: id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1id: a29661b8-f7a4-53d1-a9ac-fdec08c092e4id: d4203578-d294-5145-b397-f26f4488a904
+source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
-source-wordcount: '1418'
+source-wordcount: 1418
 ht-degree: 19%
 
 ---
@@ -36,7 +39,7 @@ _So erstellen Sie eine neue Personen-Journey :_
 
 1. Verwenden Sie die Listen-Tools, um die angezeigte Liste anzupassen:
 
-   * Klicken Sie auf _Symbol_ Filtern![&#x200B; ( &#x200B;](../assets/do-not-localize/icon-react-filter.svg)Filtersymbol), um die Liste nach Status zu filtern.
+   * Klicken Sie auf _Symbol_ Filtern![ ( ](../assets/do-not-localize/icon-react-filter.svg)Filtersymbol), um die Liste nach Status zu filtern.
    * Klicken Sie auf _Tabelle anpassen_ ( ![Symbol Tabelle anpassen](../assets/do-not-localize/icon-falco-customize-table.svg) ), um die angezeigten Spalten zu steuern.
    * Klicken Sie auf _Symbol „Spalten zurücksetzen_ ( ![Symbol „Spaltenbreite zurücksetzen](../assets/do-not-localize/icon-falco-reset-columns.svg) ), um die Spaltenbreiten zurückzusetzen.
 
@@ -63,11 +66,11 @@ Der Status einer Journey kann sich entsprechend den von Ihnen durchgeführten Ak
 
 | Status | Beschreibung | Verfügbare Aktionen |
 | ------ | ----------- | ----------------- |
-| _&#x200B;**Entwurf**&#x200B;_ | Eine unveröffentlichte Journey, die bearbeitet werden kann. | [Veröffentlichen](#publish-a-journey), [Duplizieren](#duplicate-a-journey), [Löschen](#delete-a-journey) |
-| _&#x200B;**Live**&#x200B;_ | Der Journey-Status ändert sich von _Entwurf_ zu _Live_, wenn Sie eine Journey veröffentlichen. In diesem Status kann sie nicht mehr bearbeitet werden. | [Duplicate](#duplicate-a-journey), [Close to new entries](#close-to-new-entries), [Abort](#abort-a-journey) |
-| _&#x200B;**Für neue Eintritte geschlossen**&#x200B;_ | Der Journey-Status ändert sich von _Live_ zu _Geschlossen zu neuen Einträgen_ wenn Sie im Journey-Header auf **[!UICONTROL Für neue Einträge schließen]** klicken. | [Duplizieren](#duplicate-a-journey), [Abbrechen](#abort-a-journey) |
-| _&#x200B;**Abgebrochen**&#x200B;_ | Der Journey-Status ändert sich von _Live_ oder _Für neue Eintritte geschlossen_, wenn Sie eine Journey abbrechen. Eine abgebrochene Journey kann nicht neu gestartet werden. | [Duplizieren](#duplicate-a-journey), [Löschen](#delete-a-journey) |
-| _&#x200B;**Beendet**&#x200B;_ | Wenn alle Personen-Zielgruppenmitglieder auf einer Journey die Journey abschließen, ändert sich der Status von _Live_ oder _Geschlossen zu neuen Einträgen_ zu _Beendet_. | [Duplizieren](#duplicate-a-journey), [Löschen](#delete-a-journey) |
+| _**Entwurf**_ | Eine unveröffentlichte Journey, die bearbeitet werden kann. | [Veröffentlichen](#publish-a-journey), [Duplizieren](#duplicate-a-journey), [Löschen](#delete-a-journey) |
+| _**Live**_ | Der Journey-Status ändert sich von _Entwurf_ zu _Live_, wenn Sie eine Journey veröffentlichen. In diesem Status kann sie nicht mehr bearbeitet werden. | [Duplicate](#duplicate-a-journey), [Close to new entries](#close-to-new-entries), [Abort](#abort-a-journey) |
+| _**Für neue Eintritte geschlossen**_ | Der Journey-Status ändert sich von _Live_ zu _Geschlossen zu neuen Einträgen_ wenn Sie im Journey-Header auf **[!UICONTROL Für neue Einträge schließen]** klicken. | [Duplizieren](#duplicate-a-journey), [Abbrechen](#abort-a-journey) |
+| _**Abgebrochen**_ | Der Journey-Status ändert sich von _Live_ oder _Für neue Eintritte geschlossen_, wenn Sie eine Journey abbrechen. Eine abgebrochene Journey kann nicht neu gestartet werden. | [Duplizieren](#duplicate-a-journey), [Löschen](#delete-a-journey) |
+| _**Beendet**_ | Wenn alle Personen-Zielgruppenmitglieder auf einer Journey die Journey abschließen, ändert sich der Status von _Live_ oder _Geschlossen zu neuen Einträgen_ zu _Beendet_. | [Duplizieren](#duplicate-a-journey), [Löschen](#delete-a-journey) |
 
 ## Erstellen einer Personen-Journey {#create-a-person-journey}
 
@@ -98,7 +101,7 @@ Die Kopfzeile jeder Journey-Arbeitsfläche enthält den Journey-Namen, den Statu
 
 ### Journey-Design {#journey-design}
 
-Die _Journey-Arbeitsfläche_ ist der zentrale Bereich im Journey-Arbeitsbereich. Hier können Sie Journey-Knoten hinzufügen und konfigurieren. Klicken Sie auf einen Knoten, um seine Eigenschaften im Bedienfeld rechts neben dem Layout zu öffnen und sie entsprechend Ihrem Design festzulegen. Eine Personen-Journey beginnt immer mit einem [_[!UICONTROL Personen-Zielgruppe &#x200B;]_-](./person-audience-node.md), in dem Sie die Eingabe für die Journey definieren können.
+Die _Journey-Arbeitsfläche_ ist der zentrale Bereich im Journey-Arbeitsbereich. Hier können Sie Journey-Knoten hinzufügen und konfigurieren. Klicken Sie auf einen Knoten, um seine Eigenschaften im Bedienfeld rechts neben dem Layout zu öffnen und sie entsprechend Ihrem Design festzulegen. Eine Personen-Journey beginnt immer mit einem [_[!UICONTROL Personen-Zielgruppe ]_-](./person-audience-node.md), in dem Sie die Eingabe für die Journey definieren können.
 
 Nachdem Sie eine Personen-Journey erstellt und die Personen-Audience definiert haben, erstellen Sie die Journey mithilfe von -Knoten. Die Journey-Arbeitsfläche bietet einen visuellen Design-Bereich, in dem Sie Ihre mehrstufigen B2B-Marketing-Anwendungsfälle erstellen können, indem Sie die folgenden Knotentypen verwenden, um die Journey zu erstellen:
 

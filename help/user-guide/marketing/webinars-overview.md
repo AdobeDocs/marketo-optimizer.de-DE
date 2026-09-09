@@ -4,10 +4,11 @@ description: Lernen Sie die Konzepte hinter interaktiven Webinaren in Marketo Op
 keywords: 
 role: User
 feature: Channels
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 75b481faf0d66210329f95c8afabdfa59e7bcb79
+TQID: 'https://experienceleague.adobe.com/rcaoljHUnCghXxc-W0LY5DYM-46-9jc5mz39208eMxE'
+product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2: id: 3c1de303-7a7c-59a6-abca-8c534730e19cid: 3cf5f37e-e87e-5179-812b-53ce05d7eebbid: 46e599c6-e20f-5f67-9824-93415016f66bid: 64b90904-e4f0-5c1b-a871-8c6a40b204a1id: a29661b8-f7a4-53d1-a9ac-fdec08c092e4id: d4203578-d294-5145-b397-f26f4488a904
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
 source-wordcount: 1085
 ht-degree: 2%
@@ -25,13 +26,13 @@ Mit interaktiven Webinaren können Sie ein Live- oder simuliertes Webinar planen
 
 Sie können ein Webinar auf zwei Arten erstellen:
 
-* **Gesprächserlebnis** - Bitten Sie den Kollegen, ein Webinar in natürlicher Sprache zu planen, zu bewerben und darüber zu berichten. Siehe [Erstellen von Webinaren mit &#x200B;](../agents/webinar-creation.md).
+* **Gesprächserlebnis** - Bitten Sie den Kollegen, ein Webinar in natürlicher Sprache zu planen, zu bewerben und darüber zu berichten. Siehe [Erstellen von Webinaren mit ](../agents/webinar-creation.md).
 
-* **Point-and-Click** - Verwenden Sie den Arbeitsbereich _[!UICONTROL Programme]_, um ein Webinar-Asset hinzuzufügen, es zu entwerfen, Co-Hosts und Moderatoren hinzuzufügen, Journey für die Promotion und Nachbereitung zu erstellen und das Reporting zu überprüfen. Siehe [Erstellen und Entwerfen eines Webinars](create-webinar.md) und [Webinar-Promotion und Follow-up-Journey &#x200B;](webinar-journeys.md).
+* **Point-and-Click** - Verwenden Sie den Arbeitsbereich _[!UICONTROL Programme]_, um ein Webinar-Asset hinzuzufügen, es zu entwerfen, Co-Hosts und Moderatoren hinzuzufügen, Journey für die Promotion und Nachbereitung zu erstellen und das Reporting zu überprüfen. Siehe [Erstellen und Entwerfen eines Webinars](create-webinar.md) und [Webinar-Promotion und Follow-up-Journey ](webinar-journeys.md).
 
 ## Webinar als Medienelement
 
-Ein Webinar ist ein Asset, das einem [Programm](https://experienceleague.adobe.com/de/docs/journey-optimizer-b2b/prime/marketing-management/programs/programs) gehört, genau wie eine E-Mail oder Landingpage. Wenn Sie ein Webinar zu einem Programm hinzufügen, wird es dort registriert und macht seine Token, Attribute und Aktivitäten für alle Journey und Assets in diesem Programm verfügbar.
+Ein Webinar ist ein Asset, das einem [Programm](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/prime/marketing-management/programs/programs) gehört, genau wie eine E-Mail oder Landingpage. Wenn Sie ein Webinar zu einem Programm hinzufügen, wird es dort registriert und macht seine Token, Attribute und Aktivitäten für alle Journey und Assets in diesem Programm verfügbar.
 
 >[!IMPORTANT]
 >
@@ -41,9 +42,9 @@ Ein Webinar ist ein Asset, das einem [Programm](https://experienceleague.adobe.c
 
 Für jede Person, die Mitglied eines Programms ist, das ein Webinar enthält, bewerben sich drei unabhängige Staaten gleichzeitig. Sie können in Zielgruppen- und Journey-Bedingungen separat referenziert werden.
 
-| Bundesland | Eigentümerin oder Eigentümer | Werte |
+| Land | Eigentümerin oder Eigentümer | Werte |
 |---|---|---|
-| Status des Programmmitglieds | Programm | Konfigurierbar pro [Programmtyp](https://experienceleague.adobe.com/de/docs/journey-optimizer-b2b/prime/admin/program-types) |
+| Status des Programmmitglieds | Programm | Konfigurierbar pro [Programmtyp](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/prime/admin/program-types) |
 | Webinar-Status | Webinar-Asset | Eingeladen, registriert, anwesend, No-Show, Teilgenommen auf Anfrage |
 | Journey-Status | Journey | Aktueller Knoten, angehaltene, abgeschlossene und andere Journey-Laufzeitstatus |
 
@@ -63,7 +64,7 @@ Der Webinar-Status hat fünf Werte. [!DNL Adobe Connect] setzt den Wert normaler
 >
 >Unabhängig davon, ob der Webinar-Status automatisch oder von einer Journey aus festgelegt wird, bewegt er sich nur in eine Richtung, genau wie [Programmstatus](./programs.md#statuses). Eine Person kann in einen späteren Status wechseln (z. B _&quot;_&quot; in _Teilgenommen_), jedoch nicht zurück in einen früheren Status. Planen Sie eine beliebige Autorenüberschreibungen mit diesem linearen Verlauf.
 
-Um eine Person von einer Journey in einen anderen Status zu versetzen, verwenden Sie die Aktion **[!UICONTROL Webinar-Mitgliedsstatus ändern]**. Siehe [Webinar-Promotion und Follow-up-Journey &#x200B;](webinar-journeys.md).
+Um eine Person von einer Journey in einen anderen Status zu versetzen, verwenden Sie die Aktion **[!UICONTROL Webinar-Mitgliedsstatus ändern]**. Siehe [Webinar-Promotion und Follow-up-Journey ](webinar-journeys.md).
 
 ## Webinar-Token
 
@@ -71,13 +72,13 @@ Webinar-Token stehen überall dort zur Verfügung, wo Sie E-Mail-Inhalte persona
 
 Token auf Asset-Ebene befinden sich direkt im Webinar-Ordner:
 
-&#x200B;- Titel
-&#x200B;- Beschreibung
-&#x200B;- Startdatum/Uhrzeit, Enddatum/Uhrzeit
-&#x200B;- Dauer
-&#x200B;- Zeitzone
-&#x200B;- Moderatoren
-&#x200B;- Aufnahme-URL
+- Titel
+- Beschreibung
+- Startdatum/Uhrzeit, Enddatum/Uhrzeit
+- Dauer
+- Zeitzone
+- Moderatoren
+- Aufnahme-URL
 
 >[!NOTE]
 >
@@ -85,9 +86,9 @@ Token auf Asset-Ebene befinden sich direkt im Webinar-Ordner:
 
 Token pro Empfänger sind in einem Unterordner **Mitglied** verfügbar:
 
-&#x200B;- **Status** - Der aktuelle Webinar-Status des Empfängers (eingeladen, registriert, teilgenommen, nicht gezeigt oder auf Abruf teilgenommen). Siehe [Webinar-Status](#webinar-status).
-&#x200B;- **URL wird** - der persönliche [!DNL Adobe Connect] des Empfängers. Dies wird erst behoben, nachdem der Webinar-Status des Empfängers registriert wurde oder später. Es wird für jeden zu einem früheren Zeitpunkt leer aufgelöst.
-&#x200B;- **Aufzeichnungs-URL** - Wird aufgelöst, nachdem die Aufzeichnung nach der Live-Sitzung veröffentlicht wurde, und bleibt bis dahin leer. Verwenden Sie sie bedingt in E-Mails nach dem Webinar, damit kein Link angezeigt wird, bevor eine Aufzeichnung angezeigt wird.
+- **Status** - Der aktuelle Webinar-Status des Empfängers (eingeladen, registriert, teilgenommen, nicht gezeigt oder auf Abruf teilgenommen). Siehe [Webinar-Status](#webinar-status).
+- **URL wird** - der persönliche [!DNL Adobe Connect] des Empfängers. Dies wird erst behoben, nachdem der Webinar-Status des Empfängers registriert wurde oder später. Es wird für jeden zu einem früheren Zeitpunkt leer aufgelöst.
+- **Aufzeichnungs-URL** - Wird aufgelöst, nachdem die Aufzeichnung nach der Live-Sitzung veröffentlicht wurde, und bleibt bis dahin leer. Verwenden Sie sie bedingt in E-Mails nach dem Webinar, damit kein Link angezeigt wird, bevor eine Aufzeichnung angezeigt wird.
 
 >[!NOTE]
 >

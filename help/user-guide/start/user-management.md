@@ -1,9 +1,13 @@
 ---
 title: Benutzerzugriff und Berechtigungen
 description: 'Verwalten des Benutzerzugriffs in der Adobe Admin Console: Erstellen Sie Benutzergruppen, weisen Sie Produktprofile zu und legen Sie rollenbasierte Berechtigungen für Marketo Optimizer fest.'
-source-git-commit: c7d3546d075f5a58923134231217b2fd10fe4aca
+TQID: 'https://experienceleague.adobe.com/IY7Fvbk8GG2Xudh6vC4N9Bwk-sejvh-MMRIHHxvS-nc'
+product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2: id: 3cf5f37e-e87e-5179-812b-53ce05d7eebbid: 46e599c6-e20f-5f67-9824-93415016f66bid: 64b90904-e4f0-5c1b-a871-8c6a40b204a1id: 8881ff95-1653-5fea-82af-ce1549c0d99did: a659ad61-de21-559d-a901-02e2fb329ff5id: d4203578-d294-5145-b397-f26f4488a904
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d3cdead0-685a-4489-9250-4bb709942f66id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
-source-wordcount: '2279'
+source-wordcount: 2279
 ht-degree: 45%
 
 ---
@@ -17,11 +21,11 @@ Nachdem die Bereitstellung abgeschlossen und Sandboxes gebunden sind, führen Si
 1. [Zuweisen des Produktprofils](#assign-profile) zur Benutzergruppe in der Admin Console.
 1. [Benutzer zur neuen Gruppe hinzufügen](#add-users) in der Admin Console.
 1. [Bearbeiten von integrierten Rollen](#edit-role-permissions) oder [Erstellen einer benutzerdefinierten Rolle](#create-a-custom-role) mit [!DNL Journey Optimizer B2B Edition] Berechtigungen in Adobe Experience Platform.
-1. [Hinzufügen von &#x200B;](#add-users-to-a-role) oder [Gruppen](#add-user-groups-to-a-role) zu Rollen in Adobe Experience Platform.
+1. [Hinzufügen von ](#add-users-to-a-role) oder [Gruppen](#add-user-groups-to-a-role) zu Rollen in Adobe Experience Platform.
 
 ## Produktprofil konfigurieren {#config-profile}
 
-Als Administrator können Sie diese Aufgaben im [!DNL Adobe Admin Console] ausführen. Dies ist ein zentraler Ort, um Ihre Adobe-Produktlizenzen und Benutzende zu verwalten. In der Admin Console können Sie Benutzende an einem zentralen Ort anstatt in Ihren individuellen Lösungen erstellen und verwalten. Weitere Informationen zu den Funktionen und Leistungsmerkmalen von finden Sie auf der Seite Übersicht über Admin Console [&#128279;](https://helpx.adobe.com/de/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html).
+Als Administrator können Sie diese Aufgaben im [!DNL Adobe Admin Console] ausführen. Dies ist ein zentraler Ort, um Ihre Adobe-Produktlizenzen und Benutzende zu verwalten. In der Admin Console können Sie Benutzende an einem zentralen Ort anstatt in Ihren individuellen Lösungen erstellen und verwalten. Weitere Informationen zu den Funktionen und Leistungsmerkmalen von finden Sie auf der Seite Übersicht über Admin Console [](https://helpx.adobe.com/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html).
 
 ### Die Admin Console aufrufen {#admin-console}
 
@@ -57,7 +61,7 @@ Bevor Sie die Admin Console zum Verwalten von Benutzenden in Ihrem Team verwende
 
 Wenn Sie Benutzenden Zugriff auf eine Adobe-Lösung gewähren, möchten Sie ihnen nicht unbedingt uneingeschränkten Zugriff gewähren. Produktprofile ermöglichen es jeder Lösung, über eigene Benutzerberechtigungen zu verfügen. Verwenden Sie die Admin Console, um Produktprofile zuzuweisen.
 
-Weitere Informationen zur Verwendung von Produktprofilen für Benutzerberechtigungen finden Sie unter [_Verwalten von Produktprofilen für Unternehmensbenutzer_](https://helpx.adobe.com/de/business/enterprise/manage-products-and-entitlements/manage-products-and-product-profiles/manage-product-profiles.html){target="_blank"} in der Dokumentation zu Admin Console.
+Weitere Informationen zur Verwendung von Produktprofilen für Benutzerberechtigungen finden Sie unter [_Verwalten von Produktprofilen für Unternehmensbenutzer_](https://helpx.adobe.com/business/enterprise/manage-products-and-entitlements/manage-products-and-product-profiles/manage-product-profiles.html){target="_blank"} in der Dokumentation zu Admin Console.
 
 ![Anforderungen an die Administratorrolle](../assets/do-not-localize/icon-admin-user.svg){width="30"} Ein Systemadministrator oder [!DNL Experience Platform] Produktadministrator kann die folgenden Schritte unter [https://adminconsole.adobe.com](https://adminconsole.adobe.com) ausführen.
 
@@ -75,7 +79,7 @@ Weitere Informationen zur Verwendung von Produktprofilen für Benutzerberechtigu
 
 Eine Benutzergruppe ist eine Sammlung von Benutzern, denen ein gemeinsamer Berechtigungssatz gewährt wird. Sie können Benutzer in Ihrer Benutzergruppe hinzufügen oder entfernen. Die Gruppenberechtigungen bleiben unverändert, während die Benutzer innerhalb der Gruppe wechseln.
 
-Weitere Informationen dazu, wie Benutzergruppen zum Verwalten von Berechtigungen verwendet werden, finden Sie unter [Verwalten von Benutzergruppen](https://helpx.adobe.com/de/business/enterprise/manage-users/user-groups.html){target="_blank"} in der Dokumentation zu Admin Console.
+Weitere Informationen dazu, wie Benutzergruppen zum Verwalten von Berechtigungen verwendet werden, finden Sie unter [Verwalten von Benutzergruppen](https://helpx.adobe.com/business/enterprise/manage-users/user-groups.html){target="_blank"} in der Dokumentation zu Admin Console.
 
 ![Anforderungen an die Administratorrolle](../assets/do-not-localize/icon-admin-user.svg){width="30"} Ein Systemadministrator kann die folgenden Schritte unter [https://adminconsole.adobe.com](https://adminconsole.adobe.com) ausführen.
 
@@ -110,7 +114,7 @@ Weitere Informationen dazu, wie Benutzergruppen zum Verwalten von Berechtigungen
 
 ### Benutzer zur neuen Gruppe hinzufügen {#add-users}
 
-Informationen zur Benutzerverwaltung finden Sie unter [_Adobe Admin Console-Benutzer_](https://helpx.adobe.com/de/business/enterprise/manage-users/users.html){target="_blank"} in der Dokumentation zu Admin Console.
+Informationen zur Benutzerverwaltung finden Sie unter [_Adobe Admin Console-Benutzer_](https://helpx.adobe.com/business/enterprise/manage-users/users.html){target="_blank"} in der Dokumentation zu Admin Console.
 
 ![Anforderungen an die Administratorrolle](../assets/do-not-localize/icon-admin-user.svg){width="30"} Ein System- oder Produktadministrator kann die folgenden Schritte unter [https://adminconsole.adobe.com](https://adminconsole.adobe.com) ausführen. Ein Produktadministrator kann nur Benutzer hinzufügen, die bereits in seiner Organisation vorhanden sind.
 
@@ -146,7 +150,7 @@ Berechtigungen sind Einzelrechte, mit denen Sie die einem Produktprofil zugewies
 
 Im _Berechtigungen_ von Adobe Experience Platform können Admins Benutzerrollen und Zugriffsrichtlinien definieren, um Zugriffsberechtigungen für Funktionen und Objekte innerhalb einer Produktanwendung zu verwalten. In dieser App können Sie Rollen erstellen und verwalten sowie die gewünschten Ressourcenberechtigungen für diese Rollen zuweisen. Mit Berechtigungen können Sie auch die Sandboxes und die Benutzer verwalten, die einer bestimmten Rolle zugeordnet sind.
 
-Weitere Informationen zu Rollenberechtigungen in Experience Platform finden Sie unter [Verwalten von Berechtigungen für eine Rolle](https://experienceleague.adobe.com/de/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} in der Dokumentation zu Experience Platform.
+Weitere Informationen zu Rollenberechtigungen in Experience Platform finden Sie unter [Verwalten von Berechtigungen für eine Rolle](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} in der Dokumentation zu Experience Platform.
 
 1. Navigieren Sie zu [experience.adobe.com](https://experience.adobe.com/).
 
@@ -281,7 +285,7 @@ _So ändern Sie die Berechtigungen für eine Rolle :_
 
 ### Hinzufügen von Benutzergruppen zu einer Rolle {#add-user-groups-to-a-role}
 
-Informationen zur Benutzerverwaltung finden Sie unter [_Adobe Admin Console-Benutzer_](https://helpx.adobe.com/de/business/enterprise/manage-users/users.html){target="_blank"} in der Dokumentation zu Admin Console.
+Informationen zur Benutzerverwaltung finden Sie unter [_Adobe Admin Console-Benutzer_](https://helpx.adobe.com/business/enterprise/manage-users/users.html){target="_blank"} in der Dokumentation zu Admin Console.
 
 ![Anforderungen an die Administratorrolle](../assets/do-not-localize/icon-admin-user.svg){width="30"} Ein System- oder Experience Platform-Administrator kann die folgenden Schritte ausführen.
 

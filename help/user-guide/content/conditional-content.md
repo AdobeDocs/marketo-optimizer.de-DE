@@ -1,9 +1,12 @@
 ---
 title: Bedingte Inhalte
 description: Erstellen Sie in Marketo Optimizer Varianten von dynamischen Inhalten mit bedingten Regeln, die auf Profilattributen und Ereignissen für personalisierte E-Mails und Fragmente basieren.
-source-git-commit: c7d3546d075f5a58923134231217b2fd10fe4aca
+TQID: 'https://experienceleague.adobe.com/-zyX02yagsaPV4Oc-1JQWUzSUZWDLiyIiQCyyy0EDiE'
+product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2: id: 46e599c6-e20f-5f67-9824-93415016f66bid: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
-source-wordcount: '1081'
+source-wordcount: 1081
 ht-degree: 8%
 
 ---
@@ -13,7 +16,7 @@ ht-degree: 8%
 
 Bedingte Inhalte ermöglichen es Ihnen, E-Mail- und Fragmentinhalte auf der Grundlage von bedingten Regeln anzupassen. Diese Regeln werden mithilfe von Profilattributen oder kontextuellen Ereignissen definiert. Sie können im Regel-Builder bedingte Regeln erstellen und diese zur Wiederverwendung in Ihren Personen-Journey speichern.
 
-Um Ihren Fragmenten und E-Mail-Nachrichten bedingte Inhalte hinzuzufügen, können Sie mit [!DNL Marketo Optimizer] bedingte Regeln anwenden, die in der Bibliothek _Bedingungen_ gespeichert sind. Wenden Sie beim Erstellen (E-Mail[Inhalt oder Fragment](./email-authoring.md) bedingte Regeln [&#x200B; visuellen Design-Bereich &#x200B;](./fragment-authoring.md).
+Um Ihren Fragmenten und E-Mail-Nachrichten bedingte Inhalte hinzuzufügen, können Sie mit [!DNL Marketo Optimizer] bedingte Regeln anwenden, die in der Bibliothek _Bedingungen_ gespeichert sind. Wenden Sie beim Erstellen (E-Mail[Inhalt oder Fragment](./email-authoring.md) bedingte Regeln [ visuellen Design-Bereich ](./fragment-authoring.md).
 
 ## Hinzufügen bedingter Inhalte {#add-conditional-content}
 
@@ -27,7 +30,7 @@ Um Ihren Fragmenten und E-Mail-Nachrichten bedingte Inhalte hinzuzufügen, könn
 >title="Bedingte Inhalte"
 >abstract="Verwenden Sie eine in der Bibliothek gespeicherte Regel mit Bedingung oder erstellen Sie eine neue."
 
-Verwenden Sie beim Erstellen [&#x200B; (](./fragment-authoring.md)) oder [E-Mail](./email-authoring.md) im visuellen Design-Bereich bedingte Regeln, um mehrere Varianten für eine Inhaltskomponente zu definieren.
+Verwenden Sie beim Erstellen [ (](./fragment-authoring.md)) oder [E-Mail](./email-authoring.md) im visuellen Design-Bereich bedingte Regeln, um mehrere Varianten für eine Inhaltskomponente zu definieren.
 
 1. Wählen Sie eine Inhaltskomponente aus und klicken Sie auf das Symbol **[!UICONTROL Bedingten Inhalt aktivieren]** in der Komponenten-Symbolleiste.
 
@@ -51,7 +54,7 @@ Verwenden Sie beim Erstellen [&#x200B; (](./fragment-authoring.md)) oder [E-Mail
 
    ![Bedingungen für Bibliothekszugriffsbedingungsdetails](assets/conditions-select-dialog.png){width="600" zoomable="yes"}
 
-   Wenn die benötigte Bedingung nicht vorhanden ist, erstellen [&#x200B; eine bedingte Regel, &#x200B;](#create-conditional-rule) Sie auf **[!UICONTROL Neu erstellen]**.
+   Wenn die benötigte Bedingung nicht vorhanden ist, erstellen [ eine bedingte Regel, ](#create-conditional-rule) Sie auf **[!UICONTROL Neu erstellen]**.
 
 1. Wählen Sie die bedingte Regel aus und klicken Sie auf **[!UICONTROL Auswählen]**, um sie mit der Variante zu verknüpfen.
 

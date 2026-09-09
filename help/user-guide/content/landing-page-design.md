@@ -3,9 +3,13 @@ title: Landingpage-Design
 description: Entwerfen von Landingpages mit visuellen Tools - Hinzufügen von Inhaltskomponenten, Formularen, benutzerdefiniertem CSS, Personalisierung und Gerätevorschau für Personen-Journey in Marketo Optimizer.
 feature: Landing Pages, Content Design Tools
 role: User
-source-git-commit: c7d3546d075f5a58923134231217b2fd10fe4aca
+TQID: 'https://experienceleague.adobe.com/zb7rXCj7iWnk8Src1sWLZaYgRa35GjqGxXXu0pTJ-ds'
+product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2: id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
-source-wordcount: '556'
+source-wordcount: 556
 ht-degree: 2%
 
 ---
@@ -26,7 +30,7 @@ Wählen Sie bei mindestens einer Inhaltskomponente auf der Arbeitsfläche die Ko
 
 ![Zugriff auf Textkörperstile](assets/landing-page-body-styles-css.png){width="800" zoomable="yes"}
 
-Anweisungen[&#x200B; Syntaxregeln und Fehlerbehebung finden Sie unter „Hinzufügen von benutzerdefiniertem &#x200B;](./design-custom-css.md) für Ihre Inhalte“.
+Anweisungen[ Syntaxregeln und Fehlerbehebung finden Sie unter „Hinzufügen von benutzerdefiniertem ](./design-custom-css.md) für Ihre Inhalte“.
 
 ### Hinzufügen von Assets {#add-assets}
 

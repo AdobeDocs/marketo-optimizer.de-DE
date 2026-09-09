@@ -1,9 +1,13 @@
 ---
 title: Journey-Traffic-Steuerung
 description: Erfahren Sie, wie die Journey-Traffic-Steuerung in Marketo Optimizer die KI-Bewertung über sieben gewichtete Dimensionen hinweg verwendet, um jede Person nur für die Einzel-Journey mit der besten Anpassung zu registrieren, wenn sich Zielgruppen überschneiden.
-source-git-commit: c7d3546d075f5a58923134231217b2fd10fe4aca
+TQID: 'https://experienceleague.adobe.com/MRPRSUHGHV9CZdp4ZIqxsIsIaB6U86DDiau7RE2r0ak'
+product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2: id: 3c1de303-7a7c-59a6-abca-8c534730e19cid: 46e599c6-e20f-5f67-9824-93415016f66bid: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
-source-wordcount: '1543'
+source-wordcount: 1543
 ht-degree: 0%
 
 ---
@@ -30,11 +34,11 @@ Das Modell bewertet jede Journey-Kombination einer Person über sieben Bewertung
 |---|---|
 | Absichtsausrichtung | Verhaltensbezogene Absichtssignale: Keyword-Suche, Besuche auf Produktseiten, Download von Inhalten, E-Mail-Öffnungen/Clickthrough und Preisfindungs-Seitenaktivität. |
 | Zielgruppenanpassung | Wie gut die Person mit der [Zielgruppe](./person-audience-node.md) für die Journey übereinstimmt. |
-| Persona Fit | Ausrichtung zwischen der Rolle/[&#x200B; der Person &#x200B;](../audiences/personas.md) der Journey. |
+| Persona Fit | Ausrichtung zwischen der Rolle/[ der Person ](../audiences/personas.md) der Journey. |
 | Firmographischer Anfall | Attribute auf Unternehmensebene (wie Branche, Größe und Umsatz). |
 | Demografische Übereinstimmung | Demografische Attribute auf Personenebene. |
 | Psychographische Ausrichtung | Ausrichtung auf Einstellung/Präferenz. |
-| Eingriffssitz | Neuigkeit und Tiefe der [&#x200B; (Interaktion](../audiences/engagement-scores.md). |
+| Eingriffssitz | Neuigkeit und Tiefe der [ (Interaktion](../audiences/engagement-scores.md). |
 
 Dimensionen, für die eine Person keine Daten hat, werden automatisch übersprungen, sodass die Bewertung nie für fehlende Attribute bestraft wird.
 
@@ -66,7 +70,7 @@ Die _[!UICONTROL Konfiguration]_ hat zwei Abschnitte: **[!UICONTROL Anpassen der
 
 ### Anpassen der Dimensionsbewertung {#adjust-dimension-scoring}
 
-In diesem Abschnitt legen Sie fest, wie viel jeder der sieben Dimensionen zum endgültigen Übereinstimmungsergebnis beiträgt. Jede Dimension kann auf &quot;**[!UICONTROL &quot;,]**&#x200B;**[!UICONTROL Niedrig]**, **[!UICONTROL Medium]** oder **[!UICONTROL Hoch]** Wichtigkeit eingestellt werden. Der auf jeder Karte angezeigte Prozentsatz entspricht dem normalisierten Beitrag dieser Dimension, nachdem alle Ihre Auswahlen kombiniert wurden - die sieben Gewichtungen ergeben immer 100 %. Durch das Anheben einer Dimension werden die anderen automatisch neu normalisiert, sodass die Gesamtsumme bei 100 % bleibt.
+In diesem Abschnitt legen Sie fest, wie viel jeder der sieben Dimensionen zum endgültigen Übereinstimmungsergebnis beiträgt. Jede Dimension kann auf &quot;**[!UICONTROL &quot;,]****[!UICONTROL Niedrig]**, **[!UICONTROL Medium]** oder **[!UICONTROL Hoch]** Wichtigkeit eingestellt werden. Der auf jeder Karte angezeigte Prozentsatz entspricht dem normalisierten Beitrag dieser Dimension, nachdem alle Ihre Auswahlen kombiniert wurden - die sieben Gewichtungen ergeben immer 100 %. Durch das Anheben einer Dimension werden die anderen automatisch neu normalisiert, sodass die Gesamtsumme bei 100 % bleibt.
 
 Klicken Sie **[!UICONTROL Auf Gleich zurücksetzen]**, um für alle Dimensionen eine gleichmäßige Gewichtung wiederherzustellen.
 

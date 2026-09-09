@@ -3,9 +3,13 @@ title: C2PA-Metadaten
 description: Erfahren Sie, wie Adobe Marketo Optimizer C2PA-Metadaten automatisch auf Bilder anwendet, die mit generativer KI generiert wurden, und was dies für Ihre Inhalte bedeutet.
 feature: Assets, Content
 role: User
-source-git-commit: d1268dd4fadec58b5adedeaa295ca0624c2c2dcd
+TQID: 'https://experienceleague.adobe.com/DI9vJhE4EsGI4g4X5wz5-kqTjHOZqs6cvqo6Fke-4HU'
+product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2: id: d4203578-d294-5145-b397-f26f4488a904
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
-source-wordcount: '586'
+source-wordcount: 586
 ht-degree: 0%
 
 ---
@@ -26,7 +30,7 @@ Umfassende Informationen zum Asset-Verlauf erhalten Sie mit dem Adobe Content Au
 
 C2PA-Metadaten bleiben in der Bilddatei erhalten. Wenn ein Bild, das mit generativer KI generiert oder bearbeitet wurde, in [!DNL Adobe Marketo Optimizer] hochgeladen oder aus exportiert wird, bleiben seine C2PA-Metadaten erhalten.
 
-Weitere Informationen zum automatischen Anhängen von C2PA-Metadaten an Adobe CX Enterprise-Anwendungen finden Sie unter [_Generative KI-Inhaltstransparenz_](https://experienceleague.adobe.com/de/docs/cx-enterprise-ai/experience-cloud-ai/overview/content-transparency){target="_blank"} im Handbuch zu KI in CX Enterprise .
+Weitere Informationen zum automatischen Anhängen von C2PA-Metadaten an Adobe CX Enterprise-Anwendungen finden Sie unter [_Generative KI-Inhaltstransparenz_](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/overview/content-transparency){target="_blank"} im Handbuch zu KI in CX Enterprise .
 
 >[!NOTE]
 >

@@ -1,9 +1,13 @@
 ---
 title: Optimierung des E-Mail-Versandzeitpunkts
 description: Konfigurieren der Sendezeitoptimierung in den Personen-Journey von Marketo Optimizer. Festlegen von Versandfenstern, Hinzufügen von Warteknoten und Anzeigen von STO-Berichten in Coworker.
-source-git-commit: 75b481faf0d66210329f95c8afabdfa59e7bcb79
+TQID: 'https://experienceleague.adobe.com/7g2aCAhlDO17TNy-VZSsWZ2JKGFgE5MZT20zp7eC1WQ'
+product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2: id: 3c1de303-7a7c-59a6-abca-8c534730e19cid: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
-source-wordcount: '759'
+source-wordcount: 759
 ht-degree: 0%
 
 ---
@@ -28,7 +32,7 @@ Es sind viele **_zukünftige Verbesserungen_** für STO geplant:
 
 ## Konfiguration {#configuration}
 
-Sie können die Sendezeitoptimierung konfigurieren, wenn Sie [&#x200B; Journey eine _[!UICONTROL Aktion durchführen]_-Knoten &#x200B;](./action-nodes.md) Person hinzufügen und die Aktion **[!UICONTROL E-Mail senden]** auswählen.
+Sie können die Sendezeitoptimierung konfigurieren, wenn Sie [ Journey eine _[!UICONTROL Aktion durchführen]_-Knoten ](./action-nodes.md) Person hinzufügen und die Aktion **[!UICONTROL E-Mail senden]** auswählen.
 
 1. Wählen Sie den Aktionsknoten _E-Mail senden_ Journey aus.
 

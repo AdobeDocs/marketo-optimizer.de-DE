@@ -1,9 +1,12 @@
 ---
 title: Fragmente
 description: Erstellen, Verwalten und Wiederverwenden von visuellen Inhaltsfragmenten für E-Mails und Vorlagen - Erstellen wiederverwendbarer Blöcke, Veröffentlichen von Versionen, Verfolgen der Nutzung in Marketo Optimizer.
-source-git-commit: c7d3546d075f5a58923134231217b2fd10fe4aca
+TQID: 'https://experienceleague.adobe.com/dxPI12xu0thTB3eYJiyCY3OtLIxX-8IKKeXitH4C0Ws'
+product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2: id: 8881ff95-1653-5fea-82af-ce1549c0d99d
+source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
-source-wordcount: '2634'
+source-wordcount: 2634
 ht-degree: 5%
 
 ---
@@ -60,7 +63,7 @@ Klicken Sie auf _Filter_-Symbol ( ![Filtersymbol ein- oder ausblenden](../assets
 
 ### Spaltenanzeige anpassen {#column-display}
 
-Passen Sie die Spalten an, die Sie in der Tabelle anzeigen möchten, indem Sie oben rechts auf _Tabelle anpassen_ (![Symbol „Tabelle &#x200B;](../assets/do-not-localize/icon-column-settings.svg)„) klicken.
+Passen Sie die Spalten an, die Sie in der Tabelle anzeigen möchten, indem Sie oben rechts auf _Tabelle anpassen_ (![Symbol „Tabelle ](../assets/do-not-localize/icon-column-settings.svg)„) klicken.
 
 Wählen Sie im Dialogfeld die anzuzeigenden Spalten aus und klicken Sie auf **[!UICONTROL Anwenden]**.
 
@@ -308,7 +311,7 @@ Fragmente sind zur Wiederverwendung konzipiert und können für die Erstellung v
 
 >[!TAB Hinzufügen von Fragmenten zu einer E-Mail]
 
-1. Navigieren Sie zu einer Personen-Journey und öffnen Sie einen vorhandenen Aktionsknoten _[!UICONTROL E-Mail]_ senden[&#x200B; oder fügen Sie einen neuen hinzu](../marketing/action-nodes.md#add-an-action-node).
+1. Navigieren Sie zu einer Personen-Journey und öffnen Sie einen vorhandenen Aktionsknoten _[!UICONTROL E-Mail]_ senden[ oder fügen Sie einen neuen hinzu](../marketing/action-nodes.md#add-an-action-node).
 
 1. Klicken Sie auf **[!UICONTROL E-Mail-Text bearbeiten]**, um den E-Mail[Inhalt zu öffnen oder fortzusetzen](./email-authoring.md).
 

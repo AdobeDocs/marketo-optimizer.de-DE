@@ -1,9 +1,12 @@
 ---
 title: Aufspalten und Zusammenführen von Pfadknoten
 description: Erfahren Sie, wie Sie mithilfe von Knotenpunkten für Aufspaltungs- und Zusammenführungspfade in Personen-Journeys Personen basierend auf definierten Bedingungen in verschiedene Pfade segmentieren und dann an einem gemeinsamen, nachgelagerten Punkt zusammenführen können.
-source-git-commit: c7d3546d075f5a58923134231217b2fd10fe4aca
+TQID: 'https://experienceleague.adobe.com/XMN7lgb77bFlJkNXrmPf9ZSCV-GgIuybtr-O3AsqT2U'
+product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2: id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
-source-wordcount: '660'
+source-wordcount: 660
 ht-degree: 0%
 
 ---
@@ -20,7 +23,7 @@ Ein Knoten für aufgeteilte Pfade definiert einen oder mehrere segmentierte Pfad
 
 <!-- A split based on a people filter is automatically closed with a merge paths node so that all people can move forward to the next step. Split by people paths can include only people actions. These paths cannot be split again and automatically join back. _not currently true_ -->
 
-_&#x200B;**Wie funktioniert ein aufgeteilter Pfad nach Personenknoten**&#x200B;_
+_**Wie funktioniert ein aufgeteilter Pfad nach Personenknoten**_
 
 * Die Auswertung jedes Pfads erfolgt von oben nach unten. Wenn eine Person für den ersten und zweiten Pfad eine Übereinstimmung findet, fährt sie nur entlang des ersten Pfads fort.
 * Der Knoten unterstützt die Definition eines Pfads _Andere Personen_, in dem Sie Aktionen oder Ereignisse für Personen hinzufügen können, die nicht mit einem der definierten Segmente/Pfade übereinstimmen.

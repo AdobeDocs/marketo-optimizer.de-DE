@@ -1,9 +1,13 @@
 ---
 title: Ziele
 description: Erfahren Sie mehr über die erforderlichen Berechtigungen, unterstützte Ziele und wie Sie ein Ziel in Marketo Optimizer verbinden können, um statische Personenlisten für Werbe- und Social-Media-Plattformen zu aktivieren.
-source-git-commit: c7d3546d075f5a58923134231217b2fd10fe4aca
+TQID: 'https://experienceleague.adobe.com/u5sWVDR0JaiX-YvlQ23l7mqoI9G95xS-uiKcqANwsnc'
+product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2: id: 3cf5f37e-e87e-5179-812b-53ce05d7eebb
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
-source-wordcount: '643'
+source-wordcount: 643
 ht-degree: 8%
 
 ---
@@ -57,7 +61,7 @@ Bevor Sie eine statische Liste aktivieren können, muss im Zielkatalog ein Ziel 
 >
 >Dieser Katalog ist nicht der vollständige [!DNL Adobe Experience Platform]. Wenn Sie direkt über [!DNL Experience Platform] auf Ziele zugreifen, sehen Sie einen größeren Katalog, aber nur diese Ziele sind derzeit für die Aktivierung in [!DNL Marketo Optimizer] verfügbar. Weitere Ziele sind für zukünftige Versionen geplant.
 
-## Einrichten eines Ziels {#set-up-destination}
+## Ziel einrichten {#set-up-destination}
 
 Jede unterstützte Zielkarte zeigt **[!UICONTROL Neues Ziel konfigurieren]**. Die Konfiguration eines Ziels ist eine Voraussetzung für die Aktivierung.
 
@@ -79,7 +83,7 @@ Jede unterstützte Zielkarte zeigt **[!UICONTROL Neues Ziel konfigurieren]**. Di
 
 1. Überprüfen Sie die Einstellungen für Data Governance und Marketing-Aktionen und klicken Sie dann auf **[!UICONTROL Speichern]**.
 
-Die vollständigen Einrichtungsschritte finden Sie unter [Erstellen einer neuen Zielverbindung](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/ui/connect-destination){target="_blank"} in der [!DNL Experience Platform].
+Die vollständigen Einrichtungsschritte finden Sie unter [Erstellen einer neuen Zielverbindung](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/connect-destination){target="_blank"} in der [!DNL Experience Platform].
 
 Nach der Konfiguration kann das Ziel überall dort aktiviert werden, wo Sie ein Ziel in [!DNL Marketo Optimizer] auswählen können.
 

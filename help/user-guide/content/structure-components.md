@@ -3,9 +3,11 @@ title: Strukturkomponenten
 description: Verwenden Sie Strukturkomponenten für E-Mail-, Landingpage- und Fragment-Layouts. Ziehen Sie Spalten, legen Sie Stile fest und konfigurieren Sie die Mobile-Anzeige in Marketo Optimizer.
 feature: Content Design Tools
 role: User
-source-git-commit: c7d3546d075f5a58923134231217b2fd10fe4aca
+TQID: 'https://experienceleague.adobe.com/eOGHy4YuwsQwVGCTF18v-os4TZAJhdAvoWoGBA7t3v4'
+product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
-source-wordcount: '1645'
+source-wordcount: 1645
 ht-degree: 6%
 
 ---
@@ -218,7 +220,7 @@ Wenn die Spalte auf der Arbeitsfläche ausgewählt ist, können Sie Stile festle
 
 ## Navigationsbaum {#navigation-tree}
 
-Im visuellen Design können Sie über den Navigationsbaum auf die Strukturkomponenten, einschließlich Spalten und Inhalten, zugreifen. Klicken Sie _[!UICONTROL links auf das Symbol]_ Navigationsbaum![&#x200B; ((Symbol &#x200B;](../assets/do-not-localize/icon-navigation-tree.svg) Navigationsbaum) ), um die Baumstruktur anzuzeigen.
+Im visuellen Design können Sie über den Navigationsbaum auf die Strukturkomponenten, einschließlich Spalten und Inhalten, zugreifen. Klicken Sie _[!UICONTROL links auf das Symbol]_ Navigationsbaum![ ((Symbol ](../assets/do-not-localize/icon-navigation-tree.svg) Navigationsbaum) ), um die Baumstruktur anzuzeigen.
 
 ![Zugriff auf die Inhaltsebenen](assets/content-design-layers.png){width="800" zoomable="yes"}
 

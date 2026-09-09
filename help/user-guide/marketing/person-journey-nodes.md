@@ -1,9 +1,12 @@
 ---
 title: Personen-Journey-Knoten
 description: Erfahren Sie mehr über Personen-Journey-Knoten in Marketo Optimizer - Zielgruppe, Aktionen, Ereignisse, Wartezeiten, Pfadaufteilungen und KI-gesteuertes Routing des nächstbesten Pfades.
-source-git-commit: c7d3546d075f5a58923134231217b2fd10fe4aca
+TQID: 'https://experienceleague.adobe.com/DXva-JytBjj7MHwYeeYfsR2GYomHdj5NZWZk0kgdv1M'
+product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2: id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
-source-wordcount: '317'
+source-wordcount: 317
 ht-degree: 0%
 
 ---
@@ -17,7 +20,7 @@ Der Knoten _[!UICONTROL Person]_ Zielgruppe ist automatisch der erste Knoten auf
 :::: landing-cards-container
 
 :::
-<!-- ![Person audience node](https://cdn.experienceleague.adobe.com/icons/users.svg?lang=de) -->
+<!-- ![Person audience node](https://cdn.experienceleague.adobe.com/icons/users.svg) -->
 
 Zielgruppenknoten Person
 
@@ -27,7 +30,7 @@ Die Journey beginnt immer mit dem Zielgruppenknoten Person . Legen Sie die Einga
 :::
 
 :::
-<!-- ![Action nodes](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de) -->
+<!-- ![Action nodes](https://cdn.experienceleague.adobe.com/icons/circle-play.svg) -->
 
 Aktionsknoten
 
@@ -37,7 +40,7 @@ Wenden Sie Änderungen auf alle Personen in einem Pfad an, z. B. beim Senden ein
 :::
 
 :::
-<!-- ![Event nodes](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de) -->
+<!-- ![Event nodes](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg) -->
 
 Ereignisknoten
 
@@ -47,7 +50,7 @@ Fahren Sie mit dem nächsten Journey-Schritt fort, wenn eine bestimmte Aktivitä
 :::
 
 :::
-<!-- ![Wait nodes](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=de) -->
+<!-- ![Wait nodes](https://cdn.experienceleague.adobe.com/icons/clock.svg) -->
 
 Warteknoten
 
@@ -57,7 +60,7 @@ Den Journey-Fortschritt für eine bestimmte Dauer oder bis zu einem bestimmten D
 :::
 
 :::
-<!-- ![Split and merge paths nodes](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de) -->
+<!-- ![Split and merge paths nodes](https://cdn.experienceleague.adobe.com/icons/code-branch.svg) -->
 
 Aufspalten und Zusammenführen von Pfadknoten
 
@@ -67,7 +70,7 @@ Personen basierend auf Bedingungen in separate Pfade unterteilen, unterschiedlic
 :::
 
 :::
-<!-- ![Next best path node](https://cdn.experienceleague.adobe.com/icons/lightbulb.svg?lang=de) -->
+<!-- ![Next best path node](https://cdn.experienceleague.adobe.com/icons/lightbulb.svg) -->
 
 Nächster bester Pfadknoten
 
