@@ -1,8 +1,10 @@
 ---
 title: Scoring Studio
 description: Erfahren Sie mehr über Scoring Studio in Adobe Marketo Optimizer, einschließlich Modellliste, Arbeitsfläche, Dimensionsspalten, Signalkarten, Lead-Segmente und Veröffentlichung.
-product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
-feature_v2: id: 1650dadf-b034-5ac9-a309-77ad1e2f5035
+product_v2:
+  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2:
+  - id: 1650dadf-b034-5ac9-a309-77ad1e2f5035
 source-git-commit: 96a923c923a6290b9d90e4ffc8e161d78f029c47
 workflow-type: tm+mt
 source-wordcount: 897
