@@ -3,9 +3,9 @@ user-guide-title: Dokumentation zu Marketo Optimizer
 user-guide-description: Erfahren Sie mehr über Adobe Marketo Optimizer und wie Sie damit koordinierte Marketing- und Vertriebsaktivitäten mit personalisierten, KI-gestützten Inhalten für B2B-Leads und -Accounts durchführen können.
 hide: true
 nudge: red
-source-git-commit: 8b3ea5f52fc50ea6c995ace44dece90247deff8b
+source-git-commit: 96a923c923a6290b9d90e4ffc8e161d78f029c47
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '233'
 ht-degree: 43%
 
 ---
@@ -34,9 +34,9 @@ ht-degree: 43%
   + [Übersicht](./agents/ai-decisioning.md)
   + [KI-Entscheidungsstatus](./agents/ai-decisioning-health.md)
 + Marketing-Management {#marketing-management}
-  + [Überblick](./marketing/marketing-management.md)
+  + [Übersicht](./marketing/marketing-management.md)
   + Programme {#programs}
-    + [Übersicht](./marketing/programs.md)
+    + [Überblick](./marketing/programs.md)
     + [Benutzerdefinierte Token für die Personalisierung](./marketing/personalization-my-tokens.md)
   + [Personen-Journey](./marketing/person-journeys.md)
   + Journey-Arbeitsfläche und -Knoten {#journey-nodes}
@@ -54,7 +54,7 @@ ht-degree: 43%
     + [Dunkler Modus](./content/email-dark-mode.md)
   + [WhatsApp-Kanal](./content/whatsapp-authoring.md)
   + Webinar-Kanal {#webinar-channel}
-    + [Überblick](./marketing/webinars-overview.md)
+    + [Übersicht](./marketing/webinars-overview.md)
     + [Erstellen eines Webinars](./marketing/create-webinar.md)
     + [Webinar-Journey](./marketing/webinar-journeys.md)
 + [Journey-Traffic-Steuerung](./marketing/journey-traffic-control.md)
@@ -78,11 +78,11 @@ ht-degree: 43%
     + [Überblick](./content/fragments.md)
     + [Erstellen von Fragmenten](./content/fragment-authoring.md)
   + Landingpages {#landing-pages}
-    + [Übersicht](./content/landing-pages.md)
+    + [Überblick](./content/landing-pages.md)
     + [Erstellen und Veröffentlichen von Landingpages](./content/landing-pages-create-publish.md)
     + [Landingpage-Design](./content/landing-page-design.md)
   + Formulare {#forms}
-    + [Überblick](./content/forms.md)
+    + [Übersicht](./content/forms.md)
     + [Formular-Design](./content/form-design.md)
   + [Personalisierung](./content/personalization-expressions.md)
   + [Bedingte Inhalte](./content/conditional-content.md)
@@ -90,6 +90,7 @@ ht-degree: 43%
     + [Strukturkomponenten](./content/structure-components.md)
     + [Inhaltskomponenten](./content/content-components.md)
     + [Benutzerdefiniertes CSS](./content/design-custom-css.md)
++ [Scoring Studio](./labs/scoring-studio.md)
 + [Datenschutzverwaltung](./admin/privacy-management.md)
 + Administration {#admin}
   + Kanäle {#channels}
