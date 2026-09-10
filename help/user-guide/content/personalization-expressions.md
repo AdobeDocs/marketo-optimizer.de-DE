@@ -3,9 +3,14 @@ title: Personalization-Editor
 description: Erfahren Sie, wie Sie mit dem Personalisierungseditor in Marketo Optimizer Profilattribut-Token in E-Mails, WhatsApp-Nachrichten, Landingpages und URL-Feldern auswählen, anordnen, anpassen und validieren können.
 feature: Content Design Tools
 role: User
-source-git-commit: 75b481faf0d66210329f95c8afabdfa59e7bcb79
+TQID: 'https://experienceleague.adobe.com/5aPDp4kMpQo7LtE6CEUQWf2IbyeSMoW6iN5ZR-f-kLI'
+product_v2:
+  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
-source-wordcount: '1002'
+source-wordcount: 1002
 ht-degree: 55%
 
 ---
@@ -14,7 +19,7 @@ ht-degree: 55%
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_personalization_editor"
->title="Über den Personalisierungseditor"
+>title="Informationen zum Personalisierungseditor"
 >abstract="Mit dem Personalisierungseditor können Sie Profilattribute auswählen, anordnen, anpassen und validieren, um personalisierte Inhalte zu erstellen."
 
 Der Personalisierungseditor ist das Herzstück der Personalisierung in [!DNL Marketo Optimizer]. Verwenden Sie sie überall dort, wo Sie dynamische Inhalte benötigen - in E-Mails, WhatsApp-Nachrichten, Landingpages und URL-Feldern.

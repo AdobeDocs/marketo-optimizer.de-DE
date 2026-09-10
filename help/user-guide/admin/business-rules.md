@@ -1,10 +1,21 @@
 ---
 title: Geschäftsregeln
 description: Erstellen und verwalten Sie Regelsätze zur Anwendung von Frequenzlimitierung und Regeln für ruhige Stunden, die steuern, wie oft und wann Kundinnen und Kunden Marketing-Nachrichten erhalten.
-source-git-commit: c7d3546d075f5a58923134231217b2fd10fe4aca
+TQID: 'https://experienceleague.adobe.com/uLuI4cGbmaY4O0AEtf5tCT-czPl0AsY-44t2lU2xbrQ'
+product_v2:
+  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2:
+  - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+  - id: a659ad61-de21-559d-a901-02e2fb329ff5
+  - id: d4203578-d294-5145-b397-f26f4488a904
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
-source-wordcount: '2965'
-ht-degree: 35%
+source-wordcount: 2965
+ht-degree: 37%
 
 ---
 
@@ -65,7 +76,7 @@ Um eine Regel zu deaktivieren, klicken Sie auf das Symbol _Deaktivieren_ ( ![Dea
 >
 >Das Deaktivieren eines Regelsatzes wirkt sich weder auf die Zählung für einzelne Profile aus, noch wird die Zählung zurückgesetzt.
 
-## Erstellen und Aktivieren benutzerdefinierter Regelsätze {#create}
+## Erstellen und Aktivieren von benutzerdefinierten Regelsätzen {#create}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_rule_set_domain"
@@ -80,11 +91,11 @@ Um eine Regel zu deaktivieren, klicken Sie auf das Symbol _Deaktivieren_ ( ![Dea
 >[!CONTEXTUALHELP]
 >id="ajob2b-prime_rule_type"
 >title="Regeltyp"
->abstract="Wählen Sie den gewünschten Regeltyp für Ihren Kanalregelsatz aus: Verwenden Sie den Typ **Frequenzbegrenzung**, um Begrenzungsregeln auf Kommunikationskanäle anzuwenden. Senden Sie beispielsweise nicht mehr als eine E-Mail- oder SMS-Kommunikation pro Tag. Wählen Sie **Ruhezeiten** aus, um zeitbasierte Ausschlüsse zu definieren, damit während bestimmter Zeiträume keine Nachrichten gesendet werden."
+>abstract="Wählen Sie den gewünschten Regeltyp für Ihren Kanalregelsatz aus: Verwenden Sie den Typ **Frequenzbegrenzung**, um Begrenzungsregeln auf Kommunikationskanäle anzuwenden. Senden Sie beispielsweise nicht mehr als eine E-Mail- oder SMS-Nachricht pro Tag. Wählen Sie **Ruhezeiten** aus, um zeitbasierte Ausschlüsse zu definieren, damit während bestimmter Zeiträume keine Nachrichten gesendet werden."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_rule_sets_duration"
->title="Begrenzungsfrequenz zurücksetzen"
+>title="Zurücksetzen der Begrenzungsfrequenz"
 >abstract="Wählen Sie den Kalenderzeitraum aus, der zum Zurücksetzen des Begrenzungszählers verwendet wird: stündlich, täglich, wöchentlich oder monatlich. Der Zähler wird zu Beginn jedes neuen Zeitraums automatisch auf 0 zurückgesetzt."
 
 >[!CONTEXTUALHELP]
@@ -174,7 +185,7 @@ Sie können den aktiven Regelsatz auf eine Nachricht oder eine Journey anwenden,
 
 ## Frequenzlimitierung nach Kanal {#frequency-capping}
 
-Legen Sie Häufigkeitsbegrenzungen nach Kanal und Kommunikationstyp fest, um zu begrenzen, wie viele Nachrichten ein Profil erhält, und um zu vermeiden, dass Kunden mit ähnlichen Nachrichten überfordert werden. Kanalregelsätze wenden Begrenzungsregeln auf Kommunikationskanäle an. Senden Sie beispielsweise nicht mehr als eine E-Mail- oder SMS-Kommunikation pro Tag.
+Legen Sie Häufigkeitsbegrenzungen nach Kanal und Kommunikationstyp fest, um zu begrenzen, wie viele Nachrichten ein Profil erhält, und um zu vermeiden, dass Kunden mit ähnlichen Nachrichten überfordert werden. Kanalregelsätze wenden Begrenzungsregeln auf Kommunikationskanäle an. Senden Sie beispielsweise nicht mehr als eine E-Mail- oder SMS-Nachricht pro Tag.
 
 Mithilfe von Kanalregelsätzen können Sie die Frequenzbegrenzung nach Kommunikationstyp festlegen, um zu verhindern, dass Kundinnen und Kunden zu viele ähnliche Nachrichten erhalten. Sie können zum Beispiel eine Regel festlegen, um die Anzahl der _Werbemitteilungen_ zu begrenzen, die an Ihre Kundinnen und Kunden gesendet werden, und eine andere Regel, um die Anzahl der _Newsletter_ zu begrenzen, die an sie gesendet werden. Sie können dann entweder den Regelsatz Werbekommunikation oder Newsletter anwenden.
 
@@ -186,7 +197,7 @@ Mithilfe von Kanalregelsätzen können Sie die Frequenzbegrenzung nach Kommunika
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_rule_sets_channel"
->title="Kanäle definieren, für die die Regel gilt"
+>title="Definieren der Kanäle, für die die Regel gilt"
 >abstract="Wählen Sie mindestens einen Kanal aus. Die Begrenzung gilt als Gesamtanzahl für alle Kanäle."
 
 1. Wählen Sie den Kanalregelsatz aus, dem Sie die Begrenzungsregel hinzufügen möchten, oder erstellen Sie einen neuen Kanalregelsatz.
