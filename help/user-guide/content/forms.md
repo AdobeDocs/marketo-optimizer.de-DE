@@ -4,20 +4,24 @@ description: Erstellen und verwalten Sie wiederverwendbare Formulare für die Er
 TQID: 'https://experienceleague.adobe.com/StexA1TJKaBYnAoIMcxnHIoUwzfMAnJrBO7FDLdLnMo'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 8881ff95-1653-5fea-82af-ce1549c0d99d
+    internal-label: Content Management
   - id: a29661b8-f7a4-53d1-a9ac-fdec08c092e4
+    internal-label: Programs
   - id: d4203578-d294-5145-b397-f26f4488a904
+    internal-label: Channels
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
 source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
-source-wordcount: 2434
+source-wordcount: '2434'
 ht-degree: 2%
-
 ---
-
 # Formulare
 
 Um Informationen von Web-Seitenbesuchern zu erfassen, erstellen Sie Formulare und fügen Sie sie Ihren Landingpages hinzu. Ein Formular ist ein Satz von Feldern, die Seitenbesucher ausfüllen und senden, um Inhalte oder Angebote abzurufen, z. B. ein Whitepaper, ein On-Demand-Webinar oder eine kostenlose Testversion.
@@ -64,7 +68,7 @@ Um nach einem Formular anhand des Namens zu suchen, geben Sie eine Textzeichenfo
 
 ### Spaltenanzeige anpassen {#column-display}
 
-Passen Sie die Spalten an, die Sie in der Tabelle anzeigen möchten, indem Sie oben rechts auf _Tabelle anpassen_ (![Symbol „Tabelle &#x200B;](../assets/do-not-localize/icon-column-settings.svg)„) klicken.
+Passen Sie die Spalten an, die Sie in der Tabelle anzeigen möchten, indem Sie oben rechts auf _Tabelle anpassen_ (![Symbol „Tabelle ](../assets/do-not-localize/icon-column-settings.svg)„) klicken.
 
 Wählen Sie im Dialogfeld die anzuzeigenden Spalten aus und klicken Sie auf **[!UICONTROL Anwenden]**.
 
@@ -190,7 +194,7 @@ Formulare, die derzeit von einer Landingpage oder Landingpage-Vorlage verwendet 
 Sie können ein Formular mit einer der folgenden Methoden löschen:
 
 * Klicken Sie oben rechts auf **[!UICONTROL … Weitere]** und wählen Sie **[!UICONTROL Löschen]**.
-* Klicken Sie auf der __ Forms _auf die Schaltfläche Mehr_ (**…**) klicken Sie auf das Symbol neben dem Formularnamen und wählen Sie **[!UICONTROL Löschen]**.
+* Klicken Sie auf der ]__[!UICONTROL  Forms _auf die Schaltfläche Mehr_ (**…**) klicken Sie auf das Symbol neben dem Formularnamen und wählen Sie **[!UICONTROL Löschen]**.
 
 Diese Aktion öffnet ein Bestätigungsdialogfeld. Sie können den Vorgang abbrechen, indem Sie auf **[!UICONTROL Abbrechen]** klicken oder auf **[!UICONTROL Löschen]** klicken, um den Löschvorgang zu bestätigen.
 
@@ -207,7 +211,7 @@ Duplizieren Sie ein Formular, um schnell und einfach ein neues Formular mit eine
 Sie können ein Formular mit einer der folgenden Methoden duplizieren:
 
 * Klicken Sie oben rechts auf der Seite mit den Formulardetails auf **[!UICONTROL … Mehr]** und wählen Sie **[!UICONTROL Duplizieren]**.
-* Klicken Sie auf der __ Forms _auf die Schaltfläche Mehr_ (**…**) klicken Sie auf das Symbol neben dem Formularnamen und wählen Sie **[!UICONTROL Duplizieren]**.
+* Klicken Sie auf der ]__[!UICONTROL  Forms _auf die Schaltfläche Mehr_ (**…**) klicken Sie auf das Symbol neben dem Formularnamen und wählen Sie **[!UICONTROL Duplizieren]**.
 
 ![Duplizieren Sie das Formular](assets/form-list-page-duplicate.png){width="450"}
 
@@ -304,7 +308,7 @@ Bearbeiten Sie das doppelte Formular, um den Namen nach Bedarf zu ändern und da
 
 ## Hinzufügen von Formularen zu einer Landingpage oder Vorlage {#insert-forms}
 
-Forms sind für die Wiederverwendung konzipiert und können beim Entwerfen einer ([) eingefügt &#x200B;](./landing-pages.md).
+Forms sind für die Wiederverwendung konzipiert und können beim Entwerfen einer ([) eingefügt ](./landing-pages.md).
 
 <!-- or [landing page template](./landing-page-templates.md). -->
 

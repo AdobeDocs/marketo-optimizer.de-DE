@@ -4,21 +4,21 @@ description: Erstellen, Anzeigen und Veröffentlichen benutzerdefinierter Lead-B
 TQID: 'https://experienceleague.adobe.com/OAY0CzFPTyUi7NCPbRnxGkG6nnndPygbwGlbv9u2oeA'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 1650dadf-b034-5ac9-a309-77ad1e2f5035
+    internal-label: Chat Interface
 source-git-commit: 96a923c923a6290b9d90e4ffc8e161d78f029c47
 workflow-type: tm+mt
-source-wordcount: 468
-ht-degree: 2%
-
+source-wordcount: '468'
+ht-degree: 6%
 ---
-
 # Erstellen benutzerdefinierter Scoring-Modelle
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_scoring_studio"
 >title="Scoring Studio"
->abstract="Verwenden Sie die Scoring Studio-Kenntnisse zum Erstellen, Konfigurieren und Veröffentlichen benutzerdefinierter Lead-Scoring-Modelle über die Chat-Oberfläche des Kollegen."
+>abstract="Verwenden Sie Scoring Studio zum Erstellen, Konfigurieren und Veröffentlichen benutzerdefinierter Lead-Scoring-Modelle über die Chat-Oberfläche von Coworker."
 
 Die [_Scoring Studio_-](./skills.md#scoring-signals) in [!DNL Adobe Marketo Optimizer] bietet eine KI-native Lead-Scoring-Lösung, mit der Sie Lead-Scoring-Modelle erstellen, konfigurieren und veröffentlichen können. Das Studio kombiniert einen agentengesteuerten Workflow mit einer visuellen Benutzeroberfläche. Sie können Bewertungsmodelle durch Eingabeaufforderungen in natürlicher Sprache in der [Coworker Chat-Oberfläche](./chat-interface.md) oder durch direkte Interaktion mit den Benutzeroberflächen-Steuerelementen erstellen.
 
