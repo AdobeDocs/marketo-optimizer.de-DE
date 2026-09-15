@@ -3,13 +3,11 @@ user-guide-title: Dokumentation zu Marketo Optimizer
 user-guide-description: Erfahren Sie mehr über Adobe Marketo Optimizer und wie Sie damit koordinierte Marketing- und Vertriebsaktivitäten mit personalisierten, KI-gestützten Inhalten für B2B-Leads und -Accounts durchführen können.
 hide: true
 nudge: red
-source-git-commit: 96a923c923a6290b9d90e4ffc8e161d78f029c47
+source-git-commit: b25a376b80aa6ee821f372398b77e5b6dd542e3c
 workflow-type: tm+mt
-source-wordcount: '233'
-ht-degree: 43%
-
+source-wordcount: '243'
+ht-degree: 44%
 ---
-
 
 # Benutzerhandbuch zu Marketo Optimizer {#user}
 
@@ -36,7 +34,7 @@ ht-degree: 43%
 + Marketing-Management {#marketing-management}
   + [Übersicht](./marketing/marketing-management.md)
   + Programme {#programs}
-    + [Überblick](./marketing/programs.md)
+    + [Übersicht](./marketing/programs.md)
     + [Benutzerdefinierte Token für die Personalisierung](./marketing/personalization-my-tokens.md)
   + [Personen-Journey](./marketing/person-journeys.md)
   + Journey-Arbeitsfläche und -Knoten {#journey-nodes}
@@ -48,7 +46,7 @@ ht-degree: 43%
     + [Aufteilen und Zusammenführen von Pfaden](./marketing/split-merge-paths-nodes.md)
     + [Nächster bester Pfad](./marketing/next-best-path.md)
   + E-Mail-Kanal {#email-channel}
-    + [Überblick](./marketing/email-channel.md)
+    + [Übersicht](./marketing/email-channel.md)
     + [Optimierung des E-Mail-Versandzeitpunkts](./marketing/email-send-time-optimization.md)
     + [Inhaltserstellung](./content/email-authoring.md)
     + [Dunkler Modus](./content/email-dark-mode.md)
@@ -58,6 +56,12 @@ ht-degree: 43%
     + [Erstellen eines Webinars](./marketing/create-webinar.md)
     + [Webinar-Journey](./marketing/webinar-journeys.md)
 + [Journey-Traffic-Steuerung](./marketing/journey-traffic-control.md)
++ Berichte {#reports}
+  + [Übersicht](./reports/reports-overview.md)
+  + [Personen-Journey – Überblick](./reports/person-journey-overview-report.md)
+  + [Interaktion](./reports/engagement-report.md)
+  + {hide-from-toc}[E-Mail-Interaktion](./reports/email-engagement-report.md)
+  + [Web-Interaktion](./reports/web-engagement-report.md)
 + Zielgruppen {#audiences}
   + [Personenlisten](./audiences/people-lists.md)
   + [Personendetails](./audiences/person-details.md)
@@ -71,14 +75,14 @@ ht-degree: 43%
     + [Übersicht](./content/digital-asset-management.md)
     + [C2PA-Metadaten](./content/c2pa-metadata.md)
   + Vorlagen {#templates}
-    + [Überblick](./content/templates.md)
+    + [Übersicht](./content/templates.md)
     + [Erstellen von Vorlagen](./content/templates-create.md)
     + [Content-Governance](./content/template-content-governance.md)
   + Fragmente {#visual-fragments}
     + [Überblick](./content/fragments.md)
     + [Erstellen von Fragmenten](./content/fragment-authoring.md)
   + Landingpages {#landing-pages}
-    + [Überblick](./content/landing-pages.md)
+    + [Übersicht](./content/landing-pages.md)
     + [Erstellen und Veröffentlichen von Landingpages](./content/landing-pages-create-publish.md)
     + [Landingpage-Design](./content/landing-page-design.md)
   + Formulare {#forms}
