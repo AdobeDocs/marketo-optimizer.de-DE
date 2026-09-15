@@ -35,6 +35,6 @@ Der [!UICONTROL Engagement]-Bericht umfasst zwei Kacheln.
 
 ![Interaktionsbericht mit einem Ringdiagramm der Interaktion von Personen und einem Liniendiagramm der Interaktion im Zeitverlauf](./assets/reports-engagement.png){width="700" zoomable="yes"}
 
-Sie können [ Datumsbereich für ](./reports-overview.md#change-the-date-range) Berichtskachel ändern.
+Sie können [&#x200B; Datumsbereich für &#x200B;](./reports-overview.md#change-the-date-range) Berichtskachel ändern.
 
 Wählen **[!UICONTROL oben]** Bericht die Option „Freigeben“ aus, um den Export aller Berichtsdaten herunterzuladen oder zu planen. Siehe [_Exportieren eines Berichts_](./reports-overview.md#export-a-report) in der Übersicht über Berichte.
