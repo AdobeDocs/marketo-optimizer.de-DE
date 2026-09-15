@@ -4,25 +4,34 @@ description: Überprüfen Sie die CX Enterprise Coworker-Fähigkeiten in Marketo
 TQID: 'https://experienceleague.adobe.com/nNFB9UEghfqVvnBrNtTDnpnLUKKKMAU2nY1Pqt0KkUQ'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 3cf5f37e-e87e-5179-812b-53ce05d7eebb
+    internal-label: Setup
   - id: 46e599c6-e20f-5f67-9824-93415016f66b
+    internal-label: Audiences
   - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
   - id: a29661b8-f7a4-53d1-a9ac-fdec08c092e4
+    internal-label: Programs
   - id: d4203578-d294-5145-b397-f26f4488a904
+    internal-label: Channels
 topic_v2:
   - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
+    internal-label: Data quality
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Personalization
+source-git-commit: 6e03e2dc6abb00d288f5684e9ea9b6489c6517e4
 workflow-type: tm+mt
-source-wordcount: 581
+source-wordcount: '568'
 ht-degree: 7%
-
 ---
-
 # Mitarbeiterqualifikationen
 
 Eine _Qualifikation_ ist ein gepackter Workflow, den ein Kollege ausführen kann - die Bausteine hinter dem `/` und den Anforderungen in natürlicher Sprache. Jede Qualifikation umfasst schrittweise Anweisungen und die spezifischen Tools, die für einen Auftrag erforderlich sind (z. B. „Veröffentlichen eines Journey&quot;, „Vergleichen von zwei Personenlisten“, „Erstellen eines Bewertungsmodells„).
@@ -35,10 +44,9 @@ Eine _Qualifikation_ ist ein gepackter Workflow, den ein Kollege ausführen kann
 
 | Skill | Funktion | Zugriff | Produktoberfläche | Auswirkungen/Datenfluss |
 |---|---|---|---|---|
-| `falco-program-creation` | End-to-End [!DNL Marketo Optimizer] Programmerstellung - Programm, Unterordner, Token, Listen, Journey. <p>Siehe _[Erstellen eines Programms aus einer](./program-from-brief.md)_. | Schreiben | [!DNL Marketo Optimizer] | [!DNL Marketo Optimizer] mit Lese- und Schreibzugriff. |
 | `adapt-program` | Generieren Sie Migrationsgeschichten aus [!DNL Marketo Engage] Programmen zur [!DNL Marketo Optimizer]. | Lesen | [!DNL Marketo Optimizer] | Liest [!DNL Marketo Engage], schreibt [!DNL Marketo Optimizer] |
 | `folder-creation` | Erstellen Sie Organisationsordner in der Asset-Baumstruktur. | Schreiben | [!DNL Marketo Optimizer] | Lese- und Schreibvorgänge [!DNL Marketo Optimizer] |
-| `program-creation` *(Erstellen von Programmen)* | Erstellen von Marketo-Programmen aus einer Kampagnenbeschreibung. | Schreiben | [!DNL Marketo Engage] | Lese- und Schreibvorgänge [!DNL Marketo Engage] |
+| `program-creation` *(Erstellen von Programmen)* | Erstellen von Marketo-Programmen aus einer Kampagnenbeschreibung.  <p>Siehe _[Erstellen eines Programms aus einer](./program-from-brief.md)_. | Schreiben | [!DNL Marketo Engage] | Lese- und Schreibvorgänge [!DNL Marketo Engage] |
 | `program-planning` *(Kampagnen planen)* | Umwandeln von Briefs in Einrichtungs-/Implementierungsdokumente. | Lesen | [!DNL Marketo Engage] | Liest [!DNL Marketo Engage] |
 | `program-qa` *(Programme validieren)* | Programme validieren/überprüfen (nur Regeln, Testplan oder Kurzbeschreibung). | Lesen | [!DNL Marketo Engage] | Liest [!DNL Marketo Engage] |
 
