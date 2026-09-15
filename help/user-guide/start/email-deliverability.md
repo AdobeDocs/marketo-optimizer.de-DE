@@ -4,24 +4,32 @@ description: Konfigurieren Sie die Zuweisung von Subdomains, DMARC, SPF, DKIM un
 TQID: 'https://experienceleague.adobe.com/-7yEXTaOrGIfCFw-UzanMqA9VJ1Nk-BmdmE2JJJSoB4'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 3c1de303-7a7c-59a6-abca-8c534730e19c
+    internal-label: Reporting
   - id: 3cf5f37e-e87e-5179-812b-53ce05d7eebb
+    internal-label: Setup
   - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
   - id: a659ad61-de21-559d-a901-02e2fb329ff5
+    internal-label: Administration
   - id: d4203578-d294-5145-b397-f26f4488a904
+    internal-label: Channels
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Administration
+source-git-commit: cf3d8c71c9301ee038cc1b31968d30aba34d1fc7
 workflow-type: tm+mt
-source-wordcount: 2502
+source-wordcount: '2590'
 ht-degree: 1%
-
 ---
-
 # Zustellbarkeit von E-Mails
 
 Die folgenden Informationen richten sich an Administratoren, die die Versandinfrastruktur so konfigurieren, dass Marketing-Experten und Ersteller von E-Mail-Inhalten unterstützt werden. Es beschreibt Zustellbarkeitsfunktionen und beschreibt, wie Subdomains, Authentifizierung und IP-Pools konfiguriert werden.
@@ -34,6 +42,7 @@ Sie verwendet die folgenden Bausteine, die von einem Administrator konfiguriert 
 1. [Konfigurieren Sie DMARC-, SPF- und DKIM](#dmarc-spf-dkim)Einträge für jede Subdomain.
 1. [Bestätigen Sie den IP-Pool](#ip-pools) der zum Senden von E-Mails für Ihre Subdomain verwendet wird.
 1. [Erstellen Sie eine oder mehrere E-Mail](../admin/email-channel-configuration.md#create-email-channel-configuration)Kanalkonfigurationen, die eine Subdomain, einen IP-Pool und eine Absenderidentität verbinden.
+1. [Zulassungsliste der sendenden IP](#allowlist-ip-addresses)Adressen mit Ihrer IT-Abteilung, damit Ihre Test-E-Mails Ihren Posteingang erreichen.
 
 ![Einrichtung der E-Mail-Zustellbarkeit für Marketo Optimizer](./assets/email-deliverability-diagram.svg){width="600"}
 
@@ -361,6 +370,20 @@ In dieser Version sind IP-Pools für Ihre Organisation vorab bereitgestellt. Bei
 >[!IMPORTANT]
 >
 >Mischen Sie keinen Marketing- und Transaktions-Traffic auf demselben IP-Pool, selbst wenn der freigegebene Pool verfügbar ist. Die Einstellung E-Mail-Typ in der Kanalkonfiguration (Marketing oder Transaktion) bestimmt das Unterdrückungsverhalten, aber Ihre Kanalkonfigurationen sollten nach Möglichkeit weiterhin unterschiedliche Pools verwenden.
+
+## Zulassungsliste von IP-Adressen {#allowlist-ip-addresses}
+
+Anti-Spam-Systeme von Unternehmen blockieren manchmal Test-E-Mails, die Sie von [!DNL Marketo Optimizer] aus versenden. Bei diesen Systemen wird die Gültigkeit einer E-Mail von Absender-IP-Adressen überprüft. Um sicherzustellen, dass Ihre Test-E-Mails ankommen, fügen Sie [!DNL Marketo Optimizer] zu Ihrer Unternehmens-Zulassungsliste hinzu.
+
+Bitten Sie Ihre IT-Abteilung, diese IP-Adressen zu Ihrer Unternehmensadresse hinzuzufügen:
+
+* 54.212.167.17
+* 35.165.244.220
+* 44.235.171.179
+
+>[!TIP]
+>
+>Ihre IT-Abteilung verwaltet normalerweise die E-Mail-Zulassungsliste des Unternehmens. Geben Sie diese Liste von IP-Adressen während der Ersteinrichtung für sie frei.
 
 <!--
 
