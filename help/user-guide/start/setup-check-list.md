@@ -4,16 +4,17 @@ description: Führen Sie die anfänglichen Einrichtungsaufgaben für Ihre Market
 TQID: 'https://experienceleague.adobe.com/XEPKIa88-L7mdPz1opKegY1pdEF4Qyls0nLVJBQSaJk'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 3cf5f37e-e87e-5179-812b-53ce05d7eebb
+    internal-label: Setup
   - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Journeys
+source-git-commit: cf3d8c71c9301ee038cc1b31968d30aba34d1fc7
 workflow-type: tm+mt
-source-wordcount: 249
+source-wordcount: '265'
 ht-degree: 10%
-
 ---
-
 # Checkliste einrichten
 
 Führen Sie diese Aufgaben aus, um die Funktionalität in Ihrer bereitgestellten [!DNL Marketo Optimizer]-Instanz zu aktivieren.
@@ -102,5 +103,10 @@ Bevor Marketer E-Mails von Journey-Benutzern senden können, müssen Sie die Ver
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Checkbox für Aufgabe"/></td>
 <td>Erstellen einer E-Mail-Kanal-Konfiguration</td>
 <td><a href="../admin/email-channel-configuration.md#create-email-channel-configuration">Konfigurieren des E-Mail-Kanals</a></td>
+</tr>
+<tr>
+<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Checkbox für Aufgabe"/></td>
+<td>Bitten Sie Ihre IT-Abteilung, die sendenden IP-Adressen zu ändern.</td>
+<td><a href="./email-deliverability.md#allowlist-ip-addresses">Zulassungsliste von IP-Adressen</a></td>
 </tr>
 </tbody>
