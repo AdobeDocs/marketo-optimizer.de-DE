@@ -105,7 +105,7 @@ Sie können Ereignisfilter um die folgenden [!DNL Marketo Engage] Aktivitäten e
 
    Ziehen Sie den Ereignis -Trigger per Drag-and-Drop in den Builder-Bereich und legen Sie die Definition fest. Klicken Sie **[!UICONTROL Begrenzung hinzufügen]** für jede Begrenzung, die Sie zum Verfeinern der Ereignisübereinstimmung verwenden möchten.
 
-   ![Ereignis bearbeiten - Ereignis-Trigger ](./assets/edit-event-triggers.png){width="700" zoomable="yes"}
+   ![Ereignis bearbeiten - Ereignis-Trigger &#x200B;](./assets/edit-event-triggers.png){width="700" zoomable="yes"}
 
    Sie können mehrere Ereignisse hinzufügen, die übereinstimmen. Das erste Qualifizierungsereignis bringt das Personenprofil auf der Journey voran.
 
