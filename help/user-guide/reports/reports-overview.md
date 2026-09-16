@@ -7,9 +7,9 @@ product_v2:
 feature_v2:
   - id: 3c1de303-7a7c-59a6-abca-8c534730e19c
     internal-label: Reporting
-source-git-commit: 56f39b3c77bd13984cf72761621ac3b228f13abd
+source-git-commit: 32017a2577b7f31632080215ba91b9454c51b9ef
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: '488'
 ht-degree: 2%
 ---
 
@@ -23,7 +23,7 @@ Jeder Bericht basiert auf [!DNL Adobe Customer Journey Analytics] und ist direkt
 
 ## Berichtsabschnitte {#report-sections}
 
-Auf [!UICONTROL &#x200B; Registerkarte &#x200B;]Berichte“ werden vordefinierte Berichte in vier Abschnitte unterteilt. Jeder Abschnitt enthält ein oder mehrere herunterladbare Elemente und eine eigene Dokumentationsseite mit Details zu den zugehörigen Metriken und Visualisierungen.
+Auf [!UICONTROL  Registerkarte ]Berichte“ werden vordefinierte Berichte in vier Abschnitte unterteilt. Jeder Abschnitt enthält ein oder mehrere herunterladbare Elemente und eine eigene Dokumentationsseite mit Details zu den zugehörigen Metriken und Visualisierungen.
 
 | Abschnitt | Herunterladbare Elemente | Berichtseite |
 | --- | --- | --- |
@@ -57,7 +57,7 @@ Wählen **[!UICONTROL oben auf]** Berichtsseite die Option „Freigeben“ aus, 
 >
 >Ihr Unternehmen kann wöchentlich oder monatlich maximal 10 geplante Exporte für alle Berichte haben. Wenn Sie kein Administrator sind, können Sie nur Ihre eigenen geplanten Exporte verwalten. Administratoren können jeden geplanten Export in der Organisation anzeigen und verwalten.
 
-## Analysieren eines Berichts in CJA {#analyze-a-report-in-cja}
+## Analysieren eines Berichts in [!DNL Customer Journey Analytics] {#analyze-a-report-in-cja}
 
 >[!AVAILABILITY]
 >
