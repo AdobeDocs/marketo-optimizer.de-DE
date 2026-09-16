@@ -23,7 +23,7 @@ Jeder Bericht basiert auf [!DNL Adobe Customer Journey Analytics] und ist direkt
 
 ## Berichtsabschnitte {#report-sections}
 
-Auf [!UICONTROL  Registerkarte ]Berichte“ werden vordefinierte Berichte in vier Abschnitte unterteilt. Jeder Abschnitt enthält ein oder mehrere herunterladbare Elemente und eine eigene Dokumentationsseite mit Details zu den zugehörigen Metriken und Visualisierungen.
+Auf [!UICONTROL &#x200B; Registerkarte &#x200B;]Berichte“ werden vordefinierte Berichte in vier Abschnitte unterteilt. Jeder Abschnitt enthält ein oder mehrere herunterladbare Elemente und eine eigene Dokumentationsseite mit Details zu den zugehörigen Metriken und Visualisierungen.
 
 | Abschnitt | Herunterladbare Elemente | Berichtseite |
 | --- | --- | --- |
