@@ -5,10 +5,10 @@ TQID: 'https://experienceleague.adobe.com/6v3i6M-Hhr2RAWrS68WaEVb8VJEzJZbD7vXOJO
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
     internal-label: Marketo Optimizer
-source-git-commit: cc98b02f4273c5df2e27b52acd1239f0f0bf8aa0
+source-git-commit: bc370a501d3f8ff80ad846576b62504aca77f530
 workflow-type: tm+mt
-source-wordcount: '1139'
-ht-degree: 6%
+source-wordcount: '1158'
+ht-degree: 2%
 ---
 # Überwachen eines Ereignisknotens
 
@@ -39,15 +39,15 @@ Beim Auslösen von Ereignissen unterstützt [!DNL Marketo Optimizer] Aktivitäte
 
 Sie können Ereignis-Trigger um die folgenden [!DNL Marketo Engage] Aktivitäten erstellen:
 
-* [!UICONTROL Marketo Engage-Formular ausfüllen] - Wird ausgelöst, wenn ein Lead ein angegebenes [!DNL Marketo Engage] Formular sendet.
-* [!UICONTROL Besuche Marketo Engage-Webseite] - Wird ausgelöst, wenn ein Lead mit einem Munchkin-Tracking-Cookie eine angegebene Webseite besucht.
-* [!UICONTROL Klicks auf Link auf Marketo Engage-Webseite] - Wird ausgelöst, wenn ein Lead auf einen verfolgten Hyperlink auf einer Web-Seite klickt, auf der der [!DNL Marketo Engage] Munchkin-Trackingcode installiert ist.
-* [!UICONTROL Marketo Engage-E-Mail wird zugestellt] - Wird ausgelöst, wenn der E-Mail-Server (MX) eines Leads eine Erfolgsantwort (eine Nachricht von 250 OK) an den [!DNL Marketo Engage]-Versand-Server zurückgibt.
-* [!UICONTROL Marketo Engage-E-Mail-Bounces] - Wird ausgelöst, wenn ein Ziel-E-Mail-Server eine gesendete E-[!DNL Marketo Engage]-Nachricht als permanenten Fehler zurückweist, z. B. als ungültigen Benutzer oder als unbekannte Domain.
-* [!UICONTROL Marketo Engage-E-Mail-Bounces Soft] [!DNL Marketo Engage] - Wird ausgelöst, wenn ein Ziel-E-Mail-Server eine gesendete E-Mail-Nachricht als temporäres Problem zurückweist (z. B. Server ausgelastet oder Postfach voll). [!DNL Marketo Engage] versucht Softbounces automatisch bis zu dreimal über MX-Server, bevor Probleme markiert werden.
-* [!UICONTROL Abmeldungen von Marketo Engage-E-Mails] - Wird ausgelöst, wenn ein Lead sich von nicht operativen Marketing-E-Mails abmeldet. Nach der Auslösung aktualisiert [!DNL Marketo Engage] automatisch den Wert des `Unsubscribed` Feldes des Leads auf `true`, wodurch diese Werte bei zukünftigen Standard-E-Mail-Sendungen unterdrückt werden.
-* [!UICONTROL Öffnet Marketo Engage-E-]: Wird ausgelöst, wenn ein Lead eine verfolgte [!DNL Marketo Engage]-E-Mail öffnet.
-* [!UICONTROL Klicks auf Link in Marketo Engage-E-]: Wird ausgelöst, wenn ein Lead auf einen Link (oder einen bestimmten eingeschränkten Link) in einer [!DNL Marketo Engage]-E-Mail klickt.
+* **[!UICONTROL Marketo Engage-Formular ausfüllen]** - Wird ausgelöst, wenn ein Lead ein angegebenes [!DNL Marketo Engage] Formular sendet.
+* **[!UICONTROL Besuche Marketo Engage-Webseite]** - Wird ausgelöst, wenn ein Lead mit einem Munchkin-Tracking-Cookie eine angegebene Webseite besucht.
+* **[!UICONTROL Klicks auf Link auf Marketo Engage-Webseite]** - Wird ausgelöst, wenn ein Lead auf einen verfolgten Hyperlink auf einer Web-Seite klickt, auf der der [!DNL Marketo Engage] Munchkin-Trackingcode installiert ist.
+* **[!UICONTROL Marketo Engage-E-Mail wird zugestellt]** - Wird ausgelöst, wenn der E-Mail-Server (MX) eines Leads eine Erfolgsantwort (eine Nachricht von 250 OK) an den [!DNL Marketo Engage]-Versand-Server zurückgibt.
+* **[!UICONTROL Marketo Engage-E-Mail-Bounces]** - Wird ausgelöst, wenn ein Ziel-E-Mail-Server eine gesendete E-[!DNL Marketo Engage]-Nachricht als permanenten Fehler zurückweist, z. B. als ungültigen Benutzer oder als unbekannte Domain.
+* **[!UICONTROL Marketo Engage-E-Mail-Bounces Soft]** [!DNL Marketo Engage] - Wird ausgelöst, wenn ein Ziel-E-Mail-Server eine gesendete E-Mail-Nachricht als temporäres Problem zurückweist (z. B. Server ausgelastet oder Postfach voll). [!DNL Marketo Engage] versucht Softbounces automatisch bis zu dreimal über MX-Server, bevor Probleme markiert werden.
+* **[!UICONTROL Abmeldungen von Marketo Engage-E-Mails]** - Wird ausgelöst, wenn ein Lead sich von nicht operativen Marketing-E-Mails abmeldet. Nach der Auslösung aktualisiert [!DNL Marketo Engage] automatisch den Wert des `Unsubscribed` Feldes des Leads auf `true`, wodurch diese Werte bei zukünftigen Standard-E-Mail-Sendungen unterdrückt werden.
+* **[!UICONTROL Öffnet Marketo Engage-E-]**: Wird ausgelöst, wenn ein Lead eine verfolgte [!DNL Marketo Engage]-E-Mail öffnet.
+* **[!UICONTROL Klicks auf Link in Marketo Engage-E-]**: Wird ausgelöst, wenn ein Lead auf einen Link (oder einen bestimmten eingeschränkten Link) in einer [!DNL Marketo Engage]-E-Mail klickt.
 
 >[!ENDSHADEBOX]
 
@@ -59,10 +59,10 @@ Sie können Filter einschließen, um übereinstimmende Trigger von Ereignissen a
 | ------- | ----------- |
 | Aktivitätsverlauf | Aktivitäten basierend auf Bedingungen, die anhand eines oder mehrerer ausgewählter Elemente ausgewertet werden |
 | Brand Concierge | Aktivitäten für mit [!DNL Brand Concierge] interagierende Leads. |
-| Unternehmensattribute | Attribute aus dem Firmen-/Kontoprofil, einschließlich: <li>Jahresumsatz <li>Unternehmensname <li>Rechnungsland <li>Branche <li>Angestelltenanzahl <li>SIC-Code <li>Land |
+| Unternehmensattribute | Attribute aus dem Firmen-/Kontoprofil, einschließlich: <li>[!UICONTROL Jahresumsatz] <li>[!UICONTROL Firmenname] <li>[!UICONTROL Rechnungsland] <li>[!UICONTROL Branche] <li>[!UICONTROL Anzahl Mitarbeiter] <li>[!UICONTROL SIC-Code] <li>[!UICONTROL state] |
 | Absichtsdaten | Attribute, die auf den mit dem Personenprofil verknüpften Absichtsdaten basieren. |
-| Opportunitys | Attribute, die auf den mit dem Personenprofil verbundenen Opportunitys basieren. |
-| Personenattribute | Attribute aus dem B2B-Personenprofil, einschließlich: <li>Stadt <li>Land <li>Geburtsdatum <li>E-Mail-Adresse <li>E-Mail-Adresse ungültig <li>E-Mail angehalten <li>Vorname <li>Abgeleitetes Bundesland/abgeleitete Region<li>Stellenbezeichnung <li>Last name <li>Mobiltelefonnummer <li>Personeninteraktionsbewertung <li>Telefonnummer <li>Postleitzahl <li>Land <li>Abbestellt <li>Grund für Abmeldung |
+| Opportunitys | Status und Attribute basierend auf den mit dem Personenprofil verbundenen Opportunitys, einschließlich: <li>[!UICONTROL Hat Gelegenheit] <li>[!UICONTROL Anzahl der Opportunitys] <li>[!UICONTROL Opportunity-Gesamtbetrag] <li>[!UICONTROL Wurde der Opportunity hinzugefügt] <li>[!UICONTROL Wurde von der Opportunity entfernt] |
+| Personenattribute | Attribute aus dem B2B-Personenprofil, einschließlich: <li>[!UICONTROL Stadt] <li>[!UICONTROL Land] <li>[!UICONTROL Geburtsdatum] <li>[!UICONTROL E-Mail-Adresse] <li>[!UICONTROL E-Mail ungültig] <li>[!UICONTROL E-Mail ausgesetzt] <li>[!UICONTROL Vorname] <li>[!UICONTROL Abgeleitete Statusregion] <li>[!UICONTROL Stellenbezeichnung] <li>[!UICONTROL Nachname] <li>[!UICONTROL Mobiltelefonnummer] <li>[!UICONTROL Personen-Interaktionsbewertung] <li>[!UICONTROL Telefonnummer] <li>[!UICONTROL Postleitzahl] <li>[!UICONTROL state] <li>[!UICONTROL Abo storniert] <li>[!UICONTROL Grund für Abmeldung] |
 | Verkaufs-Apps | Lead-Aktivitäten im Zusammenhang mit [!DNL Sales Qualifier] oder [!DNL Marketo Sales Insights]. |
 | Spezielle Filter | Filterattribute, die nicht unter die vordefinierten Kategorien fallen, bieten Flexibilität für benutzerdefinierte oder verschiedene Filterkriterien. |
 
@@ -78,16 +78,16 @@ Beim Filtern nach ausgelösten Ereignissen unterstützt [!DNL Marketo Optimizer]
 
 Sie können Ereignisfilter um die folgenden [!DNL Marketo Engage] Aktivitäten erstellen:
 
-* [!UICONTROL Ausgefülltes Marketo Engage-Formular] - Stimmt mit Leads überein, die zu einem beliebigen Zeitpunkt in ihrem Aktivitätsprotokoll, aber nicht veraltet, ein bestimmtes [!DNL Marketo Engage] ausgefüllt haben.
-* [!UICONTROL Besuchte Marketo Engage-Webseite] - Stimmt mit Leads überein, die eine bestimmte URL auf Ihrer Website oder [!DNL Marketo Engage] Landingpages angesehen haben. Dies hängt direkt vom auf Ihrer Site installierten Munchkin-Trackingcode ab.
-* [!UICONTROL Auf Link auf Marketo Engage-Web-Seite geklickt] - Stimmt mit Leads überein, die auf einen bestimmten Link oder ein bestimmtes Asset auf einer verfolgten Seite geklickt haben.
-* [!UICONTROL Wurde Marketo Engage-E-Mail gesendet] - Gibt an, an wen [!DNL Marketo Engage] versucht haben, eine bestimmte E-Mail zu senden, und berücksichtigt Bereitstellungsaktionen vor Hardbounces oder Serverakzeptanzen.
-* [!UICONTROL Marketo Engage-E-Mail wurde zugestellt] - Stimmt mit Leads überein, deren E-Mail-Server (MX) eine Erfolgsantwort (eine 250-OK-Nachricht) an den [!DNL Marketo Engage]-Versand-Server zurückgegeben hat.
-* [!UICONTROL Marketo Engage-E-Mail gebounct] - Stimmt mit Leads überein, die einen Hardbounce (einen permanenten Versandfehler) bei einem bestimmten E-Mail-Versand oder innerhalb eines bestimmten Zeitraums hatten.
-* [!UICONTROL Marketo Engage-E-Mail-Bounce] - Gibt Leads zurück, bei denen ein temporärer Versandfehler (z. B. ein voller Posteingang oder ein Offline-Server) aufgetreten ist, anstatt einen permanenten Hardbounce zu verursachen.
-* [!UICONTROL Von Marketo Engage-E-] abgemeldet: Passt zu Leads, die sich gegen nicht-operative Marketing-E-Mails entschieden haben. In diesem Fall aktualisiert [!DNL Marketo Engage] automatisch den Wert des `Unsubscribed` Feldes des Leads auf `true`, wodurch diese Werte bei zukünftigen Standard-E-Mail-Sendungen unterdrückt werden.
-* [!UICONTROL Geöffnete Marketo Engage-E-]: Passt zu Leads, die eine verfolgte [!DNL Marketo Engage]-E-Mail geöffnet haben.
-* [!UICONTROL Link in Marketo Engage-E-Mail angeklickt] - Stimmt mit Leads überein, die auf einen beliebigen Link (oder einen bestimmten Link) in einer [!DNL Marketo Engage]-E-Mail geklickt haben.
+* **[!UICONTROL Ausgefülltes Marketo Engage-Formular]** - Stimmt mit Leads überein, die zu einem beliebigen Zeitpunkt in ihrem Aktivitätsprotokoll, aber nicht veraltet, ein bestimmtes [!DNL Marketo Engage] ausgefüllt haben.
+* **[!UICONTROL Besuchte Marketo Engage-Webseite]** - Stimmt mit Leads überein, die eine bestimmte URL auf Ihrer Website oder [!DNL Marketo Engage] Landingpages angesehen haben. Dies hängt direkt vom auf Ihrer Site installierten Munchkin-Trackingcode ab.
+* **[!UICONTROL Auf Link auf Marketo Engage-Web-Seite geklickt]** - Stimmt mit Leads überein, die auf einen bestimmten Link oder ein bestimmtes Asset auf einer verfolgten Seite geklickt haben.
+* **[!UICONTROL Wurde Marketo Engage-E-Mail gesendet]** - Gibt an, an wen [!DNL Marketo Engage] versucht haben, eine bestimmte E-Mail zu senden, und berücksichtigt Bereitstellungsaktionen vor Hardbounces oder Serverakzeptanzen.
+* **[!UICONTROL Marketo Engage-E-Mail wurde zugestellt]** - Stimmt mit Leads überein, deren E-Mail-Server (MX) eine Erfolgsantwort (eine 250-OK-Nachricht) an den [!DNL Marketo Engage]-Versand-Server zurückgegeben hat.
+* **[!UICONTROL Marketo Engage-E-Mail gebounct]** - Stimmt mit Leads überein, die einen Hardbounce (einen permanenten Versandfehler) bei einem bestimmten E-Mail-Versand oder innerhalb eines bestimmten Zeitraums hatten.
+* **[!UICONTROL Marketo Engage-E-Mail-Bounce]** - Gibt Leads zurück, bei denen ein temporärer Versandfehler (z. B. ein voller Posteingang oder ein Offline-Server) aufgetreten ist, anstatt einen permanenten Hardbounce zu verursachen.
+* **[!UICONTROL Von Marketo Engage-E-]** abgemeldet: Passt zu Leads, die sich gegen nicht-operative Marketing-E-Mails entschieden haben. In diesem Fall aktualisiert [!DNL Marketo Engage] automatisch den Wert des `Unsubscribed` Feldes des Leads auf `true`, wodurch diese Werte bei zukünftigen Standard-E-Mail-Sendungen unterdrückt werden.
+* **[!UICONTROL Geöffnete Marketo Engage-E-]**: Passt zu Leads, die eine verfolgte [!DNL Marketo Engage]-E-Mail geöffnet haben.
+* **[!UICONTROL Link in Marketo Engage-E-Mail angeklickt]** - Stimmt mit Leads überein, die auf einen beliebigen Link (oder einen bestimmten Link) in einer [!DNL Marketo Engage]-E-Mail geklickt haben.
 
 >[!ENDSHADEBOX]
 
@@ -105,7 +105,7 @@ Sie können Ereignisfilter um die folgenden [!DNL Marketo Engage] Aktivitäten e
 
    Ziehen Sie den Ereignis -Trigger per Drag-and-Drop in den Builder-Bereich und legen Sie die Definition fest. Klicken Sie **[!UICONTROL Begrenzung hinzufügen]** für jede Begrenzung, die Sie zum Verfeinern der Ereignisübereinstimmung verwenden möchten.
 
-   ![Ereignis bearbeiten - Ereignis-Trigger &#x200B;](./assets/edit-event-triggers.png){width="700" zoomable="yes"}
+   ![Ereignis bearbeiten - Ereignis-Trigger ](./assets/edit-event-triggers.png){width="700" zoomable="yes"}
 
    Sie können mehrere Ereignisse hinzufügen, die übereinstimmen. Das erste Qualifizierungsereignis bringt das Personenprofil auf der Journey voran.
 
