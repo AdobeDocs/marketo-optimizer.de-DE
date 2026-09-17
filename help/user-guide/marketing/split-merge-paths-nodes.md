@@ -8,10 +8,10 @@ product_v2:
 feature_v2:
   - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
     internal-label: Journeys
-source-git-commit: 9d9f2ae1aafc5ffdc2bcc6546c7eb2ddcbaa4ab2
+source-git-commit: bc370a501d3f8ff80ad846576b62504aca77f530
 workflow-type: tm+mt
-source-wordcount: '1064'
-ht-degree: 6%
+source-wordcount: '1083'
+ht-degree: 2%
 ---
 # Aufspalten und Zusammenführen von Pfadknoten
 
@@ -38,10 +38,10 @@ Verwenden Sie für jeden Pfad, den Sie für den Knoten definieren, die folgenden
 | ------- | ----------- |
 | Aktivitätsverlauf | Aktivitäten basierend auf Bedingungen, die anhand eines oder mehrerer ausgewählter Elemente ausgewertet werden |
 | Brand Concierge | Aktivitäten für mit [!DNL Brand Concierge] interagierende Leads. |
-| Unternehmensattribute | Attribute aus dem Firmen-/Kontoprofil, einschließlich: <li>Jahresumsatz <li>Unternehmensname <li>Rechnungsland <li>Branche <li>Angestelltenanzahl <li>SIC-Code <li>Land |
+| Unternehmensattribute | Attribute aus dem Firmen-/Kontoprofil, einschließlich: <li>[!UICONTROL Jahresumsatz] <li>[!UICONTROL Firmenname] <li>[!UICONTROL Rechnungsland] <li>[!UICONTROL Branche] <li>[!UICONTROL Anzahl Mitarbeiter] <li>[!UICONTROL SIC-Code] <li>[!UICONTROL state] |
 | Absichtsdaten | Attribute, die auf den mit dem Personenprofil verknüpften Absichtsdaten basieren. |
-| Opportunitys | Attribute, die auf den mit dem Personenprofil verbundenen Opportunitys basieren. |
-| Personenattribute | Attribute aus dem B2B-Personenprofil, einschließlich: <li>Stadt <li>Land <li>Geburtsdatum <li>E-Mail-Adresse <li>E-Mail-Adresse ungültig <li>E-Mail angehalten <li>Vorname <li>Abgeleitetes Bundesland/abgeleitete Region<li>Stellenbezeichnung <li>Last name <li>Mobiltelefonnummer <li>Personeninteraktionsbewertung <li>Telefonnummer <li>Postleitzahl <li>Land <li>Abbestellt <li>Grund für Abmeldung |
+| Opportunitys | Status und Attribute basierend auf den mit dem Personenprofil verbundenen Opportunitys, einschließlich: <li>[!UICONTROL Hat Gelegenheit] <li>[!UICONTROL Anzahl der Opportunitys] <li>[!UICONTROL Opportunity-Gesamtbetrag] <li>[!UICONTROL Wurde der Opportunity hinzugefügt] <li>[!UICONTROL Wurde von der Opportunity entfernt] |
+| Personenattribute | Attribute aus dem B2B-Personenprofil, einschließlich: <li>[!UICONTROL Stadt] <li>[!UICONTROL Land] <li>[!UICONTROL Geburtsdatum] <li>[!UICONTROL E-Mail-Adresse] <li>[!UICONTROL E-Mail ungültig] <li>[!UICONTROL E-Mail ausgesetzt] <li>[!UICONTROL Vorname] <li>[!UICONTROL Abgeleitete Statusregion] <li>[!UICONTROL Stellenbezeichnung] <li>[!UICONTROL Nachname] <li>[!UICONTROL Mobiltelefonnummer] <li>[!UICONTROL Personen-Interaktionsbewertung] <li>[!UICONTROL Telefonnummer] <li>[!UICONTROL Postleitzahl] <li>[!UICONTROL state] <li>[!UICONTROL Abo storniert] <li>[!UICONTROL Grund für Abmeldung] |
 | Verkaufs-Apps | Lead-Aktivitäten im Zusammenhang mit [!DNL Sales Qualifier] oder [!DNL Marketo Sales Insights]. |
 | Spezielle Filter | Filterattribute, die nicht unter die vordefinierten Kategorien fallen, bieten Flexibilität für benutzerdefinierte oder verschiedene Filterkriterien. |
 
@@ -57,16 +57,16 @@ Bei Pfadbedingungen unterstützt [!DNL Marketo Optimizer] Aktivitäten aus der [
 
 Sie können Bedingungen für die folgenden [!DNL Marketo Engage]-Aktivitäten erstellen:
 
-* [!UICONTROL Ausgefülltes Marketo Engage-Formular] - Stimmt mit Leads überein, die zu einem beliebigen Zeitpunkt in ihrem Aktivitätsprotokoll, aber nicht veraltet, ein bestimmtes [!DNL Marketo Engage] ausgefüllt haben.
-* [!UICONTROL Besuchte Marketo Engage-Webseite] - Stimmt mit Leads überein, die eine bestimmte URL auf Ihrer Website oder [!DNL Marketo Engage] Landingpages angesehen haben. Es funktioniert direkt mit dem auf Ihrer Site installierten Munchkin-Trackingcode.
-* [!UICONTROL Auf Link auf Marketo Engage-Web-Seite geklickt] - Stimmt mit Leads überein, die auf einen bestimmten Link oder ein bestimmtes Asset auf einer verfolgten Seite geklickt haben.
-* [!UICONTROL Wurde Marketo Engage-E-Mail gesendet] - Gibt an, an wen [!DNL Marketo Engage] versucht haben, eine bestimmte E-Mail zu senden, und berücksichtigt Bereitstellungsaktionen vor Hardbounces oder Serverakzeptanzen.
-* [!UICONTROL Marketo Engage-E-Mail wurde zugestellt] - Stimmt mit einem Lead überein, dessen Mailserver (MX) eine Erfolgsantwort (eine 250-OK-Nachricht) an den [!DNL Marketo Engage]-Versand-Server zurückgegeben hat.
-* [!UICONTROL Marketo Engage-E-Mail gebounct] - Treffer für Leads, bei denen es bei einem bestimmten E-Mail-Versand oder innerhalb eines Zeitraums zu einem Hardbounce (dauerhaftem Versandfehler) gekommen ist.
-* [!UICONTROL Marketo Engage-E-Mail-Bounce] - Gibt Leads zurück, bei denen ein temporärer Versandfehler (z. B. ein voller Posteingang oder ein Offline-Server) aufgetreten ist, anstatt einen permanenten Hardbounce zu verursachen.
-* [!UICONTROL Von Marketo Engage-E-] abgemeldet: Passt zu Leads, die sich gegen nicht-operative Marketing-E-Mails entschieden haben. In diesem Fall aktualisiert [!DNL Marketo Engage] automatisch den Wert des `Unsubscribed` Feldes des Leads auf `true`, wodurch diese Werte bei zukünftigen Standard-E-Mail-Sendungen unterdrückt werden.
-* [!UICONTROL Geöffnete Marketo Engage-E-]: Passt zu Leads, die eine verfolgte [!DNL Marketo Engage]-E-Mail geöffnet haben.
-* [!UICONTROL Link in Marketo Engage-E-Mail angeklickt] - Stimmt mit Leads überein, die auf einen beliebigen Link (oder einen bestimmten Link) in einer [!DNL Marketo Engage]-E-Mail geklickt haben.
+* **[!UICONTROL Ausgefülltes Marketo Engage-Formular]** - Stimmt mit Leads überein, die zu einem beliebigen Zeitpunkt in ihrem Aktivitätsprotokoll, aber nicht veraltet, ein bestimmtes [!DNL Marketo Engage] ausgefüllt haben.
+* **[!UICONTROL Besuchte Marketo Engage-Webseite]** - Stimmt mit Leads überein, die eine bestimmte URL auf Ihrer Website oder [!DNL Marketo Engage] Landingpages angesehen haben. Es funktioniert direkt mit dem auf Ihrer Site installierten Munchkin-Trackingcode.
+* **[!UICONTROL Auf Link auf Marketo Engage-Web-Seite geklickt]** - Stimmt mit Leads überein, die auf einen bestimmten Link oder ein bestimmtes Asset auf einer verfolgten Seite geklickt haben.
+* **[!UICONTROL Wurde Marketo Engage-E-Mail gesendet]** - Gibt an, an wen [!DNL Marketo Engage] versucht haben, eine bestimmte E-Mail zu senden, und berücksichtigt Bereitstellungsaktionen vor Hardbounces oder Serverakzeptanzen.
+* **[!UICONTROL Marketo Engage-E-Mail wurde zugestellt]** - Stimmt mit einem Lead überein, dessen Mailserver (MX) eine Erfolgsantwort (eine 250-OK-Nachricht) an den [!DNL Marketo Engage]-Versand-Server zurückgegeben hat.
+* **[!UICONTROL Marketo Engage-E-Mail gebounct]** - Treffer für Leads, bei denen es bei einem bestimmten E-Mail-Versand oder innerhalb eines Zeitraums zu einem Hardbounce (dauerhaftem Versandfehler) gekommen ist.
+* **[!UICONTROL Marketo Engage-E-Mail-Bounce]** - Gibt Leads zurück, bei denen ein temporärer Versandfehler (z. B. ein voller Posteingang oder ein Offline-Server) aufgetreten ist, anstatt einen permanenten Hardbounce zu verursachen.
+* **[!UICONTROL Von Marketo Engage-E-]** abgemeldet: Passt zu Leads, die sich gegen nicht-operative Marketing-E-Mails entschieden haben. In diesem Fall aktualisiert [!DNL Marketo Engage] automatisch den Wert des `Unsubscribed` Feldes des Leads auf `true`, wodurch diese Werte bei zukünftigen Standard-E-Mail-Sendungen unterdrückt werden.
+* **[!UICONTROL Geöffnete Marketo Engage-E-]**: Passt zu Leads, die eine verfolgte [!DNL Marketo Engage]-E-Mail geöffnet haben.
+* **[!UICONTROL Link in Marketo Engage-E-Mail angeklickt]** - Stimmt mit Leads überein, die auf einen beliebigen Link (oder einen bestimmten Link) in einer [!DNL Marketo Engage]-E-Mail geklickt haben.
 
 >[!ENDSHADEBOX]
 
