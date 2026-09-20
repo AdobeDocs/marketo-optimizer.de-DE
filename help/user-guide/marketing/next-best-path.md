@@ -1,6 +1,6 @@
 ---
 title: Nächster bester Pfadknoten
-description: Verwenden Sie den nächstbesten Pfadknoten in Marketo Optimizer für KI-gesteuertes Journey-Routing mit Eingabeaufforderungen in natürlicher Sprache, Pfadsimulation, Konfidenzwerten und Live-Pfadergebnissen für die Aufspaltung.
+description: Erfahren Sie mehr über den nächstbesten Pfadknoten in [!DNL Marketo Optimizer], der KI und Eingabeaufforderungen in natürlicher Sprache verwendet, um Journey zu routen. Simulieren Sie Pfade vor der Veröffentlichung.
 TQID: 'https://experienceleague.adobe.com/F-pxiABk7vHAktfmBUjZ8BYnxYIwQp--WutG6mvxiY0'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
@@ -13,14 +13,14 @@ feature_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+source-git-commit: 055fd02e1007ba6d06e563dc931adffe6145bed6
 workflow-type: tm+mt
-source-wordcount: '1514'
+source-wordcount: '1556'
 ht-degree: 0%
 ---
 # Nächster bester Pfadknoten
 
-In Marketo Optimizer bringt der Knoten *Nächster bester Pfad* die KI-gesteuerte Split Path-Entscheidungsfindung direkt in die Journey-Arbeitsfläche. Anstatt Filterbedingungen auf einem [Split-Pfade](./split-merge-paths-nodes.md)-Knoten zu konfigurieren, beschreiben Sie Ihre Absicht in natürlicher Sprache und lassen Sie das System den relevantesten Pfad für jede Person bestimmen.
+[!DNL Marketo Optimizer] bringt der Knoten *Nächster bester Pfad* die KI-gesteuerte Split-Path-Entscheidungsfindung direkt auf die Journey-Arbeitsfläche. Anstatt Filterbedingungen auf einem [Split-Pfade](./split-merge-paths-nodes.md)-Knoten zu konfigurieren, beschreiben Sie Ihre Absicht in natürlicher Sprache und lassen Sie das System den relevantesten Pfad für jede Person bestimmen.
 
 Beim B2B-Kauf mag ein Profil wie eine Art Käufer erscheinen, aber ihr Verhalten, ihre firmografischen Daten und ihr Interaktionskontext offenbaren eine differenziertere Geschichte. Der nächstbeste Pfadknoten bewertet diesen Kontext, um eine intelligente Routing-Entscheidung zu treffen, während Sie alle KI-Empfehlungen vor der Aktivierung des Journey überprüfen, ändern oder überschreiben können.
 
@@ -36,7 +36,7 @@ Von der Absicht zur Aktivierung sind drei Schritte erforderlich.
   >
   >Die Simulation wird nur für Beispieldaten ausgeführt und beeinflusst nie die Live-Journey-Ausführung.
 
-* **Schritt 3: Aktivieren** - Veröffentlichen Sie die Journey für Ihre echte Audience. Die KI bewertet jede Person zur Laufzeit, weist den Pfad mit der besten Anpassung in Echtzeit zu und ein standardmäßiges Fallback stellt sicher, dass niemand in eine Sackgasse gerät.
+* **Schritt 3: Aktivieren** - Veröffentlichen Sie die Journey für Ihre echte Audience. Die KI bewertet jede Person zur Laufzeit, weist den Pfad mit der besten Anpassung in Echtzeit zu und ein standardmäßiges Fallback stellt sicher, dass niemand aus einem Pfad ausgeschlossen wird.
 
 ### KI-Entscheidungseingaben {#ai-decisioning-inputs}
 
@@ -49,7 +49,7 @@ Wenn eine Person den Knoten erreicht, ruft das System Profilkontext ab, wendet E
 
 ### KI-Kontextbildung {#ai-context-building}
 
-Unter der Grundlage der Routing-Entscheidung erstellt die KI für jedes Profil eine abgeleitete Ebene. Sie kombiniert demografische und firmografische Daten, Kontodetails und Verhaltenssignale (wie persönliche Details, Problemabsicht und Produktabsicht) zu einer kontextuellen Zusammenfassung für diese Person. Unter Verwendung dieses angereicherten Kontexts kann die KI jede Person zum optimalen Pfad führen und sowohl einen Konfidenzwert als auch die Logik hinter jeder Entscheidung in natürlicher Sprache bereitstellen.
+Zur Unterstützung der Routing-Entscheidung erstellt die KI für jedes Profil eine abgeleitete Ebene. Sie kombiniert demografische und firmografische Daten, Kontodetails und Verhaltenssignale (wie persönliche Details, Problemabsicht und Produktabsicht) zu einer kontextuellen Zusammenfassung für diese Person. Unter Verwendung dieses angereicherten Kontexts kann die KI jede Person zum optimalen Pfad führen und sowohl einen Konfidenzwert als auch die Logik hinter jeder Entscheidung in natürlicher Sprache bereitstellen.
 
 Jede Entscheidung wird mit einem Konfidenzwert und einer Argumentation in natürlicher Sprache für Transparenz und Beobachtbarkeit protokolliert.
 
@@ -59,7 +59,9 @@ Wenn kein Pfad eine starke Übereinstimmung aufweist oder die Eingabeaufforderun
 
 1. Öffnen Sie die Personen-Journey und navigieren Sie zur Journey-Arbeitsfläche.
 
-1. Klicken Sie auf das Pluszeichen ( **+** ) auf einem Pfad und wählen Sie **Nächster bester Pfad**.
+1. Klicken Sie auf das Pluszeichen ( **+** ) auf einem Pfad und wählen Sie **[!UICONTROL Nächster bester Pfad]**.
+
+   ![Menü mit Knotenoptionen nach Klicken auf das Hinzufügen-Symbol auf einem Journey-Pfad, wobei der nächste beste Pfad aufgeführt ist.](./assets/person-journey-canvas-add-node.png){width="200"}
 
    Der Knoten wird der Arbeitsfläche hinzugefügt und das Bedienfeld für die Konfiguration einer KI-Teilung wird auf der rechten Seite geöffnet. Sie beginnt mit einem Pfad und dem Standardpfad *Andere Personen* zum Routing von Personen, die sich für keinen der definierten Pfade qualifizieren.
 
@@ -67,27 +69,33 @@ Wenn kein Pfad eine starke Übereinstimmung aufweist oder die Eingabeaufforderun
 
 Definieren Sie für jeden Pfad einen Namen und eine Eingabeaufforderung in natürlicher Sprache, die beschreibt, wer dort weitergeleitet werden soll. Die Benutzeroberfläche für Filterbedingungen wird durch die Eingabeaufforderung vollständig ersetzt. Es gibt keine Attributbedingungen, die konfiguriert werden müssen.
 
-1. Klicken Sie **Pfad hinzufügen** für jeden zusätzlichen Pfad, den Sie einbeziehen möchten.
+1. Geben Sie für den ersten Pfad die Eigenschaften in die Pfadkarte im rechten Bedienfeld ein:
 
-   Um einen Pfad zu entfernen, klicken Sie auf das *Löschen*-Symbol auf der Pfadkarte.
+   * Geben Sie einen **[!UICONTROL Titel]** ein, der die Zielgruppe oder Absicht für dieses Segment widerspiegelt.
 
-1. Für jede Pfadkarte im rechten Bedienfeld:
+   * Geben Sie eine **[!UICONTROL Eingabeaufforderung]** in natürlicher Sprache ein, die beschreibt, wer zu diesem Pfad gehört. Konzentration auf Absicht und Ergebnis, nicht auf bestimmte Attributwerte.
 
-   * Geben Sie einen **Titel** ein, der die Zielgruppe oder Absicht für dieses Segment widerspiegelt.
+   ![Pfadkarte mit einem Feld Titel und einem Feld Eingabeaufforderung, das die Audience für diesen Pfad beschreibt.](./assets/next-best-path-label-prompt.png){width="500"}
 
-   * Geben Sie eine **Eingabeaufforderung** in natürlicher Sprache ein, die beschreibt, wer zu diesem Pfad gehört. Konzentration auf Absicht und Ergebnis, nicht auf bestimmte Attributwerte.
+1. Klicken Sie **[!UICONTROL Pfad hinzufügen]** für jeden zusätzlichen Pfad, den Sie einbeziehen möchten.
 
-     **Beispiel fordert zu einer Aufteilung auf drei Pfade auf:**
+   Um einen Pfad zu entfernen, klicken Sie auf das Symbol *Löschen* ( ![Löschsymbol](../assets/do-not-localize/icon-delete-2.svg) ) auf der Pfadkarte.
 
-     * *Pfad 1 - Personalverantwortliche:* Identifizieren Sie Personen in Personalführungsrollen, die am ehesten mit dem Talent-Management und Mitarbeitererlebnisinhalten interagieren.
-     * *Pfad 2 - Technische Gutachter:* Identifizieren Sie technische Stakeholder, die mit größter Wahrscheinlichkeit mit Produktarchitektur, Integrationen und Implementierungs-Content interagieren.
-     * *Pfad 3 - Entscheidungsträger in Unternehmen:* Ermitteln Sie die Stakeholder, die am ehesten mit ROI, Geschäftsergebnissen und Fallstudieninhalten zu tun haben.
+   Fügen Sie für jeden Pfad den Titel hinzu und fordern Sie ihn an.
+
+   **Beispiel fordert zu einer Aufteilung auf drei Pfade auf:**
+
+   * *Pfad 1 - Personalverantwortliche:* Identifizieren Sie Personen in Personalführungsrollen, die am ehesten mit dem Talent-Management und Mitarbeitererlebnisinhalten interagieren.
+   * *Pfad 2 - Technische Gutachter:* Identifizieren Sie technische Stakeholder, die mit größter Wahrscheinlichkeit mit Produktarchitektur, Integrationen und Implementierungs-Content interagieren.
+   * *Pfad 3 - Entscheidungsträger in Unternehmen:* Ermitteln Sie die Stakeholder, die am ehesten mit ROI, Geschäftsergebnissen und Fallstudieninhalten zu tun haben.
+
+   ![Drei definierte Pfade mit Eingabeaufforderungen und der standardmäßige Pfad „Andere Personen“ auf der Journey-Arbeitsfläche.](./assets/next-best-path-three-defined-paths.png){width="600"}
 
 1. Ordnen Sie die Pfade bei Bedarf neu an, um die Prioritätsreihenfolge für den Abgleich festzulegen.
 
    Die Pfadfilterung wird in der Reihenfolge von oben nach unten bewertet. Jede Person fährt auf dem ersten Pfad fort, der übereinstimmt. Klicken Sie auf die Pfeile nach oben und unten oben rechts auf jeder Pfadkarte, um sie in der Liste nach oben oder unten zu verschieben.
 
-1. Überprüfen Sie den Standardpfad (der letzte in der Pfadliste) und ändern Sie bei Bedarf die Bezeichnung.
+1. Überprüfen Sie den Standardpfad **[!UICONTROL Andere Personen]** (zuletzt in der Pfadliste) und ändern Sie bei Bedarf die Bezeichnung.
 
    Der Standardpfad wird verwendet, wenn die KI keine Person einem definierten Pfad zuweisen kann oder wenn die relevanten Daten nicht verfügbar sind. Wenn eine Eingabeaufforderung auf Daten verweist, die für ein bestimmtes Profil nicht im Datensatz vorhanden sind, leitet das System dieses Profil an den Standardpfad weiter und markiert die Datenlücke.
 
@@ -97,7 +105,7 @@ Definieren Sie für jeden Pfad einen Namen und eine Eingabeaufforderung in natü
 
 KI-Empfehlungen sind unverbindlich. Vor der Aktivierung der Journey haben Sie folgende Möglichkeiten:
 
-* Bearbeiten Sie eine Pfadaufforderung, um die Routing-Logik zu verfeinern.
+* Um die Routing-Logik zu verfeinern, bearbeiten Sie eine Pfadaufforderung.
 * Pfade hinzufügen, entfernen oder neu anordnen.
 * Überschreiben von KI-Vorschlägen bei Bedarf mit benutzerdefinierten Bedingungen.
 
@@ -109,11 +117,11 @@ KI-gesteuerte Pfadzuweisungen werden erst wirksam, wenn Sie die Journey veröffe
 
 Die folgenden Beispiele zeigen, wie effektive Pfadaufforderungen in gängigen B2B-Marketing-Anwendungsfällen geschrieben werden. Verwenden Sie sie als Ausgangspunkte und passen Sie die Sprache an Ihren Journey-Kontext und Ihre Zielgruppendaten an.
 
-* „Identifizieren Sie Personen, die in den letzten 30 Tagen Interaktionen auf HR-Sites (shrm.org, hbr.org/topic/human-resource-management) hatten und sich für Journey Optimizer interessierten, die wahrscheinlich an einem Webinar über KI im HR-Betrieb teilnehmen werden. Sie hätten auch ein gewisses Interesse an KI-Produkten zeigen müssen.“
+* „Identifizieren Sie Personen, die in den letzten 30 Tagen mit HR-Sites (shrm.org, hbr.org/topic/human-resource-management) und -[!DNL Journey Optimizer] interagiert haben, die wahrscheinlich an einem Webinar über KI im HR-Bereich teilnehmen und an KI-Produkten interessiert sind.“
 
-* Identifizieren Sie Personen, die in den letzten 30 Tagen Interaktionen auf Finanz-Sites (wsj.com/finance,investopedia.com) hatten und an Marketo interessiert waren, die wahrscheinlich an einem Webinar über KI in der Finanzplanung teilnehmen werden. Sie hätten auch ein gewisses Interesse an KI-Produkten zeigen müssen.“
+* „Identifizieren Sie Personen, die in den letzten 30 Tagen an [!DNL Marketo Engage] interessiert waren und an einem Webinar über KI im Bereich Finanzplanung teilnehmen dürften, sowie Personen, die über Interaktionen auf Finanzwebsites (wsj.com/finance,investopedia.com) verfügen. Sie hätten auch ein gewisses Interesse an KI-Produkten zeigen müssen.“
 
-* „Identifizieren Sie Personen, die in den letzten 30 Tagen an GenStudio interessiert waren und die wahrscheinlich an einem Webinar über KI im Risikomanagement teilnehmen werden. Diese Personen haben Kontakte zu Risiko-/Forschungssites (mckinsey.com/capabilities/risk-and-resilience, forrester.com/research). Sie hätten auch ein gewisses Interesse an KI-Produkten zeigen müssen.“
+* „Identifizieren Sie Personen, die in den letzten 30 Tagen mit Risiko-/Forschungs-Sites (mckinsey.com/capabilities/risk-and-resilience, forrester.com/research) und [!DNL GenStudio] interagiert haben, die wahrscheinlich an einem Webinar über KI im Risikomanagement teilnehmen und an KI-Produkten interessiert sind.“
 
 ## Simulieren der Entscheidungsfindung vor der Veröffentlichung {#simulate}
 
@@ -121,18 +129,22 @@ Verwenden Sie eine Simulation, um zu testen, wie die KI Ihre Eingabeaufforderung
 
 ### Simulation ausführen {#run-simulation}
 
-1. Wählen Sie den nächstbesten Pfadknoten aus und klicken Sie oben *rechten Bedienfeld auf* Simulieren“.
+1. Wählen Sie den nächstbesten Pfadknoten aus und klicken Sie oben *rechten Bedienfeld auf* Simulieren![ ((](../assets/do-not-localize/icon-simulate.svg)) ).
 
-1. Wählen Sie im Dialogfeld die Zielgruppe aus, die für die Simulation verwendet werden soll:
+1. Wählen Sie im Dialogfeld eine dynamische Liste aus, die für die Simulationszielgruppe verwendet werden soll.
 
-   * **[!UICONTROL Ursprüngliche Personenlisten]** - Verwenden Sie die Zielgruppe aus dem Zielgruppenknoten. Geben Sie eine Stichprobengröße an, wenn die vollständige Zielgruppe den Simulationsschwellenwert überschreitet.
-   * **[!UICONTROL Dynamische und statische Listen]** - Verwenden Sie eine statische oder dynamische Marketo Engage-Liste.
-   * **[!UICONTROL Testdatensätze]** - Verwenden von von KI vorgeschlagenen Testprofilen.
+<!-- 
+   * **[!UICONTROL Original person lists]** – Use the audience from the audience node. Specify a sample size when the full audience exceeds the simulation threshold.
+   * **[!UICONTROL Dynamic and static lists]** – Use a [!DNL Marketo Engage] static or dynamic list.
+   * **[!UICONTROL Test records]** – Use AI-suggested test profiles.
+-->
 
-   >[!NOTE]
-   >
-   >* Wenn die ausgewählte Zielgruppe den Schwellenwert für die Simulation überschreitet, führt das System die Simulation an einem 100-Profil-Beispiel aus. Ein Indikator in der Benutzeroberfläche zeigt an, dass die Ergebnisse Beispielbasiert sind.
-   >* Wenn die ausgewählte Zielgruppe noch nicht materialisiert wurde, wird die Simulation blockiert. Eine Inline-Warnung weist Sie an, die Zielgruppe zuerst zu materialisieren.
+![Dialogfeld „Pfade simulieren“ mit einer ausgewählten dynamischen Liste und den Schaltflächen „Abbrechen“ und „Simulieren“.](./assets/next-best-path-simulate-paths.png){width="250"}
+
+>[!NOTE]
+>
+>* Wenn die ausgewählte Zielgruppe den Schwellenwert für die Simulation überschreitet, führt das System die Simulation an einem 100-Profil-Beispiel aus. Ein Indikator in der Benutzeroberfläche zeigt an, dass die Ergebnisse Beispielbasiert sind.
+>* Wenn die ausgewählte Zielgruppe noch nicht materialisiert wurde, wird die Simulation blockiert. Eine Inline-Warnung weist Sie an, die Zielgruppe zuerst zu materialisieren.
 
 1. Klicken Sie **[!UICONTROL Simulieren]**.
 
@@ -148,6 +160,8 @@ Nach der Ausführung der Simulation zeigt das rechte Bedienfeld die Verteilung d
 | **Eingabeaufforderung** | Die Aufforderung, die für den Pfad ausgewertet wurde. |
 | **KI-Argumentation** | Eine Erklärung in natürlicher Sprache, warum Profile diesem Pfad gemeinsam zugewiesen wurden. |
 
+![Simulationsergebnisse mit Profilanzahl, Aufspaltungsprozentsatz, Konfidenzwert und KI-Argumentation pro Pfad.](./assets/next-best-path-simulated-details.png){width="600"}
+
 >[!NOTE]
 >
 >Wenn Daten verfügbar sind oder der Umfang eine Entscheidung einschränkt, enthalten die Ergebnisse Informationen über die Einschränkung. Wenn beispielsweise ein erforderliches Attribut im Datensatz nicht vorhanden ist, enthalten die Ergebnisse einen expliziten Indikator, der erklärt, wie sich die fehlenden Daten auf die Ergebnisse ausgewirkt haben.
@@ -160,14 +174,16 @@ Nach Validierung der Simulationsergebnisse:
 
 1. Verbinden Sie die Zielgruppe mit dem Journey-Einstiegsknoten.
 
-2. [Veröffentlichen der Journey](./person-journeys.md#publish).
+1. [Veröffentlichen der Journey](./person-journeys.md#publish).
 
 Nach der Live-Schaltung des Journey wird der nächstbeste Pfadknoten zur Ausführungszeit ausgeführt. Wenn jede Person den Knoten erreicht, bewertet die KI sie in Echtzeit anhand der neuesten Signale und leitet sie zum relevantesten Pfad.
 
-Bei einer veröffentlichten Journey öffnen Sie die Journey-Arbeitsfläche und wählen Sie den nächstbesten Pfadknoten aus, um den Abschnitt **_[!UICONTROL Live-Ergebnisse]_** im rechten Bedienfeld anzuzeigen. Live-Ergebnisse zeigen:
+Bei einer veröffentlichten Journey öffnen Sie die Journey-Arbeitsfläche und wählen Sie den nächstbesten Pfadknoten aus, um den Abschnitt **_[!UICONTROL Endergebnisse]_** im rechten Bedienfeld anzuzeigen. Die endgültigen Ergebnisse zeigen:
 
 * Die prozentuale Verteilung der Profile über jeden Pfad
 * Der Konfidenzwert für jede Pfadzuweisung
 * Argumentation auf Pfad- und Profilebene mit erweiterbaren Details für einzelne Profile
 
-Live-Ergebnisse sind auch in der Journey-Konsole und über die Journey-Beobachtungsfunktion im KI-Hub verfügbar.
+![Registerkarte „Abschlussbericht“ mit Live-Profilverteilung, Konfidenzwerten und KI-Argumentation pro Pfad.](./assets/next-best-path-final-report.png){width="600"}
+
+Live-Ergebnisse sind auch über die Journey-Beobachtungsfunktion in der [Coworker chat-Oberfläche](../agents/chat-interface.md) verfügbar.
