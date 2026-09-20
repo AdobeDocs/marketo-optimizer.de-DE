@@ -129,7 +129,7 @@ Verwenden Sie eine Simulation, um zu testen, wie die KI Ihre Eingabeaufforderung
 
 ### Simulation ausführen {#run-simulation}
 
-1. Wählen Sie den nächstbesten Pfadknoten aus und klicken Sie oben *rechten Bedienfeld auf* Simulieren![ ((](../assets/do-not-localize/icon-simulate.svg)) ).
+1. Wählen Sie den nächstbesten Pfadknoten aus und klicken Sie oben *rechten Bedienfeld auf* Simulieren![&#x200B; ((](../assets/do-not-localize/icon-simulate.svg)) ).
 
 1. Wählen Sie im Dialogfeld eine dynamische Liste aus, die für die Simulationszielgruppe verwendet werden soll.
 
