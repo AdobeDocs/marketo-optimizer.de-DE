@@ -26,7 +26,7 @@ _Bericht anzeigen :_
 
 ![E-Mail-Interaktionsbericht mit Journey-Name- und Persona-Filtern, einem Datumsbereich der letzten 30 Tage und einer Tabelle mit E-Mail-Aktivitätsmetriken.](./assets/reports-email-engagement.png){width="700" zoomable="yes"}
 
-Sie können [ Datumsbereich ändern](./reports-overview.md#change-the-date-range) indem Sie dieselbe Datumsbereichsauswahl verwenden, die in anderen Berichtsabschnitten verfügbar ist.
+Sie können [&#x200B; Datumsbereich ändern](./reports-overview.md#change-the-date-range) indem Sie dieselbe Datumsbereichsauswahl verwenden, die in anderen Berichtsabschnitten verfügbar ist.
 
 Wählen **[!UICONTROL oben]** Bericht die Option „Freigeben“ aus, um den Export aller Berichtsdaten herunterzuladen oder zu planen. Siehe [_Exportieren eines Berichts_](./reports-overview.md#export-a-report) in der Übersicht über Berichte.
 
@@ -43,13 +43,13 @@ Metrikspalten sind unter **[!UICONTROL E-Mail-Aktivitäten]** gruppiert.
 | --- | --- |
 | [!UICONTROL gesendet] | Anzahl der gesendeten E-Mails. |
 | [!UICONTROL Zugestellt] | Anzahl der zugestellten E-Mails. |
-| [!UICONTROL  % Zugestellt] | Prozentsatz der gesendeten E-Mails, die zugestellt wurden |
+| [!UICONTROL &#x200B; % Zugestellt] | Prozentsatz der gesendeten E-Mails, die zugestellt wurden |
 | [!UICONTROL Hardbounce] | Anzahl der E-Mails, die dauerhaft nicht zugestellt werden konnten. |
 | [!UICONTROL Softbounce] | Anzahl der E-Mails, die vorübergehend nicht zugestellt werden konnten. |
 | [!UICONTROL Geöffnet] | Anzahl der Öffnungen der E-Mail durch Empfänger. |
-| [!UICONTROL  % geöffnet] | Prozentsatz der zugestellten E-Mails, die geöffnet wurden. |
+| [!UICONTROL &#x200B; % geöffnet] | Prozentsatz der zugestellten E-Mails, die geöffnet wurden. |
 | [!UICONTROL angeklickt] | Anzahl der Klicks von Empfängern auf einen Link in der E-Mail. |
-| [!UICONTROL  % angeklickt] | Prozentsatz der zugestellten E-Mails, die einen Klick erhalten haben |
+| [!UICONTROL &#x200B; % angeklickt] | Prozentsatz der zugestellten E-Mails, die einen Klick erhalten haben |
 | [!UICONTROL Klick-zum-Öffnen-Verhältnis] | Prozentsatz der geöffneten E-Mails, die einen Klick erhalten haben |
 | [!UICONTROL Abo storniert] | Die Anzahl der Empfänger, die sich von der E-Mail abgemeldet haben. |
 | [!UICONTROL % abgemeldet] | Prozentsatz der zugestellten E-Mails, die zu einer Abmeldung führten. |
