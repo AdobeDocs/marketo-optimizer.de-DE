@@ -7,9 +7,9 @@ product_v2:
 feature_v2:
   - id: 3c1de303-7a7c-59a6-abca-8c534730e19c
     internal-label: Reporting
-source-git-commit: 32017a2577b7f31632080215ba91b9454c51b9ef
+source-git-commit: 6e919a66af259ea1f5facf7f5c3e811d76101e85
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '491'
 ht-degree: 2%
 ---
 
@@ -37,7 +37,7 @@ Auf [!UICONTROL &#x200B; Registerkarte &#x200B;]Berichte“ werden vordefinierte
 Einige Berichte konzentrieren sich auf einen einzelnen Datensatz anstelle einer abschnittsweiten Ansicht und der Zugriff erfolgt in einem anderen Bereich der Anwendung.
 
 * Um die Leistung der Optimierung des E-Mail-Versands zu optimieren, öffnen Sie den Bericht über die Chat[!UICONTROL Oberfläche &quot;]&quot;. Anweisungen hierzu finden Sie [E-Mail-Sendezeitoptimierung](../marketing/email-send-time-optimization.md#reporting).
-* Den Fortschritt einer Person auf einer einzigen Journey verfolgen, indem Sie den Bericht von dieser Journey aus öffnen.
+* Für den Fortschritt einer Person auf einer Journey öffnen Sie den [Personen-Journey Individualbericht](./person-journey-individual-report.md) von dieser Journey aus.
 
 ## Exportieren eines Berichts {#export-a-report}
 

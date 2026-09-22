@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 6e03e2dc6abb00d288f5684e9ea9b6489c6517e4
+source-git-commit: 1dcc3bcdc59114c7fc1e16178db8921ae173b955
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: '633'
 ht-degree: 7%
 ---
 # Mitarbeiterqualifikationen
@@ -95,11 +95,17 @@ Eine _Qualifikation_ ist ein gepackter Workflow, den ein Kollege ausführen kann
 | `send-time-optimization` | Überprüfen Sie den STO-Status und aktivieren/deaktivieren Sie ihn auf einem E-Mail-Knoten. | Lese- und Schreibzugriff | [!DNL Marketo Optimizer] | Lese- und Schreibvorgänge [!DNL Marketo Optimizer] |
 | `send-time-report` | Abrufen/Anzeigen des STO-Leistungsberichts. | Lesen | [!DNL Marketo Optimizer] | Liest [!DNL Marketo Optimizer] |
 
+## Analytics und Reporting {#analytics-reporting}
+
+| Skill | Funktion | Zugriff | Produkt | Backend (Datenfluss) |
+|---|---|---|---|---|
+| `surface-analytics` | Generieren Sie Analyseberichte aus natürlicher Sprache über Aktivitätstrends, E-Mail-Performance, Lead- und Kontodaten, Segment- und Listenmitgliedschaft und Journey-Metriken, die als Diagramme und Tabellen zurückgegeben werden. Berichtsdaten werden alle zwei Stunden aktualisiert. <p>Siehe _[Erstellen von Analyseberichten](./surface-analytics.md)_.</p> | Lesen | [!DNL Marketo Optimizer] | Liest [!DNL Marketo Optimizer] + [!DNL Marketo Engage] |
+
 ## Kenntnisse {#knowledge}
 
 | Skill | Funktion | Zugriff | Produkt | Backend (Datenfluss) |
 |---|---|---|---|---|
-| `product-knowledge` | Beantworten Sie Anleitungen/Konzeptfragen in [!DNL Marketo Optimizer] Dokumentation zu Experience League. | Lesen | Beide | Liest externe Dokumente - keine Produktdaten |
+| `product-knowledge` | In [!DNL Marketo Optimizer] auf Experience League veröffentlichten Dokumentation erhalten Sie Antworten auf Fragen zu Anleitungen und Konzepten. | Lesen | Beide | Liest externe Dokumente - keine Produktdaten |
 
 ## Cross-Backend {#cross-backend}
 
@@ -109,5 +115,6 @@ Diese Fähigkeiten umfassen mehr als ein Backend:
 - **`audience-creation`** - liest [!DNL Marketo Engage] Smart Lists (`get_smart_list`/`get_smart_campaign`) und schreibt dann [!DNL Marketo Optimizer] Personenlisten.
 - **`journey-observability`** - [!DNL Marketo Optimizer] Lesevorgänge und ein `check_lead_in_marketo_static_list` [!DNL Marketo Engage].
 - **`scoring-studio`** - liest [!DNL Marketo Engage] Lead-Felder/Aktivitätstypen zusammen mit [!DNL Marketo Optimizer] Scoring-Service.
+- **`surface-analytics`** - Kann Berichtsfragen beantworten, die sich in einer einzigen Abfrage sowohl auf [!DNL Marketo Engage] als auch auf [!DNL Marketo Optimizer] Daten beziehen.
 
 Alle `falco-mcp_*`- und Journey/Token/Scoring/STO/FCS-Tools treffen auf [!DNL Marketo Optimizer] Services; CSV/Programm/Lead-Tools auf [!DNL Marketo Engage].

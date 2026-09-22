@@ -3,10 +3,10 @@ user-guide-title: Dokumentation zu Marketo Optimizer
 user-guide-description: Erfahren Sie mehr über Adobe Marketo Optimizer und wie Sie damit koordinierte Marketing- und Vertriebsaktivitäten mit personalisierten, KI-gestützten Inhalten für B2B-Leads und -Accounts durchführen können.
 hide: true
 nudge: red
-source-git-commit: 32017a2577b7f31632080215ba91b9454c51b9ef
+source-git-commit: 24ee4148c4e755fe0f4f1231f342890c22e6b781
 workflow-type: tm+mt
-source-wordcount: '246'
-ht-degree: 43%
+source-wordcount: '252'
+ht-degree: 42%
 ---
 
 # Benutzerhandbuch zu Marketo Optimizer {#user}
@@ -28,6 +28,7 @@ ht-degree: 43%
   + [Erstellen und Bewerben von Webinaren](./agents/webinar-creation.md)
   + [Überwachen und Debuggen des Journey-Fortschritts](./agents/journey-observability.md)
   + [Konfigurieren und Analysieren der Absichten](./agents/intent.md)
+  + [Erstellen von Analyseberichten](./agents/surface-analytics.md)
 + KI-Entscheidung {#ai-decisioning}
   + [Übersicht](./agents/ai-decisioning.md)
   + [KI-Entscheidungsstatus](./agents/ai-decisioning-health.md)
@@ -59,6 +60,7 @@ ht-degree: 43%
 + Berichte {#reports}
   + [Übersicht](./reports/reports-overview.md)
   + [Personen-Journey – Überblick](./reports/person-journey-overview-report.md)
+  + [Person Journey Individual](./reports/person-journey-individual-report.md)
   + [Interaktion](./reports/engagement-report.md)
   + [E-Mail-Interaktion](./reports/email-engagement-report.md)
   + [Web-Interaktion](./reports/web-engagement-report.md)
