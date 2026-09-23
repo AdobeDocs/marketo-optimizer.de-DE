@@ -143,7 +143,7 @@ So verwenden Sie ein Scoring-Modellergebnis, um nach einer [ereignisbasierten Zi
 
 ### Bedingungen für aufgeteilten Pfad {#split-path-conditions}
 
-So verwenden Sie ein Scoring-Modellergebnis, um Pfadbedingungen für einen [_Pfade aufteilen_-Knoten zu ](../marketing/split-merge-paths-nodes.md):
+So verwenden Sie ein Scoring-Modellergebnis, um Pfadbedingungen für einen [_Pfade aufteilen_-Knoten zu &#x200B;](../marketing/split-merge-paths-nodes.md):
 
 1. Klicken Sie **[!UICONTROL Knotenpfad auf]** Bedingung bearbeiten“.
 

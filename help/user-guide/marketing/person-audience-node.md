@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Der _Personen-Zielgruppe_-Knoten gibt an, welche Personenprofile in die Journey eintreten. Wenn Sie [Personen-Journey erstellen](./person-journeys.md) beginnt die Journey immer mit einem Personen-Zielgruppenknoten, der die Eingabe definiert. Der Zielgruppenknoten Person kann einen von zwei Zielgruppen-Eingabetypen aufweisen: eine Liste dynamischer Personen oder einen Ereignis-Trigger.
 
-Wenn die dynamische Personenliste, die Sie für den Personen-Journey benötigen, nicht bereits vorhanden ist, erstellen [ die Personenliste ](../audiences/people-lists.md#create-a-people-list) konfigurieren Sie dann den Zielgruppenknoten Person .
+Wenn die dynamische Personenliste, die Sie für den Personen-Journey benötigen, nicht bereits vorhanden ist, erstellen [&#x200B; die Personenliste &#x200B;](../audiences/people-lists.md#create-a-people-list) konfigurieren Sie dann den Zielgruppenknoten Person .
 
 _So konfigurieren Sie die Journey-Zielgruppe :_
 
