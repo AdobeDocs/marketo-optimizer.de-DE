@@ -7,10 +7,10 @@ product_v2:
 feature_v2:
   - id: 1650dadf-b034-5ac9-a309-77ad1e2f5035
     internal-label: Chat Interface
-source-git-commit: cc6a908809cfb91bf03157935737f4869761a7db
+source-git-commit: 7e3080b688415ef623cdbd57aa08ed43eb6fcd17
 workflow-type: tm+mt
-source-wordcount: '897'
-ht-degree: 2%
+source-wordcount: '1410'
+ht-degree: 1%
 ---
 
 # Scoring Studio
@@ -105,6 +105,84 @@ Unterhalb des Lead-Segments zeigt die Karte **[!UICONTROL Name des Bewertungsfel
 
 ## Veröffentlichen und Planen {#publish-schedule}
 
-Wenn Ihr Modell fertig ist, wählen Sie **[!UICONTROL Veröffentlichen]** aus. Wählen Sie aus, wie oft das Modell Ihre Audience bewertet: täglich, wöchentlich oder monatlich.
+Wenn Ihr Modell fertig ist, klicken Sie auf **[!UICONTROL Veröffentlichen]**.
 
-Den vollständigen Veröffentlichungsprozess, einschließlich [!DNL Marketo Optimizer] automatischen Bereitstellung eines Bewertungsfelds, finden Sie unter [_Veröffentlichen eines Bewertungsmodells_](../agents/lead-scoring-model.md#publish-model).
+![Die Schaltfläche „Veröffentlichen“ wird für ein Entwurfs-Bewertungsmodell angezeigt.](./assets/scoring-model-publish.png){width="700" zoomable="yes"}
+
+Wählen Sie aus, wie oft das Modell Ihre Audience bewertet: täglich, wöchentlich oder monatlich. Sie können auch eine manuelle Option auswählen, um das Modell auszuführen.
+
+![Die Zeitplanoptionen zeigen die täglichen, wöchentlichen, monatlichen und manuellen Wiederholungsoptionen für die Ausführung des Scoring-Modells an.](./assets/scoring-model-publish-schedule-options.png){width="420" zoomable="no"}
+
+Den vollständigen Veröffentlichungsprozess mit der [Coworker chat-Schnittstelle](../agents/chat-interface.md) einschließlich [!DNL Marketo Optimizer] automatischen Bereitstellung eines Bewertungsfelds finden Sie unter [_Veröffentlichen eines Bewertungsmodells_](../agents/lead-scoring-model.md#publish-model).
+
+Die aktuellen Bewertungen werden in einem bereitgestellten Feld gespeichert, das mit Ihrer [!DNL Marketo Engage] synchronisiert wird.
+
+![Das bereitgestellte Bewertungsfeld, das in der Marketo Engage-Feldverwaltung angezeigt wird](./assets/scoring-model-score-field-ame.png){width="800" zoomable="yes"}
+
+## Scores in Filtern verwenden {#filter-score}
+
+Nach dem [Veröffentlichen eines Modells](#publish-schedule) können Sie den resultierenden Score als Filter beim Erstellen ereignisbasierter Zielgruppen und _Lauschen auf ein Ereignis_ Knoten, als Bedingung für einen aufgeteilten Pfad oder für die Mitgliedschaft in der Personenliste verwenden.
+
+Der Score wird im Bedienfeld Filter unter der Kategorie **[!UICONTROL Personenattribute]** angezeigt und ist mit dem Modellnamen oder dem benutzerdefinierten [_Score-Feldnamen_](#lead-segment) beschriftet, den Sie ihm zugewiesen haben. Geben Sie diesen Namen in das Suchfeld des Filterbedienfelds ein, um den Score zu finden, ziehen Sie ihn dann auf die Arbeitsfläche und definieren Sie Ihre Kriterien.
+
+### Ereignisbasierte Zielgruppen und Knoten {#scoring-model-event-audience}
+
+So verwenden Sie ein Scoring-Modellergebnis, um nach einer [ereignisbasierten Zielgruppe](../audiences/event-based-audiences.md) oder [_auf einen_ zu filtern](../marketing/listen-for-event-nodes.md):
+
+1. Klicken Sie **[!UICONTROL Ereigniskriterien hinzufügen]**.
+
+1. Wählen _[!UICONTROL Dialogfeld „Ereigniskriterien bearbeiten]_ die Registerkarte **[!UICONTROL Filter]** aus.
+
+1. Geben Sie den Modellnamen in das Suchfeld ein und ziehen Sie die Punktzahl auf die Arbeitsfläche.
+
+   ![Die Registerkarte Filter zeigt einen Modellnamen, der in das Suchfeld eingegeben wurde, und den übereinstimmenden Score, der auf die Arbeitsfläche gezogen wurde.](./assets/scoring-model-event-filter.png){width="700" zoomable="yes"}
+
+1. Stellen Sie den Operator und den Wert so ein, dass sie mit den Werten übereinstimmen, die Sie ansprechen möchten.
+
+1. Klicken Sie auf **[!UICONTROL Speichern]**.
+
+### Bedingungen für aufgeteilten Pfad {#split-path-conditions}
+
+So verwenden Sie ein Scoring-Modellergebnis, um Pfadbedingungen für einen [_Pfade aufteilen_-Knoten zu ](../marketing/split-merge-paths-nodes.md):
+
+1. Klicken Sie **[!UICONTROL Knotenpfad auf]** Bedingung bearbeiten“.
+
+1. Geben _[!UICONTROL im Dialogfeld Bedingungen]_ den Modellnamen in das Suchfeld ein und ziehen Sie dann die entsprechende Bewertung auf die Arbeitsfläche.
+
+   ![Das Dialogfeld Bedingungen zeigt einen Modellnamen, der in das Suchfeld eingegeben wurde, und den übereinstimmenden Score, der auf die Arbeitsfläche gezogen wurde.](./assets/scoring-model-split-path-condition.png){width="700" zoomable="yes"}
+
+1. Stellen Sie den Operator und den Wert so ein, dass sie mit den Werten übereinstimmen, die Sie ansprechen möchten.
+
+1. Klicken Sie **[!UICONTROL Fertig]**, um die Bedingung für den Pfad zu speichern.
+
+### Mitgliedschaft in der Personenliste {#scoring-model-people-lists}
+
+So verwalten Sie [Personenliste](../audiences/people-lists.md) Mitgliedschaft mithilfe eines Scoring-Modells:
+
+**Statische Liste - Mitglieder hinzufügen**
+
+1. Öffnen Sie die statische Liste und klicken Sie auf **[!UICONTROL Personen hinzufügen]**.
+
+1. Geben _[!UICONTROL im Dialogfeld „Personen]_&quot; den Modellnamen in das Suchfeld ein und ziehen Sie dann die entsprechende Bewertung auf die Arbeitsfläche.
+
+   ![Das Dialogfeld „Personen hinzufügen“ zeigt einen Modellnamen, der in das Suchfeld eingegeben wurde, und den entsprechenden Score an, der auf die Arbeitsfläche gezogen wurde.](./assets/scoring-model-static-list-add-people.png){width="700" zoomable="yes"}
+
+1. Stellen Sie den Operator und den Wert so ein, dass sie mit den Werten übereinstimmen, die Sie ansprechen möchten.
+
+1. Klicken Sie **[!UICONTROL Fertig]**, um den Filter anzuwenden und passende Personen für die Liste zu qualifizieren.
+
+**Dynamische Liste - Festlegen von Mitgliedschaftsregeln**
+
+1. Öffnen Sie die dynamische Liste und wählen Sie die Registerkarte **[!UICONTROL Regeln]** aus.
+
+1. Klicken Sie **[!UICONTROL Regeln bearbeiten]**.
+
+1. Geben _[!UICONTROL im Dialogfeld Regeln bearbeiten]_ den Modellnamen in das Suchfeld ein und ziehen Sie dann das Bewertungselement auf die Arbeitsfläche.
+
+   ![Das Dialogfeld Regeln bearbeiten zeigt einen Modellnamen, der in das Suchfeld eingegeben wurde, und den entsprechenden Score an, der auf die Arbeitsfläche gezogen wurde.](./assets/scoring-model-dynamic-list-rules.png){width="700" zoomable="yes"}
+
+1. Stellen Sie den Operator und den Wert so ein, dass sie mit den Werten übereinstimmen, die Sie ansprechen möchten.
+
+1. Klicken Sie **[!UICONTROL Fertig]**, um die Regel zu speichern.
+
+   Die Mitgliedschaft wird automatisch aktualisiert, wenn Personendatensätze anhand der Regel ausgewertet werden.
