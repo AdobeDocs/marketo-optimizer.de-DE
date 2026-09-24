@@ -111,7 +111,7 @@ Sie können ein benutzerdefiniertes Token aus der Liste löschen, wenn es derzei
 
 ## AutoSuggest und Preview {#autosuggest}
 
-Wenn Sie einen _Datenwert ändern_-[-Knoten ](./action-nodes.md) Ihrem Journey einfügen, können Sie `{{` in das Feld **[!UICONTROL Neuer Wert]** eingeben, um das Menü Token _AutoSuggest_ anzuzeigen. In der angezeigten Liste werden unterstützte Namespaces und einzelne Token angezeigt. Es werden nur Token eines kompatiblen Datentyps aufgelistet.
+Wenn Sie einen _Datenwert ändern_-[-Knoten &#x200B;](./action-nodes.md) Ihrem Journey einfügen, können Sie `{{` in das Feld **[!UICONTROL Neuer Wert]** eingeben, um das Menü Token _AutoSuggest_ anzuzeigen. In der angezeigten Liste werden unterstützte Namespaces und einzelne Token angezeigt. Es werden nur Token eines kompatiblen Datentyps aufgelistet.
 
 Bei _Meine Token_ wird eine Vorschau des Token-Werts mit dem Token-Namen angezeigt, um die Auswahl des richtigen Werts zu vereinfachen.
 
