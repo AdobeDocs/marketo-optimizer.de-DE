@@ -4,37 +4,41 @@ description: Erstellen und verwalten Sie benutzerdefinierte „Meine Token“ f�
 TQID: 'https://experienceleague.adobe.com/utVM69g7aQSuF-V3XQIdVBqvBXyiDz1ZWr0WtE67UCg'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
   - id: a29661b8-f7a4-53d1-a9ac-fdec08c092e4
+    internal-label: Programs
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Personalization
+source-git-commit: 177e7c3d0806febd730104b19787ba3cbea2914a
 workflow-type: tm+mt
-source-wordcount: 629
+source-wordcount: '704'
 ht-degree: 3%
-
 ---
-
 # Benutzerdefinierte Token für die Personalisierung
 
-Die Inhaltspersonalisierung verwendet Token als Platzhalter oder Variablen, die beim Generieren des Inhaltsartefakts aufgefüllt werden. Standard-Personalisierungs-Token sind für E-Mails, Landingpages, Fragmente und Vorlagen verfügbar. Sie können auch einen Satz benutzerdefinierter Token mit Werten definieren, die für das Programm oder den Ordner spezifisch sind. Dieser Satz benutzerdefinierter Token wird als _Meine Token_ bezeichnet. Alle diese benutzerdefinierten Token dienen der Personalisierung.
+Die Inhaltspersonalisierung verwendet Token als Platzhalter oder Variablen, die beim Generieren des Inhaltsartefakts aufgefüllt werden. Standard-Personalisierungs-Token sind für E-Mails, Landingpages, Fragmente und Vorlagen verfügbar. Sie können auch einen Satz benutzerdefinierter Token mit Werten definieren, die für das Programm oder den Ordner spezifisch sind. Dieser Satz benutzerdefinierter Token wird als &quot;_Token“_. Alle diese benutzerdefinierten Token können personalisiert werden.
 
-Wenn Sie einer E-Mail ein benutzerdefiniertes Token hinzufügen, wird es als `{{my.TokenName}}` angezeigt. Beispielsweise könnten Sie `{{my.EventDate}}` oder `{{my.WebinarSpeaker}}` Token erstellen, um E-Mail-Inhalte im Zusammenhang mit kommenden Webinaren zu verwalten.
+<!-- 
+When you add a custom token to an email, it is displayed as `{{my.TokenName}}`. For example, you might have `{{my.EventDate}}` or `{{my.WebinarSpeaker}}` tokens created to manage email content related to upcoming webinars in your program.
+-->
 
 Zusätzlich zu _Meine Token_ die spezifisch für das Programm oder den Ordner sind, können Sie jedes der standardmäßigen (integrierten) Token für die Personalisierung verwenden.
 
->[!NOTE]
+>[!IMPORTANT]
 >
->_Meine Token_ sind derzeit im Personalization-Editor für diese Beta-Version nicht aktiviert.
+>In der ersten Marketo Optimizer-Version _Meine Token_ für die Aktionsknoten zum Ändern des Datenwerts unterstützt und sind auf die Verwendung in Zeichenfolgen- und Textattributen beschränkt. _Meine Token_ sind **nicht** derzeit im Personalization-Editor aktiviert.
 
-## Zugriffstoken
+## Zugriffstoken {#access-tokens}
 
 1. Erweitern Sie in der linken Navigation **[!UICONTROL Marketing-Verwaltung]**.
 
 1. Wählen Sie rechts in der **[!UICONTROL Marketing]**-Ressourcenliste **[!UICONTROL Programme]** aus.
 
-1. Wenn Sie die Baumstruktur ändern, wählen Sie das Programm oder den Ordner aus, um die Details im mittleren Arbeitsbereich zu öffnen.
+1. Wählen Sie in der Baumstruktur das Programm oder den Ordner aus, um die Details im mittleren Arbeitsbereich zu öffnen.
 
 1. Klicken Sie auf die **[!UICONTROL Token]**.
 
@@ -57,17 +61,17 @@ Die _Meine Token_ sind benutzerdefinierte Variablen, die Sie für ein Programm o
 | Boolesch | Dieser Typ enthält den booleschen Standardwert true oder false. |
 | RTF | Dieser Typ enthält formatierten Text. |
 
-### Token-Verschachtelung
+### Token-Verschachtelung {#nesting}
 
-Wenn Sie ein Token in einem Programm oder Ordner erstellen, ist es für Verweise durch andere untergeordnete Objekte verfügbar.
+Wenn Sie ein Token in einem Programm oder Ordner erstellen, ist es für Verweise durch Objekte innerhalb der Hierarchie verfügbar.
 
-* Lokales Token - Das Token wird im selben Programm oder Ordner definiert.
-* Vererbtes Token - Das Token wird in einem übergeordneten Programm oder Ordner definiert und liegt eine oder mehrere Ebenen über dem aktuellen Programm oder Ordner.
-* Überschriebenes Token - Das Token wird in einem übergeordneten Programm oder Ordner definiert, aber im aktuellen Programm oder Ordner wird ein anderer Wert definiert. Der Token-Status ändert sich in _Überschrieben_ und alle untergeordneten Ordner, Programme und Marketing-Artefakte übernehmen den neuen Wert.
+* **Lokales**: Das Token wird im selben Programm oder Ordner definiert.
+* **Vererbtes Token** - Das Token wird in einem übergeordneten Programm oder Ordner definiert und liegt eine oder mehrere Ebenen über dem aktuellen Programm oder Ordner.
+* **Überschriebenes Token** - Das Token wird in einem übergeordneten Programm oder Ordner definiert, aber im aktuellen Programm oder Ordner wird ein anderer Wert definiert. Der Token-Status ändert sich in _Überschrieben_ und alle untergeordneten Ordner, Programme und Marketing-Artefakte übernehmen den neuen Wert.
 
 ![Token-Typen und Vererbung](./assets/program-tokens-inherited-overridden.png){width="600" zoomable="yes"}
 
-### Erstellen eines Tokens
+### Erstellen eines Tokens {#create}
 
 1. Klicken Sie auf der _[!UICONTROL Token]_-Registerkarte auf **[!UICONTROL Erstellen]**.
 
@@ -83,9 +87,9 @@ Wenn Sie ein Token in einem Programm oder Ordner erstellen, ist es für Verweise
 
 1. Klicken Sie auf **[!UICONTROL Erstellen]**.
 
-### Token bearbeiten
+### Token bearbeiten {#edit}
 
-Sie können den Wert für jedes der definierten „Meine Token“ bearbeiten. Überschreiben Sie so den Wert für ein geerbtes Token.
+Sie können den Wert für jedes der definierten Token bearbeiten, wodurch der Wert für ein geerbtes Token überschrieben wird.
 
 <!-- (How does this affect live person journeys? ) -->
 
@@ -97,13 +101,21 @@ Sie können den Wert für jedes der definierten „Meine Token“ bearbeiten. Ü
 
 1. Klicken Sie auf das _Speichern_-Symbol.
 
-### Token löschen
+### Token löschen {#delete}
 
 Sie können ein benutzerdefiniertes Token aus der Liste löschen, wenn es derzeit nicht zum Journey von E-Mail-Inhalten verwendet wird.
 
 1. Klicken Sie auf _[!UICONTROL Token]_ auf das Symbol _Löschen_ neben dem Token-Namen.
 
 1. Klicken Sie im Bestätigungsdialog auf **[!UICONTROL Löschen]**.
+
+## AutoSuggest und Preview {#autosuggest}
+
+Wenn Sie einen _Datenwert ändern_-[-Knoten ](./action-nodes.md) Ihrem Journey einfügen, können Sie `{{` in das Feld **[!UICONTROL Neuer Wert]** eingeben, um das Menü Token _AutoSuggest_ anzuzeigen. In der angezeigten Liste werden unterstützte Namespaces und einzelne Token angezeigt. Es werden nur Token eines kompatiblen Datentyps aufgelistet.
+
+Bei _Meine Token_ wird eine Vorschau des Token-Werts mit dem Token-Namen angezeigt, um die Auswahl des richtigen Werts zu vereinfachen.
+
+![Syntax im Feld Neuer Wert, um das Menü für automatische Vorschläge für Token anzuzeigen](./assets/program-tokens-change-data-value-autosuggest.png){width="500" zoomable="yes"}
 
 <!--
 
