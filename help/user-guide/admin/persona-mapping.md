@@ -46,7 +46,7 @@ Viele Marketing- und Verkaufsteams verwenden Jobtitel als Möglichkeit, verschie
 
 ## Zugreifen auf die konfigurierten Personas {#access}
 
-Öffnen Sie das Bedienfeld _Persona-_&quot; über die [-Oberfläche ](../agents/chat-interface.md).
+Öffnen Sie das Bedienfeld _Persona-_&quot; über die [-Oberfläche &#x200B;](../agents/chat-interface.md).
 
 1. Geben Sie im Chatbedienfeld `/persona-mapping` ein und drücken Sie die **Eingabetaste**.
 
