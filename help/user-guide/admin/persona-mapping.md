@@ -4,28 +4,31 @@ description: Erfahren Sie, wie Sie in Marketo Optimizer die Persona-Zuordnung ei
 TQID: 'https://experienceleague.adobe.com/JCBtJN4DgQZROVDamM4eKuCiGTwJQPQY3wMxmBPFj74'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 46e599c6-e20f-5f67-9824-93415016f66b
+    internal-label: Audiences
   - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
   - id: a659ad61-de21-559d-a901-02e2fb329ff5
+    internal-label: Administration
   - id: d4203578-d294-5145-b397-f26f4488a904
+    internal-label: Channels
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Administration
+source-git-commit: fd79d458ef033e4485ba5e8a8c8fbe56b7cd559b
 workflow-type: tm+mt
-source-wordcount: 1216
+source-wordcount: '1287'
 ht-degree: 1%
-
 ---
-
 # Persona-Mapping
 
-<!-- not available until GA -->
+Personas sind ein wichtiger Aspekt in einem Account-Based Marketing (ABM)-Ansatz, da sie Marketing-Experten dabei helfen, ihre Strategien an die spezifischen Bedürfnisse, Präferenzen und Schmerzpunkte von Personen in Zielkonten anzupassen. Marketing-Experten können für jede Rolle ein detailliertes Profil erstellen, einschließlich Hintergrund, Zuständigkeiten, Probleme und bevorzugter Kommunikationskanäle. Mit diesen Definitionen können Admins Personas anhand von Personenattributen in [!DNL Adobe Marketo Optimizer] konfigurieren, sodass Personenlisten und Journey optimierte und konsistente Filter verwenden können, mit denen diese Personas erfasst werden.
 
-Personas sind ein wichtiger Aspekt in einem Account-Based Marketing (ABM)-Ansatz, da sie Marketing-Experten dabei helfen, ihre Strategien an die spezifischen Bedürfnisse, Präferenzen und Schmerzpunkte von Personen in Zielkonten anzupassen. Marketing-Experten können für jede Rolle ein detailliertes Profil erstellen, einschließlich Hintergrund, Zuständigkeiten, Probleme und bevorzugter Kommunikationskanäle. Mit diesen Definitionen können Admins Personas anhand von Personenattributen in Marketo Optimizer konfigurieren, sodass Personenlisten und Journey optimierte und konsistente Filter verwenden können, mit denen diese Personas erfasst werden.
-
-In Marketo Optimizer bietet die Rollenzuordnung eine zusätzliche Funktion, die über die Bedingungen für Rollenvorlagen hinausgeht: Sie können [Personenlisten](../audiences/people-lists.md) und [Personen-Journey](../marketing/person-journeys.md) mithilfe von **[!UICONTROL Abgeleitete]** als Filterkriterium filtern. Eine _abgeleitete Persona_ ist die Persona, die das System für einen Personendatensatz ableitet, indem es seine Attribute mit allen konfigurierten Persona-Definitionen vergleicht.
+In [!DNL Marketo Optimizer] bietet die Zuordnung von Rollen eine zusätzliche Funktion, die über die Bedingungen von Rollenvorlagen hinausgeht: Sie können [Personenlisten](../audiences/people-lists.md) und [Personen-Journey](../marketing/person-journeys.md) mithilfe von **[!UICONTROL Abgeleitete Persona]** als Filterkriterium filtern. Eine _abgeleitete Persona_ ist die Persona, die das System für einen Personendatensatz ableitet, indem es seine Attribute mit allen konfigurierten Persona-Definitionen vergleicht.
 
 Definition der Persona und Nutzungsbeschränkungen:
 
@@ -37,64 +40,64 @@ Definition der Persona und Nutzungsbeschränkungen:
 
 **Anwendungsfall: Varianten der Auftragstitel**
 
-Viele Marketing- und Verkaufsteams verwenden Jobtitel als Möglichkeit, verschiedene Rollen innerhalb eines Kontos zu identifizieren. Titel für Kontakte können jedoch inkonsistent sein und zahlreiche Varianten für ähnliche Rollen verwenden. Beim Erstellen von Personenlistenfiltern oder Personen-Journey-Zielgruppenbedingungen kann es erforderlich sein, dass Sie jede mögliche zugehörige Stellenbezeichnung für eine bestimmte Rolle definieren. Sie können diese Definitionen vereinfachen und Personen mit ähnlichen Stellenbezeichnungen unter eine abgeleitete Rolle bringen, die Sie dann ansprechen können, indem Sie nach „Abgeleitete _ist Produktverwaltung“ filtern_ anstatt einzelne Stellenbezeichnungswerte abzugleichen.
+Viele Marketing- und Verkaufsteams verwenden Jobtitel als Möglichkeit, verschiedene Rollen innerhalb eines Kontos zu identifizieren. Titel für Kontakte können jedoch inkonsistent sein und zahlreiche Varianten für ähnliche Rollen verwenden. Beim Erstellen von Personenlistenfiltern oder Personen-Journey-Zielgruppenbedingungen müssen Sie möglicherweise jede mögliche zugehörige Stellenbezeichnung für eine bestimmte Rolle definieren. Sie können diese Definitionen vereinfachen und Personen mit ähnlichen Berufsbezeichnungen unter einer abgeleiteten Rolle gruppieren, die Sie dann ansprechen können, indem Sie nach „Abgeleitete _ist Führung“ filtern_ anstatt einzelne Werte für die Berufsbezeichnung abzugleichen.
 
 >[!ENDSHADEBOX]
 
 ## Zugreifen auf die konfigurierten Personas {#access}
 
-1. Wählen Sie in der linken Navigation **[!UICONTROL Administration]** > **[!UICONTROL Konfigurationen]**.
+Öffnen Sie das Bedienfeld _Persona-_&quot; über die [-Oberfläche &#x200B;](../agents/chat-interface.md).
 
-1. Klicken Sie **[!UICONTROL Zwischenbereich auf]** Persona-Zuordnung“, um die Liste der Personas anzuzeigen.
+1. Geben Sie im Chatbedienfeld `/persona-mapping` ein und drücken Sie die **Eingabetaste**.
 
-   ![Zugriff auf die konfigurierten Personas](assets/configuration-persona-mapping.png){width="800" zoomable="yes"}
+   Dieser Befehl ist ein Navigationsbefehl, der unter **[!UICONTROL Seite öffnen]** im Schrägstrich aufgeführt ist.
 
-   Auf dieser Seite können Sie [erstellen](#create-a-persona), [bearbeiten](#edit-a-persona) oder [löschen](#delete-a-persona).
+   ![Screenshot des Schrägmenüs der Chat-Oberfläche mit dem Befehl /persona-mapping unter Seite öffnen.](assets/persona-mapping-open-chat.png){width="800" zoomable="yes"}
 
-   Die Persona-Zuordnungsliste ist als Tabelle organisiert und zeigt oben die zuletzt aktualisierten Personas an (sortiert nach _[!UICONTROL Letzte Aktualisierung]_). Sie können die angezeigte Tabelle anpassen, indem Sie auf das Symbol _Spalteneinstellungen_ ( ![Spalteneinstellungen](../assets/do-not-localize/icon-column-settings.svg) ) in der oberen rechten Ecke klicken und die Kontrollkästchen für die Spalten aktivieren oder deaktivieren.
+1. Coworker öffnet das Bedienfeld **[!UICONTROL Persona-Zuordnung]** als Registerkarte Workspace und zeigt die Liste der Personas an.
 
-   ![Spalten für die Anzeige in der Persona-Zuordnungsliste](assets/configuration-persona-mapping-list-columns.png){width="300"}
+   In diesem Bedienfeld können Sie [erstellen](#create-a-persona), [bearbeiten](#edit-a-persona) oder [löschen](#delete-a-persona).
+
+   Die Personalliste ist als Tabelle organisiert, die den jeweiligen Personennamen, das Erstellungsdatum und das Datum der letzten Änderung enthält. <!-- You can customize the displayed table by clicking the _Column settings_ ( ![Column settings](../assets/do-not-localize/icon-column-settings.svg) ) icon in the top-right corner and selecting or clearing the column checkboxes. --> Sie können das Chat-Bedienfeld minimieren, um die Größe des Bedienfelds _Persona-Zuordnung_ zu erhöhen.
+
+   ![Das Bedienfeld „Persona-Zuordnung“ mit einer Tabelle mit Standardpersonas und der Schaltfläche „Persona erstellen“.](assets/persona-mapping-list.png){width="700" zoomable="yes"}
 
 1. Um auf die Details einer Rolle zuzugreifen, klicken Sie auf den Namen.
 
 ### Standard-Personas
 
-Die _Persona-Zuordnung_ enthält fünf standardmäßige Personas, die anhand des Attributs für die Auftragstitel definiert werden. Sie können jede dieser Standardpersonas entsprechend den Anforderungen Ihres Unternehmens bearbeiten:
+Die _Persona-Zuordnung_ enthält zehn standardmäßige Personas, die gemäß dem Attribut für die Auftragstitel definiert sind. Sie können jede dieser Standardpersonas entsprechend den Anforderungen Ihres Unternehmens bearbeiten:
 
 | Persona | Stellenbezeichnungen |
 | ------- | ---------- |
-| CXO / EVP - CXO / Executive Vice President | CEO, CIO, CTO, CMO, CFO, Executive Vice President of Strategy |
-| SVP / VP - Senior Vice President / Vice President | SVP Marketing, VP Sales, SVP Operations, VP Product, VP IT |
-| Senior Director / Director - Senior Director / Director | Director of Engineering, Senior Director of Product, Director of Finance, Director of Customer Success |
-| Senior Manager/Manager - Senior Manager/Manager | Senior Marketing Manager, IT Manager, Operations Manager, Sales Manager, HR Manager |
-| Einzelner Mitwirkender - Einzelner Mitwirkender | Kundenbetreuer, Software-Ingenieur, Marketing-Spezialist, Customer Success-Vertreter |
-| Analyst - Analyst | Business Analyst, Data Analyst, Market Research Analyst, Financial Analyst, Operations Analyst |
-| Entwickler - Entwickler | Frontend-Entwickler, Backend-Entwickler, Full-Stack-Entwickler, Mobile-App-Entwickler, DevOps-Ingenieur |
-| Professionelles Personal - Professionelles Personal | HR Specialist, Legal Counsel, Compliance Officer, Project Manager, Procurement Specialist |
-| Berater - Berater | Unternehmensberater, IT-Berater, Business Process Consultant, Marketing Consultant |
-| Andere - Andere | Branchenspezialist, unabhängiger Berater, freiberuflicher Berater, Fachexperte |
+| CXO/EVP | CEO, CIO, CTO, CMO, CFO, Executive Vice President of Strategy |
+| SVP/VP | SVP Marketing, VP Sales, SVP Operations, VP Product, VP IT |
+| Senior Director/Director | Director of Engineering, Senior Director of Product, Director of Finance, Director of Customer Success |
+| Senior Manager | Senior Marketing Manager, IT Manager, Operations Manager, Sales Manager, HR Manager |
+| Einzelner Beitragender | Kundenbetreuer, Software-Ingenieur, Marketing-Spezialist, Customer Success-Vertreter |
+| Analytiker | Business Analyst, Data Analyst, Market Research Analyst, Financial Analyst, Operations Analyst |
+| Entwickler | Frontend-Entwickler, Backend-Entwickler, Full-Stack-Entwickler, Mobile-App-Entwickler, DevOps-Ingenieur |
+| Professionelles Personal | HR Specialist, Legal Counsel, Compliance Officer, Project Manager, Procurement Specialist |
+| Berater | Unternehmensberater, IT-Berater, Business Process Consultant, Marketing Consultant |
+| Andere | Branchenspezialist, unabhängiger Berater, freiberuflicher Berater, Fachexperte |
 
 ### Filtern von Listen
 
 Um die gewünschte Persona zu finden, geben Sie eine Textzeichenfolge in die Suchleiste ein, um Personas anhand des Namens zuzuordnen.
 
-![Filtern der angezeigten Rollenzuordnungen](assets/configuration-persona-mapping-search.png){width="700" zoomable="yes"}
+![Suchfeld, das die Rollenliste nach Namen filtert und zwei übereinstimmende Ergebnisse anzeigt.](assets/configuration-persona-mapping-search.png){width="680" zoomable="yes"}
 
 ## Persona erstellen {#create-a-persona}
-
-1. Wählen Sie in der linken Navigation **[!UICONTROL Administration]** > **[!UICONTROL Konfiguration]** aus.
-
-1. Klicken Sie **[!UICONTROL Zwischenbereich auf]** Persona-Zuordnung“.
 
 1. Klicken Sie **[!UICONTROL Persona erstellen]**.
 
 1. Geben Sie einen eindeutigen **[!UICONTROL Namen]** und **[!UICONTROL Beschreibung]** (optional) für die Rolle ein.
 
-   ![Persona-Zuordnung erstellen](assets/configuration-persona-mapping-new.png){width="700" zoomable="yes"}
+   ![Erstellen Sie ein persönliches Bedienfeld mit Feldern Name und Beschreibung und einem Abschnitt Regeln zur Auswahl von Attributen.](assets/configuration-persona-mapping-new.png){width="680" zoomable="yes"}
 
-1. Wählen Sie die Attribute aus, die für die Zuordnung der Rolle verwendet werden sollen.
+1. Wählen **[!UICONTROL unter „Regeln]** die Attribute aus, die für die Zuordnung der Rolle verwendet werden sollen.
 
-   * Klicken Sie **[!UICONTROL Personenattribute auswählen]**.
+   * Klicken Sie **[!UICONTROL Regeln bearbeiten]**.
 
    * Aktivieren Sie im Dialogfeld das Kontrollkästchen für jedes Attribut, das Sie zuordnen möchten (maximal fünf).
 
@@ -102,15 +105,15 @@ Um die gewünschte Persona zu finden, geben Sie eine Textzeichenfolge in die Suc
 
      Um die Attributliste nach Namen zu filtern, geben Sie eine Textzeichenfolge in die Suchleiste ein. Sie können auch auf das Symbol _Filter_ ( ![Filtersymbol](../assets/do-not-localize/icon-filter.svg) ) oben links klicken, um die angezeigte Liste nach Typ, _Standard_ oder _Benutzerdefiniert_ zu filtern.
 
-     ![Dialogfeld „Persönliche Attribute auswählen“](assets/configuration-persona-mapping-select-attributes.png){width="700" zoomable="yes"}
+     ![Dialogfeld, in dem Personenattribute mit Kontrollkästchen, Nutzungsstatus und Spalten vom Typ „Attribut“ aufgelistet werden.](assets/configuration-persona-mapping-select-attributes.png){width="450" zoomable="yes"}
 
-   * Klicken Sie auf **[!UICONTROL Speichern]**.
+   * Klicken Sie auf **[!UICONTROL Fertig]**.
 
      Die ausgewählten Attribute werden im Abschnitt &quot;_[!UICONTROL -Attribute]_ ausgefüllt.
 
-1. Geben Sie für jedes Attribut die kommagetrennten Werte ein, denen Sie für das Attribut entsprechen möchten.
+   * Geben Sie für jedes Attribut die kommagetrennten Werte ein, denen Sie für das Attribut entsprechen möchten.
 
-1. Klicken Sie auf **[!UICONTROL Senden]**.
+1. Klicken Sie **[!UICONTROL Persona erstellen]**.
 
 ## Persona bearbeiten {#edit-a-persona}
 
@@ -130,19 +133,23 @@ Wenn Sie eine Rolle löschen, wird sie aus der Liste _Persona-Zuordnung_ entfern
 
 ## Nach abgeleiteter Persona filtern {#derived-persona-filter}
 
-Nachdem Personas konfiguriert wurden, leitet Marketo Optimizer ein Persona für jeden Personendatensatz ab, indem die Attribute des Datensatzes mit den definierten Persona-Zuordnungen verglichen werden. Sie können das abgeleitete Ergebnis - die _abgeleitete Persona_ - als Filter verwenden, wenn Sie die Audience für eine Personen-Liste oder eine Personen-Journey definieren.
+Nachdem Personas konfiguriert wurden, leitet [!DNL Marketo Optimizer] für jeden Personendatensatz eine Persona ab, indem die Attribute des Datensatzes mit den definierten Persona-Zuordnungen verglichen werden. Sie können das abgeleitete Ergebnis - die _abgeleitete Persona_ - als Filter verwenden, wenn Sie die Audience für eine Personen-Liste oder eine Personen-Journey definieren.
 
-Der Filter Abgeleitete Persona wird im Filterbedienfeld unter der Kategorie **[!UICONTROL Spezielle Filter]** zusammen mit anderen abgeleiteten Attributen wie z. B. der Journey-Mitgliedschaft angezeigt.
+Der Filter Abgeleitete Persona wird im Filterbedienfeld unter der Kategorie **[!UICONTROL Personenattribute]** zusammen mit anderen abgeleiteten Attributen wie z. B. der Journey-Mitgliedschaft angezeigt.
 
 ### Personenlisten
 
-Wenn Sie Mitglieder zu einer statischen Personenliste hinzufügen oder daraus entfernen oder wenn Sie die Mitgliedschaftsregeln für eine dynamische Personenliste definieren, können Sie nach Abgeleiteter Rolle filtern, um alle Personen anzusprechen, deren Attribute einer bestimmten konfigurierten Rolle entsprechen.
+Um Personen anzusprechen, die bei der Verwaltung von Personenlisten einer bestimmten konfigurierten Rolle entsprechen, können Sie nach abgeleiteter Rolle filtern.
 
 **Statische Liste - Mitglieder hinzufügen**
 
 1. Öffnen Sie die statische Liste und klicken Sie **[!UICONTROL oben]** auf „Personen hinzufügen“.
 
-1. Erweitern Sie im Filterdialogfeld **[!UICONTROL Sonderfilter]** und ziehen Sie **[!UICONTROL Abgeleitete Persona]** auf die Arbeitsfläche.
+1. Erweitern Sie im Filterdialogfeld **[!UICONTROL Personenattribute]** und ziehen Sie **[!UICONTROL Abgeleitete Persona]** auf die Arbeitsfläche.
+
+   Sie können auch den Filternamen in das Suchfeld eingeben, um ihn schnell zu finden.
+
+   ![Abgeleiteter Rollenfilter wurde zur Arbeitsfläche des Personenlisten-Filters hinzugefügt und bietet Personenoptionen zur Auswahl.](assets/persona-mapping-derived-persona-filter.png){width="680" zoomable="yes"}
 
 1. Wählen Sie in der Filterbedingung **[!UICONTROL ist]** und wählen Sie eine oder mehrere Rollen aus der Liste aus.
 
@@ -154,7 +161,9 @@ Wenn Sie Mitglieder zu einer statischen Personenliste hinzufügen oder daraus en
 
 1. Klicken Sie **[!UICONTROL Regeln bearbeiten]**.
 
-1. Erweitern Sie im Filterdialogfeld **[!UICONTROL Sonderfilter]** und ziehen Sie **[!UICONTROL Abgeleitete Persona]** auf die Arbeitsfläche.
+1. Erweitern Sie im Filterdialogfeld **[!UICONTROL Personenattribute]** und ziehen Sie **[!UICONTROL Abgeleitete Persona]** auf die Arbeitsfläche.
+
+   Sie können auch den Filternamen in das Suchfeld eingeben, um ihn schnell zu finden.
 
 1. Wählen Sie in der Filterbedingung **[!UICONTROL ist]** und wählen Sie eine oder mehrere Rollen aus der Liste aus.
 
@@ -172,8 +181,14 @@ Wenn Sie die Zielgruppe für eine Personen-Journey mit einer Ereignis-Zielgruppe
 
 1. Klicken **[!UICONTROL unter „Personenprofilfilter]** auf **[!UICONTROL Filter hinzufügen]**.
 
-1. Erweitern Sie **[!UICONTROL Spezialfilter]** und ziehen Sie **[!UICONTROL Abgeleitete Persona]** auf die Filterarbeitsfläche.
+1. Erweitern Sie **[!UICONTROL Personenattribute]** und ziehen Sie „Abgeleitete **[!UICONTROL &quot;]** die Filterarbeitsfläche.
+
+   Sie können auch den Filternamen in das Suchfeld eingeben, um ihn schnell zu finden.
+
+   ![Abgeleiteter Personenfilter wurde zur Arbeitsfläche des Personen-Journey-Ereignis-Zielgruppenfilters hinzugefügt.](assets/persona-mapping-derived-persona-event-filter.png){width="680" zoomable="yes"}
 
 1. Wählen Sie in der Filterbedingung **[!UICONTROL ist]** und wählen Sie eine oder mehrere Rollen aus der Liste aus.
 
    Nur Personen, deren abgeleitete Rolle mit den ausgewählten Werten übereinstimmt, können die Journey aufrufen.
+
+1. Klicken Sie **[!UICONTROL Speichern]**, um die Ereigniskriterien zu speichern.
