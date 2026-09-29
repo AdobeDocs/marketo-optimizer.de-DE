@@ -13,7 +13,7 @@ feature_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 055fd02e1007ba6d06e563dc931adffe6145bed6
+source-git-commit: c733fd2c334324d8666bac908e55a0780ede557e
 workflow-type: tm+mt
 source-wordcount: '1556'
 ht-degree: 0%
@@ -129,24 +129,26 @@ Verwenden Sie eine Simulation, um zu testen, wie die KI Ihre Eingabeaufforderung
 
 ### Simulation ausführen {#run-simulation}
 
-1. Wählen Sie den nächstbesten Pfadknoten aus und klicken Sie oben *rechten Bedienfeld auf* Simulieren![&#x200B; ((](../assets/do-not-localize/icon-simulate.svg)) ).
+1. Wählen Sie den nächstbesten Pfadknoten aus und klicken Sie oben *rechten Bedienfeld auf* Simulieren![ ((](../assets/do-not-localize/icon-simulate.svg)) ).
 
 1. Wählen Sie im Dialogfeld eine dynamische Liste aus, die für die Simulationszielgruppe verwendet werden soll.
 
-<!-- 
-   * **[!UICONTROL Original person lists]** – Use the audience from the audience node. Specify a sample size when the full audience exceeds the simulation threshold.
-   * **[!UICONTROL Dynamic and static lists]** – Use a [!DNL Marketo Engage] static or dynamic list.
-   * **[!UICONTROL Test records]** – Use AI-suggested test profiles.
--->
+   ![Dialogfeld „Pfade simulieren“ mit einer ausgewählten dynamischen Liste und den Schaltflächen „Abbrechen“ und „Simulieren“.](./assets/next-best-path-simulate-paths.png){width="250"}
 
-![Dialogfeld „Pfade simulieren“ mit einer ausgewählten dynamischen Liste und den Schaltflächen „Abbrechen“ und „Simulieren“.](./assets/next-best-path-simulate-paths.png){width="250"}
-
->[!NOTE]
->
->* Wenn die ausgewählte Zielgruppe den Schwellenwert für die Simulation überschreitet, führt das System die Simulation an einem 100-Profil-Beispiel aus. Ein Indikator in der Benutzeroberfläche zeigt an, dass die Ergebnisse Beispielbasiert sind.
->* Wenn die ausgewählte Zielgruppe noch nicht materialisiert wurde, wird die Simulation blockiert. Eine Inline-Warnung weist Sie an, die Zielgruppe zuerst zu materialisieren.
+   >[!NOTE]
+   >
+   >* Wenn die ausgewählte Zielgruppe den Schwellenwert für die Simulation überschreitet, führt das System die Simulation an einem 100-Profil-Beispiel aus. Ein Indikator in der Benutzeroberfläche zeigt an, dass die Ergebnisse Beispielbasiert sind.
+   >* Wenn die ausgewählte Zielgruppe noch nicht materialisiert wurde, wird die Simulation blockiert. Eine Inline-Warnung weist Sie an, die Zielgruppe zuerst zu materialisieren.
 
 1. Klicken Sie **[!UICONTROL Simulieren]**.
+
+
+<!--
+after second step above...
+* **[!UICONTROL Original person lists]** – Use the audience from the audience node. Specify a sample size when the full audience exceeds the simulation threshold.
+* **[!UICONTROL Dynamic and static lists]** – Use a [!DNL Marketo Engage] static or dynamic list.
+* **[!UICONTROL Test records]** – Use AI-suggested test profiles.
+-->
 
 ### Überprüfen der Simulationsergebnisse {#review-results}
 
