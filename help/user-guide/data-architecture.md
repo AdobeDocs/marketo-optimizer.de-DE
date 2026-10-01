@@ -1,7 +1,8 @@
 ---
-title: Hochrangige Architektur
-description: Erfahren Sie mehr über die Datenarchitektur, die Marketo Optimizer und Marketo Engage verbindet, einschließlich bidirektionaler Synchronisierung, Entitätslatenz und Mandantendatenisolierung.
+title: Datenarchitektur
+description: Erfahren Sie, wie Marketo Optimizer und Marketo Engage Daten gemeinsam nutzen, einschließlich Synchronisierungsrichtung und Latenz der Entität, Aktivitätsdatenfluss und Sandbox-basierter Datenisolierung.
 role: User, Admin
+autotag-review: '2026-10-01T18:40:38.362Z'
 TQID: 'https://experienceleague.adobe.com/oelEtys81g6TzM8bi-qy1nuWw6scOBry7tbZkMkZ6u0'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
@@ -9,6 +10,10 @@ product_v2:
 feature_v2:
   - id: 3c1de303-7a7c-59a6-abca-8c534730e19c
     internal-label: Reporting
+  - id: 3cf5f37e-e87e-5179-812b-53ce05d7eebb
+    internal-label: Setup
+  - id: 46e599c6-e20f-5f67-9824-93415016f66b
+    internal-label: Audiences
   - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
     internal-label: Journeys
   - id: d4203578-d294-5145-b397-f26f4488a904
@@ -22,53 +27,85 @@ topic_v2:
     internal-label: Customer journeys
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: 1524f9f9e63044a11cd54d3299fa4d1e49172cb1
+source-git-commit: 518a807aeed2471772b4f0a4d6d8d525cd3e22fd
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '771'
 ht-degree: 1%
 ---
 
-# Allgemeine Architektur
+# Datenarchitektur
 
-[!DNL Adobe Marketo Optimizer] lässt sich mit [!DNL Adobe Marketo Engage] integrieren, um einen umfassenden Überblick über B2B-Leads zu erhalten. Eine bidirektionale, vertrauenswürdige Synchronisierung sorgt dafür, dass [!DNL Marketo Engage] und [!DNL Marketo Optimizer] aufeinander abgestimmt bleiben, sodass beide Plattformen eine einzige, gemeinsame Ansicht von Personen, Unternehmen, benutzerdefinierten Objekten und Aktivitäten haben. Der leistungsstarke nahezu in Echtzeit ausgeführte Datenfluss sorgt dafür, dass die Datensätze aktuell und ausführbar bleiben, sodass Kampagnen und Journey sofort auf Leads reagieren können.
+[!DNL Adobe Marketo Optimizer] lässt sich mit [!DNL Adobe Marketo Engage] integrieren, um einen umfassenden Überblick über B2B-Leads zu erhalten. Eine bidirektionale, vertrauenswürdige Synchronisierung sorgt dafür, dass beide Produkte aufeinander abgestimmt sind, sodass sie eine einheitliche Sicht auf Personen, Unternehmen, benutzerdefinierte Objekte und Aktivitäten haben. [!DNL Marketo Engage] bleibt die maßgebliche Quelle für Personendaten. Jede [!DNL Marketo Optimizer] ist mit einer [!DNL Marketo Engage] gepaart.
 
-## Datengrundlage
+## Datengrundlage {#data-foundation}
 
 [!DNL Marketo Optimizer] und [!DNL Marketo Engage] verwenden eine gemeinsame Datengrundlage, auf der sie synchronisiert bleiben, während sie Daten für nachgelagerte Analysen bereitstellen.
 
-![Architekturdiagramm von Marketo Optimizer und Marketo Engage, das zeigt, wie die Services, Laufzeiten und Datenspeicher der beiden Produkte in Microsoft Azure und AWS miteinander verbunden sind](./assets/marketo-optimizer-architecture.svg)
+![Architekturdiagramm für Marketo Optimizer und Marketo Engage, das zeigt, wie die Services, Laufzeiten und Datenspeicher der beiden Produkte in Microsoft Azure und AWS verbunden sind](./assets/marketo-optimizer-architecture.svg)
 
 Auf allgemeiner Ebene:
 
-* **[!DNL Marketo Engage]Core** ist die definitive Quelle für Lead- und benutzerdefinierte Objektdaten und stellt die Datenintegrität zum Zeitpunkt der Erfassung sicher.
-* Eine **Datenbrokerschicht** koordiniert den Datenverkehr zwischen [!DNL Marketo Engage] und [!DNL Marketo Optimizer] und aggregiert freigegebene und replizierte Daten in eine einsatzbereite Umgebung. Dieser gesamte Austausch läuft in einer einzigen gemeinsamen AWS Aurora-Instanz und bildet die Closed-Loop-Grundlage für eine groß angelegte B2B-Orchestrierung.
-* **Aktivitäten** folgen einem definierten Pfad: Sie werden zuerst in die [!DNL Marketo Engage]-Datenbank geschrieben und in Apache SOLR für eine schnelle produktinterne Suche indiziert. Anschließend werden sie in der Aktivitäts-Pipeline veröffentlicht, damit [!DNL Marketo Optimizer] sofort auf sie aufmerksam wird. Die Journey-Laufzeit verarbeitet diese Aktivität und schreibt sie in Snowflake, wodurch Betriebsdaten in einen analysefähigen Status umgewandelt werden. Von dort aus werden Aktivitäten in [!DNL Adobe Experience Platform] Datensätze repliziert und für das Reporting [!DNL Adobe Customer Journey Analytics].
-* Verschiedene Entitätstypen werden mit unterschiedlichen Geschwindigkeiten und Richtungen synchronisiert, um Frische und Systemintegrität in Einklang zu bringen:
+* **[!DNL Marketo Engage]** ist die definitive Quelle für Lead- und benutzerdefinierte Objektdaten, die die Datenintegrität zum Zeitpunkt der Erfassung sicherstellt.
+* Eine **Datenbrokerschicht** koordiniert den Datenverkehr zwischen den beiden Produkten. Sie aggregiert freigegebene und replizierte Daten in eine einsatzbereite Datenbank. Der gesamte Austausch läuft in einem einzigen Aurora MySQL-Cluster.
+* **[!DNL Marketo Optimizer]** ist die maßgebliche Quelle für die ausgeführten Journey-Aktivitäten.
+
+## Synchronisierung von Entitäten {#entity-sync}
+
+Jeder Entitätstyp wird in der Richtung und mit der Geschwindigkeit synchronisiert, die die Datenintegrität am besten schützt.
 
 | Entität [!DNL Marketo Engage] | Synchronisationsrichtung | Latenz |
 | --- | --- | --- |
-| Lead | Bidirektional | &lt; 1 Sek |
-| Unternehmen | Bidirektional | &lt; 1 Sek |
-| Benutzerdefiniertes Objekt | unidirektional | &lt; 5 s |
-| Aktivität | unidirektional | &lt; 5 s |
-| Programmmitgliedschaft | Nicht synchronisiert | – |
-| Assets | Nicht synchronisiert | – |
+| Lead | bidirektional | Unter 1 Sekunde |
+| Unternehmen | bidirektional | Unter 1 Sekunde |
+| Benutzerdefiniertes Objekt | unidirektional | Unter 5 Sekunden |
+| Aktivität | unidirektional | Unter 5 Sekunden |
+| Programmmitgliedschaft | Nicht synchronisiert | Nicht zutreffend |
+| Assets | Nicht synchronisiert | Nicht zutreffend |
 
-Leads und Unternehmen werden sofort in beide Richtungen aktualisiert, ohne dass doppelte Datenkopien erstellt werden. Benutzerdefinierte Objekte werden innerhalb von Sekunden repliziert, sodass Schemaaktualisierungen in [!DNL Marketo Engage] auf einer aktiven Journey sofort wirksam werden können. Programmmitgliedschaft und Assets werden absichtlich von der Synchronisierung ausgeschlossen, um die Systemgeschwindigkeit und -integrität zu wahren.
+Die Synchronisierung erfolgt auf zwei Arten:
 
-Dieses Design mit nahezu null Latenz bedeutet, dass Analytics-Dashboards und nachgelagerte Systeme nahezu in Echtzeit gespeist werden, was eine Live-Kampagnenoptimierung und eine schnelle Nachverfolgung von Leads mit hoher Priorität ermöglicht.
+* **Leads, Unternehmen und Standardobjekte:** [!DNL Marketo Engage] steuert die Personentabelle und gibt sie über Lese- und Schreib-Datenbankansichten frei. Aktualisierungen in einem Produkt werden sofort in dem anderen angezeigt, und es werden keine doppelten Kopien erstellt.
+* **Benutzerdefinierte Objekte:** Daten werden innerhalb von Sekunden aus [!DNL Marketo Engage] repliziert. Schemaaktualisierungen in [!DNL Marketo Engage] sind für aktive Journey sofort verfügbar.
 
-### Unterstützung [!DNL Marketo Engage] Aktivitätsdaten in Journey
+[!DNL Marketo Engage] und [!DNL Marketo Optimizer] synchronisieren keine Programmmitgliedschaft oder Assets. Durch diesen Ausschluss werden Systemgeschwindigkeit und -integrität gewahrt.
 
-Synchronisierte [!DNL Marketo Engage]-Aktivitätsdaten ermöglichen die ereignisbasierte Journey-Erstellung in [!DNL Marketo Optimizer]. Verwenden Sie Aktivitäten wie Formularausfüllungen, Web-Besuche und E-Mail-Interaktion, um Journey von Personen in Triggern, Filtern und Zweigstellen zu verwalten.
+>[!NOTE]
+>
+>Daten, die mit [!DNL Marketo Optimizer] und mit dem Data Warehouse synchronisiert werden, sind letztendlich konsistent. Der Zeitpunkt hängt von der zugrunde liegenden Änderungsdatenerfassung, dem Batch oder dem Stream-Mechanismus ab.
+
+Dieses nahezu in Echtzeit ausgeführte Design liefert aktuelle Daten in Journey und Berichten. Sie können Leads mit hoher Priorität schnell nachverfolgen. Sie können auch B2B-Kontextdaten wie Produktnutzung und -absicht beim Journey von Entscheidungen verwenden, wenn diese sich ändern.
+
+## Aktivitätsdatenfluss {#activity-flow}
+
+Aktivitäten folgen einem separaten Pfad von anderen Entitäten. Jede Aktivität durchläuft fünf Phasen:
+
+1. **Primäre Erfassung:** [!DNL Marketo Engage] schreibt die Aktivität in die freigegebene Datenbank und indiziert sie in Apache SOLR, um innerhalb von [!DNL Marketo Engage] schnell suchen zu können.
+1. **Produktübergreifende Wahrnehmung:** [!DNL Marketo Engage] veröffentlicht die Aktivität in der Aktivitäts-Pipeline, sodass [!DNL Marketo Optimizer] sie sofort erhält.
+1. **Analytische Transformation:** Die Journey-Laufzeitumgebung verarbeitet die Aktivität und schreibt sie in Snowflake, wodurch Betriebsdaten in analysefähige Daten umgewandelt werden. Alle bisherigen Phasen laufen in Amazon Web Services (AWS).
+1. **Nachgelagertes Ziel:** [!DNL Marketo Optimizer] repliziert die Aktivität in [!DNL Adobe Experience Platform] Datensätze.
+1. **Berichte:** Der Datensatz-Feed wurde [!DNL Adobe Customer Journey Analytics] Berichte eingebettet. [!DNL Customer Journey Analytics] können auf Microsoft Azure oder AWS gehostet werden. Sie können die Datensätze auch mit [!DNL Query Service] abfragen. Siehe [Experience Platform-](./reports/aep-datasets.md).
+
+Journey- und Ereignis-Zielgruppen können sowohl [!DNL Marketo Optimizer] Aktivitäten als auch eine Untergruppe [!DNL Marketo Engage] Aktivitäten verwenden. Sie verwenden beide Sets auf die gleiche Weise. [!DNL Marketo Optimizer] Aktivitäten werden nicht an [!DNL Marketo Engage] zurückgesendet.
+
+Verwenden Sie Aktivitäten wie Formularausfüllungen, Web-Besuche und E-Mail-Interaktion, um Personen-Journey in Triggern, Filtern und Verzweigungen zu erstellen:
 
 * [Ereignis-Trigger für die Überwachung eines Ereignisknotens](./marketing/listen-for-event-nodes.md#event-triggers)
 * [Ereignisfilter für die Überwachung eines Ereignisknotens](./marketing/listen-for-event-nodes.md#event-filters)
 * [Abgestimmte Personenfilter für aufgeteilte Pfade und Knoten](./marketing/split-merge-paths-nodes.md#matched-person-filters)
+* [Ereignisbasierte Zielgruppen](./audiences/event-based-audiences.md)
 
-### Isolierung und Mandantenfähigkeit von Daten
+## Datenisolierung und Sandboxes {#data-isolation}
 
-* Kundendaten werden von [!DNL Marketo Engage], [!DNL Marketo Optimizer] und [!DNL Experience Platform] im Rahmen der Produktsynchronisierungs- und Analysearchitektur gemeinsam genutzt.
-* Die Daten sind für jeden Mandanten logisch isoliert und durch Adobe-Sicherheitskontrollen geschützt.
-* Die Daten werden über sichere, verschlüsselte Kanäle übertragen und in Adobe-Managed Services mit branchenüblicher Verschlüsselung und Zugriffssteuerung gespeichert.
-* Je nach Datentyp können Informationen zwischen [!DNL Marketo Engage] und [!DNL Marketo Optimizer] synchronisiert oder auf [!DNL Experience Platform] repliziert werden, um Reporting- und Analysefunktionen zu unterstützen, während die Sicherheit und die Mandantenisolation erhalten bleiben.
+[!DNL Marketo Engage], [!DNL Marketo Optimizer] und [!DNL Experience Platform] geben Kundendaten im Rahmen dieser Architektur frei. Adobe isoliert Ihre Daten mithilfe von [!DNL Experience Platform]-Sandboxes logisch von anderen Mandanten. Daten werden über sichere, verschlüsselte Kanäle übertragen. Adobe speichert sie in Adobe Managed Services mit branchenüblicher Verschlüsselung und Zugriffssteuerung.
+
+Jede [!DNL Marketo Optimizer] verfügt über eine dedizierte Produktkarte in der [!DNL Adobe Admin Console] und eine dedizierte Sandbox. Adobe stellt beide automatisch bereit, sodass Sie keine Sandbox erstellen. Der Sandbox-Name verwendet das Muster `mktoaep<prefix>` , wobei das Präfix Ihr [!DNL Marketo Engage] ist. Wenn Sie [!DNL Marketo Optimizer] mit mehr als einer [!DNL Marketo Engage] verwenden, verfügt jede Instanz über eine eigene Produktkarte und Sandbox.
+
+[!DNL Marketo Optimizer] ist nur in dieser Sandbox verfügbar, auch wenn Ihre Organisation über andere Sandboxes verfügt.
+
+Bei der Bereitstellung wird kein Sandbox-Zugriff zugewiesen. Rollen haben in der Regel Zugriff auf die standardmäßige `prod`-Sandbox, [!DNL Marketo Optimizer] sie jedoch nicht verwendet. Weisen Sie jeder [!DNL Experience Platform]-Rolle explizit die dedizierte Sandbox zu, da sonst Benutzende nicht in [!DNL Marketo Optimizer] arbeiten können. Verwenden Sie Benutzergruppen, um Benutzer hinzuzufügen und zu entfernen, ohne die Rolleneinrichtung zu wiederholen. Das vollständige Verfahren finden Sie unter [Benutzerzugriff und Berechtigungen](./start/user-management.md).
+
+[!DNL Marketo Optimizer] verwendet auch [!DNL Experience Platform] im Hintergrund. Dazu gehören die Schemaregistrierung, Ziele für den Paid-Media-Export, die Zugriffskontrolle und [!DNL Customer Journey Analytics]. Sie richten keine Schemata oder Namespaces ein. [!DNL Marketo Optimizer] erfordert keine [!DNL Real-Time Customer Data Platform], kein Echtzeit-Kundenprofil und keine Segmentierung.
+
+>[!WARNING]
+>
+>Löschen Sie nicht die dedizierte [!DNL Marketo Optimizer]-Sandbox. Das Löschen ist dauerhaft und kann nicht rückgängig gemacht werden. [!DNL Marketo Optimizer] zur Wiederherstellung neu bereitstellen.
