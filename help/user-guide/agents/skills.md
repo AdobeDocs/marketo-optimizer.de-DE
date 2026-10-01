@@ -15,9 +15,9 @@ subfeature_v2:
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
     internal-label: Artificial intelligence
-source-git-commit: 5334f0f5d9d958ea47b055b067a7308950352e9c
+source-git-commit: abbd342b8191ddebd7e155ad2c5944e4695a05b3
 workflow-type: tm+mt
-source-wordcount: '988'
+source-wordcount: '967'
 ht-degree: 4%
 ---
 
@@ -82,7 +82,6 @@ Mit diesen Kenntnissen können Sie E-Mails, Formulare und Landingpages erstellen
 | --- | --- | --- |
 | **Forms auflisten** | Auflisten von Formularen und Anzeigen ihrer Details und Felder. | Suche |
 | **Landingpages auflisten** | Listen Sie Landingpages auf, zeigen Sie deren Details an und verwalten Sie deren Entwurfs- oder Veröffentlichungsstatus. | Suche |
-| **E-Mail-Audit** | Prüfen Sie eine E-Mail anhand ihrer Zielgruppe, einschließlich persönlicher Schlussfolgerungen und einer kurzen, abschnittsweisen Überprüfung. | Analysieren |
 | **E-Mail-Authoring** | Erstellen oder aktualisieren Sie einen Journey-E-Mail-Knoten, einschließlich der Erstellung aus einer Zusammenfassung oder PDF, der Verknüpfung mit einem Knoten und dem Schreiben von Inhalten. | Bearbeiten |
 | **Formular-Authoring** | Erstellen oder aktualisieren Sie ein eigenständiges Lead-Capture-Formular, veröffentlichen Sie es und betten Sie es optional in eine Landingpage ein. | Erstellen |
 | **Landingpage-Authoring** | Erstellen oder aktualisieren Sie eine Landingpage aus einer Zusammenfassung, einschließlich Inhaltsplanung, Vorlagenauswahl, Ausfüllen von Slots und Hinzufügen eines Formulars und veröffentlichen Sie es dann. Hängen Sie außerdem eine veröffentlichte Landingpage als call-to-action-Link an eine E-Mail an. | Erstellen |
