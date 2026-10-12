@@ -45,9 +45,9 @@ Mit interaktiven Webinaren können Sie ein Live- oder simuliertes Webinar planen
 
 Sie können ein Webinar auf zwei Arten erstellen:
 
-* **Gesprächserlebnis** - Bitten Sie den Kollegen, ein Webinar in natürlicher Sprache zu planen, zu bewerben und darüber zu berichten. Siehe [Erstellen von Webinaren mit ](../agents/webinar-creation.md).
+* **Gesprächserlebnis** - Bitten Sie den Kollegen, ein Webinar in natürlicher Sprache zu planen, zu bewerben und darüber zu berichten. Siehe [Erstellen von Webinaren mit &#x200B;](../agents/webinar-creation.md).
 
-* **Point-and-Click** - Verwenden Sie den Arbeitsbereich _[!UICONTROL Programme]_, um ein Webinar-Asset hinzuzufügen, es zu entwerfen, Co-Hosts und Moderatoren hinzuzufügen, Journey für die Promotion und Nachbereitung zu erstellen und das Reporting zu überprüfen. Siehe [Erstellen und Entwerfen eines Webinars](create-webinar.md) und [Webinar-Promotion und Follow-up-Journey ](webinar-journeys.md).
+* **Point-and-Click** - Verwenden Sie den Arbeitsbereich _[!UICONTROL Programme]_, um ein Webinar-Asset hinzuzufügen, es zu entwerfen, Co-Hosts und Moderatoren hinzuzufügen, Journey für die Promotion und Nachbereitung zu erstellen und das Reporting zu überprüfen. Siehe [Erstellen und Entwerfen eines Webinars](create-webinar.md) und [Webinar-Promotion und Follow-up-Journey &#x200B;](webinar-journeys.md).
 
 ## Webinar als Medienelement
 
@@ -83,7 +83,7 @@ Der Webinar-Status hat fünf Werte. [!DNL Adobe Connect] setzt den Wert normaler
 >
 >Unabhängig davon, ob der Webinar-Status automatisch oder von einer Journey aus festgelegt wird, bewegt er sich nur in eine Richtung, genau wie [Programmstatus](./programs.md#statuses). Eine Person kann in einen späteren Status wechseln (z. B _&quot;_&quot; in _Teilgenommen_), jedoch nicht zurück in einen früheren Status. Planen Sie eine beliebige Autorenüberschreibungen mit diesem linearen Verlauf.
 
-Um eine Person von einer Journey in einen anderen Status zu versetzen, verwenden Sie die Aktion **[!UICONTROL Webinar-Mitgliedsstatus ändern]**. Siehe [Webinar-Promotion und Follow-up-Journey ](webinar-journeys.md).
+Um eine Person von einer Journey in einen anderen Status zu versetzen, verwenden Sie die Aktion **[!UICONTROL Webinar-Mitgliedsstatus ändern]**. Siehe [Webinar-Promotion und Follow-up-Journey &#x200B;](webinar-journeys.md).
 
 ## Webinar-Token
 

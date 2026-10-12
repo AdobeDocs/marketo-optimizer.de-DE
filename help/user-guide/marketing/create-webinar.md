@@ -101,7 +101,7 @@ Die Raumanpassung wie Logo, Farben und virtuelle Hintergründe wird direkt in [!
 
 1. Klicken Sie **Co-Host hinzufügen** oder **Moderator hinzufügen**.
 
-1. Geben Sie im Dialogfeld den Vornamen **[!UICONTROL Person,]****[!UICONTROL Nachname]** und **[!UICONTROL E-Mail]** ein und klicken Sie dann auf **[!UICONTROL Hinzufügen]**.
+1. Geben Sie im Dialogfeld den Vornamen **[!UICONTROL Person,]**&#x200B;**[!UICONTROL Nachname]** und **[!UICONTROL E-Mail]** ein und klicken Sie dann auf **[!UICONTROL Hinzufügen]**.
 
    >[!NOTE]
    >
