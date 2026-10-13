@@ -1,27 +1,36 @@
 ---
 title: Erstellen und Bewerben von Webinaren
-description: Verwenden Sie die Chat-Oberfläche in Marketo Optimizer, um ein Webinar zu planen, Co-Hosts und Moderatoren hinzuzufügen, Journey zu fördern und Berichte zu überprüfen - alles in natürlicher Sprache.
-keywords: 
+description: Verwenden Sie die Chat-Oberfläche in Marketo Optimizer, um ein Webinar zu planen, Co-Moderatoren und Moderatoren hinzuzufügen, Journey zu fördern und zu pflegen und Berichte zu überprüfen - alles in natürlicher Sprache.
+keywords:
 role: User
 TQID: 'https://experienceleague.adobe.com/OKsYvVIcNN-GEMiMPW2mWomstM2MabYcK0jTColgxIQ'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 1650dadf-b034-5ac9-a309-77ad1e2f5035
+    internal-label: Chat Interface
   - id: 3c1de303-7a7c-59a6-abca-8c534730e19c
+    internal-label: Reporting
   - id: 3cf5f37e-e87e-5179-812b-53ce05d7eebb
+    internal-label: Setup
   - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Security
+source-git-commit: cd171c6ec89301ed315d8b882ac0fccac745809f
 workflow-type: tm+mt
-source-wordcount: 958
+source-wordcount: '958'
 ht-degree: 0%
-
 ---
-
 
 # Erstellen und Bewerben von Webinaren
 
@@ -127,4 +136,4 @@ Wählen Sie **[!UICONTROL Webinar gestalten]** aus, um die Seite „Webinar-Setu
 
 In der Chat-Oberfläche können Sie Fragen zum Reporting stellen wie *„Zeige mir alle meine kommenden Webinare“* oder *„Geben Sie die Details des Webinars [name]&quot;*. Dadurch wird der Link zum Interaktions-Dashboard zusammen mit den nächstbesten Aktionen wie **Design**, **Co-Host hinzufügen** oder **Veröffentlichen am Webinar-Datum** angezeigt.
 
-Für tiefer gehende Analysen - Anwesenheit, Umfrage- und Umfrageleistung sowie Daten pro Mitglied - ist die Chat-Oberfläche mit den Registerkarten **Analytics** und **Members** des Webinars und der programmübergreifenden Rollout-Reihe im **Webinar-Management** verknüpft. <!-- See [Webinar reporting](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/prime/marketing-management/webinars/webinar-reporting). -->
+Für tiefer gehende Analysen - Anwesenheit, Umfrage- und Umfrageleistung sowie Daten pro Mitglied - ist die Chat-Oberfläche mit den Registerkarten **Analytics** und **Members** des Webinars und der programmübergreifenden Rollout-Reihe im **Webinar-Management** verknüpft. <!-- See [Webinar reporting](https://experienceleague.adobe.com/de/docs/journey-optimizer-b2b/prime/marketing-management/webinars/webinar-reporting). -->

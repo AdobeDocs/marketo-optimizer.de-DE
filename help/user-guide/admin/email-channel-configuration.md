@@ -6,20 +6,27 @@ role: Admin
 TQID: 'https://experienceleague.adobe.com/VDqL3u2vPJ8YGJgZCx5lE0Xt1-WvAEBBwFiMZGj7w90'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 3cf5f37e-e87e-5179-812b-53ce05d7eebb
+    internal-label: Setup
   - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
   - id: a659ad61-de21-559d-a901-02e2fb329ff5
+    internal-label: Administration
   - id: d4203578-d294-5145-b397-f26f4488a904
+    internal-label: Channels
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Administration
+source-git-commit: cd171c6ec89301ed315d8b882ac0fccac745809f
 workflow-type: tm+mt
-source-wordcount: 624
+source-wordcount: '624'
 ht-degree: 0%
-
 ---
-
 # E-Mail-Kanalkonfiguration
 
 Eine Kanalkonfiguration ist das zentrale Objekt, das Ihre Absenderidentität, Subdomain, Ihren IP-Pool und Ihre Tracking-Einstellungen miteinander verknüpft. E-Mail-Aktionen in Journey verweisen auf eine Kanalkonfiguration, um zu erfahren, wie die Nachricht gesendet werden soll. Bevor Sie eine Konfiguration erstellen, schließen Sie [Einrichtung von Subdomain-Zuweisung und IP-Pool](../start/email-deliverability.md) ab.
