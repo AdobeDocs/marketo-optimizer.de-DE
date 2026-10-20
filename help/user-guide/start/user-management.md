@@ -31,13 +31,13 @@ Nachdem die Bereitstellung abgeschlossen und Sandboxes gebunden sind, führen Si
 1. [Zuweisen des Produktprofils](#assign-profile) zur Benutzergruppe in der Admin Console.
 1. [Benutzer zur neuen Gruppe hinzufügen](#add-users) in der Admin Console.
 1. [Bearbeiten von integrierten Rollen](#edit-role-permissions) oder [Erstellen einer benutzerdefinierten Rolle](#create-a-custom-role) mit Produktberechtigungen und der erforderlichen [!DNL Marketo Optimizer]-Sandbox in Experience Platform.
-1. [Hinzufügen von ](#add-users-to-a-role) oder [Gruppen](#add-user-groups-to-a-role) zu Rollen in Adobe Experience Platform.
+1. [Hinzufügen von &#x200B;](#add-users-to-a-role) oder [Gruppen](#add-user-groups-to-a-role) zu Rollen in Adobe Experience Platform.
 
-Informationen zum Einrichten empfohlener Benutzergruppen und Rollen für Administratoren, Benutzer mit Zugriff und schreibgeschützte Benutzer finden Sie unter [Vorgeschlagene ](./permissions-reference.md#suggested-user-types) und [Erstellen von Benutzergruppen und Rollen für vorgeschlagene Benutzertypen](#create-suggested-roles).
+Informationen zum Einrichten empfohlener Benutzergruppen und Rollen für Administratoren, Benutzer mit Zugriff und schreibgeschützte Benutzer finden Sie unter [Vorgeschlagene &#x200B;](./permissions-reference.md#suggested-user-types) und [Erstellen von Benutzergruppen und Rollen für vorgeschlagene Benutzertypen](#create-suggested-roles).
 
 ## Produktprofil konfigurieren {#config-profile}
 
-Als Administrator können Sie diese Aufgaben im [!DNL Adobe Admin Console] ausführen. Dies ist ein zentraler Ort, um Ihre Adobe-Produktlizenzen und Benutzende zu verwalten. In der Admin Console können Sie Benutzende an einem zentralen Ort anstatt in Ihren individuellen Lösungen erstellen und verwalten. Weitere Informationen zu den Funktionen und Leistungsmerkmalen von finden Sie auf der Seite Übersicht über Admin Console [](https://helpx.adobe.com/business/enterprise/deploy-apps-updates.html).
+Als Administrator können Sie diese Aufgaben im [!DNL Adobe Admin Console] ausführen. Dies ist ein zentraler Ort, um Ihre Adobe-Produktlizenzen und Benutzende zu verwalten. In der Admin Console können Sie Benutzende an einem zentralen Ort anstatt in Ihren individuellen Lösungen erstellen und verwalten. Weitere Informationen zu den Funktionen und Leistungsmerkmalen von finden Sie auf der Seite Übersicht über Admin Console [&#128279;](https://helpx.adobe.com/business/enterprise/deploy-apps-updates.html).
 
 ### Die Admin Console aufrufen {#admin-console}
 
@@ -308,19 +308,19 @@ Ihre benutzerdefinierte Rolle ist konfiguriert und Benutzerinnen und Benutzer in
 
 ### Erstellen von Benutzergruppen und Rollen für vorgeschlagene Benutzertypen {#create-suggested-roles}
 
-Gehen Sie wie folgt vor, um die von _Admin_, _All Access User_ und _Read Only Access User_ [ Benutzertypen ](./permissions-reference.md#suggested-user-types). Für jeden Benutzertyp erstellen Sie eine Benutzergruppe in der Admin Console und eine Rolle in Experience Platform und fügen dann die Gruppe zur Rolle hinzu. Die vorgeschlagenen Berechtigungen für jeden Benutzertyp sind unter [_Produktberechtigungen_](./permissions-reference.md) aufgeführt.
+Gehen Sie wie folgt vor, um die von _Admin_, _All Access User_ und _Read Only Access User_ [&#x200B; Benutzertypen &#x200B;](./permissions-reference.md#suggested-user-types). Für jeden Benutzertyp erstellen Sie eine Benutzergruppe in der Admin Console und eine Rolle in Experience Platform und fügen dann die Gruppe zur Rolle hinzu. Die vorgeschlagenen Berechtigungen für jeden Benutzertyp sind unter [_Produktberechtigungen_](./permissions-reference.md) aufgeführt.
 
 #### Erstellen der Admin-Benutzergruppe und -Rolle {#create-admin-group}
 
 ![Symbol, das angibt, dass Administratorzugriff erforderlich ist, um dieses Verfahren abzuschließen.](../assets/do-not-localize/icon-admin-user.svg){width="30"} Systemadmins können die folgenden Schritte ausführen.
 
-1. Fügen Sie in der Admin Console [Benutzergruppe hinzufügen](#add-user-group) mit dem Namen _Marketo Optimizer-_ hinzu und [das Produktprofil ](#assign-profile).
+1. Fügen Sie in der Admin Console [Benutzergruppe hinzufügen](#add-user-group) mit dem Namen _Marketo Optimizer-_ hinzu und [das Produktprofil &#x200B;](#assign-profile).
 
 1. Fügen Sie der Gruppe die Benutzer hinzu, die [!DNL Marketo Optimizer] eingerichtet und verwaltet haben.
 
 1. Machen Sie die Benutzer zu Produktadministratoren, damit sie Benutzer und Gruppen verwalten können.
 
-1. Wählen Sie in {0]Experience Platform _[!UICONTROL Berechtigungen]_ die Option **[!UICONTROL Rollen]** > **[!UICONTROL Rolle erstellen]**[!UICONTROL 
+1. Wählen Sie in &lbrace;0Experience Platform _[!UICONTROL Berechtigungen]_ die Option **[!UICONTROL Rollen]** > **[!UICONTROL Rolle erstellen]**
 
 1. Geben Sie den Namen ein, z. B. _Marketo Optimizer Administrator_ und klicken Sie auf **[!UICONTROL Bestätigen]**.
 
@@ -366,7 +366,7 @@ Gehen Sie wie folgt vor, um die von _Admin_, _All Access User_ und _Read Only Ac
 
 ![Symbol, das angibt, dass Administratorzugriff erforderlich ist, um dieses Verfahren abzuschließen.](../assets/do-not-localize/icon-admin-user.svg){width="30"} Systemadmins können die folgenden Schritte ausführen.
 
-1. Fügen Sie in der Admin Console [Benutzergruppe hinzufügen](#add-user-group) mit dem Namen _Marketo Optimizer-_ hinzu, [ihr das ](#assign-profile) zuweisen und [Benutzende hinzufügen](#add-users) der Gruppe.
+1. Fügen Sie in der Admin Console [Benutzergruppe hinzufügen](#add-user-group) mit dem Namen _Marketo Optimizer-_ hinzu, [ihr das &#x200B;](#assign-profile) zuweisen und [Benutzende hinzufügen](#add-users) der Gruppe.
 
 1. Wählen Sie in Experience Platform-Berechtigungen [Erstellen einer benutzerdefinierten Rolle](#create-a-custom-role) mit dem Namen _Marketo Optimizer All Access User_.
 
@@ -384,7 +384,7 @@ Gehen Sie wie folgt vor, um die von _Admin_, _All Access User_ und _Read Only Ac
 
 ![Symbol, das angibt, dass Administratorzugriff erforderlich ist, um dieses Verfahren abzuschließen.](../assets/do-not-localize/icon-admin-user.svg){width="30"} Systemadmins können die folgenden Schritte ausführen.
 
-1. Fügen Sie in der Admin Console [Benutzergruppe hinzufügen](#add-user-group) mit dem Namen _Marketo Optimizer-_ hinzu, [ihr das ](#assign-profile) zuweisen und [Benutzer hinzufügen](#add-users) der Gruppe.
+1. Fügen Sie in der Admin Console [Benutzergruppe hinzufügen](#add-user-group) mit dem Namen _Marketo Optimizer-_ hinzu, [ihr das &#x200B;](#assign-profile) zuweisen und [Benutzer hinzufügen](#add-users) der Gruppe.
 
 1. Wählen Sie in den Experience Platform[Berechtigungen „Benutzerdefinierte Rolle erstellen](#create-a-custom-role) mit dem Namen &quot;_Marketo Optimizer Read Only Access User_.
 

@@ -62,7 +62,7 @@ Weitere Informationen zu diesen Metriken, einschließlich der von KI vorgeschlag
 
 >[!PREREQUISITES]
 >
->Absichtsberichte erfordern die Berechtigung **[!UICONTROL B2B-Absichtsberichte anzeigen]** [](../start/permissions-reference.md).
+>Absichtsberichte erfordern die Berechtigung **[!UICONTROL B2B-Absichtsberichte anzeigen]** [&#128279;](../start/permissions-reference.md).
 
 Um die vier Berichtstypen einzuführen, die er generieren kann, rufen Sie `/analyze-intent` auf, um einen Kollegen aufzufordern. Der Mitarbeiter wartet dann auf eine Folgeanfrage, in der ein Lead, ein Produkt oder ein Vergleich benannt wird. Jeder Bericht wird als eigene Registerkarte im Arbeitsbereich-Bedienfeld geöffnet und Coworker fügt auch eine Übersichtskarte in den Chat mit einer Schaltfläche _[!UICONTROL Bericht öffnen]_ ein.
 

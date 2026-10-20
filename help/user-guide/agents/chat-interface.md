@@ -30,7 +30,7 @@ Das Chat-Panel ist in [!DNL Adobe Marketo Optimizer] eingebettet. Hier können S
 
 >[!PREREQUISITES]
 >
->Um das Coworker chat-Bedienfeld in [!DNL Marketo Optimizer] verwenden zu können, müssen Sie über die Berechtigung **[!UICONTROL B2B-Konversationserlebnis verwalten]** [ verfügen](../start/permissions-reference.md).
+>Um das Coworker chat-Bedienfeld in [!DNL Marketo Optimizer] verwenden zu können, müssen Sie über die Berechtigung **[!UICONTROL B2B-Konversationserlebnis verwalten]** [&#x200B; verfügen](../start/permissions-reference.md).
 >
 >Diese Berechtigung gewährt Zugriff auf das Chat-Bedienfeld, aber keinen Zugriff auf Funktionen. Das System prüft alle Kenntnisse oder Aktionen im Chat mit der gleichen Berechtigung, die die Funktion außerhalb des Chat benötigt: _Verwalten_ Berechtigungen zum Erstellen, Bearbeiten oder Veröffentlichen und _Anzeigen_ Berechtigungen für schreibgeschützte Fähigkeiten. Wenn Sie nicht über die Berechtigung für die Funktion verfügen, kann der Assistent diese Aktion für Sie nicht ausführen. Um beispielsweise eine Journey zu erstellen, ist **[!UICONTROL B2B-Personen-Journey verwalten]** und für die Auflistung von Formularen ist **[!UICONTROL B2B-Forms anzeigen]** erforderlich.
 

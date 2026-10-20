@@ -23,11 +23,11 @@ Jeder Bericht basiert auf [!DNL Adobe Customer Journey Analytics] und ist direkt
 
 >[!PREREQUISITES]
 >
->Um die Berichte auf der Registerkarte _[!UICONTROL Berichte]_ anzuzeigen, benötigen Sie die Berechtigung **[!UICONTROL B2B-eingebettete Berichte anzeigen]** [](../start/permissions-reference.md).
+>Um die Berichte auf der Registerkarte _[!UICONTROL Berichte]_ anzuzeigen, benötigen Sie die Berechtigung **[!UICONTROL B2B-eingebettete Berichte anzeigen]** [&#128279;](../start/permissions-reference.md).
 
 ## Berichtsabschnitte {#report-sections}
 
-Auf [!UICONTROL  Registerkarte ]Berichte“ werden vordefinierte Berichte in vier Abschnitte unterteilt. Jeder Abschnitt enthält ein oder mehrere herunterladbare Elemente und eine eigene Dokumentationsseite mit Details zu den zugehörigen Metriken und Visualisierungen.
+Auf [!UICONTROL &#x200B; Registerkarte &#x200B;]Berichte“ werden vordefinierte Berichte in vier Abschnitte unterteilt. Jeder Abschnitt enthält ein oder mehrere herunterladbare Elemente und eine eigene Dokumentationsseite mit Details zu den zugehörigen Metriken und Visualisierungen.
 
 | Abschnitt | Herunterladbare Elemente | Berichtseite |
 | --- | --- | --- |
