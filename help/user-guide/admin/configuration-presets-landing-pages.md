@@ -4,19 +4,22 @@ description: Platzhalter
 TQID: 'https://experienceleague.adobe.com/wowFSf32UsmDemN6Iy5-IgGOPmuocHHLRb4vvTUDt0U'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 3cf5f37e-e87e-5179-812b-53ce05d7eebb
+    internal-label: Setup
   - id: a659ad61-de21-559d-a901-02e2fb329ff5
+    internal-label: Administration
   - id: d4203578-d294-5145-b397-f26f4488a904
+    internal-label: Channels
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Administration
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: 971
-ht-degree: 42%
-
+source-wordcount: '996'
+ht-degree: 39%
 ---
-
 
 # Konfiguration einer Landingpage
 
@@ -59,7 +62,7 @@ Die Spalte **Status** enthält Informationen zum Prozess der Erstellung und Zuwe
 
 Eine Landingpage-Subdomain-Konfiguration ist **in allen Umgebungen**. Daher gilt:
 
-* Um auf Landingpage-Subdomains zuzugreifen und diese zu bearbeiten, benötigen Sie die Berechtigung zum **[!UICONTROL Verwalten von Landpingpage-Subdomains]** in der Produktions-Sandbox.
+* Um auf Landingpage-Subdomains zuzugreifen und sie zu bearbeiten, benötigen Sie die Berechtigung **[!UICONTROL B2B-Landingpage-Einstellungen verwalten]** für die Produktions-Sandbox. Um auf die _[!UICONTROL Kanäle]_ im linken Navigationsbereich zuzugreifen, müssen Sie auch über die Berechtigung **[!UICONTROL Verwalten von B2B-Kanal-Konfigurationen]** verfügen. Weitere Informationen finden Sie unter [Berechtigungsressourcen](../start/permissions-reference.md).
 
 * Jede Änderung an einer Landingpage-Subdomain wirkt auch auf die Produktions-Sandboxes aus.
 

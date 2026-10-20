@@ -4,17 +4,18 @@ description: Erfahren Sie, wie Sie Aktivitätsgewichte konfigurieren, die das Mo
 TQID: 'https://experienceleague.adobe.com/ZL9RJqD-OZkIgFMpwJ4Cz-FW-463w6OJyEHAe5uJuec'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 1650dadf-b034-5ac9-a309-77ad1e2f5035
+    internal-label: Chat Interface
 topic_v2:
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Taxonomy
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: 1322
+source-wordcount: '1365'
 ht-degree: 2%
-
 ---
-
 
 # Absichtskonfiguration
 
@@ -22,12 +23,20 @@ Ein einziger standardisierter Satz von Aktivitätsgewichten funktioniert nicht k
 
 Die **[!UICONTROL Absichtskonfiguration]**-Tools steuern, wie viel jede Lead-Intent-Aktivität zum Absichtswert einer Person zählt. Dies ist die einzige konfigurierbare Eingabe bei der Absichtsbewertung. Andere Faktoren wie Inhaltsrelevanz, Verfall und Schwellenwerte werden vom System verwaltet. Sie ist über die [Intent-Konfigurationsfertigkeit](../agents/intent.md#configure-model) verfügbar.
 
-Öffnen Sie das Bedienfeld mit einer von zwei Methoden aus der [&#x200B; (Chat-Oberfläche](../agents/chat-interface.md):
+Öffnen Sie das Bedienfeld mit einer von zwei Methoden aus der [ (Chat-Oberfläche](../agents/chat-interface.md):
 
 * Geben Sie den `/intent-configuration` Befehl ein.
 * Klicken Sie auf **[!UICONTROL +]**, wählen Sie **[!UICONTROL Agentenkompetenz verwenden]**, wählen Sie die Registerkarte **[!UICONTROL Absicht]** aus und klicken Sie dann auf **[!UICONTROL Intent-Konfiguration]**.
 
 ![Das Bedienfeld für die Absichtskonfiguration wurde über die Chat-Oberfläche geöffnet](./assets/intent-configuration-panel.png){width="700" zoomable="yes"}
+
+>[!PREREQUISITES]
+>
+>Die Absichtskonfiguration erfordert die folgenden [Berechtigungen](../start/permissions-reference.md):
+>
+>* **[!UICONTROL B2B-Absichtskonfiguration anzeigen]** - Erforderlich zum Anzeigen von Absichtskonfigurationen (Absichtsgewichtungsmodelle).
+>* **[!UICONTROL Konfiguration der B2B-Absicht verwalten]** - Zum Erstellen, Bearbeiten und Löschen von Absichtskonfigurationen erforderlich.
+>* **[!UICONTROL Verwalten des B2B-]**-Erlebnisses“ - erforderlich, um das Bedienfeld über die Chat-Oberfläche zu öffnen.
 
 ## Modell-Listenansicht
 
@@ -114,7 +123,7 @@ Die Spalte KI-Vorschlag ist ein Ausgangspunkt, keine trainierte Empfehlung.
 
 Sie können ein Modell basierend auf seinem Status verwalten.
 
-| Aktion | Verfügbar für | Was passiert? |
+| Aktion | Verfügbar für | Was passiert |
 | --- | --- | --- |
 | **[!UICONTROL Duplizieren]** | aktiv, Entwurf | Öffnet ein Modal mit dem **[!UICONTROL „Duplizieren]**, mit einem vorausgefüllten Namensfeld und **[!UICONTROL Abbrechen]** und **[!UICONTROL Duplizieren]**. Durch Bestätigen wird ein neues _[!UICONTROL Entwurf]_-Modell mit denselben Gewichtungen erstellt, das direkt in der Detailansicht geöffnet wird. |
 | **[!UICONTROL Aktivieren]** | Nur Entwurf (wird auch direkt nach dem Speichern als Eingabeaufforderung angezeigt) | Hebt den Entwurf auf _[!UICONTROL Aktiv]_ und stuft das zuvor aktive Modell automatisch zu _[!UICONTROL Archiviert]_ herab. |

@@ -17,10 +17,10 @@ topic_v2:
     internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: c825d93cdf9754a516b2d930bbe8c1e2e8aeaea1
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: '2474'
-ht-degree: 38%
+source-wordcount: '2584'
+ht-degree: 34%
 ---
 # Benutzerzugriff und Berechtigungen
 
@@ -31,11 +31,13 @@ Nachdem die Bereitstellung abgeschlossen und Sandboxes gebunden sind, führen Si
 1. [Zuweisen des Produktprofils](#assign-profile) zur Benutzergruppe in der Admin Console.
 1. [Benutzer zur neuen Gruppe hinzufügen](#add-users) in der Admin Console.
 1. [Bearbeiten von integrierten Rollen](#edit-role-permissions) oder [Erstellen einer benutzerdefinierten Rolle](#create-a-custom-role) mit Produktberechtigungen und der erforderlichen [!DNL Marketo Optimizer]-Sandbox in Experience Platform.
-1. [Hinzufügen von &#x200B;](#add-users-to-a-role) oder [Gruppen](#add-user-groups-to-a-role) zu Rollen in Adobe Experience Platform.
+1. [Hinzufügen von ](#add-users-to-a-role) oder [Gruppen](#add-user-groups-to-a-role) zu Rollen in Adobe Experience Platform.
+
+Informationen zum Einrichten empfohlener Benutzergruppen und Rollen für Administratoren, Benutzer mit Zugriff und schreibgeschützte Benutzer finden Sie unter [Vorgeschlagene ](./permissions-reference.md#suggested-user-types) und [Erstellen von Benutzergruppen und Rollen für vorgeschlagene Benutzertypen](#create-suggested-roles).
 
 ## Produktprofil konfigurieren {#config-profile}
 
-Als Administrator können Sie diese Aufgaben im [!DNL Adobe Admin Console] ausführen. Dies ist ein zentraler Ort, um Ihre Adobe-Produktlizenzen und Benutzende zu verwalten. In der Admin Console können Sie Benutzende an einem zentralen Ort anstatt in Ihren individuellen Lösungen erstellen und verwalten. Weitere Informationen zu den Funktionen und Leistungsmerkmalen von finden Sie auf der Seite Übersicht über Admin Console [&#128279;](https://helpx.adobe.com/de/business/enterprise/deploy-apps-updates.html).
+Als Administrator können Sie diese Aufgaben im [!DNL Adobe Admin Console] ausführen. Dies ist ein zentraler Ort, um Ihre Adobe-Produktlizenzen und Benutzende zu verwalten. In der Admin Console können Sie Benutzende an einem zentralen Ort anstatt in Ihren individuellen Lösungen erstellen und verwalten. Weitere Informationen zu den Funktionen und Leistungsmerkmalen von finden Sie auf der Seite Übersicht über Admin Console [](https://helpx.adobe.com/business/enterprise/deploy-apps-updates.html).
 
 ### Die Admin Console aufrufen {#admin-console}
 
@@ -71,7 +73,7 @@ Bevor Sie die Admin Console zum Verwalten von Benutzenden in Ihrem Team verwende
 
 Wenn Sie Benutzenden Zugriff auf eine Adobe-Lösung gewähren, möchten Sie ihnen nicht unbedingt uneingeschränkten Zugriff gewähren. Produktprofile ermöglichen es jeder Lösung, über eigene Benutzerberechtigungen zu verfügen. Verwenden Sie die Admin Console, um Produktprofile zuzuweisen.
 
-Weitere Informationen zur Verwendung von Produktprofilen für Benutzerberechtigungen finden Sie unter [_Verwalten von Produktprofilen für Unternehmensbenutzer_](https://helpx.adobe.com/de/business/enterprise/products-entitlements/manage-product-profiles/product-profiles.html){target="_blank"} in der Dokumentation zu Admin Console.
+Weitere Informationen zur Verwendung von Produktprofilen für Benutzerberechtigungen finden Sie unter [_Verwalten von Produktprofilen für Unternehmensbenutzer_](https://helpx.adobe.com/business/enterprise/products-entitlements/manage-product-profiles/product-profiles.html){target="_blank"} in der Dokumentation zu Admin Console.
 
 ![Symbol, das angibt, dass Administratorzugriff erforderlich ist, um dieses Verfahren abzuschließen.](../assets/do-not-localize/icon-admin-user.svg){width="30"} Ein Systemadministrator oder [!DNL Experience Platform] Produktadministrator kann die folgenden Schritte unter [https://adminconsole.adobe.com](https://adminconsole.adobe.com) ausführen.
 
@@ -87,7 +89,7 @@ Weitere Informationen zur Verwendung von Produktprofilen für Benutzerberechtigu
 
 Eine Benutzergruppe ist eine Sammlung von Benutzern, denen ein gemeinsamer Berechtigungssatz gewährt wird. Sie können Benutzer in Ihrer Benutzergruppe hinzufügen oder entfernen. Die Gruppenberechtigungen bleiben unverändert, während die Benutzer innerhalb der Gruppe wechseln.
 
-Weitere Informationen dazu, wie Benutzergruppen zum Verwalten von Berechtigungen verwendet werden, finden Sie unter [Verwalten von Benutzergruppen](https://helpx.adobe.com/de/business/enterprise/users/users-and-groups/user-groups.html){target="_blank"} in der Dokumentation zu Admin Console.
+Weitere Informationen dazu, wie Benutzergruppen zum Verwalten von Berechtigungen verwendet werden, finden Sie unter [Verwalten von Benutzergruppen](https://helpx.adobe.com/business/enterprise/users/users-and-groups/user-groups.html){target="_blank"} in der Dokumentation zu Admin Console.
 
 ![Symbol, das angibt, dass Administratorzugriff erforderlich ist, um dieses Verfahren abzuschließen.](../assets/do-not-localize/icon-admin-user.svg){width="30"} Ein Systemadministrator kann die folgenden Schritte unter [https://adminconsole.adobe.com](https://adminconsole.adobe.com) ausführen.
 
@@ -122,7 +124,7 @@ Weitere Informationen dazu, wie Benutzergruppen zum Verwalten von Berechtigungen
 
 ### Benutzer zur neuen Gruppe hinzufügen {#add-users}
 
-Informationen zur Benutzerverwaltung finden Sie unter [_Adobe Admin Console-Benutzer_](https://helpx.adobe.com/de/business/enterprise/users/understand-user-management/user-management-overview.html){target="_blank"} in der Dokumentation zu Admin Console.
+Informationen zur Benutzerverwaltung finden Sie unter [_Adobe Admin Console-Benutzer_](https://helpx.adobe.com/business/enterprise/users/understand-user-management/user-management-overview.html){target="_blank"} in der Dokumentation zu Admin Console.
 
 ![Symbol, das angibt, dass Administratorzugriff erforderlich ist, um dieses Verfahren abzuschließen.](../assets/do-not-localize/icon-admin-user.svg){width="30"} Ein System- oder Produktadministrator kann die folgenden Schritte unter [https://adminconsole.adobe.com](https://adminconsole.adobe.com) ausführen. Ein Produktadministrator kann nur Benutzer hinzufügen, die bereits in seiner Organisation vorhanden sind.
 
@@ -158,7 +160,7 @@ Berechtigungen sind Einzelrechte, mit denen Sie die einem Produktprofil zugewies
 
 Im _Berechtigungen_ von Adobe Experience Platform können Admins Benutzerrollen und Zugriffsrichtlinien definieren, um Zugriffsberechtigungen für Funktionen und Objekte innerhalb einer Produktanwendung zu verwalten. In dieser App können Sie Rollen erstellen und verwalten sowie die gewünschten Ressourcenberechtigungen für diese Rollen zuweisen. Mit Berechtigungen können Sie auch die Sandboxes und die Benutzer verwalten, die einer bestimmten Rolle zugeordnet sind.
 
-Weitere Informationen zu Rollenberechtigungen in Experience Platform finden Sie unter [Verwalten von Berechtigungen für eine Rolle](https://experienceleague.adobe.com/de/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} in der Dokumentation zu Experience Platform.
+Weitere Informationen zu Rollenberechtigungen in Experience Platform finden Sie unter [Verwalten von Berechtigungen für eine Rolle](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} in der Dokumentation zu Experience Platform.
 
 1. Navigieren Sie zu [experience.adobe.com](https://experience.adobe.com/).
 
@@ -172,65 +174,15 @@ Weitere Informationen zu Rollenberechtigungen in Experience Platform finden Sie 
 
 ### Ressourcen zu Berechtigungen {#permissions}
 
-Die folgenden Berechtigungsressourcen steuern den Zugriff auf die Funktionen für Kanalkonfiguration, Content-Management und Personen-Journey in [!DNL Marketo Optimizer]:
+Eine vollständige Liste der Berechtigungen, die den Zugriff auf [!DNL Marketo Optimizer] Funktionen steuern, einschließlich Beschreibungen und der für jeden Benutzertyp empfohlenen Berechtigungen, finden Sie auf der Seite [Produktberechtigungen](./permissions-reference.md) .
 
 >[!IMPORTANT]
 >
->[!DNL Marketo Optimizer] Zugriff erfordert, dass Sie eine bestimmte Sandbox aktivieren, die mithilfe der folgenden Namenskonvention bereitgestellt wird: `Mktoaep` + [!DNL Marketo Engage] Abonnementpräfix. Wenn Ihr verknüpftes [!DNL Marketo Engage]-Abonnementpräfix beispielsweise _AcmeAssoc_ lautet, ist die für den [!DNL Marketo Optimizer] erforderliche Sandbox _MktoaepAcmeAssoc_.
+>[!DNL Marketo Optimizer] Zugriff erfordert, dass Sie eine bestimmte Sandbox aktivieren, die mithilfe der folgenden Namenskonvention bereitgestellt wird: `Mktoaep` + [!DNL Marketo Engage] Abonnementpräfix. Wenn Ihr verknüpftes [!DNL Marketo Engage]-Abonnementpräfix beispielsweise _AcmeAssoc_ lautet, ist die für den [!DNL Marketo Optimizer] erforderliche Sandbox _MktoaepAcmeAssoc_. Diese Sandbox zu jeder Rolle hinzufügen.
 
-| Kategorie | Berechtigung | Beschreibung |
-| -------- | ----------- | ---------- |
-| B2B-Kanal-Konfigurationen | B2B-E-Mail-Einstellungen anzeigen | E-Mail-Einstellungen anzeigen (Subdomains, PTR-Einträge, IP-Pools, Unterdrückungslisten, Seed-Listen, IP-Aufwärmpläne). |
-| | B2B-E-Mail-Einstellungen verwalten | Konfigurieren Sie E-Mail-Einstellungen (Subdomains, PTR-Einträge, IP-Pools, Unterdrückungslisten, Seed-Listen, IP-Aufwärmpläne). Diese Einstellungen sind erforderlich, damit Benutzer E-Mails senden können. |
-| | Verwalten von B2B-Kanalkonfigurationen | Zugriff auf den _Kanäle_ im linken Navigationsbereich und alle Kanalkonfigurationsvorgänge. |
-| | Verwalten von B2B-WhatsApp-Voreinstellungen | Erstellen, Anzeigen und Löschen von WhatsApp-Nachrichtenvoreinstellungen und zugehörigen SMS-Einstellungen. |
-| B2B-Journey | Verwalten von B2B-Personen-Journey | Zugriff auf die _Personen-Journey_-Liste und alle Personen-Journey-Vorgänge. |
-| B2B-Assets | Anzeigen von Inhaltsvorlagen | Anzeigen der Liste der Inhaltsvorlagen und Details. |
-| | B2B-Vorlagen verwalten | Erstellen, Bearbeiten und Löschen von Inhaltsvorlagen. |
-| | Anzeigen von B2B-Fragmenten | Anzeigen der Liste und Details von Inhaltsfragmenten. |
-| | Verwalten von B2B-Fragmenten | Erstellen, Bearbeiten und Löschen von Inhaltsfragmenten. |
-| | Veröffentlichen von B2B-Fragmenten | Veröffentlichen Sie Inhaltsfragmente zur Verwendung in Vorlagen, E-Mails und Landingpages. |
-| | B2B-Assets anzeigen | Zeigen Sie Details zur Assets-Bibliothek und Asset-Datei an. |
-| | Verwalten von B2B-Assets | Erstellen, Bearbeiten und Löschen von Asset-Dateien. |
-| | B2B-E-Mails anzeigen | E-Mail-Nachrichten anzeigen. |
-| | Verwalten von B2B-E-Mails | Erstellen, Bearbeiten und Löschen von E-Mail-Nachrichten. |
-| | Export von B2B-Nachrichten verwalten | Exportieren Sie Nachrichtenberichte unter dem Abschnitt E-Mail . |
-| Journey Optimizer-Bibliothek | Verwalten von B2B-Bibliothekselementen | Hinzufügen und Löschen gespeicherter Ausdrücke in der Bibliothek. |
-| Data Governance | Verwalten von B2B-Löschkennzeichnungen | Anzeigen, Erstellen und Löschen von Datennutzungskennzeichnungen (Data Usage Labels, DULE), die auf Datensätze und Schemata angewendet werden. |
-| Sandbox-Verwaltung | Verwalten von B2B-Paketen | Erstellen, exportieren, importieren, kopieren und löschen Sie Sandbox-Pakete. |
-
-Um Unterstützung für externe Ziele in [!DNL Marketo Optimizer] bereitzustellen, sind die folgenden Berechtigungen erforderlich:
-
-| Kategorie | Berechtigung | Beschreibung |
-| -------- | ----------- | ---------- |
-| Dashboards | Standard-Dashboards anzeigen | Schreibgeschützter Zugriff auf die Dashboards _Profile_, _Ziele_ und _Segmente_. Ermöglicht auch den Zugriff auf _Dashboards_ im linken Navigationsbereich und auf die Registerkarte _Dashboards_ Inventar und Integrationen . |
-| | Standard-Dashboards verwalten | Fügen Sie benutzerdefinierte Attribute hinzu, die sich noch nicht im Data Warehouse befinden. |
-| Ziele | Anzeigen von Zielen | Schreibgeschützter Zugriff zum Anzeigen verfügbarer Ziele auf der Registerkarte _Katalog_ und authentifizierter Ziele auf der Registerkarte _Durchsuchen_. |
-| | Verwalten von Zielen | Anzeigen, Erstellen und Löschen von Zielverbindungen und Zielkonten. |
-| | Aktivieren von Zielen | Aktivieren von Daten für aktive Ziele. Entweder _Ziele anzeigen_ oder _Ziele verwalten_ ist auch erforderlich, um auf diese Funktion zuzugreifen. |
-| | Segment ohne Zuordnung aktivieren | Aktivieren Sie Zielgruppen für vorhandene Ziele, ohne den Zuordnungsschritt anzuzeigen. Benutzende können Zielgruppen zu Aktivierungs-Workflows hinzufügen und welche daraus entfernen, jedoch keine zugeordneten Attribute oder Identitäten. Die _Ziele anzeigen_-Berechtigung ist auch erforderlich, um auf diese Funktion zuzugreifen. |
-| | Verwalten und Aktivieren des Datensatzziels | Datensatz-Exportflüsse anzeigen, erstellen, bearbeiten und deaktivieren sowie Daten für aktive Datensätze aktivieren. Die _Ziele anzeigen_-Berechtigung ist auch erforderlich, um auf diese Funktion zuzugreifen. |
-| | Ziel-Authoring | Möglichkeit, Ziele mithilfe der Adobe Experience Platform Destination SDK zu erstellen. |
-| Data Governance | Anzeigen von Datennutzungsrichtlinien | Schreibgeschützter Zugriff auf Datennutzungsrichtlinien Ihrer Organisation. |
-| | Verwalten von Datennutzungsrichtlinien | Anzeigen, Erstellen, Bearbeiten und Löschen von Datennutzungsrichtlinien. |
-| Datenaufnahme | Anzeigen von Quellen | Schreibgeschützter Zugriff auf verfügbare Quellen auf der Registerkarte _Katalog_ und authentifizierte Quellen auf der Registerkarte _Durchsuchen_. |
-| | Verwalten von Quellen | Anzeigen, Erstellen, Bearbeiten und Deaktivieren von Quellen. |
-| Profilverwaltung | Profileinstellungen anzeigen | Schreibgeschützter Zugriff auf alle Profileinstellungen. |
-| | Profileinstellungen verwalten | Alle Profileinstellungen anzeigen und bearbeiten. |
-
-<!--
-
-### B2B built-in roles {#b2b-built-in-roles}
-
-When your organization has [!DNL Marketo Optimizer] provisioned, Experience Platform includes a set of built-in (default, read-only) roles that you can use to manage access to the product capabilities:
-
-| Role | Permissions |
-| ---- | ----------- |
-| B2B Journey Manager | <li>Manage B2B Journeys <li>Manage B2B Buying Groups <li>Manage B2B Account Lists <li>View B2B Engagement Dashboard <li>View B2B Insights Dashboard |
-| B2B Channel Manager | <li>Manage B2B Assets <li>Manage B2B Templates <li>Manage B2B Fragments |
-| B2B System Administrator | <li>Manage B2B Channels Configurations <li>Manage B2B Admin Configurations |
-
--->
+>[!NOTE]
+>
+>Sie müssen Systemadministrator sein, um die Kachel _[!UICONTROL Berechtigungen]_ in Experience Platform sehen zu können.
 
 ### Rollenberechtigungen bearbeiten {#edit-role-permissions}
 
@@ -296,7 +248,7 @@ _So ändern Sie die Berechtigungen für eine Rolle :_
 
 ### Hinzufügen von Benutzergruppen zu einer Rolle {#add-user-groups-to-a-role}
 
-Informationen zur Benutzerverwaltung finden Sie unter [_Adobe Admin Console-Benutzer_](https://helpx.adobe.com/de/business/enterprise/users/understand-user-management/user-management-overview.html){target="_blank"} in der Dokumentation zu Admin Console.
+Informationen zur Benutzerverwaltung finden Sie unter [_Adobe Admin Console-Benutzer_](https://helpx.adobe.com/business/enterprise/users/understand-user-management/user-management-overview.html){target="_blank"} in der Dokumentation zu Admin Console.
 
 ![Symbol, das angibt, dass Administratorzugriff erforderlich ist, um dieses Verfahren abzuschließen.](../assets/do-not-localize/icon-admin-user.svg){width="30"} Ein Systemadministrator oder Experience Platform-Administrator kann die folgenden Schritte ausführen.
 
@@ -334,7 +286,7 @@ Informationen zur Benutzerverwaltung finden Sie unter [_Adobe Admin Console-Benu
 
 1. Hinzufügen von Produktberechtigungen:
 
-   Informationen dazu, welche Produktfunktionen Sie für die Rolle verwenden möchten, finden Sie in der Liste der [Produktberechtigungen](#permissions).
+   Informationen dazu, welche Produktfunktionen Sie für die Rolle verwenden möchten, finden Sie in der Liste der [Produktberechtigungen](./permissions-reference.md).
 
    Suchen Sie in der _[!UICONTROL Ressourcen]_-Liste auf der linken Seite die B2B-Elemente und klicken Sie auf das _Hinzufügen_-Symbol (**+**), um jedes Attribut hinzuzufügen, das Sie für die Rolle aktivieren möchten.
 
@@ -353,3 +305,95 @@ Informationen zur Benutzerverwaltung finden Sie unter [_Adobe Admin Console-Benu
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
 Ihre benutzerdefinierte Rolle ist konfiguriert und Benutzerinnen und Benutzer in der zugewiesenen Gruppe können jetzt auf die ausgewählten [!DNL Marketo Optimizer] zugreifen.
+
+### Erstellen von Benutzergruppen und Rollen für vorgeschlagene Benutzertypen {#create-suggested-roles}
+
+Gehen Sie wie folgt vor, um die von _Admin_, _All Access User_ und _Read Only Access User_ [ Benutzertypen ](./permissions-reference.md#suggested-user-types). Für jeden Benutzertyp erstellen Sie eine Benutzergruppe in der Admin Console und eine Rolle in Experience Platform und fügen dann die Gruppe zur Rolle hinzu. Die vorgeschlagenen Berechtigungen für jeden Benutzertyp sind unter [_Produktberechtigungen_](./permissions-reference.md) aufgeführt.
+
+#### Erstellen der Admin-Benutzergruppe und -Rolle {#create-admin-group}
+
+![Symbol, das angibt, dass Administratorzugriff erforderlich ist, um dieses Verfahren abzuschließen.](../assets/do-not-localize/icon-admin-user.svg){width="30"} Systemadmins können die folgenden Schritte ausführen.
+
+1. Fügen Sie in der Admin Console [Benutzergruppe hinzufügen](#add-user-group) mit dem Namen _Marketo Optimizer-_ hinzu und [das Produktprofil ](#assign-profile).
+
+1. Fügen Sie der Gruppe die Benutzer hinzu, die [!DNL Marketo Optimizer] eingerichtet und verwaltet haben.
+
+1. Machen Sie die Benutzer zu Produktadministratoren, damit sie Benutzer und Gruppen verwalten können.
+
+1. Wählen Sie in {0]Experience Platform _[!UICONTROL Berechtigungen]_ die Option **[!UICONTROL Rollen]** > **[!UICONTROL Rolle erstellen]**[!UICONTROL 
+
+1. Geben Sie den Namen ein, z. B. _Marketo Optimizer Administrator_ und klicken Sie auf **[!UICONTROL Bestätigen]**.
+
+1. Sandbox auswählen, die für [!DNL Marketo Optimizer] Zugriff bereitgestellt wurde (`Mktoaep<Marketo subscription prefix>`).
+
+   >[!IMPORTANT]
+   >
+   >Dieser Schritt ist für einen ordnungsgemäßen Zugriff von entscheidender Bedeutung.
+
+1. Klicken Sie für jede der folgenden Kategorien auf das Symbol _Hinzufügen_ (**+**) und wählen Sie **[!UICONTROL Alle hinzufügen]**:
+
+   * _[!UICONTROL B2B-Admin-Konfigurationen]_
+   * _[!UICONTROL B2B-Assets]_
+   * _[!UICONTROL B2B-Kanal-Konfigurationen]_
+   * _[!UICONTROL B2B-Gesprächserlebnis]_
+   * _[!UICONTROL B2B-Ziele]_
+   * _[!UICONTROL B2B-Ordner-Token]_
+   * _[!UICONTROL B2B-Ordner]_
+   * _[!UICONTROL B2B-Intent-Konfiguration]_
+   * _[!UICONTROL B2B-Journey]_
+   * _[!UICONTROL B2B-Labs]_
+   * _[!UICONTROL B2B-Organisationsregeln]_
+   * _[!UICONTROL B2B-Personenlisten]_
+   * _[!UICONTROL B2B-Programm-Token]_
+   * _[!UICONTROL B2B-Programmtypen]_
+   * _[!UICONTROL B2B-Programme]_
+   * _[!UICONTROL B2B-Reporting]_
+   * _[!UICONTROL Dashboards]_
+   * _[!UICONTROL Ziele]_
+   * _[!UICONTROL Data Governance]_
+   * _[!UICONTROL Datenaufnahme]_
+   * _[!UICONTROL Profil-Management]_
+
+   >[!TIP]
+   >
+   >Verwenden Sie **[!UICONTROL Alle hinzufügen]** nur für die Administratorrolle. Wenn neue Funktionen veröffentlicht werden, werden die Berechtigungen, die für sie vorbereitet wurden, automatisch auf die Administratorrolle angewendet, sodass Sie die Rolle nicht bearbeiten müssen. Wählen Sie für die anderen Benutzertypen nur die Berechtigungen aus, die für diesen Typ unter &quot;[_&quot; empfohlen_](./permissions-reference.md).
+
+1. Klicken Sie auf **[!UICONTROL Speichern]**.
+
+1. Wählen Sie in den Rollendetails die Registerkarte **[!UICONTROL Benutzergruppen]**, klicken Sie auf **[!UICONTROL Gruppen hinzufügen]**, wählen Sie _Marketo Optimizer-_ und klicken Sie auf **[!UICONTROL Speichern]**.
+
+#### Erstellen der Benutzergruppe und der Rolle „Zugriff auf alle“ {#create-all-access-group}
+
+![Symbol, das angibt, dass Administratorzugriff erforderlich ist, um dieses Verfahren abzuschließen.](../assets/do-not-localize/icon-admin-user.svg){width="30"} Systemadmins können die folgenden Schritte ausführen.
+
+1. Fügen Sie in der Admin Console [Benutzergruppe hinzufügen](#add-user-group) mit dem Namen _Marketo Optimizer-_ hinzu, [ihr das ](#assign-profile) zuweisen und [Benutzende hinzufügen](#add-users) der Gruppe.
+
+1. Wählen Sie in Experience Platform-Berechtigungen [Erstellen einer benutzerdefinierten Rolle](#create-a-custom-role) mit dem Namen _Marketo Optimizer All Access User_.
+
+1. Sandbox auswählen, die für [!DNL Marketo Optimizer] Zugriff bereitgestellt wurde (`Mktoaep<Marketo subscription prefix>`).
+
+1. Klicken Sie für jede Kategorie [Produktberechtigungen](./permissions-reference.md) auf das Symbol _Hinzufügen_ (**+**) und wählen Sie nur die Berechtigungen aus, die für Alle Zugriffsbenutzer empfohlen werden.
+
+   Alle Access-Benutzer können täglich in jeder Funktion arbeiten, erhalten jedoch keine Admin-, Kanal- oder Setup-Berechtigungen.
+
+1. Klicken Sie auf **[!UICONTROL Speichern]**.
+
+1. Wählen Sie in den Rollendetails die Registerkarte **[!UICONTROL Benutzergruppen]**, klicken Sie auf **[!UICONTROL Gruppen hinzufügen]**, wählen Sie _Marketo Optimizer-_ aus und klicken Sie auf **[!UICONTROL Speichern]**.
+
+#### Erstellen der Benutzergruppe und Rolle für schreibgeschützten Zugriff {#create-read-only-group}
+
+![Symbol, das angibt, dass Administratorzugriff erforderlich ist, um dieses Verfahren abzuschließen.](../assets/do-not-localize/icon-admin-user.svg){width="30"} Systemadmins können die folgenden Schritte ausführen.
+
+1. Fügen Sie in der Admin Console [Benutzergruppe hinzufügen](#add-user-group) mit dem Namen _Marketo Optimizer-_ hinzu, [ihr das ](#assign-profile) zuweisen und [Benutzer hinzufügen](#add-users) der Gruppe.
+
+1. Wählen Sie in den Experience Platform[Berechtigungen „Benutzerdefinierte Rolle erstellen](#create-a-custom-role) mit dem Namen &quot;_Marketo Optimizer Read Only Access User_.
+
+1. Sandbox auswählen, die für [!DNL Marketo Optimizer] Zugriff bereitgestellt wurde (`Mktoaep<Marketo subscription prefix>`).
+
+1. Klicken Sie für jede Kategorie [Produktberechtigungen](./permissions-reference.md) auf das Symbol _Hinzufügen_ (**+**) und wählen Sie nur die Berechtigungen aus, die für Benutzer mit Lesezugriff empfohlen werden.
+
+   Schreibgeschützter Zugriff Benutzer können nur Funktionen anzeigen.
+
+1. Klicken Sie auf **[!UICONTROL Speichern]**.
+
+1. Wählen Sie in den Rollendetails die Registerkarte **[!UICONTROL Benutzergruppen]**, klicken Sie auf **[!UICONTROL Gruppen hinzufügen]**, wählen Sie _Schreibgeschützte Marketo Optimizer-Benutzergruppe_ und klicken Sie auf **[!UICONTROL Speichern]**.

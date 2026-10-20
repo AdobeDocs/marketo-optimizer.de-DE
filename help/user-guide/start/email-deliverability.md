@@ -25,9 +25,9 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: cf3d8c71c9301ee038cc1b31968d30aba34d1fc7
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: '2590'
+source-wordcount: '2694'
 ht-degree: 1%
 ---
 # Zustellbarkeit von E-Mails
@@ -70,6 +70,18 @@ Sie verwendet die folgenden Bausteine, die von einem Administrator konfiguriert 
 | **_Subdomain_** | Ein delegierter Teil Ihrer Versand-Domain (z. B. `mail.contoso.com`), der zum Senden von E-Mails über [!DNL Marketo Optimizer] verwendet wird. Subdomains isolieren Ihre B2B-Marketing-Reputation von Unternehmens- oder Transaktions-E-Mails. |
 | **_IP-Pool_** | Eine Gruppe von IP-Adressen, die mit einer oder mehreren Subdomains verknüpft sind. [!DNL Marketo Optimizer] unterstützt in dieser Version einen von Adobe verwalteten gemeinsamen IP-Pool. Dedizierte IP-Pools sind in der GA-Roadmap enthalten. |
 | **_Kanalkonfiguration_** | Ein wiederverwendbarer Satz von E-Mail-Sendeeinstellungen (Absenderidentität, Antwortadresse, Subdomain, IP-Pool, E-Mail-Typ und Tracking), die Sie an E-Mail-Aktionen in Journey anhängen. Sie können mehrere benannte Kanalkonfigurationen für verschiedene Marken, Geschäftseinheiten oder Versandtypen haben. |
+
+## Erforderliche Berechtigungen {#required-permissions}
+
+Zustellbarkeit und Kanaleinrichtung sind Aufgaben auf Administratorebene. Die folgenden Berechtigungen in der Kategorie _B2B-Kanal-Konfigurationen_ steuern den Zugriff:
+
+| Berechtigung | Was es erlaubt |
+| ---------- | -------------- |
+| B2B-E-Mail-Einstellungen anzeigen | E-Mail-Einstellungen anzeigen (Subdomains, PTR-Einträge, IP-Pools, Unterdrückungslisten, Seed-Listen, IP-Aufwärmpläne). |
+| B2B-E-Mail-Einstellungen verwalten | Konfigurieren Sie E-Mail-Einstellungen. Diese Einstellungen sind erforderlich, damit Benutzer E-Mails senden können. |
+| Verwalten von B2B-Kanalkonfigurationen | Zugriff auf den _Kanäle_ im linken Navigationsbereich und alle Kanalkonfigurationsvorgänge. |
+
+Beschreibungen aller Berechtigungen und empfohlenen Berechtigungen für jeden Benutzertyp finden Sie unter [Produktberechtigungen](./permissions-reference.md).
 
 <!--
 
@@ -155,7 +167,7 @@ Die Subdomain-Delegierung teilt dem Internet mit, dass Adobe berechtigt ist, E-M
 >* Festlegen einer Benennungskonvention für Subdomains (z. B. `mail.contoso.com` für Marketing, `alerts.contoso.com` für Transaktionen)
 >* Vergewissern Sie sich bei Ihrem IT-/DNS-Team, dass es die Subdomain (NS-Einträge) an Adobe delegieren kann.
 >* Erstellen Sie die neue Subdomain in Ihrem DNS-Anbieter und warten Sie dann 24-48 Stunden auf die DNS-Verbreitung, bevor Sie sie an Adobe delegieren.
->* Vergewissern Sie sich, dass Sie die Administratorrolle in [!DNL Marketo Optimizer] haben.
+>* Bestätigen Sie, dass Sie über die Berechtigung **[!UICONTROL B2B-E-Mail-Einstellungen verwalten]** verfügen. Weitere Informationen finden Sie unter [Erforderliche Berechtigungen](#required-permissions).
 
 1. Erweitern Sie in der linken [!DNL Marketo Optimizer]-Navigation **[!UICONTROL Administration]** und wählen Sie **[!UICONTROL Kanäle]** aus.
 1. Erweitern Sie im Bedienfeld **[!UICONTROL E-Mail-Einstellungen]** und wählen Sie **[!UICONTROL Subdomains]**.

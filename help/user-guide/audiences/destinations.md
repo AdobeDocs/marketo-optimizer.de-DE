@@ -4,17 +4,18 @@ description: Erfahren Sie mehr über die erforderlichen Berechtigungen, unterst�
 TQID: 'https://experienceleague.adobe.com/u5sWVDR0JaiX-YvlQ23l7mqoI9G95xS-uiKcqANwsnc'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 3cf5f37e-e87e-5179-812b-53ce05d7eebb
+    internal-label: Setup
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Governance
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: 643
+source-wordcount: '680'
 ht-degree: 8%
-
 ---
-
 # Ziele
 
 Ziele sind vorgefertigte Integrationen, mit denen Sie [statische Personenlisten](./people-lists.md#static-lists) von [!DNL Marketo Optimizer] an externe Werbe- oder Social-Media-Plattformen senden können, z. B. eine LinkedIn-Kampagnenzielgruppe, eine Google Customer Match-Zielgruppe oder eine benutzerdefinierte Facebook-Zielgruppe. Durch die Aktivierung einer statischen Liste für ein Ziel wird die Mitgliedschaft synchron gehalten: Wenn Personen zur Liste hinzugefügt oder daraus entfernt werden, werden sie entsprechend zur Zielgruppe und entsprechend auch zu jeder Kampagne, die von der Zielgruppe bedient wird, hinzugefügt oder daraus entfernt.
@@ -28,11 +29,14 @@ Es gibt zwei Möglichkeiten, Personen für ein verbundenes Ziel zu aktivieren:
 
 ## Erforderliche Berechtigungen {#required-permissions}
 
-Für eine vollständige Zielfunktion müssen die folgenden [!DNL Adobe Experience Platform] aktiviert sein.
+Für eine vollständige Zielfunktion müssen die folgenden [!DNL Adobe Experience Platform] aktiviert sein. Beschreibungen und empfohlene Berechtigungen für jeden Benutzertyp finden Sie auf der Seite [Produktberechtigungen](../start/permissions-reference.md) und [Berechtigungen für externe Ziele](../start/permissions-reference.md#external-destinations-permissions).
 
 | Kategorie | Berechtigung | Erforderlich |
 |--- |--- |--- |
 | Sandboxes | Sandbox-_(standardmäßig aktiviert)_ | Ja |
+| B2B-Ziele | B2B-Ziele anzeigen | Ja |
+| B2B-Ziele | Verwalten von B2B-Zielen | Ja |
+| B2B-Ziele | Aktivieren von B2B-Zielen | Ja |
 | Dashboards | Standard-Dashboards anzeigen | Ja |
 | Dashboards | Standard-Dashboards verwalten | Ja |
 | Ziele | Anzeigen von Zielen | Ja |
@@ -86,7 +90,7 @@ Jede unterstützte Zielkarte zeigt **[!UICONTROL Neues Ziel konfigurieren]**. Di
 
 1. Überprüfen Sie die Einstellungen für Data Governance und Marketing-Aktionen und klicken Sie dann auf **[!UICONTROL Speichern]**.
 
-Die vollständigen Einrichtungsschritte finden Sie unter [Erstellen einer neuen Zielverbindung](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/ui/connect-destination){target="_blank"} in der [!DNL Experience Platform].
+Die vollständigen Einrichtungsschritte finden Sie unter [Erstellen einer neuen Zielverbindung](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/connect-destination){target="_blank"} in der [!DNL Experience Platform].
 
 Nach der Konfiguration kann das Ziel überall dort aktiviert werden, wo Sie ein Ziel in [!DNL Marketo Optimizer] auswählen können.
 

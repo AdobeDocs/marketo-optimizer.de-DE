@@ -29,9 +29,9 @@ topic_v2:
     internal-label: Reporting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: cd171c6ec89301ed315d8b882ac0fccac745809f
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: '1085'
+source-wordcount: '1131'
 ht-degree: 2%
 ---
 
@@ -45,13 +45,13 @@ Mit interaktiven Webinaren können Sie ein Live- oder simuliertes Webinar planen
 
 Sie können ein Webinar auf zwei Arten erstellen:
 
-* **Gesprächserlebnis** - Bitten Sie den Kollegen, ein Webinar in natürlicher Sprache zu planen, zu bewerben und darüber zu berichten. Siehe [Erstellen von Webinaren mit &#x200B;](../agents/webinar-creation.md).
+* **Gesprächserlebnis** - Bitten Sie den Kollegen, ein Webinar in natürlicher Sprache zu planen, zu bewerben und darüber zu berichten. Siehe [Erstellen von Webinaren mit ](../agents/webinar-creation.md).
 
-* **Point-and-Click** - Verwenden Sie den Arbeitsbereich _[!UICONTROL Programme]_, um ein Webinar-Asset hinzuzufügen, es zu entwerfen, Co-Hosts und Moderatoren hinzuzufügen, Journey für die Promotion und Nachbereitung zu erstellen und das Reporting zu überprüfen. Siehe [Erstellen und Entwerfen eines Webinars](create-webinar.md) und [Webinar-Promotion und Follow-up-Journey &#x200B;](webinar-journeys.md).
+* **Point-and-Click** - Verwenden Sie den Arbeitsbereich _[!UICONTROL Programme]_, um ein Webinar-Asset hinzuzufügen, es zu entwerfen, Co-Hosts und Moderatoren hinzuzufügen, Journey für die Promotion und Nachbereitung zu erstellen und das Reporting zu überprüfen. Siehe [Erstellen und Entwerfen eines Webinars](create-webinar.md) und [Webinar-Promotion und Follow-up-Journey ](webinar-journeys.md).
 
 ## Webinar als Medienelement
 
-Ein Webinar ist ein Asset, das einem [Programm](https://experienceleague.adobe.com/de/docs/journey-optimizer-b2b/prime/marketing-management/programs/programs) gehört, genau wie eine E-Mail oder Landingpage. Wenn Sie ein Webinar zu einem Programm hinzufügen, wird es dort registriert und macht seine Token, Attribute und Aktivitäten für alle Journey und Assets in diesem Programm verfügbar.
+Ein Webinar ist ein Asset, das einem [Programm](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/prime/marketing-management/programs/programs) gehört, genau wie eine E-Mail oder Landingpage. Wenn Sie ein Webinar zu einem Programm hinzufügen, wird es dort registriert und macht seine Token, Attribute und Aktivitäten für alle Journey und Assets in diesem Programm verfügbar.
 
 >[!IMPORTANT]
 >
@@ -63,7 +63,7 @@ Für jede Person, die Mitglied eines Programms ist, das ein Webinar enthält, be
 
 | Land | Eigentümerin oder Eigentümer | Werte |
 |---|---|---|
-| Status des Programmmitglieds | Programm | Konfigurierbar pro [Programmtyp](https://experienceleague.adobe.com/de/docs/journey-optimizer-b2b/prime/admin/program-types) |
+| Status des Programmmitglieds | Programm | Konfigurierbar pro [Programmtyp](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/prime/admin/program-types) |
 | Webinar-Status | Webinar-Asset | Eingeladen, registriert, anwesend, No-Show, Teilgenommen auf Anfrage |
 | Journey-Status | Journey | Aktueller Knoten, angehaltene, abgeschlossene und andere Journey-Laufzeitstatus |
 
@@ -83,7 +83,7 @@ Der Webinar-Status hat fünf Werte. [!DNL Adobe Connect] setzt den Wert normaler
 >
 >Unabhängig davon, ob der Webinar-Status automatisch oder von einer Journey aus festgelegt wird, bewegt er sich nur in eine Richtung, genau wie [Programmstatus](./programs.md#statuses). Eine Person kann in einen späteren Status wechseln (z. B _&quot;_&quot; in _Teilgenommen_), jedoch nicht zurück in einen früheren Status. Planen Sie eine beliebige Autorenüberschreibungen mit diesem linearen Verlauf.
 
-Um eine Person von einer Journey in einen anderen Status zu versetzen, verwenden Sie die Aktion **[!UICONTROL Webinar-Mitgliedsstatus ändern]**. Siehe [Webinar-Promotion und Follow-up-Journey &#x200B;](webinar-journeys.md).
+Um eine Person von einer Journey in einen anderen Status zu versetzen, verwenden Sie die Aktion **[!UICONTROL Webinar-Mitgliedsstatus ändern]**. Siehe [Webinar-Promotion und Follow-up-Journey ](webinar-journeys.md).
 
 ## Webinar-Token
 
@@ -143,14 +143,15 @@ Bevor Sie mit der Erstellung eines Webinars beginnen, stellen Sie sicher, dass F
 
 ### Berechtigungen
 
-Der Zugriff auf Webinar-Funktionen hängt von den Ihnen zugewiesenen Berechtigungen für Webinare ab.
+Der Zugriff auf Webinar-Funktionen hängt von den Ihnen zugewiesenen Berechtigungen für Webinare ab. Eine vollständige Liste der Berechtigungen und empfohlenen Rollen finden Sie unter [Benutzerzugriff und Berechtigungen](../start/permissions-reference.md).
 
-| Rolle | Was sie gewährt |
+| Berechtigung | Was sie gewährt |
 |---|---|
 | B2B-Webinare anzeigen | Die Liste der Webinare sowie eine Webinar-Konfiguration, Details und Berichte anzeigen. Die Steuerelemente „Erstellen“, „Entwerfen“, „Bearbeiten“ und „Eingeben“ sind mit dieser Berechtigung nicht verfügbar und Sie können keinem Webinar als Co-Host oder Moderator zugewiesen werden. |
+| Verwalten von B2B-Webinaren | Vollständiger Lebenszyklus-Zugriff: Erstellen, entwerfen, konfigurieren, planen, bearbeiten, bereitstellen, hosten und löschen eines Webinars. Die Steuerelemente Erstellen, Entwerfen, Bearbeiten und Verwalten sind nur für Benutzer mit dieser Berechtigung verfügbar. |
 
 <!-- 
-| Manage B2B webinars | Full lifecycle access: create, design, configure, schedule, edit, deliver, host, and delete a webinar. The Create, Design, Edit, and Manage controls are available only for users with this role. |
+
 | Webinar co-host | After you are added as a co-host, this permission enables you to design and enter that webinar with co-host controls. |
 | Webinar presenter | After you are added as a presenter, this permission enables you to view and enter that webinar with presenter capabilities. It grants no authoring or design access on its own. |
 

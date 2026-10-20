@@ -1,19 +1,20 @@
 ---
 title: Landingpages
-description: Erstellen, gestalten und veröffentlichen Sie Landingpages für Personen-Journey - erstellen Sie von Grund auf, importieren Sie HTML, fügen Sie Formulare hinzu, personalisieren Sie Inhalte und verknüpfen Sie E-Mails in Marketo Optimizer.
+description: Landingpages für Personen-Journey erstellen, entwerfen und veröffentlichen - von Grund auf neu erstellen, HTML importieren, Formulare hinzufügen, Inhalte personalisieren und Links aus E-Mails in Marketo Optimizer erstellen.
 TQID: 'https://experienceleague.adobe.com/2eRB0eqgUbOrzaRTnWWy--Fjb4e5-qopiOMZWmr-sa4'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
   - id: 8881ff95-1653-5fea-82af-ce1549c0d99d
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Content Management
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: 1589
+source-wordcount: '1627'
 ht-degree: 2%
-
 ---
-
 # Landingpages
 
 Eine Landingpage ist eine eigenständige Web-Seite, auf der Sie Kontakte und Kunden leiten können, nachdem sie auf ein verknüpftes Element in einer E-Mail, SMS-Nachricht oder einem beliebigen digitalen Ort geklickt haben. Sie können diese Seiten in Ihre Journey einbinden, damit Ihre Interessenten und Kunden Ihre Nachrichten im Internet sehen und in Ihren Journey vorankommen.
@@ -25,6 +26,14 @@ Häufige Anwendungsfälle für Landingpages:
 * Profildaten (progressive Profilerstellung, Voreinstellungen, Registrierungen und ähnliche Szenarien) mithilfe von Formularen auf Landingpages erfassen oder aktualisieren.
 * Personen zu kampagnenspezifischen Informationen weiterleiten, die für Ihre Journey-Orchestrierung entwickelt wurden.
 * Personen zu einem speziellen Web-Formular umleiten, ohne eine externe Seite außerhalb von [!DNL Marketo Optimizer] zu erstellen.
+
+>[!PREREQUISITES]
+>
+>Für das Arbeiten mit Landingpages sind die folgenden [Berechtigungen](../start/permissions-reference.md) erforderlich:
+>
+>* **[!UICONTROL B2B-Landingpage anzeigen]** - Erforderlich, um Landingpages anzuzeigen.
+>* **[!UICONTROL B2B-Landingpage verwalten]** Zum Erstellen, Bearbeiten und Löschen von Landingpages erforderlich.
+>* **[!UICONTROL B2B-Landingpage veröffentlichen]** - Zum Veröffentlichen von Landingpages erforderlich.
 
 ## Workflow für Landingpages {#workflow}
 
@@ -200,7 +209,7 @@ Als Marketing-Experte oder Kreativschaffender, der E-Mail-, Fragment- und Seiten
 
 1. Klicken Sie für die **[!UICONTROL Landingpage]**-Option auf das Symbol _Seite auswählen_ ( ![Symbol „Links anzeigen](../assets/do-not-localize/icon-landing-page-select.svg) ).
 
-1. Legen Sie im Dialogfeld „Landingpage auswählen **[!UICONTROL als]** **[!UICONTROL Journey Optimizer B2B edition]** fest, aktivieren Sie das Kontrollkästchen für die Landingpage in der Liste der veröffentlichten Seiten und klicken Sie auf **[!UICONTROL Auswählen]**.
+1. Legen Sie im Dialogfeld „Landingpage auswählen **[!UICONTROL als]** **[!UICONTROL Journey Optimizer B2B Edition]** fest, aktivieren Sie das Kontrollkästchen für die Landingpage in der Liste der veröffentlichten Seiten und klicken Sie auf **[!UICONTROL Auswählen]**.
 
    ![Verknüpfungsoptionen für eine Landingpage](assets/content-design-link-landing-page-select.png){width="600" zoomable="yes"}
 

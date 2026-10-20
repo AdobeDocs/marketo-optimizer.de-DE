@@ -1,6 +1,6 @@
 ---
 title: Formulare
-description: Erstellen und verwalten Sie wiederverwendbare Formulare für die Erfassung von Geschäftsdaten - Entwerfen Sie Felder, legen Sie Dankeseiten fest, veröffentlichen Sie und verfolgen Sie die Nutzung in Marketo Optimizer.
+description: Wiederverwendbare Formulare für die Erfassung von Geschäftsdaten erstellen und verwalten - Felder entwerfen, Dankeseiten festlegen, veröffentlichen und die Nutzung in Marketo Optimizer verfolgen.
 TQID: 'https://experienceleague.adobe.com/StexA1TJKaBYnAoIMcxnHIoUwzfMAnJrBO7FDLdLnMo'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
@@ -17,9 +17,9 @@ topic_v2:
     internal-label: Data collection
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: '2434'
+source-wordcount: '2473'
 ht-degree: 2%
 ---
 # Formulare
@@ -31,14 +31,12 @@ Die Menge an Informationen, die das Formular erfassen soll, hängt vom Wert des 
 >[!PREREQUISITES]
 >
 >Bevor Marketing-Teams Formulare erstellen und verwenden können, um Informationen zu erfassen, muss ein Administrator eine oder mehrere Formularvorgaben definieren. Weitere Informationen finden Sie unter [_Forms-Konfigurationen_](../admin/configuration-presets-forms.md).
-
-<!-- 
->Form creation in [!DNL Marketo Optimizer] requires the following [permissions](../start/user-management.md#b2b-product-permissions):
 >
->* _[!UICONTROL Journey Optimizer Library]_ > _[!UICONTROL Read B2C Forms]_ - Required to access and view forms.
->* _[!UICONTROL Journey Optimizer Library]_ > _[!UICONTROL Manage B2C Forms]_ - Required to create, update, and delete forms.
->* _[!UICONTROL Journey Optimizer Library]_ > _[!UICONTROL Publish B2C Forms]_ - Required to publish forms.
--->
+>Für die Formularerstellung in [!DNL Marketo Optimizer] sind die folgenden [Berechtigungen](../start/permissions-reference.md) erforderlich:
+>
+>* _[!UICONTROL B2B-Assets]_ > _[!UICONTROL B2B-Forms anzeigen]_ - erforderlich, um auf Formulare zuzugreifen und sie anzuzeigen.
+>* _[!UICONTROL B2B Assets]_ > _[!UICONTROL B2B Forms verwalten]_ - Zum Erstellen, Bearbeiten und Löschen von Formularen erforderlich.
+>* _[!UICONTROL B2B Assets]_ > _[!UICONTROL B2B Forms veröffentlichen]_ - Zum Veröffentlichen von Formularen erforderlich.
 
 ## Aufrufen und Verwalten von Formularen {#view-forms}
 
@@ -68,7 +66,7 @@ Um nach einem Formular anhand des Namens zu suchen, geben Sie eine Textzeichenfo
 
 ### Spaltenanzeige anpassen {#column-display}
 
-Passen Sie die Spalten an, die Sie in der Tabelle anzeigen möchten, indem Sie oben rechts auf _Tabelle anpassen_ (![Symbol „Tabelle &#x200B;](../assets/do-not-localize/icon-column-settings.svg)„) klicken.
+Passen Sie die Spalten an, die Sie in der Tabelle anzeigen möchten, indem Sie oben rechts auf _Tabelle anpassen_ (![Symbol „Tabelle ](../assets/do-not-localize/icon-column-settings.svg)„) klicken.
 
 Wählen Sie im Dialogfeld die anzuzeigenden Spalten aus und klicken Sie auf **[!UICONTROL Anwenden]**.
 
@@ -194,7 +192,7 @@ Formulare, die derzeit von einer Landingpage oder Landingpage-Vorlage verwendet 
 Sie können ein Formular mit einer der folgenden Methoden löschen:
 
 * Klicken Sie oben rechts auf **[!UICONTROL … Weitere]** und wählen Sie **[!UICONTROL Löschen]**.
-* Klicken Sie auf der __ Forms _auf die Schaltfläche Mehr_ (**…**) klicken Sie auf das Symbol neben dem Formularnamen und wählen Sie **[!UICONTROL Löschen]**.
+* Klicken Sie auf der ]__[!UICONTROL  Forms _auf die Schaltfläche Mehr_ (**…**) klicken Sie auf das Symbol neben dem Formularnamen und wählen Sie **[!UICONTROL Löschen]**.
 
 Diese Aktion öffnet ein Bestätigungsdialogfeld. Sie können den Vorgang abbrechen, indem Sie auf **[!UICONTROL Abbrechen]** klicken oder auf **[!UICONTROL Löschen]** klicken, um den Löschvorgang zu bestätigen.
 
@@ -211,7 +209,7 @@ Duplizieren Sie ein Formular, um schnell und einfach ein neues Formular mit eine
 Sie können ein Formular mit einer der folgenden Methoden duplizieren:
 
 * Klicken Sie oben rechts auf der Seite mit den Formulardetails auf **[!UICONTROL … Mehr]** und wählen Sie **[!UICONTROL Duplizieren]**.
-* Klicken Sie auf der __ Forms _auf die Schaltfläche Mehr_ (**…**) klicken Sie auf das Symbol neben dem Formularnamen und wählen Sie **[!UICONTROL Duplizieren]**.
+* Klicken Sie auf der ]__[!UICONTROL  Forms _auf die Schaltfläche Mehr_ (**…**) klicken Sie auf das Symbol neben dem Formularnamen und wählen Sie **[!UICONTROL Duplizieren]**.
 
 ![Duplizieren Sie das Formular](assets/form-list-page-duplicate.png){width="450"}
 
@@ -308,7 +306,7 @@ Bearbeiten Sie das doppelte Formular, um den Namen nach Bedarf zu ändern und da
 
 ## Hinzufügen von Formularen zu einer Landingpage oder Vorlage {#insert-forms}
 
-Forms sind für die Wiederverwendung konzipiert und können beim Entwerfen einer ([) eingefügt &#x200B;](./landing-pages.md).
+Forms sind für die Wiederverwendung konzipiert und können beim Entwerfen einer ([) eingefügt ](./landing-pages.md).
 
 <!-- or [landing page template](./landing-page-templates.md). -->
 

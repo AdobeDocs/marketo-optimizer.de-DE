@@ -1,30 +1,32 @@
 ---
 title: WhatsApp-Kanalkonfiguration
-description: Verbinden Sie Ihr WhatsApp Business-Konto über die Cloud-API von Meta, um WhatsApp-Nachrichten in Personen-Journey von Marketo Optimizer zu aktivieren.
+description: Verbinden Sie Ihr WhatsApp Business-Konto über die Cloud-API von Meta, um WhatsApp-Nachrichten in den Journey von Marketo Optimizer-Personen zu aktivieren.
 TQID: 'https://experienceleague.adobe.com/y7rOywtyZ-OlupwLS-Fsjx72EVlaT7Vy-O1NEMwMO5E'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
   - id: a659ad61-de21-559d-a901-02e2fb329ff5
+    internal-label: Administration
   - id: d4203578-d294-5145-b397-f26f4488a904
+    internal-label: Channels
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Administration
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: 1469
+source-wordcount: '1510'
 ht-degree: 19%
-
 ---
-
 # WhatsApp-Kanalkonfiguration
 
 Marketo Optimizer sendet WhatsApp-Nachrichten über die Cloud-API von Meta. Bevor Marketer WhatsApp-Nachrichten für Personen-Journey erstellen können, muss ein Produktadministrator einen WhatsApp-Kanal konfigurieren.
 
-![WhatsApp-Aufgabenablauf für Marketo Optimizer](assets/whatsapp-flow-diagram.png)
-
-## Voraussetzungen {#prerequisites}
+![WhatsApp-Aufgabenfluss für Marketo Optimizer](assets/whatsapp-flow-diagram.png)
 
 Bevor Sie den WhatsApp-Kanal konfigurieren, stellen Sie sicher, dass Sie Folgendes haben:
 
@@ -35,7 +37,7 @@ Bevor Sie den WhatsApp-Kanal konfigurieren, stellen Sie sicher, dass Sie Folgend
 
 >[!IMPORTANT]
 >
->Ihre Nutzung der WhatsApp Messaging Services unterliegt den Nutzungsbedingungen von Meta. Durch den Zugriff auf WhatsApp-Nachrichten über Marketo Optimizer bestätigen Sie, dass Sie die [Meta WhatsApp-Geschäftsrichtlinien überprüft haben und damit einverstanden &#x200B;](https://www.whatsapp.com/legal/business-policy/).
+>Ihre Nutzung der WhatsApp Messaging Services unterliegt den Nutzungsbedingungen von Meta. Durch den Zugriff auf WhatsApp-Nachrichten über Marketo Optimizer bestätigen Sie, dass Sie die [Meta WhatsApp-Geschäftsrichtlinien überprüft haben und damit einverstanden sind](https://www.whatsapp.com/legal/business-policy/).
 
 ## Einschränkungen {#limitations}
 
@@ -59,6 +61,14 @@ Führen Sie die folgenden Aufgaben aus:
 1. [Hinzufügen der WhatsApp-Webhooks](#configure-webhooks)
 1. [Erstellen der WhatsApp-Kanalkonfiguration](#create-channel-configuration)
 
+>[!PREREQUISITES]
+>
+>Um diese Aufgaben in [!DNL Marketo Optimizer] auszuführen, benötigen Sie die folgenden [Berechtigungen](../start/permissions-reference.md):
+>
+>* **[!UICONTROL B2B-Kanal-Konfigurationen verwalten]** - Erforderlich, um auf das Menü _[!UICONTROL Kanäle]_ zuzugreifen.
+>* **[!UICONTROL Einstellungen für B2B-WhatsApp verwalten]** - Erforderlich zum Konfigurieren des WhatsApp-Kanals.
+>* **[!UICONTROL Verwalten von B2B-WhatsApp]** Voreinstellungen - Zum Erstellen der API-Anmeldeinformationen und Webhooks erforderlich.
+
 ### Erstellen von WhatsApp-API-Anmeldedaten {#create-whatsapp-api-credentials}
 
 >[!NOTE]
@@ -79,7 +89,7 @@ Führen Sie die folgenden Aufgaben aus:
    * **[!UICONTROL API-Token]** - Geben Sie Ihr API-Token ein. Weitere Informationen finden Sie in der [Dokumentation zu Meta](https://developers.facebook.com/blog/post/2022/12/05/auth-tokens/).
    * **[!UICONTROL Geschäftskonto-ID]** - Geben Sie die eindeutige Nummer Ihres Geschäftsportfolios ein. Weitere Informationen finden Sie in der [Dokumentation zu Meta](https://www.facebook.com/business/help/1181250022022158?id=180505742745347).
 
-   ![WhatsApp-Einstellungen API-Anmeldedaten &#x200B;](assets/config-whatsapp-channels-api-credentials.png){width="500" zoomable="yes"}
+   ![WhatsApp-Einstellungen API-Anmeldedaten ](assets/config-whatsapp-channels-api-credentials.png){width="500" zoomable="yes"}
 
 1. Klicken Sie auf **[!UICONTROL Fortfahren]**.
 
@@ -117,7 +127,7 @@ Wenn beim Konfigurieren der WhatsApp-API-Anmeldedaten ein HTTP-500-Fehler auftri
    * API-Token - Muss ein gültiges [Meta-Zugriffstoken mit entsprechenden Berechtigungen sein](https://developers.facebook.com/blog/post/2022/12/05/auth-tokens/).
    * Business Account ID - Muss genau mit Ihrer [Meta Business Account ID](https://www.facebook.com/business/help/1181250022022158?id=180505742745347) übereinstimmen.
 
-1. Testen der Anmeldeinformationen extern - Überprüfen Sie Ihre Anmeldeinformationen direkt mit der Meta-API, um zu bestätigen, ob das Problem mit den Anmeldeinformationen oder mit der Handhabung der Anmeldeinformationen in Marketo Optimizer zusammenhängt.
+1. Testen der Anmeldeinformationen extern - Überprüfen Sie Ihre Anmeldeinformationen direkt mit der Meta-API, um zu bestätigen, ob das Problem mit den Anmeldeinformationen oder mit der Handhabung der Marketo Optimizer-Anmeldeinformationen zusammenhängt.
 
 1. Adobe kontaktieren - Wenn die Umgebung und die Berechtigungen bestätigt wurden, der HTTP 500-Fehler jedoch weiterhin auftritt, bitte den Adobe-Support kontaktieren.
 
@@ -224,7 +234,7 @@ Eine Kanalkonfiguration definiert die Versandeinstellungen, die beim Senden von 
 
    ![Konfigurationsdetails des WhatsApp-Kanals](assets/config-whatsapp-channels-general-create.png){width="500" zoomable="yes"}
 
-1. (Derzeit nicht für Marketo Optimizer anwendbar) Wählen Sie für das **[!UICONTROL WhatsApp-Ausführungsfeld]** das Profilattribut aus, das als vorrangige Telefonnummer verwendet werden soll, wenn für eine Empfängerin oder einen Empfänger mehrere Telefonnummern verfügbar sind.
+1. (Derzeit nicht für Marketo Optimizer anwendbar) Wählen Sie für das **[!UICONTROL WhatsApp-Ausführungsfeld]** das Profilattribut aus, das als Prioritätstelefonnummer verwendet werden soll, wenn mehrere Telefonnummern für eine Empfängerin oder einen Empfänger verfügbar sind.
 
 1. Klicken Sie **[!UICONTROL Senden]**, um die Konfiguration zu speichern, oder **[!UICONTROL Als Entwurf speichern]**, um sie abzuschließen und zu einem späteren Zeitpunkt zu übermitteln.
 

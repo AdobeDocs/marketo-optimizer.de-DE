@@ -19,14 +19,20 @@ topic_v2:
     internal-label: Customer experience
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: e2577dd31c38f55f4dc2ce32119315ad7f9fe6f6
+source-git-commit: be5df9d4e4482516a60b652d9ec2f977eb29b520
 workflow-type: tm+mt
-source-wordcount: '859'
+source-wordcount: '955'
 ht-degree: 0%
 ---
 # Chat-Oberfläche
 
 Das Chat-Panel ist in [!DNL Adobe Marketo Optimizer] eingebettet. Hier können Sie mit den KI-Agenten interagieren, indem Sie sie in einfacher Sprache verwenden, um Programme und Journey zu erstellen, Personenlisten zu erstellen und zu vergleichen, Leads zu untersuchen, die Bewertung zu konfigurieren und vieles mehr.
+
+>[!PREREQUISITES]
+>
+>Um das Coworker chat-Bedienfeld in [!DNL Marketo Optimizer] verwenden zu können, müssen Sie über die Berechtigung **[!UICONTROL B2B-Konversationserlebnis verwalten]** [ verfügen](../start/permissions-reference.md).
+>
+>Diese Berechtigung gewährt Zugriff auf das Chat-Bedienfeld, aber keinen Zugriff auf Funktionen. Das System prüft alle Kenntnisse oder Aktionen im Chat mit der gleichen Berechtigung, die die Funktion außerhalb des Chat benötigt: _Verwalten_ Berechtigungen zum Erstellen, Bearbeiten oder Veröffentlichen und _Anzeigen_ Berechtigungen für schreibgeschützte Fähigkeiten. Wenn Sie nicht über die Berechtigung für die Funktion verfügen, kann der Assistent diese Aktion für Sie nicht ausführen. Um beispielsweise eine Journey zu erstellen, ist **[!UICONTROL B2B-Personen-Journey verwalten]** und für die Auflistung von Formularen ist **[!UICONTROL B2B-Forms anzeigen]** erforderlich.
 
 Wählen Sie _linken Navigationsbereich das Symbol &quot;_&quot; aus, um das Bedienfeld zu öffnen. Die Panel-Kopfzeile verfügt über vier Steuerelemente:
 

@@ -4,18 +4,20 @@ description: Platzhalter
 TQID: 'https://experienceleague.adobe.com/7X5-67hfrjRjWbGjq9duLu7mVjgfCs7tpAQLV8u6YKE'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: a659ad61-de21-559d-a901-02e2fb329ff5
+    internal-label: Administration
   - id: d4203578-d294-5145-b397-f26f4488a904
+    internal-label: Channels
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Administration
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: 541
-ht-degree: 30%
-
+source-wordcount: '591'
+ht-degree: 27%
 ---
-
 # Forms-Konfigurationen
 
 Bevor Marketer Formulare erstellen und veröffentlichen können, um sie auf ihren Landingpages zu verwenden, muss ein Produktadministrator eine oder mehrere dedizierte Vorgaben erstellen. Jede Vorgabe definiert den Verbindungsendpunkt, der zum Senden der Formularübermittlungsdaten verwendet wird, und den Datensatz, der zum Speichern der erfassten Daten verwendet wird.
@@ -26,22 +28,18 @@ Wenn Daten auf dem Streaming-Endpunkt landen, werden sie mit den Datensatzinform
 
 ## Voraussetzungen
 
-Um Web-Formulare verwenden zu können, müssen mindestens eine _&#x200B;**HTTP-API-Streaming-Verbindung**&#x200B;_ in Adobe Experience Platform definiert sein. Stellen Sie sicher, dass jede Verbindung, die Sie verwenden möchten, die folgenden Anforderungen erfüllt:
+Um Web-Formulare verwenden zu können, müssen mindestens eine _**HTTP-API-Streaming-Verbindung**_ in Adobe Experience Platform definiert sein. Stellen Sie sicher, dass jede Verbindung, die Sie verwenden möchten, die folgenden Anforderungen erfüllt:
 
 * Datentyp muss auf XDM festgelegt sein (nicht auf Rohdaten)
 * Authentifizierung muss deaktiviert sein (nicht authentifizierte Verbindung)
 
 Detaillierte Informationen zum Erstellen von Streaming-Quellverbindungen finden Sie in der [_Experience Platform-Dokumentation_](https://experienceleague.adobe.com/de/docs/experience-platform/sources/ui-tutorials/create/streaming/http).
 
-<!-- 
-permissions coming in GA
+Die Forms-Kanalkonfiguration in [!DNL Marketo Optimizer] erfordert die folgenden [Berechtigungen](../start/permissions-reference.md):
 
-Forms channel configuration in Journey Optimizer B2B Edition requires the following [permissions](../start/user-management.md#b2b-product-permissions):
-
-* _[!UICONTROL B2B Channel Configurations]_ > _[!UICONTROL View Forms Presets]_ - Required to view forms preset configurations.
-* _[!UICONTROL B2B Channel Configurations]_ > _[!UICONTROL Manage Forms Presets]_ - Required to create, update, and delete forms preset configurations.
-* _[!UICONTROL B2B Channel Configurations]_ > _[!UICONTROL Publish Forms Presets]_ - Required to publish forms preset configurations.
--->
+* _[!UICONTROL B2B-Kanalkonfigurationen]_ > _[!UICONTROL B2B-Forms-Vorgabe anzeigen]_ - Erforderlich zum Anzeigen von Formularvorgabenkonfigurationen.
+* _[!UICONTROL B2B-Kanalkonfigurationen]_ > _[!UICONTROL B2B-Forms-Vorgabe verwalten]_ - Zum Erstellen, Bearbeiten und Löschen von Formularvorgabenkonfigurationen erforderlich.
+* _[!UICONTROL B2B-Kanalkonfigurationen]_ > _[!UICONTROL B2B-Forms-Vorgabe veröffentlichen]_ - Zum Veröffentlichen der Formularvorgabenkonfigurationen erforderlich.
 
 >[!ENDSHADEBOX]
 

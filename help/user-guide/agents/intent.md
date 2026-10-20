@@ -4,18 +4,20 @@ description: Erfahren Sie, wie Sie die Aktivitätsgewichte für das Modell der A
 TQID: 'https://experienceleague.adobe.com/BNzbM6v6ADSKyPR6jQMj1QdWMnLQQX-j3PNk8gF6PxY'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 46e599c6-e20f-5f67-9824-93415016f66b
+    internal-label: Audiences
   - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
 topic_v2:
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Taxonomy
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: 978
+source-wordcount: '987'
 ht-degree: 0%
-
 ---
-
 
 # Konfigurieren und Analysieren der Absichten
 
@@ -57,6 +59,10 @@ Bei der Absichtspunktzahl für einen Lead werden drei Dinge berücksichtigt:
 Weitere Informationen zu diesen Metriken, einschließlich der von KI vorgeschlagenen Gewichtung, Inhaltsrelevanz und Einschränkungen, finden Sie unter [Absichtskonfiguration](../audiences/intent-configuration.md).
 
 ## Absichtsberichte
+
+>[!PREREQUISITES]
+>
+>Absichtsberichte erfordern die Berechtigung **[!UICONTROL B2B-Absichtsberichte anzeigen]** [](../start/permissions-reference.md).
 
 Um die vier Berichtstypen einzuführen, die er generieren kann, rufen Sie `/analyze-intent` auf, um einen Kollegen aufzufordern. Der Mitarbeiter wartet dann auf eine Folgeanfrage, in der ein Lead, ein Produkt oder ein Vergleich benannt wird. Jeder Bericht wird als eigene Registerkarte im Arbeitsbereich-Bedienfeld geöffnet und Coworker fügt auch eine Übersichtskarte in den Chat mit einer Schaltfläche _[!UICONTROL Bericht öffnen]_ ein.
 

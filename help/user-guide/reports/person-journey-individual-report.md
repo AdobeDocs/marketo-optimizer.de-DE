@@ -7,9 +7,9 @@ product_v2:
 feature_v2:
   - id: 3c1de303-7a7c-59a6-abca-8c534730e19c
     internal-label: Reporting
-source-git-commit: 531dce4ffe6000efa0296f0e2393423f54124ea7
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '455'
 ht-degree: 0%
 ---
 
@@ -19,6 +19,10 @@ ht-degree: 0%
 
 Klicken Sie **[!UICONTROL Bericht anzeigen]**, um eine Live- oder abgeschlossene Personen-Journey anzuzeigen, deren Leistung einschließlich Status, Interaktion, E-Mail-Metriken und Aktivitätsfluss.
 
+>[!PREREQUISITES]
+>
+>Um diesen Bericht anzuzeigen, benötigen Sie die Berechtigung **[!UICONTROL B2B-Personen-Journey-Berichte anzeigen]** [Berechtigung](../start/permissions-reference.md).
+
 _Bericht anzeigen :_
 
 1. Öffnen Sie eine **[!UICONTROL Live]**- oder **[!UICONTROL Finished]**-Personen-Journey aus der Liste _[!UICONTROL Personen-Journey]_.
@@ -26,7 +30,7 @@ _Bericht anzeigen :_
 
    ![Personen-Journey-Arbeitsfläche mit hervorgehobener Schaltfläche „Bericht anzeigen“ in der Journey-Kopfzeile.](./assets/reports-person-journey-view-report.png){width="600" zoomable="yes"}
 
-Sie können [&#x200B; Datumsbereich für &#x200B;](./reports-overview.md#change-the-date-range) Bericht ändern.
+Sie können [ Datumsbereich für ](./reports-overview.md#change-the-date-range) Bericht ändern.
 
 Wählen **[!UICONTROL oben]** Bericht „Freigeben“ aus, um die Daten herunterzuladen oder ihren Export zu planen. Siehe [_Exportieren eines Berichts_](./reports-overview.md#export-a-report) in der Übersicht über Berichte.
 
@@ -37,7 +41,7 @@ Wählen **[!UICONTROL oben]** Bericht „Freigeben“ aus, um die Daten herunter
 Die Berichtsfilter beziehen sich auf die aktuelle Journey.
 
 * **[!UICONTROL Journey-Name (Ereignis)]** - Legen Sie die Voreinstellung auf die Journey fest, von der aus Sie den Bericht geöffnet haben.
-* **[!UICONTROL Persona (Ereignis)]** - (_noch nicht unterstützt_) Filtern Sie den Bericht nach Personen, die einer bestimmten [abgeleiteten Persona) &#x200B;](../audiences/personas.md#filter-by-derived-persona). Der Standardwert lautet [!UICONTROL Kein Filter].
+* **[!UICONTROL Persona (Ereignis)]** - (_noch nicht unterstützt_) Filtern Sie den Bericht nach Personen, die einer bestimmten [abgeleiteten Persona) ](../audiences/personas.md#filter-by-derived-persona). Der Standardwert lautet [!UICONTROL Kein Filter].
 
 Wählen Sie **[!UICONTROL Alle zurücksetzen]** aus, um den Filter _[!UICONTROL Persona (Ereignis)]_ zu löschen und zur Standardansicht zurückzukehren.
 
@@ -61,11 +65,11 @@ Die [!UICONTROL E-Mail]Leistung) zeigt Versand- und Interaktionsmetriken für je
 * [!UICONTROL Email Name] - Name der E-Mail.
 * [!UICONTROL Gesendet] - Anzahl der gesendeten E-Mails.
 * [!UICONTROL Zugestellt] - Anzahl der zugestellten E-Mails.
-* [!UICONTROL &#x200B; % Zugestellt] - Anzahl der zugestellten E-Mails dividiert durch die Anzahl der gesendeten Nachrichten.
+* [!UICONTROL  % Zugestellt] - Anzahl der zugestellten E-Mails dividiert durch die Anzahl der gesendeten Nachrichten.
 * [!UICONTROL Geöffnet] - Anzahl der Öffnungen der E-Mail durch Empfänger.
-* [!UICONTROL &#x200B; % geöffnet] - Anzahl der geöffneten E-Mails dividiert durch die Anzahl der zugestellten Nachrichten.
+* [!UICONTROL  % geöffnet] - Anzahl der geöffneten E-Mails dividiert durch die Anzahl der zugestellten Nachrichten.
 * [!UICONTROL geklickt] - Anzahl der Klicks auf einen Link in der E-Mail.
-* [!UICONTROL &#x200B; % angeklickt] - Anzahl der angeklickten E-Mails dividiert durch die Anzahl der zugestellten Nachrichten.
+* [!UICONTROL  % angeklickt] - Anzahl der angeklickten E-Mails dividiert durch die Anzahl der zugestellten Nachrichten.
 
 ## Journey-Aktivitätsfluss {#journey-activity-flow}
 

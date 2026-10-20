@@ -4,16 +4,17 @@ description: Erfahren Sie, wie Sie in Marketo Optimizer auf E-Mail-Vorlagen zugr
 TQID: 'https://experienceleague.adobe.com/PS1sj99Udmajg2M4JadFQCGYF7DL9JkkdU9-7FG-OzY'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
   - id: 8881ff95-1653-5fea-82af-ce1549c0d99d
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Content Management
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: 483
+source-wordcount: '511'
 ht-degree: 1%
-
 ---
-
 
 # E-Mail-Vorlagen
 
@@ -24,6 +25,13 @@ E-Mail-Vorlagen in [!DNL Adobe Marketo Optimizer] ermöglichen es Inhaltsspezial
 >In dieser Beta-Version werden nur E-Mail-Vorlagen unterstützt.
 
 Wenn eine Vorlage auf eine neue E-Mail angewendet wird, wird der Inhalt an dieser Stelle kopiert. Änderungen an der Vorlage wirken sich nicht auf E-Mails aus, die zuvor daraus erstellt wurden.
+
+>[!PREREQUISITES]
+>
+>Das Arbeiten mit Vorlagen erfordert die folgenden [Berechtigungen](../start/permissions-reference.md):
+>
+>* **[!UICONTROL B2B-Vorlagen anzeigen]** - Erforderlich, um die Vorlagenliste und Details anzuzeigen.
+>* **[!UICONTROL Verwalten von B2B-]**: Zum Erstellen, Bearbeiten und Löschen von Vorlagen erforderlich.
 
 ## Zugriff auf E-Mail-Vorlagen {#access}
 
