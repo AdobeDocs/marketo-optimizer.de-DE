@@ -7,9 +7,9 @@ product_v2:
 feature_v2:
   - id: 3c1de303-7a7c-59a6-abca-8c534730e19c
     internal-label: Reporting
-source-git-commit: 531dce4ffe6000efa0296f0e2393423f54124ea7
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '455'
 ht-degree: 0%
 ---
 
@@ -18,6 +18,10 @@ ht-degree: 0%
 <!-- SPHR-39120: UX plans to move the Journey activity flow tile to the top of the report. Update the tile order in this page when that ships. -->
 
 Klicken Sie **[!UICONTROL Bericht anzeigen]**, um eine Live- oder abgeschlossene Personen-Journey anzuzeigen, deren Leistung einschließlich Status, Interaktion, E-Mail-Metriken und Aktivitätsfluss.
+
+>[!PREREQUISITES]
+>
+>Um diesen Bericht anzuzeigen, benötigen Sie die Berechtigung **[!UICONTROL B2B-Personen-Journey-Berichte anzeigen]** [Berechtigung](../start/permissions-reference.md).
 
 _Bericht anzeigen :_
 

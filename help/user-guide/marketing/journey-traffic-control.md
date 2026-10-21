@@ -1,23 +1,27 @@
 ---
 title: Journey-Traffic-Steuerung
-description: Erfahren Sie, wie die Journey-Traffic-Steuerung in Marketo Optimizer die KI-Bewertung über sieben gewichtete Dimensionen hinweg verwendet, um jede Person nur für die Einzel-Journey mit der besten Anpassung zu registrieren, wenn sich Zielgruppen überschneiden.
+description: Erfahren Sie, wie die Journey-Traffic-Steuerung in Marketo Optimizer die KI-Bewertung über sieben gewichtete Dimensionen hinweg verwendet, um jede Person nur für die Einzel-Journey zu registrieren, die am besten geeignet ist, wenn sich Zielgruppen überschneiden.
 TQID: 'https://experienceleague.adobe.com/MRPRSUHGHV9CZdp4ZIqxsIsIaB6U86DDiau7RE2r0ak'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 3c1de303-7a7c-59a6-abca-8c534730e19c
+    internal-label: Reporting
   - id: 46e599c6-e20f-5f67-9824-93415016f66b
+    internal-label: Audiences
   - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Reporting
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: 1543
+source-wordcount: '1582'
 ht-degree: 0%
-
 ---
-
 # Journey-Traffic-Steuerung
 
 Beim Journey-Traffic-Control (JTC) wird das beste Journey für eine Person priorisiert, wenn sich Zielgruppen überschneiden. Wenn eine Person für mehrere JTC-fähige Journey qualifiziert ist, werden sie von einem KI-Modell anhand jedes Bewerbers ausgewertet und zur am besten geeigneten Journey hinzugefügt, sodass sie von den anderen ausgeschlossen werden.
@@ -56,6 +60,7 @@ Dimensionen, für die eine Person keine Daten hat, werden automatisch übersprun
 
 Bevor die Traffic-Steuerung von Journey Ergebnisse liefern kann, sollten Sie Folgendes beachten:
 
+* **permissions.** Sie benötigen die Berechtigung **[!UICONTROL Anzeigen der B2B-Journey-Traffic]**-Steuerung zum Anzeigen der Journey-Traffic-Steuerungseinstellungen und die Berechtigung **[!UICONTROL Verwalten der B2B-Journey-Traffic-Steuerung]** zum Konfigurieren der Journey-Traffic-Steuerung, einschließlich der Simulation ihrer Wirkung. Weitere Informationen finden Sie unter [Berechtigungsressourcen](../start/permissions-reference.md).
 * **Für das Reporting ist eine veröffentlichte, JTC-fähige Journey erforderlich.** Auf _[!UICONTROL Registerkarte]_ Reporting“ werden erst dann Daten angezeigt, wenn mindestens eine Journey mit aktivierter Journey-Traffic-Steuerung veröffentlicht wurde.
 * **Für die Simulation ist mindestens eine veröffentlichte Journey in der Instanz erforderlich.** Bei der Simulation werden [Profile](../audiences/people-lists.md) ausgewertet, die sich bereits in Live-Journey befinden. Daher muss mindestens eine veröffentlichte Journey in der Instanz vorhanden sein, aus der Profile gezogen werden können. Bei der Simulation selbst muss JTC nicht aktiviert sein (siehe [_Bewertung simulieren_](#simulate-scoring)).
 

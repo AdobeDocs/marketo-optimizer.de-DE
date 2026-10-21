@@ -29,9 +29,9 @@ topic_v2:
     internal-label: Reporting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: cd171c6ec89301ed315d8b882ac0fccac745809f
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: '1085'
+source-wordcount: '1131'
 ht-degree: 2%
 ---
 
@@ -143,14 +143,15 @@ Bevor Sie mit der Erstellung eines Webinars beginnen, stellen Sie sicher, dass F
 
 ### Berechtigungen
 
-Der Zugriff auf Webinar-Funktionen hängt von den Ihnen zugewiesenen Berechtigungen für Webinare ab.
+Der Zugriff auf Webinar-Funktionen hängt von den Ihnen zugewiesenen Berechtigungen für Webinare ab. Eine vollständige Liste der Berechtigungen und empfohlenen Rollen finden Sie unter [Benutzerzugriff und Berechtigungen](../start/permissions-reference.md).
 
-| Rolle | Was sie gewährt |
+| Berechtigung | Was sie gewährt |
 |---|---|
 | B2B-Webinare anzeigen | Die Liste der Webinare sowie eine Webinar-Konfiguration, Details und Berichte anzeigen. Die Steuerelemente „Erstellen“, „Entwerfen“, „Bearbeiten“ und „Eingeben“ sind mit dieser Berechtigung nicht verfügbar und Sie können keinem Webinar als Co-Host oder Moderator zugewiesen werden. |
+| Verwalten von B2B-Webinaren | Vollständiger Lebenszyklus-Zugriff: Erstellen, entwerfen, konfigurieren, planen, bearbeiten, bereitstellen, hosten und löschen eines Webinars. Die Steuerelemente Erstellen, Entwerfen, Bearbeiten und Verwalten sind nur für Benutzer mit dieser Berechtigung verfügbar. |
 
 <!-- 
-| Manage B2B webinars | Full lifecycle access: create, design, configure, schedule, edit, deliver, host, and delete a webinar. The Create, Design, Edit, and Manage controls are available only for users with this role. |
+
 | Webinar co-host | After you are added as a co-host, this permission enables you to design and enter that webinar with co-host controls. |
 | Webinar presenter | After you are added as a presenter, this permission enables you to view and enter that webinar with presenter capabilities. It grants no authoring or design access on its own. |
 

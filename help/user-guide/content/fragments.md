@@ -4,15 +4,15 @@ description: Erstellen, Verwalten und Wiederverwenden von visuellen Inhaltsfragm
 TQID: 'https://experienceleague.adobe.com/dxPI12xu0thTB3eYJiyCY3OtLIxX-8IKKeXitH4C0Ws'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 8881ff95-1653-5fea-82af-ce1549c0d99d
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Content Management
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: 2634
+source-wordcount: '2677'
 ht-degree: 5%
-
 ---
-
 # Fragmente
 
 Ein Fragment ist eine wiederverwendbare Komponente, die in einer oder mehreren E-Mails und E-Mail-Vorlagen [!DNL Marketo Optimizer] referenziert werden kann. Normalerweise handelt es sich dabei um einen Inhaltsblock (Text, Bild oder beides), der vorab erstellt und schnell in eine E-Mail- oder E-Mail-Vorlage eingefügt werden kann. Mit dieser Funktion können Sie mehrere benutzerdefinierte Inhaltsbausteine vorab erstellen, die von Ihren Mitgliedern des Marketing-Teams verwendet werden können, um E-Mail-Inhalte für einen verbesserten Design-Prozess zusammenzustellen. Häufige Anwendungsfälle sind Kopf-/Fußzeilen-Inhaltsbausteine für E-Mails, Einladungsbanner für Veranstaltungen und saisonale Grußformeln.
@@ -33,6 +33,14 @@ So verwenden Sie Fragmente in Ihren Workflows optimal:
 
 * _Eigene Fragmente erstellen_ - Erstellen Sie visuelle Fragmente, entweder von Grund auf neu oder indem Sie Inhalte als Fragment aus dem visuellen Inhaltsdesign-Bereich speichern.
 * _Fragmente wiederverwenden_ - Verwenden Sie sie so oft wie nötig in Ihrem E-Mail- oder E-Mail-Vorlageninhalt.
+
+>[!PREREQUISITES]
+>
+>Das Arbeiten mit Fragmenten erfordert die folgenden [Berechtigungen](../start/permissions-reference.md):
+>
+>* **[!UICONTROL B2B-Fragmente anzeigen]** - Erforderlich, um die Fragmentliste und Details anzuzeigen.
+>* **[!UICONTROL Verwalten von B2B-]**) - Zum Erstellen, Bearbeiten und Löschen von Fragmenten erforderlich.
+>* **[!UICONTROL Veröffentlichen von B2B]** Fragmenten) - Erforderlich zum Veröffentlichen von Fragmenten zur Verwendung in Vorlagen, E-Mails und Landingpages.
 
 ## Aufrufen und Verwalten von Fragmenten {#access-manage-fragments}
 

@@ -1,24 +1,29 @@
 ---
 title: E-Mail-Inhalt
-description: Erfahren Sie, wie Sie E-Mail-Inhalte in Adobe Marketo Optimizer mithilfe der visuellen Arbeitsfläche, Drag-and-Drop-Tools, HTML-Importtools und wiederverwendbaren Vorlagen erstellen und gestalten.
+description: Erfahren Sie, wie Sie E-Mail-Inhalte in Adobe Marketo Optimizer mit der visuellen Arbeitsfläche, Drag-and-Drop-Tools, HTML-Importen und wiederverwendbaren Vorlagen erstellen und gestalten.
 TQID: 'https://experienceleague.adobe.com/uNzBQk1fXPZchQna577-bUQtqRRRiqEVPI3jzZKgGKw'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 3cf5f37e-e87e-5179-812b-53ce05d7eebb
+    internal-label: Setup
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Personalization
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: 2287
+source-wordcount: '2325'
 ht-degree: 5%
-
 ---
-
 # Inhaltserstellung in E-Mails
 
 [!DNL Adobe Marketo Optimizer] bietet der E-Mail-Design-Bereich eine visuelle Arbeitsfläche, auf der Marketing-Experten E-Mails erstellen. Die E-Mail-Design-Tools im linken und oberen Bereich (Strukturen, Inhaltskomponenten, Vorlagen, Fragmente usw.) unterstützen die Erstellung von Grund auf per Drag-and-Drop. Sie können auch mit einer Vorlage beginnen, unformatierte HTML einfügen oder Nachrichten aus wiederverwendbaren visuellen Fragmenten zusammenstellen.
@@ -26,6 +31,14 @@ ht-degree: 5%
 >[!IMPORTANT]
 >
 >Informationen zum Einrichten von Subdomains, Authentifizierung, IP-Pools und E-Mail-Kanal-Konfigurationen durch Admins finden Sie unter [E](../start/email-deliverability.md)Mail-Zustellbarkeit und [E-Mail-Kanal-Konfiguration](../admin/email-channel-configuration.md).
+
+>[!PREREQUISITES]
+>
+>Das Erstellen von E-Mails erfordert die folgenden [Berechtigungen](../start/permissions-reference.md):
+>
+>* **[!UICONTROL B2B-E-Mails anzeigen]** - Erforderlich zum Anzeigen von E-Mail-Nachrichten.
+>* **[!UICONTROL Verwalten von B2B]** E-Mails - Zum Erstellen, Bearbeiten und Löschen von E-Mail-Nachrichten erforderlich.
+>* **[!UICONTROL B2B-Personen-Journey verwalten]** - Erforderlich, um die E-Mail zu einer Personen-Journey hinzuzufügen.
 
 [!DNL Marketo Optimizer] ist jede E-Mail mit einer Aktion _[!UICONTROL E-Mail senden]_ innerhalb einer Personen-Journey verknüpft. Der vollständige Workflow vom Journey-Design bis zur E-Mail-Definition erfolgt in einem kontinuierlichen Erlebnis. Wenn Sie [&#x200B; Knoten _E-Mail senden_ zu &#x200B;](../marketing/action-nodes.md#add-an-action-node) Personen-Journey hinzufügen, klicken Sie auf **[!UICONTROL E-Mail erstellen]**, um den Vorgang zu starten. Zunächst definieren Sie die Aktionen und Inhaltseinstellungen für die E-Mail. Klicken Sie **[!UICONTROL E-Mail-]** bearbeiten), um den Design-Bereich für E-Mail-Inhalte zu starten, in dem Sie anhand der folgenden Optionen auswählen können, wie Sie Ihre E-Mail gestalten möchten:
 

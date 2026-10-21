@@ -1,15 +1,15 @@
 ---
 title: Berichte
-description: Machen Sie sich mit der Registerkarte „Berichte“ in Adobe Marketo Optimizer vertraut, einschließlich der Berichtsabschnitte, Export- und Planungsoptionen und der Änderung des Datumsbereichs.
+description: Machen Sie sich mit der Registerkarte „Berichte“ in Adobe Marketo Optimizer vertraut, einschließlich der Berichtabschnitte, Export- und Planungsoptionen und der Änderung des Datumsbereichs.
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
     internal-label: Marketo Optimizer
 feature_v2:
   - id: 3c1de303-7a7c-59a6-abca-8c534730e19c
     internal-label: Reporting
-source-git-commit: 6e919a66af259ea1f5facf7f5c3e811d76101e85
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: '508'
 ht-degree: 2%
 ---
 
@@ -20,6 +20,10 @@ Die Registerkarte [!UICONTROL Berichte] bietet Leistungseinblicke in [!DNL Adobe
 Jeder Bericht basiert auf [!DNL Adobe Customer Journey Analytics] und ist direkt in [!DNL Marketo Optimizer] eingebettet. Klicken Sie auf _list_-Symbol ( ![list icon](../assets/do-not-localize/icon-table-of-contents.svg) ), um das Bedienfeld **[!UICONTROL Inhaltsverzeichnis]** auf der linken Seite zu verwenden, um zwischen Abschnitten zu wechseln.
 
 ![Berichte: Seitenauflistung von Personen-Journey - Übersicht, Interaktionen, E-Mail-Interaktionen und Web-Interaktionen](./assets/reports-table-of-contents.png){width="800" zoomable="yes"}
+
+>[!PREREQUISITES]
+>
+>Um die Berichte auf der Registerkarte _[!UICONTROL Berichte]_ anzuzeigen, benötigen Sie die Berechtigung **[!UICONTROL B2B-eingebettete Berichte anzeigen]** [&#128279;](../start/permissions-reference.md).
 
 ## Berichtsabschnitte {#report-sections}
 

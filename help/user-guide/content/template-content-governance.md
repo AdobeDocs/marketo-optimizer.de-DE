@@ -4,15 +4,15 @@ description: Verwenden Sie Governance-Einstellungen in Marketo Optimizer, um Inh
 TQID: 'https://experienceleague.adobe.com/0QZuUrqbF97W7c9yZzBYY39EC7DmbadKxXOJxjxDDy8'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Governance
+source-git-commit: b6253400e2c9fc5b7f277add102367743981ce8a
 workflow-type: tm+mt
-source-wordcount: 608
+source-wordcount: '608'
 ht-degree: 0%
-
 ---
-
 
 # Content Governance für Vorlagen
 
@@ -22,7 +22,7 @@ Mit der Inhaltssperrung können Vorlagenautoren Governance-Regeln definieren, di
 >
 >Das Sperren von Inhalten ist eine Funktion der Governance auf Editor-Ebene. Es steuert, was Autorinnen und Autoren im E-Mail-Design-Bereich bearbeiten können, verhindert jedoch nicht die über die API vorgenommenen Änderungen.
 
-Nur Benutzer mit der Berechtigung **[!UICONTROL Inhaltsvorlagen verwalten]** können Governance-Einstellungen konfigurieren.
+Nur Benutzer mit der Berechtigung **[!UICONTROL B2B-Vorlagen verwalten]** können Governance-Einstellungen konfigurieren.
 
 ## Governance aktivieren {#enable}
 

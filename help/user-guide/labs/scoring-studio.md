@@ -7,15 +7,22 @@ product_v2:
 feature_v2:
   - id: 1650dadf-b034-5ac9-a309-77ad1e2f5035
     internal-label: Chat Interface
-source-git-commit: 7e3080b688415ef623cdbd57aa08ed43eb6fcd17
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: '1410'
+source-wordcount: '1445'
 ht-degree: 1%
 ---
 
 # Scoring Studio
 
 Scoring Studio enthält eine Modellliste, eine bearbeitbare Arbeitsfläche für jedes Modell und die [Coworker chat-Oberfläche](../agents/chat-interface.md). Verwenden Sie die Arbeitsfläche, um Dimensionen und Signale direkt zu überprüfen oder anzupassen, während Coworker weiterhin Änderungen in natürlicher Sprache mit Ihnen vorschlägt. Weitere Informationen zum Erstellen eines Modells über eine Eingabeaufforderung finden Sie unter [_Erstellen benutzerdefinierter Bewertungsmodelle_](../agents/lead-scoring-model.md).
+
+>[!PREREQUISITES]
+>
+>Scoring Studio ist eine Labs-Funktion und erfordert die folgenden [Berechtigungen](../start/permissions-reference.md):
+>
+>* **[!UICONTROL B2B-Labs anzeigen]** - Erforderlich, um die verfügbaren und aktivierten Labs-Funktionen anzuzeigen.
+>* **[!UICONTROL Verwalten von B2B]** Labs: Erforderlich zum Aktivieren und Konfigurieren von Labs-Funktionen.
 
 ## Modellliste {#model-list}
 

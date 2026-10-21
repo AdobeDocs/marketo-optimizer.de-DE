@@ -18,10 +18,10 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: cd171c6ec89301ed315d8b882ac0fccac745809f
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: '734'
-ht-degree: 19%
+source-wordcount: '765'
+ht-degree: 18%
 ---
 # Assets
 
@@ -61,6 +61,13 @@ Die -Bibliothek unterstützt zwei Layout-Optionen:
 
 * **[!UICONTROL List]** - Klicken Sie auf das Symbol _Listenansicht_ ( ![Listenansichtssymbol](../assets/do-not-localize/icon-falco-list-view.svg) ), um Assets in einer sortierbaren Tabelle mit Metadatenspalten anzuzeigen.
 * **[!UICONTROL Galerie]** - Klicken Sie auf das Symbol _Galerieansicht_ ( ![Galerieansichtssymbol](../assets/do-not-localize/icon-falco-gallery-view.svg) ), um Assets als visuelles Miniaturraster anzuzeigen.
+
+>[!PREREQUISITES]
+>
+>Das Arbeiten mit Assets erfordert die folgenden [Berechtigungen](../start/permissions-reference.md):
+>
+>* **[!UICONTROL B2B-Assets anzeigen]** - Erforderlich zum Anzeigen der _[!UICONTROL Assets]_-Bibliothek und der Asset-Dateidetails.
+>* **[!UICONTROL Verwalten von B2B-Assets]** - Zum Erstellen, Bearbeiten und Löschen von Asset-Dateien erforderlich.
 
 ## Nach Assets suchen {#find-assets}
 

@@ -17,10 +17,10 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: cd171c6ec89301ed315d8b882ac0fccac745809f
+source-git-commit: b6253400e2c9fc5b7f277add102367743981ce8a
 workflow-type: tm+mt
-source-wordcount: '1550'
-ht-degree: 19%
+source-wordcount: '1554'
+ht-degree: 18%
 ---
 # Erstellen und Veröffentlichen von Landingpages
 
@@ -219,7 +219,7 @@ Wenn die Einstellungen und Inhalte der Landingpage definiert sind, können Sie T
 
 >[!PREREQUISITES]
 >
->Um Landingpages in der Vorschau anzuzeigen und zu testen, benötigen Sie die Berechtigung **[!UICONTROL Nachrichten veröffentlichen]** und einen definierten Datensatz, der Testprofile enthält.
+>Um Landingpages in der Vorschau anzuzeigen und zu testen, benötigen Sie die Berechtigung **[!UICONTROL B2B-Landingpage veröffentlichen]** und einen definierten Datensatz, der Testprofile enthält.
 
 1. Klicken Sie **[!UICONTROL Vorschau und Test]**, um die Auswahl der Testprofile zu öffnen.
 
@@ -259,7 +259,7 @@ Wenn die Einstellungen und Inhalte der Landingpage definiert sind, können Sie T
 
 >[!PREREQUISITES]
 >
->Um Landingpages zu veröffentlichen, benötigen Sie die Berechtigung **[!UICONTROL Nachrichten veröffentlichen]**. Prüfen [&#x200B; vor dem Veröffentlichen (alle Warnhinweise überprüfen und auflösen](#check-alerts).
+>Zum Veröffentlichen von Landingpages benötigen Sie die Berechtigung **[!UICONTROL Veröffentlichen einer B2B-Landingpage]**. Prüfen [&#x200B; vor dem Veröffentlichen (alle Warnhinweise überprüfen und auflösen](#check-alerts).
 
 Wenn die Entwurfsseite Ihren Kriterien entspricht und Sie sie für Verknüpfungen in Ihren Journey-Nachrichten verfügbar machen möchten, klicken Sie oben rechts **[!UICONTROL Veröffentlichen]**. Klicken Sie im Bestätigungsdialogfeld erneut **[!UICONTROL Veröffentlichen]** zur Bestätigung.
 
