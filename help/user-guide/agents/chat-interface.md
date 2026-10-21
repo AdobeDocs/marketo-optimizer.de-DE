@@ -19,9 +19,9 @@ topic_v2:
     internal-label: Customer experience
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: be5df9d4e4482516a60b652d9ec2f977eb29b520
+source-git-commit: 52295deb478e2f7160a39fc1e554074aefe277ba
 workflow-type: tm+mt
-source-wordcount: '955'
+source-wordcount: '921'
 ht-degree: 0%
 ---
 # Chat-Oberfläche
@@ -30,11 +30,9 @@ Das Chat-Panel ist in [!DNL Adobe Marketo Optimizer] eingebettet. Hier können S
 
 >[!PREREQUISITES]
 >
->Um das Coworker chat-Bedienfeld in [!DNL Marketo Optimizer] verwenden zu können, müssen Sie über die Berechtigung **[!UICONTROL B2B-Konversationserlebnis verwalten]** [&#x200B; verfügen](../start/permissions-reference.md).
->
->Diese Berechtigung gewährt Zugriff auf das Chat-Bedienfeld, aber keinen Zugriff auf Funktionen. Das System prüft alle Kenntnisse oder Aktionen im Chat mit der gleichen Berechtigung, die die Funktion außerhalb des Chat benötigt: _Verwalten_ Berechtigungen zum Erstellen, Bearbeiten oder Veröffentlichen und _Anzeigen_ Berechtigungen für schreibgeschützte Fähigkeiten. Wenn Sie nicht über die Berechtigung für die Funktion verfügen, kann der Assistent diese Aktion für Sie nicht ausführen. Um beispielsweise eine Journey zu erstellen, ist **[!UICONTROL B2B-Personen-Journey verwalten]** und für die Auflistung von Formularen ist **[!UICONTROL B2B-Forms anzeigen]** erforderlich.
+>Das System prüft alle Kenntnisse oder Aktionen im Chat mit denselben [Berechtigungen](../start/permissions-reference.md) die die Funktion außerhalb des Chat benötigt: _Verwalten_ Berechtigungen zum Erstellen, Bearbeiten oder Veröffentlichen und _Anzeigen_ Berechtigungen für schreibgeschützte Fähigkeiten. Wenn Ihnen die Berechtigung für die Funktion fehlt, können [!DNL Coworker] diese Aktion nicht für Sie durchführen. Um beispielsweise eine Journey zu erstellen, ist **[!UICONTROL B2B-Personen-Journey verwalten]** und für die Auflistung von Formularen ist **[!UICONTROL B2B-Forms anzeigen]** erforderlich.
 
-Wählen Sie _linken Navigationsbereich das Symbol &quot;_&quot; aus, um das Bedienfeld zu öffnen. Die Panel-Kopfzeile verfügt über vier Steuerelemente:
+Wählen Sie _linken Navigationsbereich das_ „Chat“ aus, um das Bedienfeld zu öffnen. Die Panel-Kopfzeile verfügt über vier Steuerelemente:
 
 | Kontrollvariante | Beschreibung |
 |---------|-------------|
