@@ -1,28 +1,35 @@
 ---
 title: KI-Entscheidung
-description: Machen Sie sich mit der KI-Entscheidungsfindung in Marketo Optimizer vertraut, der Intelligenzschicht hinter der Journey-Traffic-Steuerung, dem nächstbesten Pfad, der Sendezeitoptimierung und anderen Funktionen, die statische Regeln durch ergebnisgesteuerte Automatisierung ersetzen.
+description: Machen Sie sich mit der KI-Entscheidungsfindung in Marketo Optimizer, der Intelligenzschicht hinter der Journey-Traffic-Steuerung, dem nächstbesten Pfad, der Sendezeitoptimierung und anderen Funktionen vertraut, die statische Regeln durch ergebnisgesteuerte Automatisierung ersetzen.
 TQID: 'https://experienceleague.adobe.com/biPd2Zv3z75i7imGqRNuKXvgoD0sIcwrFrjWmSO7FpU'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 3cf5f37e-e87e-5179-812b-53ce05d7eebb
+    internal-label: Setup
   - id: 5229c72e-d79b-574f-a03e-5c4bf48172c3
+    internal-label: AI Decisioning
   - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Optimization
+source-git-commit: 8a41dd1e42f5c39a2e9a5b54518fb88392776afe
 workflow-type: tm+mt
-source-wordcount: 808
+source-wordcount: '829'
 ht-degree: 2%
-
 ---
-
 
 # KI-Entscheidung
 
 Die KI-Entscheidungsfindung ist die Intelligenzebene hinter Adobe Marketo Optimizer. Anstatt jede Verzweigung als statische Regel vorab zu erstellen, bewertet KI-Entscheidungsfindung kontinuierlich den Kontext eines Profils, einschließlich Journey-Mitgliedschaft, Interaktionsverlauf, Absichtsbewertungen und Echtzeitverhalten, um die nächstbeste Aktion oder den nächsten besten Pfad für diese Person zu ermitteln.
 
 Diese kontinuierliche Auswertung bewegt die Orchestrierung von statischen Regeln hin zu einer ergebnisorientierten Automatisierung: Statt jede Bedingung im Voraus zu definieren, beschreiben Sie das gewünschte Ergebnis, und das System bestimmt, wie Sie für jede Person dorthin gelangen.
+
+Sehen Sie sich diesen kurzen Überblick an, um zu sehen, wie die KI-Logik in [!DNL Adobe Marketo Optimizer] Marketo Engage-Daten verwendet, um Ihre Workflows und Ergebnisse zu optimieren.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3504789?quality=12)
 
 ## Funktionen {#capabilities}
 
