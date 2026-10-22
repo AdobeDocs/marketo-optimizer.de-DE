@@ -29,14 +29,20 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: e2577dd31c38f55f4dc2ce32119315ad7f9fe6f6
+source-git-commit: 8a41dd1e42f5c39a2e9a5b54518fb88392776afe
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '519'
 ht-degree: 2%
 ---
 # Dokumentation zu Adobe Marketo Optimizer
 
 [!DNL Adobe Marketo Optimizer] ist eine KI-First-Marketing-Automatisierungslösung, mit der Marketing-Experten und BDRs ihre Lead-, Account- und Einkaufsgruppen-Journey mit leistungsstarker KI-Argumentation zusammenführen können. Dadurch wird der Kundenkontext mit kontinuierlich aktualisierten semantischen Storys angereichert und die Interaktion mit Best Practices für Marketing, bezahlte Medien und BDR-Kanäle skaliert.
+
+## Übersicht
+
+Sehen Sie sich diesen kurzen Überblick an, um zu sehen, wie [!DNL Adobe Marketo Optimizer] KI-Logik verwendet, um jeden Lead mit der richtigen nächstbesten Aktion zu interagieren.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3504788?quality=12)
 
 ## Beginnen Sie mit den Grundlagen {#basics}
 

@@ -22,9 +22,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
 autotag-review: '2026-10-20T17:03:48.312Z'
-source-git-commit: e80513284d179a9b27d0505463d07d5e15facabb
+source-git-commit: a33f749c32631dcd77ecf2892bdc3b1a5e06cd66
 workflow-type: tm+mt
-source-wordcount: '1577'
+source-wordcount: '1556'
 ht-degree: 6%
 ---
 # Produktberechtigungen
@@ -143,7 +143,14 @@ Eine Anleitung zum Erstellen dieser Gruppen und Rollen finden Sie unter [Erstell
 
 ## Chat-Berechtigungen {#chat-permissions}
 
-Chatberechtigungen folgen den Berechtigungen auf Funktionsebene. _Verwalten von B2B Conversational Experience_ bietet Zugriff auf das [!DNL CX Coworker] Chat-Bedienfeld, gewährt jedoch keinen Zugriff auf Funktionen. Ein Mitarbeiter prüft alle Kenntnisse oder Aktionen im Chat mit derselben Berechtigung, die die Funktion außerhalb des Chat benötigt: _Verwalten_-Berechtigungen zum Erstellen, Bearbeiten oder Veröffentlichen und _Anzeigen_-Berechtigungen für schreibgeschützte Fähigkeiten. Wenn Benutzenden die Berechtigung für die Funktion fehlt, können [!DNL Coworker] diese Aktion nicht für sie durchführen. Um beispielsweise eine Journey zu erstellen, ist _B2B-Personen-Journey verwalten_ und für die Auflistung von Formularen ist _B2B-Forms anzeigen_ erforderlich.
+Chatberechtigungen folgen den Berechtigungen auf Funktionsebene. [!DNL Coworker for Marketo Optimizer] prüft alle Kenntnisse oder Aktionen im Chat mit der gleichen Berechtigung, die die Funktion außerhalb des Chat benötigt: _Verwalten_ Berechtigungen zum Erstellen, Bearbeiten oder Veröffentlichen und _Anzeigen_ Berechtigungen für schreibgeschützte Fähigkeiten. Wenn Benutzenden die Berechtigung für die Funktion fehlt, können [!DNL Coworker] diese Aktion nicht für sie durchführen. Um beispielsweise eine Journey zu erstellen, ist _B2B-Personen-Journey verwalten_ und für die Auflistung von Formularen ist _B2B-Forms anzeigen_ erforderlich.
+
+<!--
+_Manage B2B Conversational Experience_ gives access to the [!DNL CX Coworker] chat panel, but it does not grant access to any feature functions.
+
+Per wiki: 
+Update 10/02: We are no longer mapping b2b-conversational-experience read or write to any tools. It was decided that chat will be available for all users without permissions, but what they can do within the chat (i.e. tools they can use) will be defined by other permissions.
+-->
 
 ## Berechtigungen für externe Ziele {#external-destinations-permissions}
 
