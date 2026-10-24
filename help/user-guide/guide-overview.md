@@ -42,7 +42,7 @@ ht-degree: 2%
 
 Sehen Sie sich diesen kurzen Überblick an, um zu sehen, wie [!DNL Adobe Marketo Optimizer] KI-Logik verwendet, um jeden Lead mit der richtigen nächstbesten Aktion zu interagieren.
 
->[!VIDEO](https://video.tv.adobe.com/v/3504788?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3504796?captions=ger&quality=12)
 
 ## Beginnen Sie mit den Grundlagen {#basics}
 
