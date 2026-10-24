@@ -29,7 +29,7 @@ Diese kontinuierliche Auswertung bewegt die Orchestrierung von statischen Regeln
 
 Sehen Sie sich diesen kurzen Überblick an, um zu sehen, wie die KI-Logik in [!DNL Adobe Marketo Optimizer] Marketo Engage-Daten verwendet, um Ihre Workflows und Ergebnisse zu optimieren.
 
->[!VIDEO](https://video.tv.adobe.com/v/3504789?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3504805?captions=ger&quality=12)
 
 ## Funktionen {#capabilities}
 
