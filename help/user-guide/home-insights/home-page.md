@@ -35,7 +35,7 @@ Sehen Sie sich das Video an, um eine Tour durch die Startseite und den Marketing
 
 ## KI-Unterhaltung starten
 
-Verwenden Sie die [!UICONTROL Frage stellen oder Aufgabe starten] Eingabe, um mit der Arbeit mit &quot;[!UICONTROL &quot; ]. Geben Sie `/` ein, um Fähigkeiten und Befehle zu durchsuchen.
+Verwenden Sie die [!UICONTROL Frage stellen oder Aufgabe starten] Eingabe, um mit der Arbeit mit &quot;[!UICONTROL &quot; &#x200B;]. Geben Sie `/` ein, um Fähigkeiten und Befehle zu durchsuchen.
 
 1. Geben Sie eine Frage ein oder beschreiben Sie die Aufgabe, die Sie abschließen möchten.
 1. Um unterstützendes Material bereitzustellen, wählen Sie **[!UICONTROL Anhängen]** in der Eingabe aus und fügen Sie eine Datei hinzu.
@@ -61,7 +61,7 @@ Wählen Sie eine Karte [!UICONTROL Schnellzugriff] aus, um einen Arbeitsbereich 
 | [KI-Entscheidungszustand](/help/user-guide/agents/ai-decisioning-health.md) | Story-Volumen und der Prozentsatz der Personen, die nach Persona klassifiziert wurden. |
 | [Marketing](/help/user-guide/marketing/marketing-management.md) | Programme, Personen-Journey und Personenlisten im Marketing-Arbeitsbereich. |
 | [!UICONTROL Assets] | Inhalts-Assets für E-Mails und Seiten. |
-| [!UICONTROL Berichte ] | Leistungs- und Interaktionsberichte |
+| [!UICONTROL Berichte &#x200B;] | Leistungs- und Interaktionsberichte |
 
 ## Skills
 
@@ -74,7 +74,7 @@ Wählen Sie eine Karte in [!UICONTROL Fähigkeiten], um einen bestimmten KI-Work
 | [!UICONTROL Erstellen extrem personalisierter E-Mails] | Entwerfen personalisierter E-Mails mit Token und dynamischen Inhaltsbausteinen. |
 | [!UICONTROL Fit- und Intent-basierte Journey-Traffic-Steuerung] | Kontakte über Journey mithilfe von Account-Fit- und Intent-Signalen weiterleiten. |
 
-Sie können auch Agentenkenntnisse in &quot;[!UICONTROL &quot; ]. Das Video zeigt das [!UICONTROL Verwenden einer Agentenkompetenz] Dialogfeld mit einem Suchfeld und Kategoriefiltern. Weitere Informationen finden Sie unter [Agentenfertigkeiten](/help/user-guide/agents/skills.md).
+Sie können auch Agentenkenntnisse in &quot;[!UICONTROL &quot; &#x200B;]. Das Video zeigt das [!UICONTROL Verwenden einer Agentenkompetenz] Dialogfeld mit einem Suchfeld und Kategoriefiltern. Weitere Informationen finden Sie unter [Agentenfertigkeiten](/help/user-guide/agents/skills.md).
 
 ## Zu Arbeitsbereichen navigieren
 
@@ -84,7 +84,7 @@ Verwenden Sie die Anwendungsnavigation, um die folgenden Arbeitsbereiche auf der
 | ----------- | --------------------- |
 | [!UICONTROL Marketing-Management] | Programme, Personen-Journey und Personenlisten. |
 | [!UICONTROL Traffic-Steuerung für Journey] | [Traffic-Kontrolle beim Journey](/help/user-guide/marketing/journey-traffic-control.md). |
-| [!UICONTROL Berichte ] | Berichte zur Marketing-Leistung. |
+| [!UICONTROL Berichte &#x200B;] | Berichte zur Marketing-Leistung. |
 | [!UICONTROL Content-Management] | [!UICONTROL Vorlagen], [!UICONTROL Assets], [!UICONTROL Fragments], [!UICONTROL Forms], [!UICONTROL Landingpages] und [!UICONTROL Webinar]. |
 | [!UICONTROL Verbindungen] | [Ziele](/help/user-guide/audiences/destinations.md). |
 | [!UICONTROL Labs] | [Scoring Studio](/help/user-guide/labs/scoring-studio.md). |
