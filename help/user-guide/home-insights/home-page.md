@@ -1,61 +1,103 @@
 ---
 title: Startseite
-description: Verwenden Sie die -Startseite in Marketo Optimizer, um KI-Unterhaltungen zu starten, Fähigkeiten zu starten und zu Marketing, Assets, Berichten und Zielen zu springen.
+description: Erfahren Sie, wie Sie auf der Adobe Marketo Optimizer-Startseite KI-Unterhaltungen starten, Fähigkeiten starten und zu Marketing-Arbeitsbereichen, Inhalten und Berichten navigieren können.
+autotag-review: '2026-10-27T19:17:10.631Z'
 TQID: 'https://experienceleague.adobe.com/QdAQalH-ETbVtJL3O4rPC8z70Yzm1gvnx9DYhJP9Bb0'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
-  - id: 46e599c6-e20f-5f67-9824-93415016f66b
-  - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+  - id: 1650dadf-b034-5ac9-a309-77ad1e2f5035
+    internal-label: Chat Interface
+  - id: 5229c72e-d79b-574f-a03e-5c4bf48172c3
+    internal-label: AI Decisioning
   - id: a29661b8-f7a4-53d1-a9ac-fdec08c092e4
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Programs
+  - id: a659ad61-de21-559d-a901-02e2fb329ff5
+    internal-label: Administration
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: bbaa78961556e8cb320f9e9ead2127de3ce5341c
 workflow-type: tm+mt
-source-wordcount: 371
+source-wordcount: '556'
 ht-degree: 3%
-
 ---
-
 # Startseite
 
-Die _Startseite_ ist Ihre Startseite in Adobe Marketo Optimizer. Wählen Sie das _Startseite_-Symbol oben im linken Navigationsbereich aus, um es zu öffnen. Die Seite begrüßt Sie mit **Willkommen [name], was können wir heute erstellen?** und wurde entwickelt, um Sie mit einem Klick von der Idee zur Tat zu führen.
+Verwenden Sie die [!UICONTROL Startseite] in [!DNL Adobe Marketo Optimizer], um KI-Unterhaltungen zu starten, Fähigkeiten zu starten und Marketing-Arbeitsbereiche zu öffnen. Wählen Sie **[!UICONTROL Startseite]** in der Navigation aus, um zu dieser Seite zurückzukehren.
 
-![Startseite](./assets/home-page.png){width="800" zoomable="yes"}
+Die personalisierte Begrüßungsnachricht stellt Fragen zu Ihren aktuellen Aufgaben. Wählen Sie aus, wie mit der Konversationseingabe, den Absichtsoptionen, Schnellzugriffskarten oder Kompetenzkarten begonnen werden soll.
 
-## Eingabefeld
+Sehen Sie sich das Video an, um eine Tour durch die Startseite und den Marketing-Arbeitsbereich zu erhalten. Die folgenden Abschnitte enthalten schriftliche Anweisungen.
 
-Eine große _(Frage stellen oder Aufgabe starten_ Eingabe befindet sich in der Mitte der Startseite. Geben Sie hier alles ein, um mit dem KI-Konversationsbereich zu arbeiten, oder verwenden Sie das Symbol _Anhängen_ ( **+**), um vor dem Versand eine Datei hinzuzufügen (z. B. eine Kampagnenbeschreibung oder eine CSV-Datei). Dies ist derselbe Mitarbeiter, der überall in der Marketing-Verwaltung verfügbar ist, aber hier beginnt eine neue Konversation.
+>[!VIDEO](https://video.tv.adobe.com/v/3505360/?quality=12&learn=on)
 
-## Absichtsschaltflächen
+## KI-Unterhaltung starten
 
-Unter dem Eingabefeld umrahmen vier Schnellstart-Schaltflächen das, was Sie erreichen möchten:
+Verwenden Sie die [!UICONTROL Frage stellen oder Aufgabe starten] Eingabe, um mit der Arbeit mit &quot;[!UICONTROL &quot; &#x200B;]. Geben Sie `/` ein, um Fähigkeiten und Befehle zu durchsuchen.
 
-| Schaltfläche | Nutzung |
-|--------|------------|
-| **Plan** | Gestaltungsstrategie - Kampagnen, Programme und Audiences planen, bevor sie erstellt werden. |
-| **Create** | Erstellen Sie Dinge - Programme, Journey, E-Mails, Personenlisten. |
-| **Kennzahl** | Schauen Sie sich die Leistung an - Berichte, Interaktionen, Versandzeitergebnisse. |
-| **Optimieren** | Verbessern Sie Ihre Live-Schaltung - Traffic-Steuerung, Bewertung, Personalisierung. |
+1. Geben Sie eine Frage ein oder beschreiben Sie die Aufgabe, die Sie abschließen möchten.
+1. Um unterstützendes Material bereitzustellen, wählen Sie **[!UICONTROL Anhängen]** in der Eingabe aus und fügen Sie eine Datei hinzu.
+1. Senden Sie die Eingabeaufforderung ab, um im Bedienfeld [!UICONTROL Mitarbeiter] fortzufahren.
+
+Die Startseite bietet außerdem vier Absichtsoptionen für den Beginn Ihrer Arbeit.
+
+| Option | Ziel |
+| -------- | ------ |
+| [!UICONTROL Plan] | Marketing-Aktivitäten planen. |
+| [!UICONTROL Create] | Erstellen Sie Marketing-Inhalte oder -Ressourcen. |
+| [!UICONTROL Kennzahl] | Marketing-Performance überprüfen. |
+| [!UICONTROL Optimieren] | Verfeinern vorhandener Marketing-Aktivitäten. |
+
+Weitere Informationen finden Sie in der [Chat-Oberfläche](/help/user-guide/agents/chat-interface.md).
 
 ## Schnellzugriff
 
-Es gibt vier Shortcut-Karten, mit denen Sie schnell direkt zu einem Arbeitsbereich springen können:
+Wählen Sie eine Karte [!UICONTROL Schnellzugriff] aus, um einen Arbeitsbereich zu öffnen oder den Entscheidungszustand der KI zu überprüfen.
 
 | Karte | Zugriff auf |
-|------|-----------------|
-| [KI-Entscheidungszustand](../agents/ai-decisioning-health.md) | Umfang der Story und Abdeckung der persönlichen Klassifizierung mit einem vollständigen Gesundheitsbericht im Arbeitsbereich. |
-| **Marketing** | Programme, Journey, Audiences (Marketing-Management). |
-| **Assets** | E-Mails, Seiten, Vorlagen, Token. |
-| **Berichte** | Leistungs- und Interaktionsmetriken. |
+| ------ | --------------------- |
+| [KI-Entscheidungszustand](/help/user-guide/agents/ai-decisioning-health.md) | Story-Volumen und der Prozentsatz der Personen, die nach Persona klassifiziert wurden. |
+| [Marketing](/help/user-guide/marketing/marketing-management.md) | Programme, Personen-Journey und Personenlisten im Marketing-Arbeitsbereich. |
+| [!UICONTROL Assets] | Inhalts-Assets für E-Mails und Seiten. |
+| [!UICONTROL Berichte &#x200B;] | Leistungs- und Interaktionsberichte |
 
 ## Skills
 
-In einer Reihe von _Skill_-Karten werden hochwertige KI-Workflows vorgestellt, die Sie sofort starten können:
+Wählen Sie eine Karte in [!UICONTROL Fähigkeiten], um einen bestimmten KI-Workflow zu starten.
 
-- **Personabasierte Zielgruppen erstellen** - Erzeugt Segmente, die nach Persona-Signalen und firmografischer Anpassung gruppiert sind und in ein Programm eingefügt werden können.
-- **Erstellen von Omni-Channel-Programmen** - Erstellen Sie Programme für E-Mail-, Web- und nachgelagerte Ziele in einer einzigen Zusammenfassung.
-- **Erstellen extrem personalisierter E-Mails** - Entwürfe für markeninterne E-Mails, die pro Empfänger mit Token und dynamischen Inhaltsbausteinen personalisiert wurden.
-- **Fit- und Intent-basierte Journey-Traffic-Steuerung** - Routet Kontakte über Journey auf der Grundlage von Account-Fit- und Live-Kaufabsichtssignalen.
+| Skill | Ziel |
+| ------- | ------ |
+| [!UICONTROL Erstellen von personalbasierten Zielgruppen] | Generieren Sie Zielgruppen mithilfe von persönlichen Signalen und firmografischer Anpassung. |
+| [!UICONTROL Erstellen von Omni-Channel-Programmen] | Erstellen Sie Programme für E-Mail, Web und Ziele aus einer Zusammenfassung. |
+| [!UICONTROL Erstellen extrem personalisierter E-Mails] | Entwerfen personalisierter E-Mails mit Token und dynamischen Inhaltsbausteinen. |
+| [!UICONTROL Fit- und Intent-basierte Journey-Traffic-Steuerung] | Kontakte über Journey mithilfe von Account-Fit- und Intent-Signalen weiterleiten. |
 
-Klicken Sie auf eine Kompetenzkarte, um eine Konversation zu starten, die für diesen Workflow vorbereitet ist. Die Fähigkeiten sind die gleichen Bausteine, die im Chat-Panel verfügbar sind - die Karten sind ein entdeckbarer Einstiegspunkt.
+Sie können auch Agentenkenntnisse in &quot;[!UICONTROL &quot; &#x200B;]. Das Video zeigt das [!UICONTROL Verwenden einer Agentenkompetenz] Dialogfeld mit einem Suchfeld und Kategoriefiltern. Weitere Informationen finden Sie unter [Agentenfertigkeiten](/help/user-guide/agents/skills.md).
+
+## Zu Arbeitsbereichen navigieren
+
+Verwenden Sie die Anwendungsnavigation, um die folgenden Arbeitsbereiche auf der Startseite oder im Marketing-Arbeitsbereich zu öffnen.
+
+| Arbeitsbereich | Zugriff auf |
+| ----------- | --------------------- |
+| [!UICONTROL Marketing-Management] | Programme, Personen-Journey und Personenlisten. |
+| [!UICONTROL Traffic-Steuerung für Journey] | [Traffic-Kontrolle beim Journey](/help/user-guide/marketing/journey-traffic-control.md). |
+| [!UICONTROL Berichte &#x200B;] | Berichte zur Marketing-Leistung. |
+| [!UICONTROL Content-Management] | [!UICONTROL Vorlagen], [!UICONTROL Assets], [!UICONTROL Fragments], [!UICONTROL Forms], [!UICONTROL Landingpages] und [!UICONTROL Webinar]. |
+| [!UICONTROL Verbindungen] | [Ziele](/help/user-guide/audiences/destinations.md). |
+| [!UICONTROL Labs] | [Scoring Studio](/help/user-guide/labs/scoring-studio.md). |
+| [!UICONTROL Administration] | [!UICONTROL Kanäle] und [!UICONTROL Programmtypen]. |
+
+## Erkunden des Marketing-Arbeitsbereichs
+
+Wählen Sie in **[!UICONTROL Navigation]** Karte für den Schnellzugriff oder **[!UICONTROL Marketing-]**) aus, um den Marketing-Arbeitsbereich zu öffnen. Arbeiten Sie mit [!UICONTROL Coworker], öffnen Sie Marketing-Ressourcen und kehren Sie zu kürzlich aufgerufenen Elementen zurück, ohne zur Startseite zurückzukehren.
+
+1. Wählen Sie **[!UICONTROL Programme]**, **[!UICONTROL Personen-Journey]** oder **[!UICONTROL Personen-Listen]** im Bedienfeld **[!UICONTROL Marketing]** aus, um Ressourcen zu durchsuchen.
+1. Wählen Sie eine Ressource aus, um sie in einer Workspace-Registerkarte zu öffnen. Wählen Sie alternativ ein Element in &quot;**[!UICONTROL aufgerufen“]**.
+1. Um weiterhin mit verschiedenen Ressourcen zu arbeiten, wechseln Sie zwischen geöffneten Registerkarten.
+
+Das [!UICONTROL Mitarbeiter]-Bedienfeld spiegelt die Ressource wider, die Sie öffnen. Bei den Eingabeaufforderungen kann es sich um ein ausgewähltes Programm, eine ausgewählte Personenliste oder eine ausgewählte Person handeln. Das Öffnen eines Personendatensatzes liefert beispielsweise Aufforderungen, die Personen- und Interaktionsaktivität zu untersuchen.
+
+Wählen Sie **[!UICONTROL Reduzieren]** aus, um das Bedienfeld [!UICONTROL Kollege] auszublenden oder **[!UICONTROL Bedienfelder austauschen]**, um seine Platzierung zu ändern. Weitere Informationen finden Sie unter [Marketing-Management](/help/user-guide/marketing/marketing-management.md) und [Personendetails](/help/user-guide/audiences/person-details.md).
