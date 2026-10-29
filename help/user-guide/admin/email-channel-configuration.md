@@ -22,9 +22,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: b6253400e2c9fc5b7f277add102367743981ce8a
+source-git-commit: d46d6ad64726b6a4fb07e10c081b08e7336f151a
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: '641'
 ht-degree: 0%
 ---
 # E-Mail-Kanalkonfiguration
@@ -89,7 +89,7 @@ Wenn Sie eine Konfiguration bearbeiten, die verwendet wird:
 >
 >Das Löschen einer Kanalkonfiguration ist dauerhaft. Eine Konfiguration, auf die eine aktive Journey verweist, kann nicht gelöscht werden. Entfernen Sie zuerst alle E-Mail-Aktionen oder weisen Sie sie neu zu.
 
-Um eine Konfiguration zu löschen, entfernen oder aktualisieren Sie zunächst jede E-Mail-Aktion, die auf sie verweist, in [E-Mails an Journey hinzufügen](../marketing/email-channel.md#define-email-properties). [!DNL Marketo Optimizer] löscht keine Konfiguration, die derzeit von einer aktiven Journey verwendet wird.
+Um eine Konfiguration zu löschen, entfernen oder aktualisieren Sie zunächst jede E-Mail-Aktion, die auf sie in [E-Mails erstellen und zu Journey hinzufügen](../marketing/email-channel.md#define-email-properties) verweist. [!DNL Marketo Optimizer] löscht keine Konfiguration, die derzeit von einer aktiven Journey verwendet wird.
 
 ## Konfigurationen mit mehreren Kanälen {#multiple-channel-configurations}
 

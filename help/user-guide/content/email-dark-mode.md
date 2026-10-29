@@ -8,13 +8,11 @@ product_v2:
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
     internal-label: Accessibility
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+source-git-commit: d46d6ad64726b6a4fb07e10c081b08e7336f151a
 workflow-type: tm+mt
-source-wordcount: 1476
+source-wordcount: '1476'
 ht-degree: 19%
-
 ---
-
 # Dunkler Modus für E-Mail-Content {#dark-mode}
 
 >[!CONTEXTUALHELP]
@@ -29,7 +27,7 @@ ht-degree: 19%
 
 _Dunkler Modus_ ermöglicht es einem unterstützenden E-Mail-Client oder einer unterstützenden App, E-Mails mit dunkleren Hintergründen und helleren Farben für Text, Schaltflächen und andere visuelle Elemente anzuzeigen. Diese Art von Display reduziert die Belastung der Augen, spart Akkulaufzeit und verbessert die Lesbarkeit in schwach beleuchteten Umgebungen für ein angenehmeres Betrachtungserlebnis. Aufgrund des wachsenden Trends bei den wichtigsten Betriebssystemen und Apps ist es jetzt eine wichtige Überlegung im modernen E-Mail-Design, sicherzustellen, dass Inhalte für alle Benutzer lesbar und visuell ansprechend bleiben.
 
-Wenn Sie [E-Mail](./email-authoring.md)Inhalt erstellen) im visuellen [!DNL Marketo Optimizer]-Design-Bereich wechseln Sie zur Ansicht _&#x200B;**[!UICONTROL Dunkelmodus]**&#x200B;_. In dieser Ansicht können Sie auch spezifische benutzerdefinierte Einstellungen für unterstützende E-Mail-Clients definieren, wenn deren Dunkelmodus aktiviert ist.
+Wenn Sie [E-Mail](./email-authoring.md)Inhalt erstellen) im visuellen [!DNL Marketo Optimizer]-Design-Bereich wechseln Sie zur Ansicht _**[!UICONTROL Dunkelmodus]**_. In dieser Ansicht können Sie auch spezifische benutzerdefinierte Einstellungen für unterstützende E-Mail-Clients definieren, wenn deren Dunkelmodus aktiviert ist.
 
 ## Überlegungen zum E-Mail-Client {#email-client-considerations}
 
@@ -134,7 +132,7 @@ _So definieren Sie benutzerdefinierte Einstellungen für den Dunkelmodus :_
 
    Wählen Sie ein beliebiges Bild aus und wechseln Sie **[!UICONTROL Dunkelmodus]** mithilfe des entsprechenden Umschalters im Bereich **[!UICONTROL Einstellungen]**. Wählen Sie dann in der Asset-Auswahl von Marketo Design Studio ein anderes Bild-Asset aus.
 
-   Weitere [&#x200B; zur Auswahl eines Bild-Assets finden Sie &#x200B;](./email-authoring.md#insert-image) „Einfügen eines Bildes aus Marketo Design Studio“.
+   Weitere [ zur Auswahl eines Bild-Assets finden Sie ](./email-authoring.md#insert-image) „Einfügen eines Bildes aus Marketo Design Studio“.
 
 1. Wählen Sie zu einem beliebigen Zeitpunkt während der Designänderungen **[!UICONTROL Zur Live-Ansicht wechseln]**, um zu überprüfen, wie Ihre Inhalte möglicherweise auf verschiedenen Gerätegrößen gerendert werden.
 
@@ -160,7 +158,7 @@ Da die Akzeptanz des Dunkelmodus in den wichtigsten E-Mail-Clients zunimmt, ist 
 
 Der dunkle Modus kann Farben, Hintergründe und Bilder verändern – und manchmal bestimmte Design-Entscheidungen überschreiben. Befolgen Sie die folgenden Best Practices, um visuelle Konsistenz, Barrierefreiheit und Markenintegrität sicherzustellen:
 
-| Übung |            |
+| Übung | |
 | -------- | ---------- |
 | Optimieren von Bildern und Logos | Checkliste:<ul><li>Speichern Sie Logos und Symbole als PNG-Dateien mit transparentem Hintergrund, um sichtbare weiße Kästchen im Dunkelmodus zu vermeiden. <li>Vermeiden Sie Bilder mit hartcodierten weißen oder hellen Hintergründen. <li>Wenn Transparenz nicht möglich ist, platzieren Sie Bilder in Ihrem Design auf einem einfarbigen Hintergrund, um unangenehme Farbinversionen zu verhindern. |
 | Ihre Hintergründe ansehen | Checkliste:<ul><li>Stellen Sie einen ausreichenden Kontrast zwischen Text- und Hintergrundfarben sicher, damit die Lesbarkeit sowohl im hellen als auch im dunklen Modus gewahrt bleibt. <li>Vermeiden Sie es, sich bei kritischem Content allein auf Hintergrundfarben zu verlassen. Einige Clients überschreiben Hintergrundfarben im Dunkelmodus, sodass wichtige Informationen weiterhin sichtbar sind. |

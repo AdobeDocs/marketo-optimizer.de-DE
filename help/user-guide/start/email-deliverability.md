@@ -25,9 +25,9 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
+source-git-commit: 6311ce00a5c7666c07fb1a523c954637d2e86e46
 workflow-type: tm+mt
-source-wordcount: '2694'
+source-wordcount: '2697'
 ht-degree: 1%
 ---
 # Zustellbarkeit von E-Mails
@@ -53,7 +53,7 @@ Sie verwendet die folgenden Bausteine, die von einem Administrator konfiguriert 
 > Weitere Informationen zu E-Mail-Kanälen finden Sie unter den folgenden Themen:
 >
 >* Konfigurieren von E-Mail-Kanälen [Konfiguration des E-Mail-Kanals](../admin/email-channel-configuration.md)
->* E-Mails erstellen - [E-Mails an Journey senden](../marketing/email-channel.md)
+>* E-Mails erstellen - [Erstellen von E-Mails und Hinzufügen zu Journey](../marketing/email-channel.md)
 >* Entwerfen von E-Mail-Inhalten - [Verfassen von E-Mail-Inhalten](../content/email-authoring.md)
 
 ## Aktuelle Einschränkungen {#limitations}

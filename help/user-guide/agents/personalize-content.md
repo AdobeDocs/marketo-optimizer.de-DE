@@ -19,27 +19,25 @@ topic_v2:
     internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+source-git-commit: d46d6ad64726b6a4fb07e10c081b08e7336f151a
 workflow-type: tm+mt
-source-wordcount: 1236
+source-wordcount: '1238'
 ht-degree: 0%
-
 ---
-
 
 # Personalisieren von E-Mail-Inhalten nach Persona
 
-Die _Content Personalization_-Kompetenz wandelt eine E-Mail in personalbasierte, dateninformierte Varianten um, sodass Sie nicht für jede Audience eine separate E-Mail erstellen müssen. Anstatt eine Nachricht nach einem Ereignis zu senden, löst die Qualifikation Ihre Zielgruppe in [abgeleitete Persona](../audiences/personas.md) Kohorten auf, liefert Einblicke und generiert personalisierte Varianten. Jede Variante wird als bedingter Inhalt in einer einzigen E-Mail gespeichert, sodass jede Person automatisch die Version erhält, die ihrer Rolle entspricht, wenn eine Journey sie sendet.
+Die _Content Personalization_-Fähigkeit wandelt eine E-Mail in personalbasierte, dateninformierte Varianten um, sodass Sie nicht für jede Audience eine separate E-Mail erstellen müssen. Anstatt eine Nachricht nach einem Ereignis zu senden, löst die Qualifikation Ihre Zielgruppe in [abgeleitete Persona](../audiences/personas.md) Kohorten auf, liefert Einblicke und generiert personalisierte Varianten. Jede Variante wird als bedingter Inhalt in einer einzigen E-Mail gespeichert, sodass jede Person automatisch die Version erhält, die ihrer Rolle entspricht, wenn eine Journey sie sendet.
 
 * **Kenntnisse** - `content-personalization`
-* **Aufruf** - Beschreiben Sie in der [Chat-](./chat-interface.md) eine Zielgruppe für eine neue E-Mail, wählen Sie **[!UICONTROL Diese E-Mail personalisieren]** oder **[!UICONTROL Diese E-Mail analysieren]** eine vorhandene E-Mail in einem [E-Mail-Knoten senden](../marketing/action-nodes.md)
+* **Aufruf** - Beschreiben Sie in der [Chat-](./chat-interface.md) eine Zielgruppe für eine neue E-Mail, oder wählen Sie **[!UICONTROL E-Mail personalisieren]** oder **[!UICONTROL E-Mail analysieren]** aus dem Menü _Mehr_ eines E-Mail-Entwurfs in der [Programmstruktur](../marketing/email-channel.md#personalize-analyze)
 * **Lese-/Schreibvorgänge nach** - [!DNL Marketo Optimizer]
 
 ## Schlüsselkonzepte {#key-concepts}
 
 | Begriff | Definition |
-|---|---|
-| **Persona-Kohorte** | Eine Gruppe von Personen, die eine [abgeleitete Rolle“ &#x200B;](../audiences/personas.md), z. B. _CXO/EVP_ oder _Einzelne Mitwirkende_. |
+| --- | --- |
+| **Persona-Kohorte** | Eine Gruppe von Personen, die eine [abgeleitete Rolle“ ](../audiences/personas.md), z. B. _CXO/EVP_ oder _Einzelne Mitwirkende_. |
 | **Segment** | Eine Gruppe von Personen, die durch beliebige Kriterien definiert werden, z. B. Persona, Branche oder Interaktionsstufe. Eine Persona-Kohorte ist ein Segment, das speziell durch eine abgeleitete Persona definiert wird, die mit anderen geteilt wird. |
 | **Zielgruppe** | Die Zielgruppe, die Sie in natürlicher Sprache beschreiben. Die Qualifikation löst sie in übereinstimmende Persona-Kohorten auf. |
 | **Insight** | Ein dateninformiertes Ergebnis über die Botschaften, die Positionierung oder den Ton, der für eine persönliche Kohorte am besten funktioniert, basierend auf Ihren eigenen Daten. |
@@ -49,23 +47,27 @@ Die _Content Personalization_-Kompetenz wandelt eine E-Mail in personalbasierte,
 
 ## Voraussetzungen {#prerequisites}
 
-* Zugriff auf [!DNL Marketo Optimizer] mit aktiviertem Coworker.
+* Zugriff auf [!DNL Marketo Optimizer] mit aktiviertem [!DNL CX Coworker].
 * [Abgeleitete Personas](../audiences/personas.md) in Ihren Daten aufgelöst. Die Qualifikation beruht auf diesen Klassifizierungen, um Personalkohorten zu erstellen. Die Unterstützung benutzerdefinierter Personas ist für eine zukünftige Version geplant.
 * Genug historische Daten für Einblicke. Wenn für eine Persona-Kohorte keine Einblicke verfügbar sind, sagt Ihnen die Fähigkeit, dass die Daten unzureichend sind, und greift auf allgemeine Best Practices für diese Persona zurück.
-* Eine [E-Mail](../content/templates.md)Vorlage oder eine vorhandene E-Mail, auf die durch einen [_E-Mail senden_-Aktionsknoten verwiesen &#x200B;](../marketing/action-nodes.md).
+* Eine [E-Mail](../content/templates.md)Vorlage oder ein vorhandener Entwurf [E](../marketing/email-channel.md) in einem Programm.
 * Eine [Personen-Journey](../marketing/person-journeys.md) mit dem Aktionsknoten _E-Mail senden_, der zum Versand der personalisierten E-Mail verwendet wird.
 
 ## Erstellen und Personalisieren einer E-Mail aus einer Vorlage {#create-personalize-from-template}
 
 Dieser Fluss verfasst eine neue E-Mail und personalisiert sie im selben Gespräch.
 
-1. **Inhalt bereitstellen.** Laden Sie eine Inhaltsübersicht hoch oder beschreiben Sie die gewünschten Inhalte in natürlicher Sprache.
+1. **Rufen Sie die `/content-personalization`-** in der Oberfläche des [!DNL Coworker] Chat auf.
 
-1. **Wählen Sie eine [Vorlage](../content/templates.md)** aus Ihrer Vorlagenbibliothek aus.
+1. **Inhalt bereitstellen.**
+
+   Laden Sie eine Inhaltsübersicht hoch oder beschreiben Sie die gewünschten Inhalte in natürlicher Sprache.
+
+1. **Wählen Sie eine Vorlage** Ihrer [Vorlage](../content/templates.md)-Bibliothek aus.
 
 1. **Überprüfen Sie den Entwurf.**
 
-   Coworker ordnet Ihren Inhalt der Vorlage zu und erstellt einen E-Mail-Entwurf. Sie können grundlegende Textbearbeitungen inline vornehmen.
+   [!DNL Coworker] ordnet den Inhalt der Vorlage zu und erstellt einen E-Mail-Entwurf. Sie können grundlegende Textbearbeitungen inline vornehmen.
 
    >[!WARNING]
    >
@@ -75,11 +77,11 @@ Dieser Fluss verfasst eine neue E-Mail und personalisiert sie im selben Gespräc
 
 1. **Überprüfen Sie die aufgelösten Persona-Kohorten**.
 
-   Coworker prüft Ihre Daten und gibt die persönlichen Kohorten zurück, die Ihrer Beschreibung entsprechen. Jede Kohorte wird gezählt. Überarbeiten Sie die Beschreibung der Zielgruppe und versuchen Sie es bei Bedarf erneut.
+   [!DNL Coworker] überprüft Ihre Daten und gibt die Persona-Kohorten zurück, die Ihrer Beschreibung entsprechen. Jede Kohorte wird gezählt. Überarbeiten Sie die Beschreibung der Zielgruppe und versuchen Sie es bei Bedarf erneut.
 
 1. **Bestätigen Sie die**.
 
-   Anschließend ruft ein Mitarbeiter Einblicke für jede aufgelöste Persona-Kohorte ab.
+   Anschließend ruft [!DNL Coworker] Einblicke für jede aufgelöste Persona-Kohorte ab.
 
 1. **Wählen Sie die zu personalisierenden Abschnitte aus** z. B. die Betreffzeile oder einen Hauptteilabschnitt, und überprüfen Sie die generierten Varianten.
 
@@ -93,11 +95,11 @@ Dieser Fluss verfasst eine neue E-Mail und personalisiert sie im selben Gespräc
 
 ## Analysieren einer vorhandenen E-Mail {#analyze-existing-email}
 
-Auf einer Journey [_Send Email_-Knoten](../marketing/action-nodes.md) die auf eine vorhandene E-Mail verweist, wird im Bedienfeld **[!UICONTROL Aktion]** der E-Mail-Name mit zwei Optionen angezeigt: **[!UICONTROL Diese E-Mail personalisieren]** und **[!UICONTROL Diese E-Mail analysieren]**.
+Das _Analysieren_-Tool ist nur für Entwurfs-E-Mails verfügbar. Nachdem eine E-Mail veröffentlicht wurde, kann sie nicht mehr geändert werden. Klicken Sie in der Programmstruktur auf das Symbol _Mehr_ (**…**) neben einem Entwurf (E[Mail](../marketing/email-channel.md#manage-emails) und wählen Sie **[!UICONTROL E-Mail analysieren]**.
 
-<!-- screenshot: Send Email node "Take an action" panel showing the email name and the Personalize this email / Analyze this Email options -->
+![Programmstruktur E-Mail Mehr Menü](../marketing/assets/email-tree-more-menu.png){width="400"}
 
-Wählen Sie **[!UICONTROL Diese E-Mail analysieren]** aus, um ein E-Mail-Audit durchzuführen:
+So führen Sie ein E-Mail-Audit durch:
 
 1. **Beschreiben Sie die Zielgruppe** für die Sie eine Personalisierung durchführen möchten, in Bezug auf ihre Persona.
 
@@ -105,9 +107,9 @@ Wählen Sie **[!UICONTROL Diese E-Mail analysieren]** aus, um ein E-Mail-Audit d
 
 1. **Überprüfen Sie die E-Mail-Prüfung.**
 
-   Ein Mitarbeiter löst Ihre Beschreibung in Personensegmente auf und zeigt eine **E-Mail-Audit**-Karte an, auf der jedes Segment aufgelistet ist. Anschließend vergleicht er die E-Mail mit jeder einzelnen Karte, um herauszustellen, was Resonanz findet und was verbessert werden muss.
+   [!DNL Coworker] löst Ihre Beschreibung in Personensegmente auf und zeigt eine **E-Mail-Audit**-Karte an, auf der jedes Segment aufgelistet ist. Anschließend vergleicht die E-Mail mit jeder einzelnen Karte, um herauszustellen, was Resonanz findet und was verbessert werden muss.
 
-1. Der Mitarbeiter fragt, was als Nächstes zu tun ist, einschließlich **[!UICONTROL siehe Abschnitt-für-Abschnitt]** und **[!UICONTROL diese E-Mail personalisieren]**.
+1. [!DNL Coworker] wird gefragt, was als Nächstes zu tun ist, einschließlich **[!UICONTROL Siehe Abschnitt für Abschnitt Audit]** und **[!UICONTROL Personalisieren dieser E-Mail]**.
 
 1. Wählen Sie **[!UICONTROL siehe Abschnitt-für-Abschnitt]** aus, um eine Ansicht **_E-Mail-Analyse_** mit einem Personaselektor und spezifischen Empfehlungen für jeden Abschnitt zu öffnen.
 
@@ -121,37 +123,39 @@ Wählen Sie **[!UICONTROL Diese E-Mail analysieren]** aus, um ein E-Mail-Audit d
 
 ## Vorhandene E-Mail personalisieren {#personalize-existing-email}
 
-Wählen Sie **[!UICONTROL Diese E]** Mail personalisieren auf einem Aktionsknoten _E-Mail senden_ oder fahren Sie mit einem [E-Mail-Audit](#analyze-existing-email) fort, um eine bereits erstellte E-Mail zu personalisieren.
+Wählen Sie **[!UICONTROL E]** Mail personalisieren“ aus dem Menü _Mehr_ einer Entwurfs-E-Mail in der Programmstruktur aus oder fahren Sie mit einem [E-Mail-Audit](#analyze-existing-email) fort, um eine bereits erstellte E-Mail zu personalisieren.
 
 1. **Überprüfen Sie die aufgelösten Persona-Kohorten.**
 
-   Coworker prüft Ihre Daten und gibt die persönlichen Kohorten zurück, die Ihrer Beschreibung entsprechen. Jede Kohorte wird gezählt. Überarbeiten Sie die Beschreibung der Zielgruppe und versuchen Sie es bei Bedarf erneut.
+   [!DNL Coworker] überprüft Ihre Daten und gibt die Persona-Kohorten zurück, die Ihrer Beschreibung entsprechen. Jede Kohorte wird gezählt. Überarbeiten Sie die Beschreibung der Zielgruppe und versuchen Sie es bei Bedarf erneut.
 
-   Wenn Sie bei diesem Schritt aus einem E-Mail-Audit angekommen sind, fährt Coworker direkt mit den Audit-Erkenntnissen fort.
+   Wenn Sie diesen Schritt bei einem E-Mail-Audit erreicht haben, geht [!DNL Coworker] direkt bei den Audit-Erkenntnissen weiter.
 
 1. **Wählen Sie die zu personalisierenden Abschnitte** der E-Mail-Vorschau aus, z. B. die Betreffzeile und bestimmte Inhaltsabschnitte, und bestätigen Sie den Vorgang.
 
 1. **Überprüfen Sie die generierten Varianten.**
 
-   Neben der Persona können auch branchenspezifische Varianten variieren, z. B. ein CXO im Gesundheitswesen im Vergleich zu einem CXO in Finanzdienstleistungen. Der Mitarbeiter präsentiert ein **[!UICONTROL Personalisierte Varianten]** Raster, eine Karte pro Persona-Kohorte mit jeweils einer Betreffzeile, Überschrift, Hauptteil und einer **[!UICONTROL Vorschau]**-Option.
+   Varianten können auch von Branche zu Branche variieren, z. B. ein CXO im Gesundheitswesen versus Finanzdienstleistungen. [!DNL Coworker] zeigt ein **[!UICONTROL Personalisierte Varianten]** Raster, eine Karte pro Persona-Kohorte mit Betreffzeile, Überschrift, Hauptteil und einer Option **[!UICONTROL Vorschau]**.
 
-   Wählen Sie das _Information_-Symbol auf einer Karte aus, um die insight hinter dieser Variante anzuzeigen (die Rolle, auf der sie basiert, und die Interaktions-insight, die sie geprägt hat) und eine Variante bei Bedarf neu zu generieren.
+   Wählen Sie das _Information_-Symbol auf einer Karte aus, um die insight für diese Variante anzuzeigen (die Rolle, auf der sie basiert, und die Interaktions-insight, die sie informiert hat), und generieren Sie eine Variante bei Bedarf neu.
 
    Sie können das Raster nach Persona filtern.
 
 1. **Speichern Sie das Set.**
 
-   Klicken Sie auf **[!UICONTROL Speichern]** und bestätigen Sie. Der Mitarbeiter bestätigt, dass die E-Mail jetzt in der KI-Bibliothek verfügbar ist, und fragt dann, ob die Änderungen auch auf die ursprüngliche E-Mail angewendet werden sollen, wodurch sie an Ort und Stelle aktualisiert wird.
+   Klicken Sie auf **[!UICONTROL Speichern]** und bestätigen Sie. [!DNL Coworker] bestätigt, dass die E-Mail jetzt in der KI-Bibliothek verfügbar ist, und fragt dann, ob die Änderungen auch auf die ursprüngliche E-Mail angewendet werden sollen, wodurch sie an Ort und Stelle aktualisiert wird.
 
 <!-- screenshot: "Personalized variants" grid showing persona cards with subject, headline, body, Preview, and the info-icon insight tooltip -->
 
 ## Ausgabe gespeichert und in einem Journey verwendet {#saved-output}
 
-Unabhängig davon, von welchem Fluss aus Sie beginnen, erstellt die Personalisierung eine einzelne **personalisierte KI-E-Mail** die in der KI-Bibliothek gespeichert ist. Die E[Mail enthält &#x200B;](../content/conditional-content.md)bedingte Inhalte). Um Abschnitte zu bearbeiten, öffnen Sie sie im [visuellen Design-Bereich](../content/email-authoring.md) und verwenden Sie „Inhalt **[!UICONTROL &quot;, um eine Vorschau der Auflösung der einzelnen Blöcke mit]** anzuzeigen.
+Unabhängig davon, von welchem Fluss aus Sie beginnen, erstellt die Personalisierung eine einzelne _KI-personalisierte E-Mail_ die in der KI-Bibliothek gespeichert ist. Die E[Mail enthält ](../content/conditional-content.md)bedingte Inhalte). Um Abschnitte zu bearbeiten, öffnen Sie sie im [visuellen Design-Bereich](../content/email-authoring.md) und verwenden Sie „Inhalt **[!UICONTROL &quot;, um eine Vorschau der Auflösung der einzelnen Blöcke mit]** anzuzeigen.
 
-Um die E-Mail auf einer Journey zu verwenden, fügen Sie einen [E-Mail senden](../marketing/action-nodes.md)-Knoten hinzu und wählen Sie **[!UICONTROL KI - Personalisierte]** E-Mails“ anstelle von **[!UICONTROL E-Mail erstellen]** aus und wählen Sie dann die gespeicherte E-Mail aus. Wenden Sie Ihre Konfigurations- und Geschäftsregeln wie gewohnt auf den Knoten an.
+Um die E-Mail auf einer Journey zu verwenden, fügen Sie einen [E-Mail senden](../marketing/action-nodes.md)Knoten hinzu und wählen Sie **[!UICONTROL Mit KI personalisierte E-Mail verwenden]**.
 
-<!-- screenshot: Send Email node configuration with "AI Personalized Emails" selected and the saved email applied -->
+![Aktion durchführen - E-Mail senden - Verwenden einer KI-personalisierten E-Mail](../marketing/assets/person-action-node-email-source-personalized.png){width="450"}
+
+Wählen Sie dann die gespeicherte E-Mail aus. Wenden Sie Ihre Konfigurations- und Geschäftsregeln wie gewohnt auf den Knoten an.
 
 ## Laufzeitverhalten {#run-time-behavior}
 
@@ -160,8 +164,8 @@ Sie wählen die einzelne personalisierte KI-E-Mail in der Journey aus, nicht ein
 ## Einschränkungen {#limitations}
 
 | Einschränkung | Detail |
-|---|---|
-| **Benutzerdefinierte Personas** | Noch nicht unterstützt. Die Qualifikation klassifiziert nur Persona-Kohorten aus nativen ([) &#x200B;](../audiences/personas.md). |
+| --- | --- |
+| **Benutzerdefinierte Personas** | Noch nicht unterstützt. Die Qualifikation klassifiziert nur Persona-Kohorten aus nativen ([) ](../audiences/personas.md). |
 | **Nicht genügend Daten für Einblicke** | Wenn Ihre Daten keine insight für eine Persona-Kohorte unterstützen, gibt die Kenntnis dies an und greift auf allgemeine Best Practices für diese Persona zurück. |
 | **Inline-Bearbeitung beim Authoring** | Inline sind nur grundlegende Textbearbeitungen verfügbar, wenn Sie [E-Mail aus einer Vorlage erstellen und personalisieren](#create-personalize-from-template). Für erweiterte Bearbeitungen ist der [visuelle Design-Bereich](../content/email-authoring.md) erforderlich. |
-| **Ausgangspunkt erforderlich** | Zum Personalisieren einer E-Mail ist entweder eine Vorlage oder eine vorhandene E-Mail erforderlich, auf die von einem Knoten E-Mail senden verwiesen wird. |
+| **Ausgangspunkt erforderlich** | Zum Personalisieren einer E-Mail ist entweder eine Vorlage oder ein vorhandener E-Mail-Entwurf in einem Programm erforderlich. |
