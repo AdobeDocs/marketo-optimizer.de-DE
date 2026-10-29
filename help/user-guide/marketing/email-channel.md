@@ -27,7 +27,7 @@ ht-degree: 7%
 
 [!DNL Adobe Marketo Optimizer] bietet B2B-Marketing-Experten ein modernes, unternehmenstaugliches Erlebnis für E-Mail-Erstellung und -Versand, sodass Sie E-Mails aus Ihren Programmen und Journey erstellen, veröffentlichen und senden können.
 
-E-Mails sind eigenständige Assets, sodass Sie keine Journey benötigen, um eine zu erstellen. [Erstellen Sie eine E](#create-email-from-programs)Mail in einem Programm oder einem seiner Ordner, [veröffentlichen Sie sie](#publish-email) wenn sie bereit ist, und [ Sie sie dann von einer beliebigen Journey in diesem Programm](#add-email-from-journey).
+E-Mails sind eigenständige Assets, sodass Sie keine Journey benötigen, um eine zu erstellen. [Erstellen Sie eine E](#create-email-from-programs)Mail in einem Programm oder einem seiner Ordner, [veröffentlichen Sie sie](#publish-email) wenn sie bereit ist, und [&#x200B; Sie sie dann von einer beliebigen Journey in diesem Programm](#add-email-from-journey).
 
 ## E-Mail-Lebenszyklus {#lifecycle}
 
@@ -251,7 +251,7 @@ Während eine E-Mail ein Entwurf ist, enthält ihr Menü _Mehr_ zwei Inhalts-Too
 
 ### Veröffentlichen einer E-Mail {#publish-email}
 
-Veröffentlichen Sie eine E-Mail, wenn sie zum Senden bereit ist. Wenn Sie eine E-Mail in einer Journey auswählen[ werden nur veröffentlichte E](#add-email-from-journey)Mails aufgelistet.
+Veröffentlichen Sie eine E-Mail, wenn sie zum Senden bereit ist. Wenn Sie eine E-Mail in einer Journey auswählen[&#x200B; werden nur veröffentlichte E](#add-email-from-journey)Mails aufgelistet.
 
 1. Stellen Sie sicher, dass die E-Mail nicht blockiert [Warnhinweise](#alerts).
 
@@ -267,7 +267,7 @@ Das E-Mail-Symbol wird grün. Wenn Sie die E-Mail auswählen, wird sie in einer 
 
 >[!IMPORTANT]
 >
->Die Veröffentlichung ist dauerhaft. Eine veröffentlichte E-Mail kann nicht bearbeitet, umbenannt, gelöscht oder an den Entwurf zurückgegeben werden. Um Änderungen vorzunehmen, [ Sie die E-Mail ](#duplicate-email).
+>Die Veröffentlichung ist dauerhaft. Eine veröffentlichte E-Mail kann nicht bearbeitet, umbenannt, gelöscht oder an den Entwurf zurückgegeben werden. Um Änderungen vorzunehmen, [&#x200B; Sie die E-Mail &#x200B;](#duplicate-email).
 
 ### Duplizieren einer E-Mail {#duplicate-email}
 
@@ -293,7 +293,7 @@ Sie können dieselbe E-Mail in mehreren Journey verwenden. Jedes Mal, wenn Sie s
 
 ### E-Mail für die Aktion „E-Mail senden“ auswählen {#select-email-in-journey}
 
-1. Öffnen Sie die Journey und wählen Sie einen Knoten [_Aktion ausführen_ aus oder fügen Sie ihn ](action-nodes.md#add-an-action-node).
+1. Öffnen Sie die Journey und wählen Sie einen Knoten [_Aktion ausführen_ aus oder fügen Sie ihn &#x200B;](action-nodes.md#add-an-action-node).
 
 1. Wählen _[!UICONTROL in „Aktion]_&quot; die Option **[!UICONTROL E-Mail senden]**.
 

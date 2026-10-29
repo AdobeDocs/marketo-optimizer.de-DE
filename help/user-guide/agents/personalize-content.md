@@ -37,7 +37,7 @@ Die _Content Personalization_-Fähigkeit wandelt eine E-Mail in personalbasierte
 
 | Begriff | Definition |
 | --- | --- |
-| **Persona-Kohorte** | Eine Gruppe von Personen, die eine [abgeleitete Rolle“ ](../audiences/personas.md), z. B. _CXO/EVP_ oder _Einzelne Mitwirkende_. |
+| **Persona-Kohorte** | Eine Gruppe von Personen, die eine [abgeleitete Rolle“ &#x200B;](../audiences/personas.md), z. B. _CXO/EVP_ oder _Einzelne Mitwirkende_. |
 | **Segment** | Eine Gruppe von Personen, die durch beliebige Kriterien definiert werden, z. B. Persona, Branche oder Interaktionsstufe. Eine Persona-Kohorte ist ein Segment, das speziell durch eine abgeleitete Persona definiert wird, die mit anderen geteilt wird. |
 | **Zielgruppe** | Die Zielgruppe, die Sie in natürlicher Sprache beschreiben. Die Qualifikation löst sie in übereinstimmende Persona-Kohorten auf. |
 | **Insight** | Ein dateninformiertes Ergebnis über die Botschaften, die Positionierung oder den Ton, der für eine persönliche Kohorte am besten funktioniert, basierend auf Ihren eigenen Daten. |
@@ -149,7 +149,7 @@ Wählen Sie **[!UICONTROL E]** Mail personalisieren“ aus dem Menü _Mehr_ eine
 
 ## Ausgabe gespeichert und in einem Journey verwendet {#saved-output}
 
-Unabhängig davon, von welchem Fluss aus Sie beginnen, erstellt die Personalisierung eine einzelne _KI-personalisierte E-Mail_ die in der KI-Bibliothek gespeichert ist. Die E[Mail enthält ](../content/conditional-content.md)bedingte Inhalte). Um Abschnitte zu bearbeiten, öffnen Sie sie im [visuellen Design-Bereich](../content/email-authoring.md) und verwenden Sie „Inhalt **[!UICONTROL &quot;, um eine Vorschau der Auflösung der einzelnen Blöcke mit]** anzuzeigen.
+Unabhängig davon, von welchem Fluss aus Sie beginnen, erstellt die Personalisierung eine einzelne _KI-personalisierte E-Mail_ die in der KI-Bibliothek gespeichert ist. Die E[Mail enthält &#x200B;](../content/conditional-content.md)bedingte Inhalte). Um Abschnitte zu bearbeiten, öffnen Sie sie im [visuellen Design-Bereich](../content/email-authoring.md) und verwenden Sie „Inhalt **[!UICONTROL &quot;, um eine Vorschau der Auflösung der einzelnen Blöcke mit]** anzuzeigen.
 
 Um die E-Mail auf einer Journey zu verwenden, fügen Sie einen [E-Mail senden](../marketing/action-nodes.md)Knoten hinzu und wählen Sie **[!UICONTROL Mit KI personalisierte E-Mail verwenden]**.
 
@@ -165,7 +165,7 @@ Sie wählen die einzelne personalisierte KI-E-Mail in der Journey aus, nicht ein
 
 | Einschränkung | Detail |
 | --- | --- |
-| **Benutzerdefinierte Personas** | Noch nicht unterstützt. Die Qualifikation klassifiziert nur Persona-Kohorten aus nativen ([) ](../audiences/personas.md). |
+| **Benutzerdefinierte Personas** | Noch nicht unterstützt. Die Qualifikation klassifiziert nur Persona-Kohorten aus nativen ([) &#x200B;](../audiences/personas.md). |
 | **Nicht genügend Daten für Einblicke** | Wenn Ihre Daten keine insight für eine Persona-Kohorte unterstützen, gibt die Kenntnis dies an und greift auf allgemeine Best Practices für diese Persona zurück. |
 | **Inline-Bearbeitung beim Authoring** | Inline sind nur grundlegende Textbearbeitungen verfügbar, wenn Sie [E-Mail aus einer Vorlage erstellen und personalisieren](#create-personalize-from-template). Für erweiterte Bearbeitungen ist der [visuelle Design-Bereich](../content/email-authoring.md) erforderlich. |
 | **Ausgangspunkt erforderlich** | Zum Personalisieren einer E-Mail ist entweder eine Vorlage oder ein vorhandener E-Mail-Entwurf in einem Programm erforderlich. |
