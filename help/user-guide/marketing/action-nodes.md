@@ -4,19 +4,22 @@ description: Konfigurieren Sie einen Aktionsknoten in Marketo Optimizer, um Pers
 TQID: 'https://experienceleague.adobe.com/KmYvfJm9d5YZdC7ZWQiybjNsFmnt0GLReJIL8nDQF-k'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 46e599c6-e20f-5f67-9824-93415016f66b
+    internal-label: Audiences
   - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
   - id: a29661b8-f7a4-53d1-a9ac-fdec08c092e4
+    internal-label: Programs
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Optimization
+source-git-commit: d46d6ad64726b6a4fb07e10c081b08e7336f151a
 workflow-type: tm+mt
-source-wordcount: 1145
+source-wordcount: '1167'
 ht-degree: 0%
-
 ---
-
 # Durchführen eines Aktionsknotens
 
 Verwenden Sie auf einer Personen-Journey eine Aktion für Personen, wenn Sie eine Änderung auf alle Personen im Knotenpfad anwenden möchten.
@@ -149,7 +152,7 @@ Verwenden Sie diese Aktion, um den Status einer Person in Bezug auf ein interakt
 
 +++[!UICONTROL Aus Liste entfernen]
 
-Verwenden Sie diese Aktion, um Personen aus einer statischen Liste in Marketo Optimizer zu entfernen. Wenn eine Person derzeit nicht in der Liste aufgeführt ist, wird die Aktion für diese Person übersprungen.
+Mit dieser Aktion können Sie Personen aus einer statischen Liste in Marketo Optimizer entfernen. Wenn eine Person derzeit nicht in der Liste aufgeführt ist, wird die Aktion für diese Person übersprungen.
 
 ![Aktion ausführen - Aus Liste entfernen](./assets/person-action-node-remove-from-list.png){width="450"}
 
@@ -183,9 +186,9 @@ Mit dieser Aktion können Sie Personen zu einer Anfragekampagne in einer verbund
 
 Verwenden Sie diese Aktion, um eine E-Mail an angemeldete Personen zu senden. Personen, die sich abgemeldet, auf der Blockierungsliste aufgeführt, per E-Mail suspendiert oder Marketing ausgesetzt haben, überspringen diese Aktion.
 
-![Aktion durchführen - E-Mail senden](./assets/person-action-node-send-email.png){width="450"}
+![Aktion durchführen - E-Mail senden](./assets/person-action-node-email-source.png){width="450"}
 
-Sie können eine E-Mail erstellen, eine vorhandene E-Mail bearbeiten oder eine mit KI personalisierte E-Mail verwenden. Informationen zum Erstellen und Bearbeiten von E-Mails finden Sie unter [E-Mail-Kanal](./email-channel.md). Informationen zum Generieren personalbasierter Varianten für eine vorhandene E-Mail finden Sie unter [Personalisieren von E-Mail-Inhalten nach &#x200B;](../agents/personalize-content.md)).
+Sie können eine veröffentlichte E-Mail aus der Programmstruktur auswählen, wodurch der Journey eine Kopie der E-Mail hinzugefügt wird, oder eine mit KI personalisierte E-Mail verwenden. Die Kopie ist schreibgeschützt. Informationen zum Erstellen, Veröffentlichen und Duplizieren von E-Mails finden Sie unter [_Erstellen von E-Mails und Hinzufügen zu Journey_](./email-channel.md). Informationen zum Generieren personalbasierter Varianten für einen E-Mail-Entwurf finden Sie unter [_Personalisieren von E-Mail-Inhalten nach_](../agents/personalize-content.md)).
 
 Sie können die [Optimierung des Versandzeitpunkts](./email-send-time-optimization.md) verwenden, um den Zeitpunkt des E-Mail-Versands zu personalisieren, indem Sie vorhersagen, wann jedes Profil mit der größten Wahrscheinlichkeit interagieren wird.
 

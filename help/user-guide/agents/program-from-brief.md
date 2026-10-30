@@ -4,20 +4,24 @@ description: Verwenden Sie die Kenntnisse zur Programmerstellung in Marketo Opti
 TQID: 'https://experienceleague.adobe.com/Bi7ZemHiGpKwxsYZkrfCyT5IzFAJ8ZTyFr8KxwO4z6w'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 1650dadf-b034-5ac9-a309-77ad1e2f5035
+    internal-label: Chat Interface
   - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
   - id: a29661b8-f7a4-53d1-a9ac-fdec08c092e4
+    internal-label: Programs
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Personalization
+source-git-commit: d46d6ad64726b6a4fb07e10c081b08e7336f151a
 workflow-type: tm+mt
-source-wordcount: 1110
+source-wordcount: '1110'
 ht-degree: 4%
-
 ---
-
 # Erstellen eines Programms aus einer Zusammenfassung
 
 [!DNL Adobe Marketo Optimizer] ist [_program_](../marketing/programs.md) der Container der obersten Ebene für Journey, Personenlisten, Token und Konfigurationen innerhalb einer Kampagne. In der [Chat](./chat-interface.md)-Oberfläche wird die gesamte Programmerstellung von Anfang bis Ende in einer geführten Konversation erstellt - vom Programm selbst, von Unterordnern, Token, Personenlisten und Journey-Personen.
@@ -33,7 +37,7 @@ Klicken Sie auf _Anhängen_-Symbol in der Chat-Eingabe, um die Datei hochzuladen
 ### Unterstützte Dateitypen
 
 | Format | Verhalten |
-|---|---|
+| --- | --- |
 | `.txt`, `.md` | Direkt im Browser lesen |
 | `.pdf`, `.docx`, `.xlsx`, `.json`, `.csv` | An den Backend-Textextraktions-Service gesendet |
 
@@ -84,7 +88,7 @@ Das Erstellungs-Tool wird erst aufgerufen, wenn Sie mit einer eindeutigen Genehm
 Die Build-Schritte werden in einer festen Reihenfolge ausgeführt. Jeder hängt von den IDs ab, die im vorherigen Schritt generiert wurden.
 
 | Schritt | Beschreibung | Tools | Ausgabe |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | **1. Ordner** | Löst den übergeordneten Ordner nach Namen auf oder verwendet den Workspace-Stamm; kann einen neuen Unterordner erstellen | `getRootTree`, `browseFolders`, `createFolder` | Ordnername + ID |
 | **1.5. Programmtyp** | Sucht nach Mandantenprogrammtypen und wählt die Übereinstimmung für die Zusammenfassung aus | `browseProgramTypes` | Name + `programTypeId` eingeben |
 | **2. Programm** | Erstellt das Programm unter dem aufgelösten Ordner und ist an den ausgewählten Typ gebunden. | `createProgram` | Programmname, ID, Typ |
@@ -107,7 +111,7 @@ Die Build-Schritte werden in einer festen Reihenfolge ausgeführt. Jeder hängt 
 Der Container der obersten Ebene. Die Detailansicht zeigt die folgenden Registerkarten an:
 
 | Tab | Inhalt |
-|---|---|
+| --- | --- |
 | **Übersicht** | Name, Beschreibung, Programmtyp, Status, Ordnerspeicherort, Zeitstempel |
 | **Attribute** | Benutzerdefinierte Felder vom Typ (nur wenn sie vom Programmtyp aktiviert werden) |
 | **Token** | Für dieses Programm vorgesehene Token `my.*` |
@@ -130,7 +134,7 @@ Ein Personen-Journey, der mit einem Einstiegsknoten für die Zielgruppe einer Pe
 Programme sind bei **Erstellung** einem vom Mandanten definierten Programmtyp gebunden. Dies kann nachträglich nicht mehr geändert werden. Der Fluss löst den Typ in jedem Fall explizit über `browseProgramTypes` auf.
 
 | Fall | Verhalten |
-|---|---|
+| --- | --- |
 | **Mehrere Typen verfügbar** | Passt kurze Formulierungen an einen Typ an (z. B. Messe/Stand/Ausstellung = *Messe*/*Event*; Webinar = *Webinar*/*Event*; Nurture/Drip = *Nurture*; kein klares Signal = *Default*). Wenn keine Übereinstimmung gefunden wird, listet Coworker verfügbare Typen und Aufgaben auf. |
 | **Nur-Standard-Mandant** | Verwendet *Standard* und merkt an, dass ein Administrator benutzerdefinierte [Programmtypen“ hinzufügen &#x200B;](../admin/program-types.md). |
 | **Keine Typen konfiguriert** | Stoppt — die Erstellung würde fehlschlagen. fordert einen Administrator auf, Programmtypen bereitzustellen, bevor es erneut versucht wird. |
@@ -138,7 +142,7 @@ Programme sind bei **Erstellung** einem vom Mandanten definierten Programmtyp ge
 ## Standardwerte
 
 | Einstellung | Standard |
-|---|---|
+| --- | --- |
 | **Ordner** | Workspace-Stammordner (wenn kein Ordner angegeben ist) |
 | **Programmtyp** | *Standard* (wenn kein kurzes Signal und keine manuelle Auswahl) |
 | **Personalization-Attribute** | Abgeleitete Rolle, Abgeleitete Absicht, Interaktionsstufe standardmäßig enthalten (Opt-out verfügbar) |
@@ -148,7 +152,7 @@ Programme sind bei **Erstellung** einem vom Mandanten definierten Programmtyp ge
 ## Einschränkungen
 
 | Einschränkung | Detail |
-|---|---|
+| --- | --- |
 | **Kurze Längenbegrenzung** | ~30.000 Zeichen; abgeschnittene Slips verlieren nachfolgenden Inhalt - stellen Sie Essentials an die erste Stelle |
 | **Unveränderlicher Programmtyp** | Kann nach der Erstellung nicht mehr geändert werden. Überprüfen Sie vor der Genehmigung den richtigen Typ. |
 | **Erforderliche interne Felder** | `parent` und `programTypeId` sind immer festgelegt. Das Auslassen von `parent` führt dazu, dass der Zugriff verweigert wird. Das Auslassen des Typs fällt unbeaufsichtigt auf *Standard* zurück. |
@@ -156,7 +160,7 @@ Programme sind bei **Erstellung** einem vom Mandanten definierten Programmtyp ge
 | **Async list membership** | Statische Listen (aus Kriterien) werden über mehrere Minuten hinweg gefüllt - nicht sofort |
 | **Fehlerbehandlung** | Tool-Fehler werden mit dem exakten Fehler gemeldet. Der Mitarbeiter wird aufgefordert, die Eingabe zu bestätigen und es erneut zu versuchen |
 | **Namenskollisionen** | Nicht automatisch aufgelöst — es wird ein anderer Name angefordert |
-| **Perimeter** | Nur Marketo Optimizer. [!DNL Marketo Engage] Benutzer sollten die separaten Fähigkeiten zur Programmerstellung bzw. Programmplanung verwenden. |
+| **Perimeter** | Nur Marketo Optimizer; [!DNL Marketo Engage] Benutzer sollten die separaten Fähigkeiten zur Programmerstellung/Programmplanung verwenden |
 
 
 ## QA-Prüfung
