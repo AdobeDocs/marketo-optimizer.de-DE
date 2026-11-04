@@ -61,7 +61,7 @@ _So erstellen Sie eine Landingpage :_
 
 1. Suchen Sie in _[!UICONTROL Programme]_-Baumstruktur das Programm oder einen Ordner innerhalb des Programms, in dem Sie die Landingpage erstellen möchten.
 
-   Erstellen Sie bei [ zuerst ein ](../marketing/programs.md#create-program).
+   Erstellen Sie bei [&#x200B; zuerst ein &#x200B;](../marketing/programs.md#create-program).
 
 1. Klicken Sie auf das _Mehr_-Symbol (**…**) neben dem Programm- oder Ordnernamen und wählen Sie **[!UICONTROL Landingpage erstellen]**.
 
@@ -94,11 +94,11 @@ _So erstellen Sie eine Landingpage :_
    You can add up to two subpages per landing page.
 -->
 
-Nachdem Sie die Seite konfiguriert und gestaltet haben, [ Sie Ihre Landingpage ](#test-landing-page), bevor Sie sie veröffentlichen.
+Nachdem Sie die Seite konfiguriert und gestaltet haben, [&#x200B; Sie Ihre Landingpage &#x200B;](#test-landing-page), bevor Sie sie veröffentlichen.
 
 >[!CAUTION]
 >
->Sie können nicht auf Ihre Landingpage zugreifen, indem Sie die definierte URL kopieren und in einen Webbrowser einfügen, selbst wenn die Seite veröffentlicht ist. Testen Sie die Seite mit der Vorschaufunktion, wie unter [ der Landingpage beschrieben](#test-landing-page).
+>Sie können nicht auf Ihre Landingpage zugreifen, indem Sie die definierte URL kopieren und in einen Webbrowser einfügen, selbst wenn die Seite veröffentlicht ist. Testen Sie die Seite mit der Vorschaufunktion, wie unter [&#x200B; der Landingpage beschrieben](#test-landing-page).
 
 ## Konfigurieren der Primärseite {#configure-primary-page}
 
@@ -126,7 +126,7 @@ _So definieren Sie die Einstellungen der Primärseite :_
    >
    >Die Landingpage-URL muss eindeutig sein.
    >
-   >Sie können nicht auf Ihre Landingpage zugreifen, indem Sie diese URL kopieren und in einen Webbrowser einfügen, selbst wenn die Seite veröffentlicht ist. Testen Sie sie mithilfe der Vorschaufunktion, wie unter [ der Landingpage beschrieben](#test-landing-page).
+   >Sie können nicht auf Ihre Landingpage zugreifen, indem Sie diese URL kopieren und in einen Webbrowser einfügen, selbst wenn die Seite veröffentlicht ist. Testen Sie sie mithilfe der Vorschaufunktion, wie unter [&#x200B; der Landingpage beschrieben](#test-landing-page).
 
 1. Wenn Sie eine anonyme Landingpage verwenden möchten, deaktivieren Sie die Option **[!UICONTROL Identifizierte Benutzer]**.
 
@@ -151,7 +151,7 @@ Um den _[!UICONTROL Inhalt]_ für die Seite hinzuzufügen, klicken Sie auf **[!U
 
 ![Wählen Sie aus, wie Sie mit dem Design Ihrer Landingpage beginnen möchten](assets/landing-page-create-design.png){width="800" zoomable="yes"}
 
-Nachdem Sie Ihre bevorzugte Methode zum Starten des Landingpage-Designs ausgewählt haben, verwenden Sie die visuellen Design-Tools, [ den Seiteninhalt ](./landing-page-design.md).
+Nachdem Sie Ihre bevorzugte Methode zum Starten des Landingpage-Designs ausgewählt haben, verwenden Sie die visuellen Design-Tools, [&#x200B; den Seiteninhalt &#x200B;](./landing-page-design.md).
 
 ### Von Grund auf gestalten {#design-from-scratch}
 
@@ -178,7 +178,7 @@ Importierte Inhalte können:
 
   >[!NOTE]
   >
-  >Die Dateistruktur des komprimierten Ordners ist freigestellt. Verweise müssen jedoch relativ sein und mit der Baumstruktur des ZIP-Ordners übereinstimmen. Die Bilder werden immer in das [Assets-Repository“ ](./digital-asset-management.md).
+  >Die Dateistruktur des komprimierten Ordners ist freigestellt. Verweise müssen jedoch relativ sein und mit der Baumstruktur des ZIP-Ordners übereinstimmen. Die Bilder werden immer in das [Assets-Repository“ &#x200B;](./digital-asset-management.md).
 
 _So importieren Sie eine Datei mit HTML-Inhalt :_
 
@@ -267,7 +267,7 @@ Wenn die Einstellungen und Inhalte der Landingpage definiert sind, können Sie T
 
 >[!PREREQUISITES]
 >
->Zum Veröffentlichen von Landingpages benötigen Sie die Berechtigung **[!UICONTROL Veröffentlichen einer B2B-Landingpage]**. Prüfen [ vor dem Veröffentlichen (alle Warnhinweise überprüfen und auflösen](#check-alerts).
+>Zum Veröffentlichen von Landingpages benötigen Sie die Berechtigung **[!UICONTROL Veröffentlichen einer B2B-Landingpage]**. Prüfen [&#x200B; vor dem Veröffentlichen (alle Warnhinweise überprüfen und auflösen](#check-alerts).
 
 Wenn die Entwurfsseite Ihren Kriterien entspricht und Sie sie für Verknüpfungen in Ihren Journey-Nachrichten verfügbar machen möchten, klicken Sie oben rechts **[!UICONTROL Veröffentlichen]**. Klicken Sie im Bestätigungsdialogfeld erneut **[!UICONTROL Veröffentlichen]** zur Bestätigung.
 
@@ -275,4 +275,4 @@ Wenn die Entwurfsseite Ihren Kriterien entspricht und Sie sie für Verknüpfunge
 
 Wenn die Landingpage veröffentlicht wird, wird sie in der Landingpage-Liste mit dem Status **_[!UICONTROL Veröffentlicht]_** angezeigt. Das bedeutet, dass sie live ist und in einer E-Mail oder SMS-Nachricht verwendet werden kann, die über eine Journey gesendet wird.
 
-Sie können nicht auf die veröffentlichte Landingpage zugreifen, indem Sie die URL kopieren und in einen Webbrowser einfügen. Sie können sie jederzeit mit der &quot;[&quot; ](#test-landing-page).
+Sie können nicht auf die veröffentlichte Landingpage zugreifen, indem Sie die URL kopieren und in einen Webbrowser einfügen. Sie können sie jederzeit mit der &quot;[&quot; &#x200B;](#test-landing-page).
