@@ -19,10 +19,10 @@ topic_v2:
     internal-label: Accessibility
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 6311ce00a5c7666c07fb1a523c954637d2e86e46
+source-git-commit: 8c2e4b17decc42fe5efe36f5bd50ebceacb5d8a1
 workflow-type: tm+mt
-source-wordcount: '2402'
-ht-degree: 5%
+source-wordcount: '2583'
+ht-degree: 4%
 ---
 # Inhaltserstellung in E-Mails
 
@@ -39,11 +39,11 @@ ht-degree: 5%
 
 Klicken Sie **[!UICONTROL E-Mail-Text bearbeiten]**, um den Design-Bereich für E-Mail-Textkörper zu starten, in dem Sie anhand der folgenden Optionen auswählen können, wie Sie Ihre E-Mail gestalten möchten:
 
-* [Erstellen Sie Ihre E-Mail von Grund &#x200B;](#design-from-scratch) mithilfe der visuellen Design-Oberfläche. Erstellen Sie die E-Mail-Layout-Komponente per Drag-and-Drop auf einer leeren Arbeitsfläche. Diese Methode eignet sich am besten zum Erstellen neuer Vorlagen oder einmaliger E-Mails.
+* [Erstellen Sie Ihre E-Mail von Grund ](#design-from-scratch) mithilfe der visuellen Design-Oberfläche. Erstellen Sie die E-Mail-Layout-Komponente per Drag-and-Drop auf einer leeren Arbeitsfläche. Diese Methode eignet sich am besten zum Erstellen neuer Vorlagen oder einmaliger E-Mails.
 
 * [Importieren Sie vorhandene HTML](#import-html-content)Inhalte in den Code-Editor oder arbeiten Sie nebeneinander mit der visuellen Arbeitsfläche.
 
-* [Wählen Sie eine vorhandene &#x200B;](#templates) aus einer Liste integrierter oder benutzerdefinierter E-Mail-Vorlagen aus. Diese Methode eignet sich am besten für wiederholbare E-Mail-Anwendungsfälle.
+* [Wählen Sie eine vorhandene ](#templates) aus einer Liste integrierter oder benutzerdefinierter E-Mail-Vorlagen aus. Diese Methode eignet sich am besten für wiederholbare E-Mail-Anwendungsfälle.
 
 <!-- * Upload a design prototype (JPG, PNG, PDF, or Figma export) and have Coworker convert it into a responsive HTML email. (Image to HTML (Img2HTML) -->
 
@@ -78,8 +78,7 @@ Die Befolgung der Best Practices für HTML und CSS hilft bei der Sicherstellung 
 
 Verwenden Sie den visuellen Inhaltsdesignbereich, um die Struktur und den Inhalt der E-Mail zu definieren. Durch das Hinzufügen und Verschieben von Strukturkomponenten mit einfachen Drag-and-Drop-Aktionen können Sie das Layout und die Organisation des E-Mail-Inhalts innerhalb von Sekunden entwerfen.
 
-1. Wählen Sie auf der _[!UICONTROL E]_ Mail gestalten“ die Option **[!UICONTROL Erstellen von neuen]**) aus.
-
+1. Wählen Sie auf der _[!UICONTROL E]_ Mail erstellen“ die Option **[!UICONTROL Erstellen von neuen Inhalten]** aus.
 
 1. Wählen Sie im _[!UICONTROL E-Mail erstellen]_ den Typ des E-Mail-Inhalts aus, den Sie erstellen möchten.
 
@@ -91,7 +90,7 @@ Verwenden Sie den visuellen Inhaltsdesignbereich, um die Struktur und den Inhalt
 
 1. [Struktur- und Inhaltskomponenten hinzufügen](#structure-content) auf der Arbeitsfläche.
 
-1. [Links überprüfen und &#x200B;](#preview-and-edit-linked-urls).
+1. [Links überprüfen und ](#preview-and-edit-linked-urls).
 
 1. [Testen Sie die E-Mail](#check-and-test-the-email).
 
@@ -106,7 +105,7 @@ Importierte Inhalte können:
 
   >[!NOTE]
   >
-  >Die Dateistruktur des komprimierten Ordners ist freigestellt. Verweise müssen jedoch relativ sein und mit der Baumstruktur des ZIP-Ordners übereinstimmen. Die Bilder werden immer in das [Assets-Repository“ &#x200B;](./digital-asset-management.md).
+  >Die Dateistruktur des komprimierten Ordners ist freigestellt. Verweise müssen jedoch relativ sein und mit der Baumstruktur des ZIP-Ordners übereinstimmen. Die Bilder werden immer in das [Assets-Repository“ ](./digital-asset-management.md).
 
 _So importieren Sie eine Datei mit HTML-Inhalt :_
 
@@ -126,11 +125,42 @@ Sie können den importierten Inhalt nach Bedarf mit den visuellen E-Mail-Editor-
 
 Wenn Sie den E-Mail-Design-Bereich öffnen **[!UICONTROL verwenden Sie den Abschnitt]** Design-Vorlage auswählen“, um mit einer integrierten Beispielvorlage oder einer gespeicherten benutzerdefinierten Vorlage zu beginnen. Siehe [Verwenden einer Vorlage in einer E-Mail](./templates.md#use-in-journey) für den vollständigen Workflow.
 
+Sie können aus folgenden Optionen wählen:
+
+* **Beispielvorlagen** - Von Adobe bereitgestellte integrierte E-Mail-Vorlagen.
+* **Gespeicherte Vorlagen** - Benutzerdefinierte Vorlagen, die Sie von Grund auf neu erstellt oder aus vorhandenen E-Mail-Inhalten gespeichert haben.
+
+>[!BEGINTABS]
+
+>[!TAB Gespeicherte Vorlagen]
+
+Auf der _[!UICONTROL E-Mail erstellen]_ ist die Registerkarte _[!UICONTROL Beispielvorlagen]_ standardmäßig ausgewählt. Um eine benutzerdefinierte Vorlage zu verwenden, wählen Sie die Registerkarte **[!UICONTROL Gespeicherte Vorlagen]** aus.
+
 >[!NOTE]
 >
 >Auf gespeicherte Vorlagen können Einstellungen für die Governance (Inhaltssperrung) auf eine oder mehrere Komponenten angewendet werden. Der visuelle Design-Bereich bietet Richtlinien zu gesperrten Komponenten, wenn Sie [E-Mail aus einer verwalteten Vorlage erstellen](./template-content-governance.md).
 
-## Hinzufügen von Struktur und Content {#structure-content}
+Die Liste zeigt alle E-Mail-Vorlagen an, die in der aktuellen Sandbox erstellt wurden. Sie können sie sortieren nach **[!UICONTROL Name]**, **[!UICONTROL Zuletzt geändert]** und **[!UICONTROL Zuletzt erstellt]**.
+
+![Gespeicherte Vorlage auswählen](./assets/templates-design-saved-sort-by.png){width="800" zoomable="yes"}
+
+Wählen Sie die Vorlage aus der Liste aus, für die eine Vorschau angezeigt werden soll. Verwenden Sie im Vorschaumodus die Rechts- und Linkspfeile, um zwischen Vorlagen in der ausgewählten Kategorie (Beispiel oder gespeichert) zu navigieren.
+
+![Vorschau der gespeicherten Vorlage](./assets/templates-design-saved-preview.png){width="800" zoomable="yes"}
+
+Wenn die Vorschau dem entspricht, was Sie verwenden möchten, klicken **[!UICONTROL oben rechts]** Vorschaufenster auf „Diese Vorlage verwenden“.
+
+Diese Aktion kopiert den Inhalt in den visuellen E-Mail-Design-Bereich, in dem Sie ihn nach Bedarf bearbeiten können.
+
+>[!TAB Beispielvorlagen]
+
+[!DNL Adobe Marketo Optimizer] bietet eine Auswahl integrierter Vorlagen, mit denen Sie E-Mails und E-Mail-Vorlagen erstellen können.
+
+![Wählen Sie eine von Adobe bereitgestellte Vorlage aus](./assets/templates-design-samples.png){width="800" zoomable="yes"}
+
+>[!ENDTABS]
+
+## Hinzufügen von Struktur und Content&#x200B; {#structure-content}
 
 Verwenden Sie den visuellen E-Mail-Editor, um Ihre E-Mail-Nachricht zu erstellen. Fügen Sie eine Preheader -Struktur hinzu, strukturieren Sie das Layout mit Spalten und Trennlinien und füllen Sie diese Strukturen dann mit Inhaltskomponenten wie Bildern, Schaltflächen und Text. Sie können auch benutzerdefiniertes CSS für erweiterte Formatierungen anwenden und eine Vorschau davon anzeigen, wie das Design im dunklen Modus gerendert wird.
 
@@ -164,7 +194,7 @@ Ausführliche Anleitungen zur Vorschau, zur Konfiguration benutzerdefinierter Ei
 
 ### Hinzufügen von Struktur- und Inhaltskomponenten {#components}
 
-Erstellen Sie Ihr E-Mail[Layout, indem Sie &#x200B;](./structure-components.md)Strukturkomponenten“ und [Inhaltskomponenten](./content-components.md) zur Arbeitsfläche hinzufügen.
+Erstellen Sie Ihr E-Mail[Layout, indem Sie ](./structure-components.md)Strukturkomponenten“ und [Inhaltskomponenten](./content-components.md) zur Arbeitsfläche hinzufügen.
 
 Ziehen Sie Elemente aus den Abschnitten **[!UICONTROL Strukturen]** und **[!UICONTROL Inhalte]** im linken Bereich und konfigurieren Sie dann jede Komponente auf den Registerkarten _[!UICONTROL Einstellungen]_ und _[!UICONTROL Stile]_ auf der rechten Seite.
 
@@ -174,7 +204,7 @@ Ziehen Sie Elemente aus den Abschnitten **[!UICONTROL Strukturen]** und **[!UICO
 
 Sie können benutzerdefiniertes CSS direkt im E-Mail-Design-Bereich hinzufügen, um erweiterte Stile zu ermöglichen, die über die standardmäßigen Komponenteneinstellungen hinausgehen. Es empfiehlt sich, diese Formatierung auf höchster Ebene hinzuzufügen, bevor Sie Inhaltskomponenten wie Bilder, Schaltflächen und Text einbeziehen.
 
-Anweisungen[&#x200B; Syntaxregeln und Fehlerbehebung finden Sie unter „Hinzufügen von benutzerdefiniertem &#x200B;](./design-custom-css.md) für Ihre Inhalte“.
+Anweisungen[ Syntaxregeln und Fehlerbehebung finden Sie unter „Hinzufügen von benutzerdefiniertem ](./design-custom-css.md) für Ihre Inhalte“.
 
 >[!NOTE]
 >
@@ -269,7 +299,7 @@ Verwenden Sie den Navigationsbaum, um Komponenten und Spalten auszuwählen und d
 _Personalisierung hinzufügen :_
 
 1. Klicken Sie im E-Mail-Design-Bereich (oder auf der Seite mit den E-Mail-Eigenschaften für die Betreffzeile) auf das Feld, in das Sie ein Token einfügen möchten.
-1. Klicken Sie auf _Symbol_ Personalisieren![&#x200B; ( Personalisierungssymbol](../assets/do-not-localize/icon-personalize.svg) ), um ein Personalisierungs-Token zu verwenden.
+1. Klicken Sie auf _Symbol_ Personalisieren![ ( Personalisierungssymbol](../assets/do-not-localize/icon-personalize.svg) ), um ein Personalisierungs-Token zu verwenden.
 1. Durchsuchen Sie im Personalisierungsdialog die Schemastruktur auf der linken Seite. Profilattribute (Vorname, Nachname, E-Mail, Stellenbezeichnung und andere Profilfelder) werden aufgelistet.
 1. Attribut auswählen. Der Editor fügt den entsprechenden Handlebars-Ausdruck ein, z. B. `{{profile.firstName}}`.
 1. Fügen Sie einen Fallback-Wert hinzu, um fehlende Daten zu verarbeiten: `{{profile.firstName | default: "there"}}`.
@@ -277,7 +307,7 @@ _Personalisierung hinzufügen :_
 
 +++Häufige {#personalization-patterns} für Personalisierungsmuster
 
-Verwenden Sie Handlebars-Ausdrücke wie den folgenden (Personalisierung verwendet dieselbe Syntax, die unter &quot;[&#x200B; von Inhalten“ beschrieben &#x200B;](#personalize-content)):
+Verwenden Sie Handlebars-Ausdrücke wie den folgenden (Personalisierung verwendet dieselbe Syntax, die unter &quot;[ von Inhalten“ beschrieben ](#personalize-content)):
 
 * `{{profile.lastName}}` - Fügen Sie den Nachnamen der Empfängerin bzw. des Empfängers ein.
 * `{{profile.jobTitle}}` - Referenzieren Sie die Stellenbezeichnung des Empfängers in der Textkörper-Kopie.
@@ -328,7 +358,7 @@ Bevor Ihr Journey aktiviert werden kann, muss der E-Mail-Inhalt gültig sein. [!
 | **Betreffzeile fehlt** | Das Feld Betreffzeile ist leer. | Öffnen Sie die E-Mail und geben Sie eine Betreffzeile auf der Registerkarte **[!UICONTROL Inhalt]** ein. Personalization-Token sind zulässig, das Feld darf jedoch nicht leer sein. |
 | **E-Mail-Text ist leer** | Die Arbeitsfläche im E-Mail-Design-Bereich enthält keinen Inhalt. | Klicken Sie auf **[!UICONTROL E-Mail-Text bearbeiten]**, um den E-Mail-Design-Bereich zu öffnen. Ziehen Sie mindestens eine Struktur - und eine Inhaltskomponente auf die Arbeitsfläche und klicken Sie dann auf Speichern . |
 | **Kanalkonfiguration nicht ausgewählt** | Für den E-Mail-Knoten wurde keine E-Mail-Kanalkonfiguration ausgewählt. | Wählen Sie auf der Registerkarte **[!UICONTROL Aktionen]** eine aktive **[!UICONTROL E-Mail-Kanalkonfiguration]**. |
-| **Kanalkonfiguration gelöscht** | Die zuvor ausgewählte Kanalkonfiguration wurde gelöscht oder ist nicht mehr aktiv. | Wählen Sie auf der Registerkarte **[!UICONTROL Aktionen]** eine andere aktive **[!UICONTROL E-Mail-Kanalkonfiguration]** aus. Wenn keine verfügbar sind, muss ein Administrator eine in der Konfiguration des E-[-Kanals erstellen oder &#x200B;](../admin/email-channel-configuration.md). |
+| **Kanalkonfiguration gelöscht** | Die zuvor ausgewählte Kanalkonfiguration wurde gelöscht oder ist nicht mehr aktiv. | Wählen Sie auf der Registerkarte **[!UICONTROL Aktionen]** eine andere aktive **[!UICONTROL E-Mail-Kanalkonfiguration]** aus. Wenn keine verfügbar sind, muss ein Administrator eine in der Konfiguration des E-[-Kanals erstellen oder ](../admin/email-channel-configuration.md). |
 | **E-Mail-Größe überschreitet 100 KB** | Die Gesamtgröße der E-Mails (HTML, Inline-CSS, kodierte Inhalte) ist größer als die Obergrenze von 100 KB für Best Practices beim ISP. | Verringern der E-Mail-Größe: Ersetzen Sie große Inline-Bilder durch extern gehostete Bilder aus Marketo Design Studio, entfernen Sie nicht verwendetes Inline-CSS und vereinfachen Sie verschachtelte Strukturen. |
 | **Nicht aufgelöstes Personalisierungs-Token** | Ein Handlebars-Token verweist auf ein Profilattribut ohne Fallback, und bei einigen Empfängern kann das Attribut fehlen. | Fügen Sie ein Fallback mit dem Handlebars-`default`-Helper hinzu, wie in [Personalisieren von Inhalten](#personalize-content) beschrieben. Alternativ können Sie die Journey-Zielgruppe auf Profile beschränken, bei denen das Attribut garantiert ist. |
 | **Bild nicht geladen** | Eine Bildkomponente verweist auf ein Asset, das nicht mehr verfügbar ist. | Klicken Sie auf das Bild, öffnen Sie die Asset-Auswahl und wählen Sie das Asset erneut aus der Assets-Bibliothek aus. |
