@@ -42,7 +42,7 @@ Die Menge an Informationen, die das Formular erfassen soll, hängt vom Wert des 
 
 Um auf Formulare in [!DNL Marketo Optimizer] zuzugreifen, navigieren Sie zum linken Navigationsbereich und klicken Sie auf **[!UICONTROL Content-Management]** > **[!UICONTROL Forms]**. Diese Aktion öffnet eine Listenseite, auf der alle in der Instanz erstellten Formulare angezeigt werden.
 
-Verwenden Sie diese Liste, um auf vorhandene Formulare zuzugreifen und sie zu verwalten. Um [&#x200B; Formular zu erstellen](#new-form) verwenden Sie die _[!UICONTROL Programme]_ Baumstruktur.
+Verwenden Sie diese Liste, um auf vorhandene Formulare zuzugreifen und sie zu verwalten. Um [ Formular zu erstellen](#new-form) verwenden Sie die _[!UICONTROL Programme]_ Baumstruktur.
 
 ![Zugriff auf die Forms-Bibliothek](./assets/forms-list.png){width="800" zoomable="yes"}
 
@@ -68,7 +68,7 @@ Um nach einem Formular anhand des Namens zu suchen, geben Sie eine Textzeichenfo
 
 ### Spaltenanzeige anpassen {#column-display}
 
-Passen Sie die Spalten an, die Sie in der Tabelle anzeigen möchten, indem Sie oben rechts auf _Tabelle anpassen_ (![Symbol „Tabelle &#x200B;](../assets/do-not-localize/icon-column-settings.svg)„) klicken.
+Passen Sie die Spalten an, die Sie in der Tabelle anzeigen möchten, indem Sie oben rechts auf _Tabelle anpassen_ (![Symbol „Tabelle ](../assets/do-not-localize/icon-column-settings.svg)„) klicken.
 
 Wählen Sie im Dialogfeld die anzuzeigenden Spalten aus und klicken Sie auf **[!UICONTROL Anwenden]**.
 
@@ -104,7 +104,7 @@ Bevor Sie mit dem Erstellen wiederverwendbarer Formulare in [!DNL Marketo Optimi
 >id="ajo-b2b-prime_lp_form_preset"
 >title="Auswählen einer Voreinstellung"
 >abstract="Wählen Sie eine vordefinierte Voreinstellung aus, die die zu verwendende Verbindung und einen vordefinierten Datensatz für Ihr Formular enthält."
->additional-url="https://experienceleague.adobe.com/de/docs/marketo-optimizer/user/admin/channels/configuration-presets-forms#create-preset" text="Erstellen einer Formularvoreinstellung"
+>additional-url="https://experienceleague.adobe.com/en/docs/marketo-optimizer/user/admin/channels/configuration-presets-forms#create-preset" text="Erstellen einer Formularvoreinstellung"
 
 Erstellen Sie ein Formular in einem Programm oder einen Ordner innerhalb eines Programms über die _[!UICONTROL Programme]_ Baumstruktur.
 
@@ -112,7 +112,7 @@ Erstellen Sie ein Formular in einem Programm oder einen Ordner innerhalb eines P
 
 1. Suchen Sie das Programm oder einen Ordner innerhalb des Programms, in dem Sie das Formular erstellen möchten.
 
-   Erstellen Sie bei [&#x200B; zuerst ein &#x200B;](../marketing/programs.md#create-program).
+   Erstellen Sie bei [ zuerst ein ](../marketing/programs.md#create-program).
 
 1. Klicken Sie auf das _Mehr_-Symbol (**…**) neben dem Programm- oder Ordnernamen und wählen Sie **[!UICONTROL Formular erstellen]**.
 
@@ -202,7 +202,7 @@ Formulare, die derzeit von einer Landingpage oder Landingpage-Vorlage verwendet 
 Sie können ein Formular mit einer der folgenden Methoden löschen:
 
 * Klicken Sie oben rechts auf **[!UICONTROL … Weitere]** und wählen Sie **[!UICONTROL Löschen]**.
-* Klicken Sie auf der __ Forms _auf die Schaltfläche Mehr_ (**…**) klicken Sie auf das Symbol neben dem Formularnamen und wählen Sie **[!UICONTROL Löschen]**.
+* Klicken Sie auf der ]__[!UICONTROL  Forms _auf die Schaltfläche Mehr_ (**…**) klicken Sie auf das Symbol neben dem Formularnamen und wählen Sie **[!UICONTROL Löschen]**.
 
 Diese Aktion öffnet ein Bestätigungsdialogfeld. Sie können den Vorgang abbrechen, indem Sie auf **[!UICONTROL Abbrechen]** klicken oder auf **[!UICONTROL Löschen]** klicken, um den Löschvorgang zu bestätigen.
 
@@ -219,7 +219,7 @@ Duplizieren Sie ein Formular, um ein neues Formular mit einem vorhandenen Formul
 Sie können ein Formular mit einer der folgenden Methoden duplizieren:
 
 * Klicken Sie oben rechts auf der Seite mit den Formulardetails auf **[!UICONTROL … Mehr]** und wählen Sie **[!UICONTROL Duplizieren]**.
-* Klicken Sie auf der __ Forms _auf die Schaltfläche Mehr_ (**…**) klicken Sie auf das Symbol neben dem Formularnamen und wählen Sie **[!UICONTROL Duplizieren]**.
+* Klicken Sie auf der ]__[!UICONTROL  Forms _auf die Schaltfläche Mehr_ (**…**) klicken Sie auf das Symbol neben dem Formularnamen und wählen Sie **[!UICONTROL Duplizieren]**.
 
 ![Duplizieren Sie das Formular](assets/form-list-page-duplicate.png){width="450"}
 
@@ -316,7 +316,7 @@ Um den Namen nach Bedarf zu ändern und das Formular für den vorgesehenen Zweck
 
 ## Hinzufügen von Formularen zu einer Landingpage oder Vorlage {#insert-forms}
 
-Forms sind für die Wiederverwendung konzipiert und können beim Entwerfen einer ([) eingefügt &#x200B;](./landing-pages.md).
+Forms sind für die Wiederverwendung konzipiert und können beim Entwerfen einer ([) eingefügt ](./landing-pages.md).
 
 <!-- or [landing page template](./landing-page-templates.md). -->
 
