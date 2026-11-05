@@ -104,7 +104,7 @@ Bevor Sie mit dem Erstellen wiederverwendbarer Formulare in [!DNL Marketo Optimi
 >id="ajo-b2b-prime_lp_form_preset"
 >title="Auswählen einer Voreinstellung"
 >abstract="Wählen Sie eine vordefinierte Voreinstellung aus, die die zu verwendende Verbindung und einen vordefinierten Datensatz für Ihr Formular enthält."
->additional-url="https://experienceleague.adobe.com/en/docs/marketo-optimizer/user/admin/channels/configuration-presets-forms#create-preset" text="Erstellen einer Formularvoreinstellung"
+>additional-url="https://experienceleague.adobe.com/de/docs/marketo-optimizer/user/admin/channels/configuration-presets-forms#create-preset" text="Erstellen einer Formularvoreinstellung"
 
 Erstellen Sie ein Formular in einem Programm oder einen Ordner innerhalb eines Programms über die _[!UICONTROL Programme]_ Baumstruktur.
 
