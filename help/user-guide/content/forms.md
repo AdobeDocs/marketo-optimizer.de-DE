@@ -17,9 +17,9 @@ topic_v2:
     internal-label: Data collection
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
+source-git-commit: 407092d59071fb4fdf49de4ed91455637979643b
 workflow-type: tm+mt
-source-wordcount: '2473'
+source-wordcount: '2528'
 ht-degree: 2%
 ---
 # Formulare
@@ -41,6 +41,8 @@ Die Menge an Informationen, die das Formular erfassen soll, hängt vom Wert des 
 ## Aufrufen und Verwalten von Formularen {#view-forms}
 
 Um auf Formulare in [!DNL Marketo Optimizer] zuzugreifen, navigieren Sie zum linken Navigationsbereich und klicken Sie auf **[!UICONTROL Content-Management]** > **[!UICONTROL Forms]**. Diese Aktion öffnet eine Listenseite, auf der alle in der Instanz erstellten Formulare angezeigt werden.
+
+Verwenden Sie diese Liste, um auf vorhandene Formulare zuzugreifen und sie zu verwalten. Um [&#x200B; Formular zu erstellen](#new-form) verwenden Sie die _[!UICONTROL Programme]_ Baumstruktur.
 
 ![Zugriff auf die Forms-Bibliothek](./assets/forms-list.png){width="800" zoomable="yes"}
 
@@ -78,7 +80,7 @@ Bevor Sie mit dem Erstellen wiederverwendbarer Formulare in [!DNL Marketo Optimi
 
 * Bestimmen Sie, welche Formulare Sie benötigen.
 
-  Möglicherweise können nur vier Standardformulare verwendet werden. Eine für den Zugriff auf herunterladbare Inhalte, eine für den Zugriff auf Premium-Web-Seiten, eine für die Anzeige von Videos und eine für die Registrierung für Dinge wie Webinare. Wenn Sie jemals ein Feld in einem Formular ändern müssen, ist es einfacher, vier Standardformulare zu aktualisieren, die global verwendet werden, anstatt mehrere Formulare zu ändern, die sich über alle Ihre Marketing-Programme verteilen.
+  Möglicherweise müssen Sie nur vier Standardformulare verwenden. Eine für den Zugriff auf herunterladbare Inhalte, eine für den Zugriff auf Premium-Web-Seiten, eine für die Anzeige von Videos und eine für die Registrierung für Dinge wie Webinare. Wenn Sie jemals ein Feld in einem Formular ändern müssen, ist es einfacher, vier Standardformulare zu aktualisieren, die global verwendet werden, anstatt mehrere Formulare zu ändern, die sich über alle Ihre Marketing-Programme verteilen.
 
   <!-- Global forms also make progressive profiling much easier to implement. -->
 
@@ -86,15 +88,15 @@ Bevor Sie mit dem Erstellen wiederverwendbarer Formulare in [!DNL Marketo Optimi
 
   Erwägen Sie die Verwendung kürzerer Formulare, da sie sich als besser für Konversionen erwiesen haben. Wenn Sie durch jedes Formular nachdenken, entscheiden Sie, welche Felder für seinen Zweck angemessen und erforderlich sind.
 
-  Überlegen Sie, ob Formularfelder vorausgefüllt werden sollen, damit grundlegende Informationen wie Name und E-Mail vorab ausgefüllt werden. Andere Informationen wie die Stellenbezeichnung und die Größe der Organisation jedoch nicht. Auf diese Weise muss der Besucher nur zwei Felder ausfüllen und das Formular senden. Sie können auch ein Social-Media-Formular verwenden, das mit Daten von Facebook oder Twitter ausgefüllt ist.
+  Überlegen Sie, ob Formularfelder vorausgefüllt werden sollen, damit grundlegende Informationen wie Name und E-Mail vorab ausgefüllt werden. Andere Informationen wie die Stellenbezeichnung und die Größe der Organisation jedoch nicht. Auf diese Weise muss der Besucher nur zwei Felder ausfüllen und das Formular senden. Sie können auch ein Social-Media-Formular verwenden, das mit Daten von Social-Media-Plattformen ausgefüllt wird.
 
 * Planen Sie, welche Folgeseite angezeigt wird, nachdem ein Besucher ein Formular übermittelt hat (_Dankeseite_.
 
-  Erhalten alle dieselbe Seite oder ist sie dynamisch und basiert auf ihren Daten? Beispielsweise könnte jemand aus der Gesundheitsbranche einen anderen Seiteninhalt sehen als jemand aus der Technologiebranche.
+  Erhalten alle dieselbe Seite oder ist sie dynamisch und basiert auf ihren Daten? Beispielsweise sieht jemand in der Gesundheitsbranche andere Seiteninhalte als jemand in der Technologiebranche.
 
 * Erwägen, ein Formular vollständig zu umgehen, wenn Sie bereits über die benötigten Informationen verfügen.
 
-  Wenn Sie einer bekannten Person, die Ihre Landingpage besucht, eine Umgehung der Formulare erlauben, kann diese einfach direkt auf den Inhalt zugreifen. Die Umgehung des Formulars bietet ein optimiertes Besuchererlebnis.
+  Wenn Sie einer bekannten Person, die Ihre Landingpage besucht, die Umgehung der Formulare gestatten, kann diese Person direkt auf den Inhalt zugreifen. Die Umgehung des Formulars bietet ein optimiertes Besuchererlebnis.
 
 ### Hinzufügen eines neuen Formulars {#new-form}
 
@@ -102,9 +104,19 @@ Bevor Sie mit dem Erstellen wiederverwendbarer Formulare in [!DNL Marketo Optimi
 >id="ajo-b2b-prime_lp_form_preset"
 >title="Auswählen einer Voreinstellung"
 >abstract="Wählen Sie eine vordefinierte Voreinstellung aus, die die zu verwendende Verbindung und einen vordefinierten Datensatz für Ihr Formular enthält."
->additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer-b2b/prime/admin/channels/configuration-presets-forms#create-preset" text="Erstellen einer Formularvoreinstellung"
+>additional-url="https://experienceleague.adobe.com/de/docs/marketo-optimizer/user/admin/channels/configuration-presets-forms#create-preset" text="Erstellen einer Formularvoreinstellung"
 
-Sie können ein Formular in [!DNL Marketo Optimizer] erstellen, indem Sie **[!UICONTROL Formular erstellen]** oben rechts auf der Listenseite _[!UICONTROL Forms]_ klicken.
+Erstellen Sie ein Formular in einem Programm oder einen Ordner innerhalb eines Programms über die _[!UICONTROL Programme]_ Baumstruktur.
+
+1. Erweitern Sie in der linken Navigation **[!UICONTROL Marketing-]**) und wählen Sie **[!UICONTROL Programme]**.
+
+1. Suchen Sie das Programm oder einen Ordner innerhalb des Programms, in dem Sie das Formular erstellen möchten.
+
+   Erstellen Sie bei [&#x200B; zuerst ein &#x200B;](../marketing/programs.md#create-program).
+
+1. Klicken Sie auf das _Mehr_-Symbol (**…**) neben dem Programm- oder Ordnernamen und wählen Sie **[!UICONTROL Formular erstellen]**.
+
+   ![Erstellen eines neuen Formulars aus der Programmstruktur](../marketing/assets/email-create-from-programs-tree.png){width="425"}
 
 1. Geben _[!UICONTROL im Dialogfeld „Formular erstellen]_ einen nützlichen **[!UICONTROL Name]** (erforderlich) und **[!UICONTROL Beschreibung]** (optional) ein.
 
@@ -123,21 +135,19 @@ Sie können ein Formular in [!DNL Marketo Optimizer] erstellen, indem Sie **[!UI
 
 1. Klicken Sie auf **[!UICONTROL Erstellen]**.
 
-   Die Seite mit den Formulardetails wird mit einer standardmäßigen allgemeinen Formulardefinition geöffnet.
+   Die Seite mit den Formulardetails wird geöffnet.
 
    ![Standardformularinhalt](assets/form-new-default-content.png){width="700" zoomable="yes"}
 
-### Ändern des Standardformularentwurfs {#design}
+1. Klicken Sie **[!UICONTROL Formular bearbeiten]** und verwenden Sie die visuellen Design-Tools, um den Formularinhalt nach Bedarf zu definieren:
 
-Verwenden Sie die visuellen Design-Tools, um den Formularinhalt nach Bedarf zu ändern:
+   * [Felder hinzufügen](./form-design.md#add-field)
+   * [Feldstile ändern](./form-design.md#field-styling)
+   * [Felder neu anordnen](./form-design.md#field-reorder)
+   * [Ändern des Texts und der Formatierung der Senden-Schaltfläche](./form-design.md#submit-button)
+   * [Ändern des Formularstils](./form-design.md#form-styling)
 
-* [Felder hinzufügen](./form-design.md#add-field)
-* [Feldstile ändern](./form-design.md#field-styling)
-* [Felder neu anordnen](./form-design.md#field-reorder)
-* [Ändern des Texts und der Formatierung der Senden-Schaltfläche](./form-design.md#submit-button)
-* [Ändern des Formularstils](./form-design.md#form-styling)
-
-Klicken Sie **[!UICONTROL Speichern und schließen]** um Ihre Änderungen am Formularinhalt zu speichern und zu den Formulardetails zu gelangen.
+   Klicken Sie **[!UICONTROL Speichern und schließen]** um Ihre Änderungen am Formularinhalt zu speichern und zu den Formulardetails zurückzukehren.
 
 ### Einrichten der Dankeseite {#thank-you-page}
 
@@ -165,7 +175,7 @@ Klicken Sie auf den Namen eines Formulars auf der Listenseite, um die Formularde
 
 >[!NOTE]
 >
->Wenn ein veröffentlichtes Formular von einer Landingpage- oder Landingpage-Vorlage verwendet wird, können Sie den Inhalt nicht bearbeiten oder die Dankeseite ändern. Sie können eine Entwurfsversion erstellen, wenn Sie Änderungen am Formular vornehmen möchten.
+>Wenn ein veröffentlichtes Formular von einer Landingpage- oder Landingpage-Vorlage verwendet wird, können Sie den Inhalt nicht bearbeiten oder die Dankesseite ändern. Sie können eine Entwurfsversion erstellen, wenn Sie Änderungen am Formular vornehmen möchten.
 
 ![Anzeigen von Details für ein veröffentlichtes Formular](assets/form-details-published.png){width="600" zoomable="yes"}
 
@@ -204,7 +214,7 @@ Wenn das Formular derzeit verwendet wird, wird durch die Aktion ein Informations
 
 ## Formulare duplizieren {#duplicate-forms}
 
-Duplizieren Sie ein Formular, um schnell und einfach ein neues Formular mit einem vorhandenen Formular als Ausgangspunkt für Ihren Formularentwurf zu erstellen.
+Duplizieren Sie ein Formular, um ein neues Formular mit einem vorhandenen Formular als Ausgangspunkt für Ihren Formularentwurf zu erstellen.
 
 Sie können ein Formular mit einer der folgenden Methoden duplizieren:
 
@@ -217,7 +227,7 @@ Geben Sie im Dialogfeld einen nützlichen Namen (eindeutig) und eine Beschreibun
 
 ![Name und Beschreibung für das doppelte Formular](assets/form-duplicate-dialog.png){width="400"}
 
-Bearbeiten Sie das doppelte Formular, um den Namen nach Bedarf zu ändern und das Formular für den vorgesehenen Zweck zu ändern.
+Um den Namen nach Bedarf zu ändern und das Formular für den vorgesehenen Zweck zu ändern, bearbeiten Sie das doppelte Formular.
 
 ## Formulare bearbeiten {#edit-forms}
 

@@ -18,7 +18,7 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 6311ce00a5c7666c07fb1a523c954637d2e86e46
+source-git-commit: 8c2e4b17decc42fe5efe36f5bd50ebceacb5d8a1
 workflow-type: tm+mt
 source-wordcount: '2734'
 ht-degree: 7%
@@ -50,7 +50,7 @@ Der E-Mail-Status bestimmt die Verfügbarkeit der Aktion:
 | Eigenschaften, Aktionen und Inhalte bearbeiten | Ja | Nein | Nein |
 | E-Mail personalisieren | Ja | Nein | Nein |
 | E-Mail analysieren | Ja | Nein | Nein |
-| Veröffentlichen | Ja, nachdem die Sperrwarnungen aufgelöst wurden | Bereits veröffentlicht | Automatisch veröffentlicht |
+| Veröffentlichen | Ja, wenn blockierende Warnhinweise aufgelöst werden | Bereits veröffentlicht | Automatisch veröffentlicht |
 | Duplizieren | Ja | Ja | Nein |
 | Umbenennen | Ja | Nein | Nein. Sie benennen die Kopie, wenn Sie sie auswählen. |
 | Löschen | Ja | Nein | Nein. Löschen Sie stattdessen _Knoten_ E-Mail senden“. |

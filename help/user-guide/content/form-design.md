@@ -1,6 +1,6 @@
 ---
 title: Formular-Design
-description: Entwerfen Sie Formulare mit Feldtypen, Validierung, Stilen und XDM-Schemaattributen für die Geschäftsdatenerfassung in Marketo Optimizer.
+description: Entwerfen Sie Formulare mit Feldtypen, Validierung, Stilen und XDM-Schemaattributen für die Erfassung von Geschäftsdaten in Marketo Optimizer.
 TQID: 'https://experienceleague.adobe.com/NyFwttqh2J9hkgS4tE9B-R2GCsZnsJXwoIX27yV-epA'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
@@ -8,13 +8,11 @@ product_v2:
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+source-git-commit: 407092d59071fb4fdf49de4ed91455637979643b
 workflow-type: tm+mt
-source-wordcount: 2177
+source-wordcount: '2175'
 ht-degree: 2%
-
 ---
-
 # Formular-Design
 
 Nach dem [Erstellen eines Formulars](./forms.md#create-forms) wird im visuellen Design-Bereich ein Entwurf mit einer standardmäßigen allgemeinen Formulardefinition geöffnet. Klicken Sie im _[!UICONTROL Zusammenfassungsbereich]_ auf der rechten Seite auf **[!UICONTROL Formular bearbeiten]** und verwenden Sie den visuellen Design-Bereich, um die Formularstile und Feldkomponenten zu definieren.
@@ -94,7 +92,7 @@ Formularfelder werden verwendet, um Personenprofildaten zu erfassen, mit denen P
 
    * **[!UICONTROL Standardwert]** - Verwenden Sie diese Option, um einen Standardwert für das Feld anzugeben.
 
-   * **[!UICONTROL Validierungsmeldung]** - Verwenden Sie diese Option, um eine Validierungsmeldung für das Feld anzugeben. Diese Meldung wird angezeigt, wenn der Besucher einen ungültigen Wert für das Feld eingibt. Die _[!UICONTROL Standard]_-Nachricht ist standardmäßig festgelegt. Wählen Sie **[!UICONTROL Benutzerdefiniert]** und geben Sie Ihre eigene Nachricht ein.
+   * **[!UICONTROL Validierungsmeldung]** - Verwenden Sie diese Option, um eine Validierungsmeldung für das Feld anzugeben. Diese Meldung wird angezeigt, wenn der Besucher einen ungültigen Wert für das Feld eingibt. Das System legt die _[!UICONTROL Standard]_ standardmäßig fest. Wählen Sie **[!UICONTROL Benutzerdefiniert]** und geben Sie Ihre eigene Nachricht ein.
 
    * **[!UICONTROL Maximale Länge]** - Geben Sie die maximale Anzahl von Zeichen ein, die in das Feld eingegeben werden können.
 
@@ -124,7 +122,7 @@ Wählen Sie die **[!UICONTROL Stile]** im rechten Bedienfeld aus, um den Stil f�
 
   ![Legen Sie die Beschriftungsstile für das Formularfeld fest](assets/form-field-styles-label.png){width="600" zoomable="yes"}
 
-* **[!UICONTROL Rahmen]** - Klicken Sie auf das **[!UICONTROL Rahmenfarbe]** Quadrat, um die Popup-Farbauswahl zu öffnen und eine Farbe für den Rahmen auszuwählen. Sie können einen Rahmen für das Feld definieren, einschließlich der Farbe und der Linienbreite. Deaktivieren Sie das Kontrollkästchen, um den angezeigten Feldrand zu entfernen. Sie können auch die Rahmengröße (Pixelbreite), den Stil und den Radius für die Ecken ändern.
+* **[!UICONTROL Rahmen]** - Klicken Sie auf das **[!UICONTROL Rahmenfarbe]** Quadrat, um die Popup-Farbauswahl zu öffnen und eine Farbe für den Rahmen auszuwählen. Sie können einen Rahmen für das Feld definieren, einschließlich der Farbe und der Linienbreite. Um den angezeigten Feldrand zu entfernen, deaktivieren Sie das Kontrollkästchen. Sie können auch die Rahmengröße (Pixelbreite), den Stil und den Radius für die Ecken ändern.
 
   ![Legen Sie die Rahmenstile für das Formularfeld fest](assets/form-field-styles-border.png){width="600" zoomable="yes"}
 
@@ -148,7 +146,7 @@ Fügen Sie [&#x200B; Formular „Strukturkomponenten](./structure-components.md)
 
 Klicken Sie auf das _Löschen_-Symbol ( ![Löschsymbol](../assets/do-not-localize/icon-delete.svg) ) in der Symbolleiste oder im rechten Bereich, um ein ausgewähltes Feld zu löschen. Klicken Sie im Bestätigungsdialog auf **[!UICONTROL Löschen]**.
 
-Klicken Sie auf _Duplizieren_-Symbol ( ![Duplizieren-Symbol](../assets/do-not-localize/icon-duplicate.svg) ) in der Symbolleiste oder im rechten Bereich, um ein ausgewähltes Feld zu duplizieren. Das neue Feld wird direkt unter dem ursprünglichen Feld angezeigt. Klicken Sie **[!UICONTROL Feldattribut auswählen]**, um das Attribut für das Feld festzulegen. Legen Sie den Feldtyp, die Details und die Stile nach Bedarf fest.
+Klicken Sie auf _Duplizieren_-Symbol ( ![Duplizieren-Symbol](../assets/do-not-localize/icon-duplicate.svg) ) in der Symbolleiste oder im rechten Bereich, um ein ausgewähltes Feld zu duplizieren. Das neue Feld wird unter dem ursprünglichen Feld angezeigt. Klicken Sie **[!UICONTROL Feldattribut auswählen]**, um das Attribut für das Feld festzulegen. Legen Sie den Feldtyp, die Details und die Stile nach Bedarf fest.
 
 ![Löschen und Duplizieren von Symbolen für Formularfelder](assets/form-field-delete-duplicate.png){width="600" zoomable="yes"}
 
@@ -172,7 +170,7 @@ Wählen Sie die **[!UICONTROL Stile]** im rechten Bedienfeld aus, um den Stil f�
 
 * **[!UICONTROL Beschriftung]** - Der Beschriftungsstil steuert die visuellen Eigenschaften für den Text in der Schaltfläche. Sie können die Schriftgröße, Zeilenhöhe, den Textstil und die Textausrichtung festlegen. Klicken Sie auf **[!UICONTROL Schriftfarbe]** Quadrat, um das Popup-Farbwähler zu öffnen und eine Farbe für den Titeltext auszuwählen.
 
-* **[!UICONTROL Rahmen]** - Klicken Sie auf das **[!UICONTROL Rahmenfarbe]** Quadrat, um die Popup-Farbauswahl zu öffnen und eine Farbe für den Rahmen auszuwählen. Sie können einen Rahmen für die Schaltfläche definieren, einschließlich der Farbe und Zeilenbreite. Deaktivieren Sie das Kontrollkästchen, um den angezeigten Rand der Schaltfläche zu entfernen. Sie können auch die Rahmengröße (Pixelbreite), den Stil und den Radius für abgerundete Ecken ändern.
+* **[!UICONTROL Rahmen]** - Klicken Sie auf das **[!UICONTROL Rahmenfarbe]** Quadrat, um die Popup-Farbauswahl zu öffnen und eine Farbe für den Rahmen auszuwählen. Sie können einen Rahmen für die Schaltfläche definieren, einschließlich der Farbe und Zeilenbreite. Um den angezeigten Rand der Schaltfläche zu entfernen, deaktivieren Sie das Kontrollkästchen. Sie können auch die Rahmengröße (Pixelbreite), den Stil und den Radius für abgerundete Ecken ändern.
 
 * **[!UICONTROL Size]** - Wählen Sie eine Größeneinstellung aus, um die Anzeigebreite für die Schaltfläche zu bestimmen. Wählen Sie _[!UICONTROL Volle Breite]_, _[!UICONTROL Halbe Breite]_ oder _[!UICONTROL Automatisch]_. Der Abstand wird entsprechend den Größen- und Ausrichtungseinstellungen angepasst.
 
@@ -206,7 +204,7 @@ _So definieren Sie eine benutzerdefinierte CSS für das Formular :_
 
 1. Klicken Sie auf **[!UICONTROL Schließen]**.
 
-1. (Optional) Fügen Sie den kopierten Code in Ihr bevorzugtes CSS-Tool ein und bearbeiten Sie die CSS-Datei so, dass sie den gewünschten Stil widerspiegelt.
+1. (Optional) Fügen Sie den kopierten Code in Ihr CSS-Tool ein und bearbeiten Sie die CSS-Datei so, dass sie den gewünschten Stil widerspiegelt.
 
 1. Klicken **[!UICONTROL im rechten Bedienfeld]** Benutzerdefiniertes CSS hinzufügen“.
 
@@ -220,7 +218,7 @@ _So definieren Sie eine benutzerdefinierte CSS für das Formular :_
 
 ### Manuelle Formatierung {#manual-styling}
 
-Ändern Sie die Einstellungen im rechten Bedienfeld, um die Anzeige für das gesamte Formular zu definieren.
+Um die Anzeige für das gesamte Formular zu definieren, ändern Sie die Einstellungen im rechten Bedienfeld.
 
 * **[!UICONTROL Hintergrundfarbe]** - Aktivieren Sie das Kontrollkästchen, um eine Hintergrundfarbe um den Formularbereich anzuwenden. Weiß ist die Standardfarbe. Klicken Sie auf das Farbfeld, um das Popup-Farbwähler zu öffnen und eine Farbe für den Formularhintergrund auszuwählen.
 

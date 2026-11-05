@@ -10,18 +10,18 @@ feature_v2:
     internal-label: Journeys
   - id: 8881ff95-1653-5fea-82af-ce1549c0d99d
     internal-label: Content Management
-source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
+source-git-commit: 407092d59071fb4fdf49de4ed91455637979643b
 workflow-type: tm+mt
-source-wordcount: '1627'
+source-wordcount: '1649'
 ht-degree: 2%
 ---
 # Landingpages
 
-Eine Landingpage ist eine eigenständige Web-Seite, auf der Sie Kontakte und Kunden leiten können, nachdem sie auf ein verknüpftes Element in einer E-Mail, SMS-Nachricht oder einem beliebigen digitalen Ort geklickt haben. Sie können diese Seiten in Ihre Journey einbinden, damit Ihre Interessenten und Kunden Ihre Nachrichten im Internet sehen und in Ihren Journey vorankommen.
+Eine Landingpage ist eine eigenständige Web-Seite, auf der Sie Kontakte und Kunden leiten können, nachdem sie auf ein verknüpftes Element in einer E-Mail, SMS-Nachricht oder einem beliebigen digitalen Ort geklickt haben. Damit Ihre Interessenten und Kunden Ihre Nachrichten im Internet und den Fortschritt in Ihren Journey sehen können, können Sie diese Seiten in Ihre Journey einbinden.
 
 Häufige Anwendungsfälle für Landingpages:
 
-* Bereitstellen von Opt-in- oder Opt-out-Kampagnen für Marketing-Nachrichten oder einen bestimmten Service. Verwenden Sie einen Link in einer E-Mail oder einer anderen Kommunikation zu einer Zielliste.
+* Bereitstellen einer Opt-in- oder Opt-out-Option für Marketing-Nachrichten oder einen bestimmten Service. Verwenden Sie einen Link in einer E-Mail oder einer anderen Kommunikation zu einer Zielliste.
 * Sammeln Sie das Einverständnis, bevor Sie Nachrichten senden, und senden Sie eine Bestätigungs-E-Mail beim Opt-in oder Opt-out.
 * Profildaten (progressive Profilerstellung, Voreinstellungen, Registrierungen und ähnliche Szenarien) mithilfe von Formularen auf Landingpages erfassen oder aktualisieren.
 * Personen zu kampagnenspezifischen Informationen weiterleiten, die für Ihre Journey-Orchestrierung entwickelt wurden.
@@ -39,17 +39,19 @@ Häufige Anwendungsfälle für Landingpages:
 
 Um Mitglieder einer Journey-Zielgruppe zu einer definierten Web-Seite weiterzuleiten, wenn sie auf einen bestimmten Link klicken, erstellen Sie eine Landingpage in [!DNL Marketo Optimizer]:
 
-1. [Seite erstellen](./landing-pages-create-publish.md#create-landing-page) - Wählen Sie eine Voreinstellung aus, richten Sie die Primärseite ein und fügen Sie alle erforderlichen Unterseiten hinzu.
+1. [Seite erstellen](./landing-pages-create-publish.md#create-landing-page) - Von der Programmstruktur aus starten, eine Vorgabe auswählen und die Primärseite einrichten.
 1. [Landingpage-Inhalt gestalten](./landing-page-design.md) - Erstellen Sie den Seiteninhalt mithilfe visueller Design-Komponenten per Drag-and-Drop.
 1. [Landingpage testen](./landing-pages-create-publish.md#test-landing-page) - Vorschau der Seite und Testformularverhalten.
 1. [Landingpage veröffentlichen](./landing-pages-create-publish.md#publish-landing-page) - Veröffentlichen, um die Seite live und für Verknüpfungen verfügbar zu machen.
 1. [Link zur Seite von Ihrem Journey aus](#link-to-landing-page) - Fügen Sie die Landingpage-URL zu einer E-Mail-, SMS- oder Journey-Aktion hinzu, damit die Empfänger sie erreichen können.
 
-Sie können beispielsweise Landingpages erstellen und gestalten, um Ihre Benutzer zu Online-Informationen zu führen. Die Seite könnte ein Formular enthalten, über das der Empfänger Ihre Nachrichten abmelden oder abmelden kann. Oder es kann eine Möglichkeit sein, eine wiederkehrende Kommunikation wie einen Newsletter zu abonnieren.
+Um beispielsweise Ihre Benutzer zu Online-Informationen weiterzuleiten, können Sie Landingpages erstellen und gestalten. Die Seite könnte ein Formular enthalten, über das der Empfänger Ihre Nachrichten abmelden oder abmelden kann. Oder es kann eine Möglichkeit sein, eine wiederkehrende Kommunikation wie einen Newsletter zu abonnieren.
 
 ## Zugreifen auf und Verwalten von Landingpages {#access-manage-landing-pages}
 
 Um auf Landingpages in [!DNL Marketo Optimizer] zuzugreifen, gehen Sie zur linken Navigation und erweitern Sie **[!UICONTROL Content-Management]**. Wählen Sie dann **[!UICONTROL Landingpages]** aus. Diese Aktion zeigt eine Liste aller in der Instanz erstellten Landingpages an.
+
+Verwenden Sie diese Liste, um auf bestehende Landingpages zuzugreifen und diese zu verwalten. Um [Landingpage zu erstellen](./landing-pages-create-publish.md#create-landing-page) verwenden Sie die _[!UICONTROL Programme]_ Baumstruktur.
 
 ![Zugriff auf die Landingpage-Bibliothek](./assets/landing-pages-list.png){width="800" zoomable="yes"}
 
@@ -197,7 +199,7 @@ Diese Aktion öffnet ein Bestätigungsdialogfeld. Sie können den Vorgang abbrec
 
 ## Link zu einer Landingpage {#link-to-landing-page}
 
-Als Marketing-Experte oder Kreativschaffender, der E-Mail-, Fragment- und Seiteninhalte erstellt, können Sie Links zu den veröffentlichten (Live-)Landingpages einbetten, die in Ihrer [!DNL Marketo Optimizer] erstellt werden.
+Als Marketing- oder Kreativprofi, der E-Mail-, Fragment- und Seiteninhalte erstellt, können Sie Links zu den veröffentlichten (Live-)Landingpages einbetten, die in Ihrer [!DNL Marketo Optimizer] erstellt werden.
 
 1. Wählen Sie beim Arbeiten im visuellen Design für ein Fragment, eine E-Mail, eine Landingpage oder eine Vorlage einen Textauszug, eine Schaltflächenkomponente oder eine Bildkomponente für den Link aus.
 

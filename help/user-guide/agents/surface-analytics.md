@@ -17,10 +17,10 @@ subfeature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 1dcc3bcdc59114c7fc1e16178db8921ae173b955
+source-git-commit: 8c2e4b17decc42fe5efe36f5bd50ebceacb5d8a1
 workflow-type: tm+mt
 source-wordcount: '419'
-ht-degree: 0%
+ht-degree: 1%
 ---
 # Erstellen von Analyseberichten
 
@@ -81,7 +81,7 @@ Surface Analytics kann Fragen, die sowohl [!DNL Marketo Engage]- als auch [!DNL 
 ## Einschränkungen {#limitations}
 
 | Einschränkung | Detail |
-|---|---|
+| --- | --- |
 | Bearbeiten oder Erstellen von Datensätzen | Nicht unterstützt. Surface Analytics liest und berichtet nur über vorhandene Daten. |
 | Lesbare Namen in den Ergebnissen | Nicht immer verfügbar. Einige Berichte zeigen eine interne ID an, wie z. B. eine Journey- oder E-Mail-ID, anstatt eines Namens. |
 | Duplizieren von Berichtskarten | Eine einzelne Frage kann gelegentlich mehr als eine Berichtskarte für dasselbe Ergebnis zurückgeben. |
