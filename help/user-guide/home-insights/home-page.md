@@ -31,7 +31,7 @@ Die personalisierte Begrüßungsnachricht stellt Fragen zu Ihren aktuellen Aufga
 
 Sehen Sie sich das Video an, um eine Tour durch die Startseite und den Marketing-Arbeitsbereich zu erhalten. Die folgenden Abschnitte enthalten schriftliche Anweisungen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3505360/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3505368/?captions=ger&quality=12&learn=on)
 
 ## KI-Unterhaltung starten
 
