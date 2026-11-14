@@ -7,27 +7,27 @@ product_v2:
 feature_v2:
   - id: 3c1de303-7a7c-59a6-abca-8c534730e19c
     internal-label: Reporting
-source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
+source-git-commit: e4b0bd62a974e32297b11177d13a783c631597fb
 workflow-type: tm+mt
-source-wordcount: '508'
+source-wordcount: '519'
 ht-degree: 2%
 ---
 
 # Berichte
 
-Die Registerkarte [!UICONTROL Berichte] bietet Leistungseinblicke in [!DNL Adobe Marketo Optimizer], einschließlich Journey-Interaktion, E-Mail-Leistung und Web-Aktivität. Wählen Sie in der linken Navigation die Option **[!UICONTROL Berichte]** aus, um sie zu öffnen.
+Die _[!UICONTROL Berichte]_ bietet Leistungseinblicke in [!DNL Adobe Marketo Optimizer], einschließlich Journey-Interaktion, E-Mail-Leistung und Web-Aktivität. Wählen Sie in der linken Navigation die Option **[!UICONTROL Berichte]** aus, um sie zu öffnen.
 
-Jeder Bericht basiert auf [!DNL Adobe Customer Journey Analytics] und ist direkt in [!DNL Marketo Optimizer] eingebettet. Klicken Sie auf _list_-Symbol ( ![list icon](../assets/do-not-localize/icon-table-of-contents.svg) ), um das Bedienfeld **[!UICONTROL Inhaltsverzeichnis]** auf der linken Seite zu verwenden, um zwischen Abschnitten zu wechseln.
+Jeder Bericht wird mit [!DNL Adobe Customer Journey Analytics] Funktionen erstellt und direkt in [!DNL Marketo Optimizer] eingebettet. Klicken Sie auf _list_-Symbol ( ![list icon](../assets/do-not-localize/icon-table-of-contents.svg) ), um das Bedienfeld **[!UICONTROL Inhaltsverzeichnis]** auf der linken Seite zu verwenden, um zwischen Abschnitten zu wechseln.
 
 ![Berichte: Seitenauflistung von Personen-Journey - Übersicht, Interaktionen, E-Mail-Interaktionen und Web-Interaktionen](./assets/reports-table-of-contents.png){width="800" zoomable="yes"}
 
 >[!PREREQUISITES]
 >
->Um die Berichte auf der Registerkarte _[!UICONTROL Berichte]_ anzuzeigen, benötigen Sie die Berechtigung **[!UICONTROL B2B-eingebettete Berichte anzeigen]** [&#128279;](../start/permissions-reference.md).
+>Um die Berichte auf der Registerkarte _[!UICONTROL Berichte]_ anzuzeigen, benötigen Sie die Berechtigung **[!UICONTROL B2B-eingebettete Berichte anzeigen]** [](../start/permissions-reference.md).
 
 ## Berichtsabschnitte {#report-sections}
 
-Auf [!UICONTROL &#x200B; Registerkarte &#x200B;]Berichte“ werden vordefinierte Berichte in vier Abschnitte unterteilt. Jeder Abschnitt enthält ein oder mehrere herunterladbare Elemente und eine eigene Dokumentationsseite mit Details zu den zugehörigen Metriken und Visualisierungen.
+Auf [!UICONTROL  Registerkarte ]Berichte“ werden vordefinierte Berichte in vier Abschnitte unterteilt. Jeder Abschnitt enthält ein oder mehrere herunterladbare Elemente und eine eigene Dokumentationsseite mit Details zu den zugehörigen Metriken und Visualisierungen.
 
 | Abschnitt | Herunterladbare Elemente | Berichtseite |
 | --- | --- | --- |
@@ -41,7 +41,7 @@ Auf [!UICONTROL &#x200B; Registerkarte &#x200B;]Berichte“ werden vordefinierte
 Einige Berichte konzentrieren sich auf einen einzelnen Datensatz anstelle einer abschnittsweiten Ansicht und der Zugriff erfolgt in einem anderen Bereich der Anwendung.
 
 * Um die Leistung der Optimierung des E-Mail-Versands zu optimieren, öffnen Sie den Bericht über die Chat[!UICONTROL Oberfläche &quot;]&quot;. Anweisungen hierzu finden Sie [E-Mail-Sendezeitoptimierung](../marketing/email-send-time-optimization.md#reporting).
-* Für den Fortschritt einer Person auf einer Journey öffnen Sie den [Personen-Journey Individualbericht](./person-journey-individual-report.md) von dieser Journey aus.
+* Für Personen-Journey öffnen Sie den [Personen-Journey Individualbericht](./person-journey-individual-report.md) innerhalb einer Live- oder fertigen Journey. Nach dem Öffnen des Berichts können Sie mehrere Journey auswählen, die einbezogen werden sollen.
 
 ## Exportieren eines Berichts {#export-a-report}
 

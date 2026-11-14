@@ -7,9 +7,9 @@ product_v2:
 feature_v2:
   - id: 3c1de303-7a7c-59a6-abca-8c534730e19c
     internal-label: Reporting
-source-git-commit: 64d70f192f1ef972590aef2811e2e91908691196
+source-git-commit: 84abcbf4ddf114898768766d6e91ec855e3f979f
 workflow-type: tm+mt
-source-wordcount: '228'
+source-wordcount: '281'
 ht-degree: 1%
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 <!-- SPHR-39571: Audience, Company Name, Company Industry, and Region filters, plus the report title/subtitle rename, are planned under SPHR-32471 (not yet shipped) and should be documented separately once delivered  -->
 
-Verwenden Sie den [!UICONTROL Web-Interaktion]-Bericht, um die Interaktion mit den wichtigsten interaktiven Webinaren in Ihrer Instanz zu überprüfen.
+Verwenden Sie den [!UICONTROL Web-Interaktion]-Bericht, um die Interaktion mit den beliebtesten interaktiven Webinaren in Ihrer Instanz zu überprüfen.
 
 _Bericht anzeigen :_
 
@@ -26,7 +26,7 @@ _Bericht anzeigen :_
 
 ![Web-Interaktionsbericht mit einem Persona-Filter, einem Datumsbereich der letzten 30 Tage und einer Tabelle der 10 am häufigsten angezeigten Seiten.](./assets/reports-web-engagement.png){width="700" zoomable="yes"}
 
-Sie können [&#x200B; Datumsbereich für &#x200B;](./reports-overview.md#change-the-date-range) Bericht ändern.
+Sie können [ Datumsbereich für ](./reports-overview.md#change-the-date-range) Bericht ändern.
 
 Wählen **[!UICONTROL oben]** Bericht die Option „Freigeben“ aus, um den Export aller Berichtsdaten herunterzuladen oder zu planen. Siehe [_Exportieren eines Berichts_](./reports-overview.md#export-a-report) in der Übersicht über Berichte.
 
@@ -44,9 +44,13 @@ Der [!UICONTROL Web-Interaktion]-Bericht zeigt die zehn am häufigsten angezeigt
 
 ## Filter {#filters}
 
-Verwenden Sie den folgenden Filter, um den Bericht auf eine bestimmte Rolle einzugrenzen.
+Verwenden Sie den **[!UICONTROL Persona (Ereignis)]** Filter oben im Bericht, um die Seitenansichtsdaten einzugrenzen. Öffnen Sie die Filterliste und wählen Sie die einzuschließenden Werte aus.
 
-* **[!UICONTROL Persona]** - Filtern Sie nach der Persona, die mit den Seitenansichten verknüpft ist.
+* **[!UICONTROL Persona (Ereignis)]** - Filtern nach der [abgeleiteten Persona](../audiences/personas.md#filter-by-derived-persona), die mit den Seitenansichten verknüpft ist. Der Standardwert lautet [!UICONTROL Kein Filter].
+
+![Web-Interaktionsbericht mit geöffneter Filterliste „Persona (Ereignis)“, in dem die verfügbaren Personas angezeigt werden und das Steuerelement „Alle zurücksetzen“.](./assets/reports-web-engagement-filters.png){width="500" zoomable="yes"}
+
+Wählen Sie **[!UICONTROL Alle zurücksetzen]** aus, um den Filter zu löschen und zur Standardansicht zurückzukehren.
 
 >[!NOTE]
 >
