@@ -30,7 +30,7 @@ _Bericht anzeigen :_
 
    ![Personen-Journey-Arbeitsfläche mit hervorgehobener Schaltfläche „Bericht anzeigen“ in der Journey-Kopfzeile.](./assets/reports-person-journey-view-report.png){width="600" zoomable="yes"}
 
-Sie können [ Datumsbereich für ](./reports-overview.md#change-the-date-range) Bericht ändern.
+Sie können [&#x200B; Datumsbereich für &#x200B;](./reports-overview.md#change-the-date-range) Bericht ändern.
 
 Wählen **[!UICONTROL oben]** Bericht „Freigeben“ aus, um die Daten herunterzuladen oder ihren Export zu planen. Siehe [_Exportieren eines Berichts_](./reports-overview.md#export-a-report) in der Übersicht über Berichte.
 
@@ -43,7 +43,7 @@ Der Bericht zeigt zunächst die Journey an, von der aus Sie sie geöffnet haben.
 * **[!UICONTROL Journey-Name (Ereignis)]** - Legen Sie die Voreinstellung auf die Journey fest, von der aus Sie den Bericht geöffnet haben. Öffnen Sie die Filterliste und wählen Sie die einzuschließenden Journey aus. Sie können mehrere Journey auswählen.
 * **[!UICONTROL Persona (Ereignis)]** - Filtern des Berichts nach Personen, die mit einer bestimmten [abgeleiteten Persona](../audiences/personas.md#filter-by-derived-persona) übereinstimmen. Der Standardwert lautet [!UICONTROL Kein Filter].
 
-![ Bericht „Person Journey&quot; mit geöffneter Filterliste &quot;Journey-Name (Ereignis)“ und drei ausgewählten Journey neben dem Filter „Persona (Ereignis)“.](./assets/reports-person-journey-details-filters.png){width="700" zoomable="yes"}
+![&#x200B; Bericht „Person Journey&quot; mit geöffneter Filterliste &quot;Journey-Name (Ereignis)“ und drei ausgewählten Journey neben dem Filter „Persona (Ereignis)“.](./assets/reports-person-journey-details-filters.png){width="700" zoomable="yes"}
 
 Um nach Persona zu filtern, öffnen **[!UICONTROL die Filterliste]** Persona (Ereignis)“ am oberen Rand des Berichts und wählen die einzuschließenden Werte aus.
 
@@ -69,11 +69,11 @@ Die [!UICONTROL E-Mail]Leistung) zeigt Versand- und Interaktionsmetriken für je
 * [!UICONTROL Email Name] - Name der E-Mail.
 * [!UICONTROL Gesendet] - Anzahl der gesendeten E-Mails.
 * [!UICONTROL Zugestellt] - Anzahl der zugestellten E-Mails.
-* [!UICONTROL  % Zugestellt] - Anzahl der zugestellten E-Mails dividiert durch die Anzahl der gesendeten Nachrichten.
+* [!UICONTROL &#x200B; % Zugestellt] - Anzahl der zugestellten E-Mails dividiert durch die Anzahl der gesendeten Nachrichten.
 * [!UICONTROL Geöffnet] - Anzahl der Öffnungen der E-Mail durch Empfänger.
-* [!UICONTROL  % geöffnet] - Anzahl der geöffneten E-Mails dividiert durch die Anzahl der zugestellten Nachrichten.
+* [!UICONTROL &#x200B; % geöffnet] - Anzahl der geöffneten E-Mails dividiert durch die Anzahl der zugestellten Nachrichten.
 * [!UICONTROL geklickt] - Anzahl der Klicks auf einen Link in der E-Mail.
-* [!UICONTROL  % angeklickt] - Anzahl der angeklickten E-Mails dividiert durch die Anzahl der zugestellten Nachrichten.
+* [!UICONTROL &#x200B; % angeklickt] - Anzahl der angeklickten E-Mails dividiert durch die Anzahl der zugestellten Nachrichten.
 
 ## Journey-Aktivitätsfluss {#journey-activity-flow}
 

@@ -26,7 +26,7 @@ _Bericht anzeigen :_
 
 ![Web-Interaktionsbericht mit einem Persona-Filter, einem Datumsbereich der letzten 30 Tage und einer Tabelle der 10 am häufigsten angezeigten Seiten.](./assets/reports-web-engagement.png){width="700" zoomable="yes"}
 
-Sie können [ Datumsbereich für ](./reports-overview.md#change-the-date-range) Bericht ändern.
+Sie können [&#x200B; Datumsbereich für &#x200B;](./reports-overview.md#change-the-date-range) Bericht ändern.
 
 Wählen **[!UICONTROL oben]** Bericht die Option „Freigeben“ aus, um den Export aller Berichtsdaten herunterzuladen oder zu planen. Siehe [_Exportieren eines Berichts_](./reports-overview.md#export-a-report) in der Übersicht über Berichte.
 
