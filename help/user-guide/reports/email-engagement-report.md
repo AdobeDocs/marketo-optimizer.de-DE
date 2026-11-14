@@ -7,9 +7,9 @@ product_v2:
 feature_v2:
   - id: 3c1de303-7a7c-59a6-abca-8c534730e19c
     internal-label: Reporting
-source-git-commit: 6e919a66af259ea1f5facf7f5c3e811d76101e85
+source-git-commit: 84abcbf4ddf114898768766d6e91ec855e3f979f
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: '394'
 ht-degree: 1%
 ---
 
@@ -24,7 +24,9 @@ _Bericht anzeigen :_
 1. Wählen Sie in der linken Navigationsleiste die Option **[!UICONTROL Berichte]**.
 1. Klicken Sie auf _Listen_-Symbol ( ![Listen-Symbol](../assets/do-not-localize/icon-table-of-contents.svg) ) und wählen Sie **[!UICONTROL E-Mail-]** im Bedienfeld _[!UICONTROL Inhaltsverzeichnis]_ aus.
 
-![E-Mail-Interaktionsbericht mit Journey-Name- und Persona-Filtern, einem Datumsbereich der letzten 30 Tage und einer Tabelle mit E-Mail-Aktivitätsmetriken.](./assets/reports-email-engagement.png){width="700" zoomable="yes"}
+![E-Mail-Interaktionsbericht mit Journey-Name (Ereignis)- und Persona (Ereignis)-Filtern, einem Datumsbereich der letzten 30 Tage und einer Tabelle mit E-Mail-Aktivitätsmetriken.](./assets/reports-email-engagement.png){width="700" zoomable="yes"}
+
+Verwenden Sie die Filter **[!UICONTROL Journey-Name]** Ereignis) und **[!UICONTROL Persona (Ereignis]** am oberen Rand des Berichts, um die E-Mail-Daten einzugrenzen. Öffnen Sie eine Filterliste und wählen Sie die einzuschließenden Werte aus. Siehe [Filter](#filters).
 
 Sie können [&#x200B; Datumsbereich ändern](./reports-overview.md#change-the-date-range) indem Sie dieselbe Datumsbereichsauswahl verwenden, die in anderen Berichtsabschnitten verfügbar ist.
 
@@ -56,7 +58,11 @@ Metrikspalten sind unter **[!UICONTROL E-Mail-Aktivitäten]** gruppiert.
 
 ## Filter {#filters}
 
-Verwenden Sie Filter, um den Bericht auf eine bestimmte Journey oder Rolle einzugrenzen. Wählen Sie **[!UICONTROL Alle zurücksetzen]** aus, um alle Filter zu löschen und zur Standardansicht zurückzukehren.
+Verwenden Sie Filter, um den Bericht nach Journey oder Rolle einzugrenzen.
 
 * **[!UICONTROL Journey-Name (Ereignis)]** Filtern Sie nach der Journey, von der die E-Mail gesendet wurde. Der Standardwert lautet [!UICONTROL Kein Filter].
-* **[!UICONTROL Persona (Ereignis)]** - Filtern Sie nach der Persona, die mit der E-Mail verbunden ist. Der Standardwert lautet [!UICONTROL Kein Filter].
+* **[!UICONTROL Persona (Ereignis)]** - Filtern nach der [abgeleiteten Persona](../audiences/personas.md#filter-by-derived-persona), die mit der E-Mail verbunden ist. Der Standardwert lautet [!UICONTROL Kein Filter].
+
+![Der E-Mail-Interaktionsbericht filtert mit vier ausgewählten Journey und geöffneter Filterliste für Persona (Ereignis), in der die verfügbaren Personas angezeigt werden.](./assets/reports-email-engagement-filters.png){width="500" zoomable="yes"}
+
+Wählen Sie **[!UICONTROL Alle zurücksetzen]** aus, um alle Filter zu löschen und zur Standardansicht zurückzukehren.
