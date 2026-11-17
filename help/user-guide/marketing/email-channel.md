@@ -21,7 +21,7 @@ topic_v2:
 source-git-commit: 8c2e4b17decc42fe5efe36f5bd50ebceacb5d8a1
 workflow-type: tm+mt
 source-wordcount: '2734'
-ht-degree: 7%
+ht-degree: 8%
 ---
 # Erstellen von E-Mails und Hinzufügen zu Journeys
 
@@ -198,7 +198,7 @@ Ein E-Mail-Entwurf hat drei Registerkarten **[!UICONTROL „Eigenschaften]**, **
 
 1. (Optional) Aktivieren Sie das Kontrollkästchen **[!UICONTROL Größe der HTML optimieren]**, um die Größe Ihrer E-Mail-HTML während des Veröffentlichungsprozesses zu reduzieren.
 
-   Dadurch wird verhindert, dass E-Mails in Clients wie Gmail abgeschnitten werden. Gmail kürzt Nachrichten mit einer Größe von mehr als 100 KB. Weitere Informationen finden [_unter „Optimieren der E_](#optimize-html-size) Mail-HTML-Größe“.
+   Dadurch wird verhindert, dass E-Mails in Clients wie Gmail abgeschnitten werden. Gmail kürzt Nachrichten mit einer Größe von mehr als 100 KB. Weitere Informationen finden [_unter „Optimieren der E_](#optimize-html-size) Mail-HTML-Größe“.
 
 1. Klicken Sie auf **[!UICONTROL E-Mail-]** bearbeiten), um auf die visuellen Design-Tools zuzugreifen und mit der [Erstellung Ihres Inhalts](../content/email-authoring.md) zu beginnen.
 
@@ -356,7 +356,7 @@ Da die Journey-Kopie schreibgeschützt ist, sollten Sie sie ersetzen, anstatt si
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_email_minification"
 >title="HTML-Größe reduzieren"
->abstract="Diese Option aktivieren, um die E-Mail-HTML während der Veröffentlichung zu komprimieren, indem unnötige Leerzeichen und Einzüge entfernt werden. Dadurch wird verhindert, dass E-Mails in Clients wie Gmail abgeschnitten werden. Gmail kürzt Nachrichten mit einer Größe von mehr als 100 KB."
+>abstract="Diese Option aktivieren, um die E-Mail-HTML während der Veröffentlichung zu komprimieren, indem unnötige Leerzeichen und Einzüge entfernt werden. Dadurch wird verhindert, dass E-Mails in Clients wie Gmail abgeschnitten werden. Gmail kürzt Nachrichten mit einer Größe von mehr als 100 KB."
 
 [!DNL Marketo Optimizer] ermöglicht das Komprimieren der HTML-Version Ihrer E-Mail während des Veröffentlichungsprozesses durch Entfernen unnötiger Leerzeichen, Einrückungen und nicht erforderlicher Kommentare. Eine geringe HTML-Größe bietet folgende Vorteile:
 
