@@ -49,7 +49,7 @@ Beginnen Sie mit einem Modul, das dem zu erstellenden Abschnitt entspricht, und 
 
 >[!NOTE]
 >
->Fügen Sie für Marketing-E-Mails einen Ausschluss-Link hinzu und [ Sie E-Mail](../marketing/email-channel.md#alerts)Warnhinweise ab, bevor Sie die E-Mail veröffentlichen.
+>Fügen Sie für Marketing-E-Mails einen Ausschluss-Link hinzu und [&#x200B; Sie E-Mail](../marketing/email-channel.md#alerts)Warnhinweise ab, bevor Sie die E-Mail veröffentlichen.
 
 1. Öffnen Sie Ihre E-Mail, Landingpage, visuelles Fragment oder E-Mail-Vorlage im visuellen Design-Bereich.
 
@@ -91,6 +91,6 @@ Beginnen Sie mit einem Modul, das dem zu erstellenden Abschnitt entspricht, und 
 
 ## Wiederverwenden benutzerdefinierter Modulinhalte
 
-Um wiederverwendbare Modulinhalte zu erstellen, [ Sie ein visuelles Fragment ](./fragments.md#create-fragments) und fügen Sie im Fragmententwurfsbereich Module hinzu und passen Sie diese an. Speichern und veröffentlichen Sie das Fragment, um es für die Verwendung in E-Mails und E-Mail-Vorlagen verfügbar zu machen.
+Um wiederverwendbare Modulinhalte zu erstellen, [&#x200B; Sie ein visuelles Fragment &#x200B;](./fragments.md#create-fragments) und fügen Sie im Fragmententwurfsbereich Module hinzu und passen Sie diese an. Speichern und veröffentlichen Sie das Fragment, um es für die Verwendung in E-Mails und E-Mail-Vorlagen verfügbar zu machen.
 
-Fügen [ das Fragment dann ](./fragments.md#add-to-content) andere E-Mails oder E-Mail-Vorlagen ein.
+Fügen [&#x200B; das Fragment dann &#x200B;](./fragments.md#add-to-content) andere E-Mails oder E-Mail-Vorlagen ein.
