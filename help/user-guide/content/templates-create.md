@@ -1,6 +1,6 @@
 ---
 title: E-Mail-Vorlagen erstellen
-description: Erfahren Sie, wie Sie E-Mail-Vorlagen in Marketo Optimizer erstellen - neu erstellen, eine E-Mail von einer Journey als Vorlage speichern oder ein Design-Bild in eine E-Mail-Vorlage konvertieren.
+description: Erfahren Sie, wie Sie E-Mail-Vorlagen in Marketo Optimizer erstellen, Inhaltsmodule anpassen, eine E-Mail als Vorlage speichern oder ein Design-Bild in eine E-Mail-Vorlage konvertieren.
 TQID: 'https://experienceleague.adobe.com/Hag-o6Hu-82rqnWHnDBgPD-dKApy5JGsPMD5cGFOCfA'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
@@ -15,30 +15,32 @@ topic_v2:
     internal-label: Accessibility
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: b6253400e2c9fc5b7f277add102367743981ce8a
+source-git-commit: e48e778c3a62154297e2c4464f49c3010917d984
 workflow-type: tm+mt
-source-wordcount: '876'
-ht-degree: 1%
+source-wordcount: '937'
+ht-degree: 2%
 ---
 
 # E-Mail-Vorlagen erstellen
 
-Sie haben drei Möglichkeiten, um eine E-Mail-Vorlage in [!DNL Adobe Marketo Optimizer] zu erstellen:
+Erstellen Sie E-Mail-Vorlagen in [!DNL Adobe Marketo Optimizer] mithilfe des visuellen Designs. E-Mail-Vorlagen unterstützen vorbereitete Inhaltsmodule sowie individuelle Struktur- und Inhaltskomponenten.
+
+>[!NOTE]
+>
+>Derzeit werden nur E-Mail-Vorlagen unterstützt. Landingpage-Vorlagen sind derzeit nicht verfügbar.
+
+Bei E-Mail-Vorlagen gibt es drei Möglichkeiten:
 
 * **Neue Vorlage erstellen** - Erstellen Sie eine Vorlage in der Vorlagenbibliothek mithilfe des visuellen E-Mail-Design-Bereichs.
 * **Von einer Journey-E-Mail speichern** - Speichern Sie eine E-Mail, die Sie auf einer Journey verfasst haben, als wiederverwendbare Vorlage.
 * **Bild konvertieren** - Laden Sie ein Designbild hoch und verwenden Sie generative KI, um es in eine bearbeitbare E-Mail-Vorlage zu konvertieren.
 
-## Neue Vorlage erstellen {#build-new}
+## Erstellen einer neuen E-Mail-Vorlage {#build-new}
 
 1. Erweitern Sie in der linken Navigation **[!UICONTROL Content-Management]** und wählen Sie **[!UICONTROL Vorlagen]**.
 1. Klicken Sie auf **[!UICONTROL Vorlage erstellen]**.
 1. Geben Sie einen **[!UICONTROL Vorlagennamen“]** optional &quot;**[!UICONTROL &quot;]**.
-1. Legen Sie den **[!UICONTROL Kanal]** (Typ) für die Vorlage fest.
-
-   >[!NOTE]
-   >
-   >In dieser Beta-Version werden nur E-Mail-Vorlagen unterstützt.
+1. Setzen Sie **[!UICONTROL Kanal]** auf E-Mail.
 
    <!-- 1. Optionally add **[!UICONTROL Tags]** to categorize the template. -->
 
@@ -46,11 +48,23 @@ Sie haben drei Möglichkeiten, um eine E-Mail-Vorlage in [!DNL Adobe Marketo Opt
 
 1. Klicken Sie **[!UICONTROL E-Mail-Text bearbeiten]**, um auf den Bereich für das Inhalts-Design zuzugreifen.
 
-   Siehe [E-Mail-Authoring](email-authoring.md) für detaillierte Informationen zur Inhaltserstellung.
+   [Module hinzufügen](#add-modules) oder [E-Mail-Authoring](email-authoring.md) verwenden, um detaillierte Informationen zum Inhaltsdesign zu erhalten.
 
 1. Aktivieren Sie optional **[!UICONTROL Governance]** und konfigurieren Sie [Inhaltssperrung](template-content-governance.md), um festzulegen, welche Teile der Vorlagen von Vorlagenautoren beim Anwenden der Vorlage bearbeitet werden können.
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
+
+## Module hinzufügen {#add-modules}
+
+Verwenden Sie in einer E-Mail-Vorlage Module, um mit vorbereiteten Abschnitten zu beginnen und deren Inhalt und Stil anzupassen.
+
+{{$include /help/_includes/content-design-modules.md}}
+
+### Hinzufügen von Struktur und Content&#x200B;
+
+Um Abschnitte von Grund auf neu zu erstellen oder ein Modul zu erweitern, fügen Sie Struktur- und Inhaltskomponenten hinzu.
+
+{{$include /help/_includes/content-design-components-prime.md}}
 
 ## Speichern einer E-Mail als Vorlage {#save-as-template}
 

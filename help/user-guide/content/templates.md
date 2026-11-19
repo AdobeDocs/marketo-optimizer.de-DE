@@ -10,19 +10,21 @@ feature_v2:
     internal-label: Journeys
   - id: 8881ff95-1653-5fea-82af-ce1549c0d99d
     internal-label: Content Management
-source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
+source-git-commit: e48e778c3a62154297e2c4464f49c3010917d984
 workflow-type: tm+mt
-source-wordcount: '511'
-ht-degree: 1%
+source-wordcount: '525'
+ht-degree: 2%
 ---
 
 # E-Mail-Vorlagen
 
-E-Mail-Vorlagen in [!DNL Adobe Marketo Optimizer] ermöglichen es Inhaltsspezialisten, wiederverwendbare E-Mail-Layouts unabhängig zu erstellen, sodass Marketing-Teams sie auf alle Account-Journey anwenden können, ohne jedes Mal Designs neu erstellen zu müssen.
+E-Mail-Vorlagen in [!DNL Adobe Marketo Optimizer] ermöglichen es Inhaltsspezialisten, wiederverwendbare E-Mail-Layouts unabhängig zu erstellen, sodass Marketing-Teams Designs wiederverwenden können, ohne sie jedes Mal neu zu erstellen.
 
 >[!NOTE]
 >
->In dieser Beta-Version werden nur E-Mail-Vorlagen unterstützt.
+>Derzeit werden nur E-Mail-Vorlagen unterstützt. Landingpage-Vorlagen sind derzeit nicht verfügbar.
+
+Verwenden Sie [Inhaltsmodule](./content-modules.md) beim [Erstellen von E-Mail](./templates-create.md)Vorlagen, um Layouts aus vorbereiteten Abschnitten zusammenzustellen.
 
 Wenn eine Vorlage auf eine neue E-Mail angewendet wird, wird der Inhalt an dieser Stelle kopiert. Änderungen an der Vorlage wirken sich nicht auf E-Mails aus, die zuvor daraus erstellt wurden.
 
@@ -39,7 +41,7 @@ Navigieren Sie **[!UICONTROL linken Navigationsbereich zu]** Content > **[!UICON
 
 Schalten Sie mithilfe der Symbole oben rechts in der Bibliothek zwischen Listenansicht und Rasteransicht (Miniaturansicht) um.
 
-### Suchen und filtern {#search-filter}
+### Suche und Filter {#search-filter}
 
 Verwenden Sie die Suchleiste, um eine Vorlage anhand des Namens zu finden. Klicken Sie auf eine beliebige Spaltenüberschrift, um die Liste zu sortieren. Klicken Sie **[!UICONTROL Filter]**, um die Liste nach Tags einzugrenzen oder nur von Ihnen erstellte Vorlagen anzuzeigen.
 
@@ -57,7 +59,7 @@ Erstellen Sie Ordner, um Vorlagen nach Team, Kampagne, Marke oder einer beliebig
 **So verschieben Sie eine Vorlage in einen Ordner:**
 
 1. Klicken Sie auf das **[!UICONTROL Mehr]**-Symbol ( … ) neben der Vorlage.
-1. Wählen Sie **[!UICONTROL In Ordner verschieben]** aus.
+1. Wählen Sie **[!UICONTROL In Ordner verschieben]**.
 1. Wählen Sie den Zielordner aus und klicken Sie auf **[!UICONTROL Verschieben]**.
 
 ## Vorlagendetails anzeigen {#view-details}
