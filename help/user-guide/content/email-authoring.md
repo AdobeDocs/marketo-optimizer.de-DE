@@ -19,9 +19,9 @@ topic_v2:
     internal-label: Accessibility
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 8c2e4b17decc42fe5efe36f5bd50ebceacb5d8a1
+source-git-commit: e48e778c3a62154297e2c4464f49c3010917d984
 workflow-type: tm+mt
-source-wordcount: '2583'
+source-wordcount: '2590'
 ht-degree: 4%
 ---
 # Inhaltserstellung in E-Mails
@@ -52,7 +52,7 @@ Klicken Sie **[!UICONTROL E-Mail-Text bearbeiten]**, um den Design-Bereich für 
 ## E-Mail-Design-Tools {#email-design-tools}
 
 * **Top-Symbolleiste** Speichern, Zurück, Zum Code-Editor wechseln, Steuerelemente in der Vorschau anzeigen.
-* **Linker Bereich:** (Spalten-Layouts), Inhalte (Text, Schaltfläche, Bild, Trennlinie, Social, HTML), Fragmente, Vorlagen, Navigationsbaum (DOM-Stilhierarchie der E-Mail).
+* **Linker Bereich:** Module (vorbereitete Abschnitte), Strukturen (Spaltenlayouts), Inhalte (Text, Schaltfläche, Bild, Trennlinie, Social, HTML), Fragmente, Vorlagen, Navigationsbaum (DOM-Hierarchie der E-Mail).
 * **Arbeitsfläche zentrieren:** WYSIWYG-Editor mit Desktop- und Mobile-Vorschau.
 * **Rechtes Bedienfeld** Einstellungen und Stile für die aktuell ausgewählte Komponente, einschließlich Inhaltseigenschaften, Hintergrund, Rahmen, Abstand und Personalisierung.
 
@@ -88,7 +88,7 @@ Verwenden Sie den visuellen Inhaltsdesignbereich, um die Struktur und den Inhalt
 
    ![Erstellen des E-Mail-Dialogfelds](./assets/email-design-create-your-email-dialog.png){width="450"}
 
-1. [Struktur- und Inhaltskomponenten hinzufügen](#structure-content) auf der Arbeitsfläche.
+1. [Module hinzufügen](#add-modules) oder [Struktur- und Inhaltskomponenten](#structure-content) auf der Arbeitsfläche.
 
 1. [Links überprüfen und &#x200B;](#preview-and-edit-linked-urls).
 
@@ -159,6 +159,10 @@ Diese Aktion kopiert den Inhalt in den visuellen E-Mail-Design-Bereich, in dem S
 ![Wählen Sie eine von Adobe bereitgestellte Vorlage aus](./assets/templates-design-samples.png){width="800" zoomable="yes"}
 
 >[!ENDTABS]
+
+## Module hinzufügen {#add-modules}
+
+{{$include /help/_includes/content-design-modules.md}}
 
 ## Hinzufügen von Struktur und Content&#x200B; {#structure-content}
 

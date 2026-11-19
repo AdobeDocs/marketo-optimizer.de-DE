@@ -1,9 +1,9 @@
 ---
 user-guide-title: Dokumentation zu Marketo Optimizer
 user-guide-description: Erfahren Sie mehr über Adobe Marketo Optimizer und wie Sie damit koordinierte Marketing- und Vertriebsaktivitäten mit personalisierten, KI-gestützten Inhalten für B2B-Leads und -Accounts durchführen können.
-source-git-commit: e4b0bd62a974e32297b11177d13a783c631597fb
+source-git-commit: e48e778c3a62154297e2c4464f49c3010917d984
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '267'
 ht-degree: 41%
 ---
 
@@ -95,6 +95,7 @@ ht-degree: 41%
   + [Personalisierung](./content/personalization-expressions.md)
   + [Bedingte Inhalte](./content/conditional-content.md)
   + Tools für das Design von Inhalten {#content-design}
+    + [Inhaltsmodule](./content/content-modules.md)
     + [Strukturkomponenten](./content/structure-components.md)
     + [Inhaltskomponenten](./content/content-components.md)
     + [Benutzerdefiniertes CSS](./content/design-custom-css.md)
