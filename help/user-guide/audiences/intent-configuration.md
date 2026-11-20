@@ -11,9 +11,9 @@ feature_v2:
 topic_v2:
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
     internal-label: Taxonomy
-source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
+source-git-commit: b41193169434abe23589cde8e73bf6c9016ec04d
 workflow-type: tm+mt
-source-wordcount: '1365'
+source-wordcount: '1404'
 ht-degree: 2%
 ---
 
@@ -23,7 +23,7 @@ Ein einziger standardisierter Satz von Aktivitätsgewichten funktioniert nicht k
 
 Die **[!UICONTROL Absichtskonfiguration]**-Tools steuern, wie viel jede Lead-Intent-Aktivität zum Absichtswert einer Person zählt. Dies ist die einzige konfigurierbare Eingabe bei der Absichtsbewertung. Andere Faktoren wie Inhaltsrelevanz, Verfall und Schwellenwerte werden vom System verwaltet. Sie ist über die [Intent-Konfigurationsfertigkeit](../agents/intent.md#configure-model) verfügbar.
 
-Öffnen Sie das Bedienfeld mit einer von zwei Methoden aus der [&#x200B; (Chat-Oberfläche](../agents/chat-interface.md):
+Öffnen Sie das Bedienfeld mit einer von zwei Methoden aus der [ (Chat-Oberfläche](../agents/chat-interface.md):
 
 * Geben Sie den `/intent-configuration` Befehl ein.
 * Klicken Sie auf **[!UICONTROL +]**, wählen Sie **[!UICONTROL Agentenkompetenz verwenden]**, wählen Sie die Registerkarte **[!UICONTROL Absicht]** aus und klicken Sie dann auf **[!UICONTROL Intent-Konfiguration]**.
@@ -141,7 +141,9 @@ Die Spalte **[!UICONTROL Gewichtung]** zeigt die Zahl an, die bei der täglichen
 
 1. **Häufigkeit**: Wie oft ein Lead mit diesem Inhalt interagiert hat, berücksichtigt bei der Durchschnittsbildung über die Interaktionen einer Person hinweg.
 
-Formal, pro Interaktion: `activity weight × content relevance`, gemittelt in einen **Tageswert** mit einem **7-tägigen exponentiellen Abfall** angewendet, sodass die jüngste Aktivität dominiert, dann normalisierte sich die Min-max auf 0 bis 1 in der aktuellen Population und gruppierte sich:
+Das anfängliche Bootstrapping von Intent-Scores blicken [!DNL Marketo Optimizer] auf eine Lead-Aktivität von zwei Jahren zurück.
+
+Formal, pro Interaktion: Aktivitätsgewichtung × Inhaltsrelevanz, gemittelt in einen täglichen Score mit einem siebentägigen exponentiellen Abfall, so angewendet, dass die jüngste Aktivität dominiert. Der Zerfallsmechanismus wird alle sieben Tage ausgeführt: Wenn ein Lead keine neuen Aktivitäten durchführt, verfällt sein Intent-Score. Das Ergebnis ist dann die Min-max, normalisiert auf 0 bis 1 für die aktuelle Population und in Buckets zusammengefasst:
 
 | Endergebnis | Absichtsstufe |
 | --- | --- |
