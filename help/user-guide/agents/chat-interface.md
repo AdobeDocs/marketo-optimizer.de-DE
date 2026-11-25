@@ -19,9 +19,9 @@ topic_v2:
     internal-label: Customer experience
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 52295deb478e2f7160a39fc1e554074aefe277ba
+source-git-commit: 418b81a0a39eca0ca7b537c76da972df7eefd09f
 workflow-type: tm+mt
-source-wordcount: '921'
+source-wordcount: '919'
 ht-degree: 0%
 ---
 # Chat-Oberfläche
@@ -35,7 +35,7 @@ Das Chat-Panel ist in [!DNL Adobe Marketo Optimizer] eingebettet. Hier können S
 Wählen Sie _linken Navigationsbereich das_ „Chat“ aus, um das Bedienfeld zu öffnen. Die Panel-Kopfzeile verfügt über vier Steuerelemente:
 
 | Kontrollvariante | Beschreibung |
-|---------|-------------|
+| --------- | ------------- |
 | **Neue Konversation** | Neuen Chat starten (löscht den aktuellen Thread). |
 | **Konversationsverlauf** | Öffnen Sie vergangene Unterhaltungen, damit Sie eines erneut öffnen können. |
 | **Bedienfelder wechseln** | Verschieben Sie das Chat-Bedienfeld auf die andere Seite des Arbeitsbereichs. |
@@ -53,7 +53,7 @@ Es gibt zwei gleichermaßen gültige Arten Arbeit zu erledigen. Man muss nie das
 **Natürliche Sprache** - Geben Sie Ihre Anfrage so ein, wie Sie sie einem Kollegen sagen würden:
 
 * _„Erstellen Sie eine Begrüßungs-Journey für neue Testanmeldungen._
-* _„Warum ist john@acme.com nicht auf diese Journey gekommen?“_
+* _„Warum ist `john@acme.com` nicht auf diese Journey gekommen?“_
 * _„Vergleichen Sie die Listen meiner Webinar-Teilnehmer im 3. Quartal mit den Listen der Unternehmenskonten.“_
 
 Der Agent ordnet Ihre Formulierungen hinter den Kulissen den richtigen Kenntnissen zu und führt den entsprechenden Workflow aus.
@@ -69,7 +69,7 @@ Verwenden Sie **/**, um durch Einträge zu navigieren **(** oder **Tabulator** a
 Menüeinträge sind in beschriftete Abschnitte unterteilt:
 
 | Abschnitt | Enthält |
-|---------|----------|
+| --------- | ---------- |
 | **untersuchen** | Diagnostische, schreibgeschützte Suchen (z. B. Lead-Ermittlung, Absichtsabfragen). |
 | **Validieren** | QA- und Audit-Workflows |
 | **Build** | Erstellungs-Workflows (Programme, Journey, Listen, Bewertung). |
