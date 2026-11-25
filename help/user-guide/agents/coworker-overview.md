@@ -45,7 +45,7 @@ ht-degree: 2%
 
 Weitere Informationen finden Sie unter:
 
-* [[!DNL Adobe CX Enterprise Coworker] Chat - Übersicht](https://experienceleague.adobe.com/en/docs/coworker/content/chat/overview)
+* [[!DNL Adobe CX Enterprise Coworker] Chat - Übersicht](https://experienceleague.adobe.com/de/docs/coworker/content/chat/overview)
 * [Chat-Oberfläche in [!DNL Marketo Optimizer]](./chat-interface.md)
 * [[!DNL Coworker] Kenntnisse in [!DNL Marketo Optimizer]](./skills.md)
 
